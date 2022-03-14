@@ -1,0 +1,220 @@
+/* scss ALDO CONTI
+1. Colors
+
+CONTAINER SCSS
+
+ICON
+MENU 2
+
+MOBILE
+HEADER MENU
+
+*/
+
+/* 1.Colors */
+/* 1.Colors */
+$ac-c1: #434343;
+$ac-c2: #303030;
+$ac-c3: #089D9D;
+$ac-c4: #fff;
+$ac-c5: #5bc6c6e2;
+$ac-c6: #EA0000;
+$ac-c7: #F4F4F4;
+
+//ICON
+.container {
+    margin-right: 20px;
+    :global(.vtex-button) {
+        flex-direction: row-reverse;
+        display: flex;
+        color: $ac-c4;
+        &::before {
+            content: "";
+            background-image: url("/arquivos/profile-icon@2x.png");
+            background-size: cover;
+            display: block;
+            margin-left: 8px;
+            font-size: 1.2rem;
+            color: $ac-c4;
+        }
+        &:hover {
+            color: $ac-c3;
+            background-color: transparent;
+        }
+    }
+    // ICON --END--
+    // MENU 2
+    :global(.vtex-login-2-x-profileIcon--login){
+        color: $ac-c4;
+        margin-left: 4rem;
+        width: 22px;
+        height: auto;
+    }
+    
+    :global(.vtex-login-2-x-label){
+        color: $ac-c4;
+        margin-right: 3rem;
+        width: 55px;
+    }
+    // MENU 2 --END--
+    // MOBILE
+    // HEADER MENU
+    :global(.vtex-login-2-x-profileIcon--login-mobile) {
+        color: $ac-c4;
+        margin-top: 4px;
+        margin-left: 10px;
+        width: 22px;
+        height: auto;
+        padding-left: 7px;
+    }
+}
+
+/**LOGIN**/
+:global(.vtex-login-2-x-container) {
+    position: relative;
+    :global(.vtex-button) {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        border:0;
+        background: transparent;
+        -webkit-border-radius: 0;
+           -moz-border-radius: 0;
+            -ms-border-radius: 0;
+             -o-border-radius: 0;
+                border-radius: 0;
+        :global(.vtex-button__label) {
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            border: 0;
+            :global(.vtex-login-2-x-label) {
+                outline: 0!important;
+            }
+        }
+    }
+}
+/**LOGIN**/
+/** MIS CUENTAS **/
+
+:global(.vtex-login-2-x-contentContainer) {
+    box-shadow: none;
+    border: solid 1px #ececec;
+    :global(.vtex-login-2-x-formTitle) {
+        font-size: 0;
+        &::before {
+            content: "¡Ingresa en tu cuenta Aldo Conti!";
+            font-size: 14px;
+        }
+    }
+    :global(.vtex-login-2-x-optionsList) {
+        :global(.vtex-login-2-x-accessCodeOptionBtn) {
+            :global(.vtex-button) {
+                border: 1px solid #ececec;
+                background: #68b32e;
+                background: linear-gradient(to bottom, #68b32e 0, #68b32e 48%, #5c8931 100%);
+                text-transform: unset;
+                outline: 0;
+                :global(.vtex-button__label) {
+                    font-size: 0;
+                    color: #fff;
+                    &::before {
+                        content: 'Recibir clave de acceso r\00E1pido por correo';
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        :global(.vtex-login-2-x-emailPasswordOptionBtn){
+            :global(.vtex-button) {
+                border: 1px solid #ececec;
+                background: #efc74f;
+                background: linear-gradient(to bottom, #efc74f 0, #debd1f 48%, #d2b500 100%);
+                text-transform: unset;
+                outline: 0;
+                :global(.vtex-button__label) {
+                    font-size: 0;
+                    color: #fff;
+                    &::before {
+                        content: 'Iniciar sesi\00F3n con tu cuenta';
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        :global(.vtex-login-2-x-facebookOptionBtn){
+            :global(.vtex-button) {
+                border: 1px solid #ececec;
+                background: #495a93;
+                background: linear-gradient(to bottom, #495a93 0, #4f568a 48%, #525282 100%);
+                text-transform: unset;
+                outline: 0;
+                :global(.vtex-button__label) {
+                    font-size: 14px;
+                    color: #fff;
+                    svg {
+                        display: contents;
+                    }
+                }
+            }
+        }
+        :global(.vtex-login-2-x-googleOptionBtn){
+            :global(.vtex-button) {
+                border: 1px solid #ececec;
+                background: #e64e3b;
+                background: linear-gradient(to bottom, #e64e3b 0, #d35539 48%, #c65a36 100%);
+                text-transform: unset;
+                outline: 0;
+                :global(.vtex-button__label) {
+                    font-size: 14px;
+                    color: #fff;
+                    svg {
+                        display: contents;
+                    }
+                }
+            }
+        }
+    }
+}
+/** MIS CUENTAS **/
+:global(.vtex-login-2-x-content) {
+    display: block;
+    :global(.vtex-login-2-x-termsAndConditions) {
+        font-size: 14px;
+        font-weight: 400;
+        color: #000;
+    }
+}
+
+:global(.vtex-login-2-x-container){
+    border-right: 1px #fff solid;
+    margin-right: 3rem;
+}
+
+@media (max-width: 375px){
+    :global(.vtex-login-2-x-container){
+        margin-right: 0px;
+    }
+    :global(.vtex-login-2-x-profileIcon--login-mobile){
+        color: #fff;
+        margin-top: 4px;
+        margin-left: 10px;
+        width: 25px;
+        height: auto;
+        padding-left: 7px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1024px){
+    :global(.vtex-login-2-x-label){
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+    :global(.vtex-login-2-x-container){
+        margin-right: 0px;
+        border-right: 0px;
+    }
+}

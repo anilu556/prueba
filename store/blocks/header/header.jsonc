@@ -1,0 +1,269 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+
+//DESKTOP
+  "header-layout.desktop": {
+    "children": [
+      // "sandbox#countdown",
+      "sticky-layout#navs-desktop"
+    ]
+  },
+  "sticky-layout#navs-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop",
+      "header-row#4-desktop"
+    ]
+  },
+  // HEADER 1
+  "header-row#1-desktop":{
+    "children": [
+      "telemarketing"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  // HEADER 1 --END--
+
+  // HEADER 2
+  "header-row#2-desktop": {
+    "props": {
+      "blockClass": "main-topHeader",
+      "fullWidth": true
+    },
+    "children":[
+      "vtex.menu@2.x:menu#top-menuHeader",
+      "header-spacer",
+      //"rich-text#topbar"
+      "menu-item#menu-mensaje1",
+      "menu-item#menu-mensaje2",
+      "menu-item#menu-mensaje3"
+    ]
+  },
+
+  "rich-text#topbar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "ENVIOS GRATUITOS A TODO MEXICO SIN MÍNIMO DE COMPRA SOLO POR ESTA SEMANA",
+      "blockClass": "text-box"
+    }
+  },
+
+  "menu-item#menu-mensaje1": {
+    "props": {
+      "id": "menu-item-menu-mensaje",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "tagTitle": "Mensaje",
+        "text": "Envíos gratuitos en compras mayores a"
+      },
+      "blockClass": [
+        "mensaje1TopHeader"
+      ]
+    }
+  },
+  "menu-item#menu-mensaje2": {
+    "props": {
+      "id": "menu-item-menu-mensaje",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "tagTitle": "Mensaje",
+        "text": " $599 "
+      },
+      "blockClass": [
+        "promocionTopHeader"
+      ]
+    }
+  },
+  "menu-item#menu-mensaje3": {
+    "props": {
+      "id": "menu-item-menu-mensaje",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "tagTitle": "Mensaje",
+        "text": " a todo México"
+      },
+      "blockClass": [
+        "mensaje1TopHeader",
+        "mensaje3TopHeader"
+      ]
+    }
+  },
+  // HEADER 2 --END--
+
+
+  // HEADER 3
+  "header-row#3-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "logo",
+      "search-bar",
+      //"header-spacer",
+      "vtex.menu@2.x:menu#ppc"
+    ]
+  },
+  "logo": {
+    "props": {
+      "url": "/arquivos/Logo_ACBlanco.png"
+    }
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Buscar",
+      "blockClass": "main-search-bar",
+      "width": "grow",
+      "maxWidth": "680px",
+      "maxTopSearches": 1,
+      "maxSuggestedProducts": 5,
+      "maxSuggestedTerms": 5,
+      "productLayout": "HORIZONTAL",
+      "__unstableProductOriginVtex": true
+    }
+  },
+  // HEADER 3 --END--
+
+  // HEADER 4
+  "header-row#4-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  // HEADER 4 --END--
+
+//DESKTOP --END--
+
+// MOBILE
+
+"header-layout.mobile": {
+  "children": [
+    // "sandbox#countdown",
+    "sticky-layout#1-mobile"
+  ]
+},
+"sticky-layout#1-mobile": {
+  "children": [
+    "flex-layout.row#1-mobile",
+    "flex-layout.row#2-mobile"
+  ],
+  "props": {
+    "blockClass": "custom-sticky-header--mobile"
+  }
+},
+// ROW 1
+"flex-layout.row#1-mobile": {
+  "children": [ 
+    "vtex.menu@2.x:menu#menu-logo",
+    "logo#mobile",
+    "vtex.menu@2.x:menu#login-minicart-mobile"
+  ],
+  "props": {
+    "blockClass": "main-header-mobile",
+    "preventHorizontalStretch": true,
+    "preserveLayoutOnMobile": true,
+    "fullWidth": true
+  }
+},
+"logo#mobile": {
+  "props": {
+    "url": "/arquivos/Logo_ACBlanco.png",
+    "blockClass": "logo-mb"
+  }
+},
+// flex-layout.row#2-mobile
+"flex-layout.row#2-mobile": {
+  "children": [
+    "search-bar"
+  ],
+  "props": {
+    "blockClass": "searchbar-mobile"
+  }
+},
+  
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  }
+}

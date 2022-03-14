@@ -1,0 +1,38 @@
+{
+    "store.custom#cambio-tallas": {
+      "blocks": [
+        "flex-layout.row#cambio-tallas"
+      ]
+    },
+    "flex-layout.row#cambio-tallas": {
+      "children": [
+        "flex-layout.col#text-cambio-tallas"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "cambio-tallas"]
+      }
+    },
+    
+    "flex-layout.col#text-cambio-tallas": {
+      "children": [
+        "rich-text#cambio-tallas-titulo",
+        "rich-text#cambio-tallas-parrafo1"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#cambio-tallas-titulo": {
+      "props": {
+        "blockClass": "institucionales-titulo",
+        "text": "Cambio de Tallas"
+      }
+    },
+    "rich-text#cambio-tallas-parrafo1": {
+      "props": {
+        "blockClass": "quienes-texto",
+        "text": "Si no te quedó o no te gustó tu prenda, puedes cambiarla en cualquiera de nuestras sucursales de linea, únicamente deberas presentar tu ticket de compra. Recuerda que tú compra no puede ser mayor a 30 días, no se aceptan cambios en prendas de liquidación o con sastrería realizada **(Pendiente hasta reabrir sucursales)**. Si tu compra fue hecha del 01 al 30 de Junio, puedes solicitar un cambio de talla en cualquiera de nuestras sucursales de linea hasta el 31 de Julio del 2020.\n\nO bien si prefieres también puedes solicitar tu cambio por medio de nuestra tienda en linea:\n\n- Envía un correo a [ecommerce@aldoconti.com](ecommerce@aldoconti.com)\n- El asunto del correo deberá contener: **'Cambio de talla' y numero de pedido (12 dígitos seguido de -01)**\n- El cuerpo del correo deberá contener: **Número de pedido (12 dígitos seguido de -01) seguido de tu nombre completo y dirección de correo con la que realizaste tu pedido**\n- Indicar la prenda que deseas cambiar y la talla deseada\n- Se atenderá tu solicitud dentro de un rango de 1 a 3 días hábiles y responderemos con tu numero de guía que deberas imprimir y pegar en tu paquete para ser devuelto a nuestras instalaciones\n- Una vez devuelto y entregado a nuestras instalaciones daremos seguimiento a tu solicitud de cambio de talla. **Tu cambio puede demorar en salir hasta 3 días hábiles, el tiempo que transcurra en la paquetería es tomado en cuenta.**"
+      }
+    }
+  }

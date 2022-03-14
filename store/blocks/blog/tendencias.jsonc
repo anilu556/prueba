@@ -1,0 +1,219 @@
+{
+    "store.custom#tendencias": {
+        "blocks": [
+            "breadcrumb",
+            "responsive-layout.desktop#header-tendencias",
+            "responsive-layout.mobile#header-tendencias",
+            "flex-layout.row#home-tendencias-7",
+            "flex-layout.row#home-tendencias-5",
+            "flex-layout.row#home-tendencias-6",
+            "flex-layout.row#home-tendencias-4",
+            "flex-layout.row#home-tendencias-3",
+            // "flex-layout.row#home-tendencias-2",
+            "flex-layout.row#home-tendencias-1",
+            "flex-layout.row#home-tendencias"
+        ]
+    },
+    "responsive-layout.desktop#header-tendencias": {
+        "children": [
+            "flex-layout.row#header-tendencias",
+            "flex-layout.row#return-blog-button"
+        ]
+    },
+    "flex-layout.row#header-tendencias": {
+        "children": [
+            "flex-layout.col#header-tendencias"
+        ],
+        "props": {
+            "blockClass": "header-tendencias"
+        }
+    },
+    "flex-layout.col#header-tendencias": {
+        "children": [
+            "rich-text#header-tendencias"
+        ]
+    },
+    "rich-text#header-tendencias": {
+        "props": {
+            "text": "Tendencias",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "header-tendencias-title"
+        }
+    },
+    "flex-layout.row#return-blog-button": {
+        "children": [
+            "flex-layout.col#return-blog-button"
+        ],
+        "props": {
+            "blockClass": "return-blog-home"
+        }
+    },
+    "flex-layout.col#return-blog-button": {
+        "children": [
+            "rich-text#return-blog-button"
+        ]
+    },
+    "rich-text#return-blog-button": {
+        "props": {
+            "text": "[&#8249;](/blog)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "button-return-title"
+        }
+    },
+    "responsive-layout.mobile#header-tendencias": {
+        "children": [
+            "flex-layout.row#mobile-btn-return-tendencias"
+        ]
+    },
+    "flex-layout.row#mobile-btn-return-tendencias": {
+        "children": [
+            "flex-layout.col#mobile-btn-return"
+        ],
+        "props": {
+            "blockClass": "mobile-return-blog"
+        }
+    },
+    "flex-layout.col#mobile-btn-return": {
+        "children": [
+            "rich-text#mobile-btn-return"
+        ]
+    },
+    "rich-text#mobile-btn-return": {
+        "props": {
+            "text": "[&#8249;](/blog)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "btn-return-text"
+        }
+    },
+    "flex-layout.row#home-tendencias": {
+        "children": [
+            "flex-layout.col#home-tendencias"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-tendencias": {
+        "children": [
+            "flex-layout.row#principal-tendencias"
+        ],
+        "props": {
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-tendencias": {
+        "children": [
+            "list-context.image-list#category-tendencias"
+        ],
+        "props": {
+            "blockClass": "card-category-tendencias"
+        }
+    },
+
+    "image#imagen-nueva": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "list-context.image-list#category-tendencias": {
+        "children": [
+            "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+                {
+                    "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                    "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+                }
+            ],
+            "blockClass": "banner-nota-blog"
+        }
+    },
+    "flex-layout.row#home-tendencias-7": {
+        "children": [
+            "flex-layout.col#home-tendencias"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.row#home-tendencias-5": {
+        "children": [
+            "flex-layout.col#home-tendencias"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.row#home-tendencias-6": {
+        "children": [
+            "flex-layout.col#home-tendencias"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+    }
+    }, 
+    "flex-layout.row#home-tendencias-1": {
+        "children": [
+            "flex-layout.col#home-tendencias"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.row#home-tendencias-2": {
+        "children": [
+            "flex-layout.col#home-tendencias"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.row#home-tendencias-3": {
+        "children": [
+            "flex-layout.col#home-tendencias"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+      // aca esta lo mio 
+      "flex-layout.row#home-tendencias-4": {
+        "children":["flex-layout.col#home-tendencias-4"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-tendencias-4": {
+        "children":["flex-layout.row#principal-tendencias-4"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-tendencias-4": {
+        "children":["list-context.image-list#category-tendencias-4"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-tendencias-4": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    }
+    // aca termina lo mio
+}

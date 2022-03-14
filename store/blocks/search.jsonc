@@ -1,0 +1,988 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout#subcategory",
+      "responsive-layout.desktop#last-banner-store-search-desktop",
+      "responsive-layout.mobile#last-banner-store-search-mobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "context": {
+        "skusFilter": "ALL"
+      }
+    }
+  },
+  // Banner de template de search al final desktop
+  "responsive-layout.desktop#last-banner-store-search-desktop": {
+    "children": ["flex-layout.row#last-banner-store-search-desktop"],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#last-banner-store-search-desktop": {
+    "children": ["flex-layout.col#last-banner-store-search-desktop"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-desktop": {
+    "children": ["image#last-banner-store-search-desktop"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-desktop": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Desktop-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  // Banner de template de search al final mobile
+  "responsive-layout.mobile#last-banner-store-search-mobile": {
+    "children": ["flex-layout.row#last-banner-store-search-mobile"]
+  },
+  "flex-layout.row#last-banner-store-search-mobile": {
+    "children": ["flex-layout.col#last-banner-store-search-mobile"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-mobile": {
+    "children": ["image#last-banner-store-search-mobile"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Mobile-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout#subcategory",
+      "responsive-layout.mobile#last-banner-store-search-brand-mobile",
+      "responsive-layout.desktop#last-banner-store-search-brand-desktop"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        //"maxItemsPerPage": 10,
+        "skusFilter": "ALL"
+      }
+    }
+  },
+  // Banner de template de search al final desktop brand
+  "responsive-layout.desktop#last-banner-store-search-brand-desktop": {
+    "children": ["flex-layout.row#last-banner-store-search-brand-desktop"],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#last-banner-store-search-brand-desktop": {
+    "children": ["flex-layout.col#last-banner-store-search-brand-desktop"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-brand-desktop": {
+    "children": ["image#last-banner-store-search-brand-desktop"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-brand-desktop": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Desktop-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  // Banner de template de search al final mobile brand
+  "responsive-layout.mobile#last-banner-store-search-brand-mobile": {
+    "children": ["flex-layout.row#last-banner-store-search-brand-mobile"]
+  },
+  "flex-layout.row#last-banner-store-search-brand-mobile": {
+    "children": ["flex-layout.col#last-banner-store-search-brand-mobile"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-brand-mobile": {
+    "children": ["image#last-banner-store-search-brand-mobile"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-brand-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Mobile-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout#subcategory",
+      "responsive-layout.desktop#last-banner-store-search-department-desktop",
+      "responsive-layout.mobile#last-banner-store-search-department-mobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "skusFilter": "ALL"
+      }
+    }
+  },
+  // Banner de template de search al final desktop department
+  "responsive-layout.desktop#last-banner-store-search-department-desktop": {
+    "children": ["flex-layout.row#last-banner-store-search-department-desktop"],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#last-banner-store-search-department-desktop": {
+    "children": ["flex-layout.col#last-banner-store-search-department-desktop"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-department-desktop": {
+    "children": ["image#last-banner-store-search-department-desktop"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-department-desktop": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Desktop-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  // Banner de template de search al final mobile department
+  "responsive-layout.mobile#last-banner-store-search-department-mobile": {
+    "children": ["flex-layout.row#last-banner-store-search-department-mobile"]
+  },
+  "flex-layout.row#last-banner-store-search-department-mobile": {
+    "children": ["flex-layout.col#last-banner-store-search-department-mobile"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-department-mobile": {
+    "children": ["image#last-banner-store-search-department-mobile"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-department-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Mobile-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout#subcategory",
+      "responsive-layout.desktop#last-banner-store-search-category-desktop",
+      "responsive-layout.mobile#last-banner-store-search-category-mobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "skusFilter": "ALL"
+      }
+    }
+  },
+  // Banner de template de search al final desktop category
+  "responsive-layout.desktop#last-banner-store-search-category-desktop": {
+    "children": ["flex-layout.row#last-banner-store-search-category-desktop"],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#last-banner-store-search-category-desktop": {
+    "children": ["flex-layout.col#last-banner-store-search-category-desktop"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-category-desktop": {
+    "children": ["image#last-banner-store-search-category-desktop"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-category-desktop": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Desktop-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  // Banner de template de search al final mobile category
+  "responsive-layout.mobile#last-banner-store-search-category-mobile": {
+    "children": ["flex-layout.row#last-banner-store-search-category-mobile"]
+  },
+  "flex-layout.row#last-banner-store-search-category-mobile": {
+    "children": ["flex-layout.col#last-banner-store-search-category-mobile"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-category-mobile": {
+    "children": ["image#last-banner-store-search-category-mobile"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-category-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Mobile-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout#subcategory",
+      "responsive-layout.desktop#last-banner-store-search-subcategory-desktop",
+      "responsive-layout.mobile#last-banner-store-search-subcategory-mobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "skusFilter": "ALL"
+      }
+    }
+  },
+  // Banner de template de search al final desktop subcategory
+  "responsive-layout.desktop#last-banner-store-search-subcategory-desktop": {
+    "children": [
+      "flex-layout.row#last-banner-store-search-subcategory-desktop"
+    ],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#last-banner-store-search-subcategory-desktop": {
+    "children": [
+      "flex-layout.col#last-banner-store-search-subcategory-desktop"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-subcategory-desktop": {
+    "children": ["image#last-banner-store-search-subcategory-desktop"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-subcategory-desktop": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Desktop-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  // Banner de template de search al final mobile subcategory
+  "responsive-layout.mobile#last-banner-store-search-subcategory-mobile": {
+    "children": ["flex-layout.row#last-banner-store-search-subcategory-mobile"]
+  },
+  "flex-layout.row#last-banner-store-search-subcategory-mobile": {
+    "children": ["flex-layout.col#last-banner-store-search-subcategory-mobile"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-subcategory-mobile": {
+    "children": ["image#last-banner-store-search-subcategory-mobile"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-subcategory-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/AC-Mobile-envio-gratis-cambio-en-tienda-fisica.jpg"
+    }
+  },
+  "search-result-layout#search": {
+    "blocks": ["search-not-found-layout"]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout#subcategory": {
+    "blocks": [
+      "search-result-layout.desktop#subcategory",
+      "search-result-layout.mobile#subcategory",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      /** aqui va el carrusel **/
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#datatrics-category",
+      "flex-layout.row#banner-seo",
+      "flex-layout.row#como-cambiar-talla",
+      "flex-layout.row#result",
+      "flex-layout.row#category-info"
+      // "responsive-layout.desktop#last-banner-store-search-search-layout-desktop",
+      // "responsive-layout.mobile#last-banner-store-search-search-layout-mobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "skusFilter": "ALL"
+      },
+      "blockClass": "searchResultLayoutDesktop",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "paddingBottom": 10
+    }
+  },
+  // Banner de template de search al final desktop result layout
+  "responsive-layout.desktop#last-banner-store-search-search-layout-desktop": {
+    "children": [
+      "flex-layout.row#last-banner-store-search-search-layout-desktop"
+    ],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#last-banner-store-search-search-layout-desktop": {
+    "children": [
+      "flex-layout.col#last-banner-store-search-search-layout-desktop"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-search-layout-desktop": {
+    "children": ["image#last-banner-store-search-search-layout-desktop"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-search-layout-desktop": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/tira-momentos-home.jpg"
+    }
+  },
+  // Banner de template de search al final mobile search-layout
+  "responsive-layout.mobile#last-banner-store-search-search-layout-mobile": {
+    "children": [
+      "flex-layout.row#last-banner-store-search-search-layout-mobile"
+    ]
+  },
+  "flex-layout.row#last-banner-store-search-search-layout-mobile": {
+    "children": [
+      "flex-layout.col#last-banner-store-search-search-layout-mobile"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-search-search-layout-mobile": {
+    "children": ["image#last-banner-store-search-search-layout-mobile"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-search-search-layout-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/tira-momentos-home.jpg"
+    }
+  },
+  "search-result-layout.desktop#subcategory": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#datatrics-category",
+      "flex-layout.row#banner-seo",
+      "flex-layout.row#como-cambiar-talla",
+      //"list-context.product-list#recommended-b",
+      "flex-layout.row#result"
+      // "responsive-layout.desktop#last-banner-store-subcategory-layout-desktop",
+      // "responsive-layout.mobile#last-banner-store-subcategory-layout-mobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "blockClass": "searchResultLayoutDesktop",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  // Banner de template de search al final desktop result layout subcategory
+  "responsive-layout.desktop#last-banner-store-subcategory-layout-desktop": {
+    "children": [
+      "flex-layout.row#last-banner-store-subcategory-layout-desktop"
+    ],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#last-banner-store-subcategory-layout-desktop": {
+    "children": [
+      "flex-layout.col#last-banner-store-subcategory-layout-desktop"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-subcategory-layout-desktop": {
+    "children": ["image#last-banner-store-subcategory-layout-desktop"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-subcategory-layout-desktop": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/tira-momentos-home.jpg"
+    }
+  },
+  // Banner de template de search al final mobile search-layout
+  "responsive-layout.mobile#last-banner-store-subcategory-layout-mobile": {
+    "children": [
+      "flex-layout.row#last-banner-store-subcategory-layout-mobile"
+    ]
+  },
+  "flex-layout.row#last-banner-store-subcategory-layout-mobile": {
+    "children": [
+      "flex-layout.col#last-banner-store-subcategory-layout-mobile"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#last-banner-store-subcategory-layout-mobile": {
+    "children": ["image#last-banner-store-subcategory-layout-mobile"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#last-banner-store-subcategory-layout-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/tira-momentos-home.jpg"
+    }
+  },
+  "flex-layout.row#como-cambiar-talla": {
+    "children": ["flex-layout.col#como-cambiar-talla"],
+    "props": {
+      "blockClass": "bloque-cambio-tallas"
+    }
+  },
+  "flex-layout.col#como-cambiar-talla": {
+    "children": ["rich-text#como-cambiar-talla"],
+    "props": {
+      "blockClass": "inside-cambio-tallas"
+    }
+  },
+  "rich-text#como-cambiar-talla": {
+    "props": {
+      "text": "Para cambios de talla o modelo, sigue estos sencillos pasos aquí: [https://www.aldoconti.com/cambio-de-tallas](/cambio-de-tallas)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "texto-cambio-tallas"
+    }
+  },
+  "list-context.product-list#recommended-b": {
+    "blocks": ["product-summary.shelf"],
+    "children": [
+      "rich-text#title-notFound-slider",
+      "slider-layout#recommended-notFound"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "flex-layout.row#didyoumean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#searchbread": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#result": {
+    "children": ["flex-layout.row#content-result"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "rowResult-grid-wrapper"
+    }
+  },
+  "flex-layout.row#content-result": {
+    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "rowContentResult-grid"
+    }
+  },
+  "flex-layout.col#filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filterCol"
+    }
+  },
+  "flex-layout.col#content": {
+    "children": [
+      "flex-layout.row#searchinfo",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "grow",
+      "blockClass": "feature-product-grid-wrapper"
+    }
+  },
+  "flex-layout.row#searchinfo": {
+    "children": ["flex-layout.row#productCount", "flex-layout.col#orderby"]
+  },
+  "flex-layout.row#productCount": {
+    "children": ["search-title.v2", "total-products.v2"],
+    "props": {
+      "blockClass": "productCountCol",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#orderby": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByCol"
+    }
+  },
+  "flex-layout.row#fetchprevious": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["search-fetch-previous"]
+  },
+  "flex-layout.row#fetchmore": {
+    "props": {
+      "marginTop": 3
+    },
+    "children": ["search-fetch-more"]
+  },
+  "flex-layout.row#products": {
+    "children": ["search-content"]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "responsive-layout.mobile#banner-seo-mob",
+      "flex-layout.row#datatrics-category",
+      "flex-layout.row#como-cambiar-talla",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#productCountMobile",
+      "flex-layout.row#contentmobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.mobile#subcategory": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "responsive-layout.mobile#banner-seo-mob",
+      "flex-layout.row#como-cambiar-talla",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#productCountMobile",
+      "flex-layout.row#contentmobile"
+    ],
+    "props": {
+      "pagination": "infinity-scroll",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#searchtitle": {
+    "children": ["search-title.v2"],
+    "props": {
+      "blockClass": "title-on-categ"
+    }
+  },
+  "flex-layout.row#contentmobile": {
+    "children": ["search-content"],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#searchinfomobile": {
+    "children": [
+      "flex-layout.col#orderByMobile",
+      "flex-layout.col#filterMobile"
+      //"flex-layout.col#switcherMobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "equal",
+      "colJustify": "around",
+      "blockClass": "mobile-ctas-filter"
+    }
+  },
+  "flex-layout.col#orderByMobile": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByMobileCol"
+    }
+  },
+  "flex-layout.row#productCountDesktop": {
+    "children": ["total-products.v2"],
+    "props": {
+      "blockClass": "productCountDesktop"
+    }
+  },
+  "flex-layout.row#productCountMobile": {
+    "children": ["total-products.v2"],
+    "props": {
+      "blockClass": "productCountMobileRow"
+    }
+  },
+  "flex-layout.col#filterMobile": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+  "flex-layout.col#switcherMobile": {
+    "children": ["search-layout-switcher"],
+    "props": {
+      "blockClass": "switcherMobileCol"
+    }
+  },
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "rich-text#title-notfound",
+      "rich-text#notfound-text",
+      "rich-text#notfound-text2",
+      "rich-text#notfound-text3",
+      "flex-layout.row#searchIcon",
+      "flex-layout.row#datatrics-oops"
+      //"list-context.product-list#recommended"
+    ]
+  },
+  "rich-text#title-notfound": {
+    "props": {
+      "blockClass": "title-notfound",
+      "text": "Oops!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#notfound-text": {
+    "props": {
+      "blockClass": "text-notfound",
+      "text": "Desafortunadamente no encontramos resultados para tu búsqueda.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#notfound-text2": {
+    "props": {
+      "blockClass": "notfound-whatHappen",
+      "text": "¿Que pudo haber ocurrido?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#notfound-text3": {
+    "props": {
+      "blockClass": "text-notfound",
+      "text": "La dirección web no fue escrita bien o está dada de baja.\nQuizás no estás conectado correctamente a Internet.\n\nTe invitamos a usar el buscador",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#searchIcon": {
+    "children": ["image#notfound-icon"]
+  },
+  "image#notfound-icon": {
+    "props": {
+      "src": "/arquivos/Trazado-6531-lupa.png",
+      "maxHeight": 54,
+      "maxWidth": 60
+    }
+  },
+
+  //VITRINA DATATRICS EN 404
+  "flex-layout.row#datatrics-oops": {
+    "children":["flex-layout.col#datatrics-oops"],
+    "props":{
+      "blockClass": "vitrine-datatrics"
+    }
+  },
+  "flex-layout.col#datatrics-oops": {
+    "props":{
+      "blockClass": "datatrics-inside-oops"
+    }
+  },
+
+  "list-context.product-list#recommended": {
+    "blocks": ["product-summary.shelf"],
+    "children": [
+      "rich-text#title-notFound-slider",
+      "slider-layout#recommended-notFound"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "rich-text#title-notFound-slider": {
+    "props": {
+      "text": "Recomendaciones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound"
+    }
+  },
+  "slider-layout#recommended-notFound": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "notFound-recommendedShelf"
+    }
+  },
+  "flex-layout.row#notfound": {
+    "children": ["not-found"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 3
+      }
+    }
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "blockClass": "filterNavigator",
+      "initiallyCollapsed": false
+    }
+  },
+  "flex-layout.row#banner-seo": {
+    "title": "Banner SEO",
+    "children": ["flex-layout.col#banner-seo-content"],
+    "props": {
+      "blockClass": "banner-seo"
+    }
+  },
+  "flex-layout.col#banner-seo-content": {
+    "children": ["rich-text#banner-seo-title", "image#banner-seo-image"],
+    "props": {
+      "blockClass": "banner-seo-content"
+    }
+  },
+  "rich-text#banner-seo-title": {
+    "title": "Título SEO",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "blockClass": "title-text-banner-seo"
+    }
+  },
+  "image#banner-seo-image": {
+    "title": "Imagem de background",
+    "props": {
+      "src": "/assets/header_beneficios.jpg",
+      "blockClass": "image-banner-seo"
+    }
+  },
+  "flex-layout.row#category-info": {
+    "children": ["flex-layout.col#category-info"],
+    "props": {
+      "blockClass": "category-info-bottom",
+      "marginTop": 2,
+      "marginBottom": 8
+    }
+  },
+  "responsive-layout.mobile#banner-seo-mob": {
+    "children": ["flex-layout.row#banner-seo-mobile"],
+    "props": {
+      "blockClass": "mobile-banseo"
+    }
+  },
+  "flex-layout.row#banner-seo-mobile": {
+    "title": "Banner SEO Mobile",
+    "children": ["flex-layout.col#banner-seo-content-mob"],
+    "props": {
+      "blockClass": "banner-seo-mob"
+    }
+  },
+  "flex-layout.col#banner-seo-content-mob": {
+    "children": [
+      "rich-text#banner-seo-title-mob",
+      "image#banner-seo-image-mob"
+    ],
+    "props": {
+      "blockClass": "banner-seo-content"
+    }
+  },
+  "rich-text#banner-seo-title-mob": {
+    "title": "Título SEO",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "blockClass": "title-text-banner-seo"
+    }
+  },
+  "image#banner-seo-image-mob": {
+    "title": "Imagem de background",
+    "props": {
+      "src": "/assets/header_beneficios.jpg",
+      "blockClass": "image-banner-seo"
+    }
+  },
+  "flex-layout.col#category-info": {
+    "title": "Informação Departamento",
+    "children": [
+      "rich-text#category-info-title",
+      "flex-layout.row#category-info-content"
+    ]
+  },
+  "rich-text#category-info-title": {
+    "title": "Título",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "",
+      "font": "t-heading-6",
+      "textColor": "c-on-info",
+      "blockClass": "category-info-title"
+    }
+  },
+  "flex-layout.row#category-info-content": {
+    "children": [
+      "image#category-info-image",
+      "rich-text#category-info-content"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "image#category-info-image": {
+    "title": "Imagem ilustrativa",
+    "props": {
+      "src": "",
+      "blockClass": "category-info-image",
+      "width": "30%"
+    }
+  },
+  "rich-text#category-info-content": {
+    "title": "Conteúdo informativo",
+    "props": {
+      "text": "",
+      "width": "65%",
+      "blockClass": "category-info-content"
+    }
+  },
+
+  //VITRINA DATATRICS CATEGORÍA
+
+  "flex-layout.row#datatrics-category": {
+    "children":["flex-layout.col#datatrics-category"],
+    "props":{
+      "blockClass": "vitrine-datatrics"
+    }
+  },
+  "flex-layout.col#datatrics-category": {
+    "props":{
+      "blockClass": "datatrics-inside-category"
+    }
+  }
+}

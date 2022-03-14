@@ -1,0 +1,38 @@
+{
+    "store.custom#contacto": {
+      "blocks": [
+        "flex-layout.row#contacto"
+      ]
+    },
+    "flex-layout.row#contacto": {
+      "children": [
+        "flex-layout.col#text-contacto"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "contacto"]
+      }
+    },
+    
+    "flex-layout.col#text-contacto": {
+      "children": [
+        "rich-text#contacto-titulo",
+        "rich-text#contacto-parrafo1"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#contacto-titulo": {
+      "props": {
+        "blockClass": "institucionales-titulo",
+        "text": "Contacto"
+      }
+    },
+    "rich-text#contacto-parrafo1": {
+      "props": {
+        "blockClass": "quienes-texto",
+        "text": "Para ventas en línea: ecommerce@aldoconti.com\n\nPara servicio al cliente: atencionaclientes@aldoconti.com\n\nTelefono: 800-3980-000"
+      }
+    }
+  }

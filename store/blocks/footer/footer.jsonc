@@ -1,0 +1,367 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop-1",
+      "rich-text#footer-mediosPago",
+      "flex-layout.row#footer-desktop-2",
+      "flex-layout.row#footer-desktop-3"
+    ]
+  },
+  "flex-layout.row#footer-desktop-1": {
+    "children": [
+      "flex-layout.col#footer-desktop-1",
+      "flex-layout.col#footer-desktop-2",
+      "flex-layout.col#footer-desktop-3",
+      "flex-layout.col#footer-desktop-4",
+      "flex-layout.col#footer-desktop-5"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-1",
+      "paddingTop": 8,
+      "paddingBottom": 3,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer-desktop-1": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-1"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.col#footer-desktop-2": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-2"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.col#footer-desktop-3": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-3"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "footer-desktop"
+    }
+  },
+  "flex-layout.col#footer-desktop-4": {
+    "children": [
+      "rich-text#col4footer-title",
+      "vtex.menu@2.x:menu#footer-4redes",
+      "vtex.menu@2.x:menu#footer-4logos"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "footer-desktop",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#footer-desktop-5": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-5"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": [
+        "footer-desktop",
+        "logo-footer"
+      ],
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#footer-desktop-2": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-6"
+    ],
+    "props": {
+      "blockClass": "footer-desktop"
+    }
+  },
+  "rich-text#footer-mediosPago": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Medios de pago"
+    }
+  },
+  "flex-layout.row#footer-desktop-3": {
+    "children": [
+      "rich-text#footer-copyright"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-2",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#footer-copyright": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Aldo Conti. Todos los derechos reservados | 2015",
+      "blockClass": "footer-copyright"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#all-options",
+      "rich-text#footer-redesSociales",
+      "flex-layout.row#footer-mobile-redesSociales",
+      "rich-text#footer-mediosPago",
+      "flex-layout.row#footer-mobile-mediosPago1",
+      "flex-layout.row#footer-mobile-mediosPago1-2",
+      "flex-layout.row#footer-mobile-mediosPago2",
+      "flex-layout.row#footer-mobile-mediosPago3",
+      // "flex-layout.row#footer-mobile1",
+      "flex-layout.row#footer-mobile2",
+      "flex-layout.row#footer-mobile3"
+    ]
+  },
+  "flex-layout.row#all-options": {
+    "props": {
+      "blockClass": "destaque-info"
+    },
+    "children":[
+      "flex-layout.col#options-all"
+    ]
+  },
+  "flex-layout.col#options-all": {
+      "children":[
+        "disclosure-layout-group#group-footer"
+      ]
+  },
+  "disclosure-layout-group#group-footer": {
+    "children": [
+      "disclosure-layout#guia-compras",       
+      "disclosure-layout#empresas",       
+      "disclosure-layout#politicas"    
+    ]
+  },
+  
+  "disclosure-layout#guia-compras": {
+    "children": [
+      "disclosure-trigger#guiaCompras",
+      "disclosure-content#guiaCompras"
+    ]
+  },
+  "disclosure-trigger#guiaCompras": {
+    "children": ["rich-text#guiaCompras-title"],
+    "props": {
+      "blockClass": "options-titles"
+    }
+  },
+  "disclosure-content#guiaCompras": {
+    "children": ["vtex.menu@2.x:menu#footer-1"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#guiaCompras-title": {
+    "props": {
+      "text": "Guía de Compras"
+    }
+  },
+
+  "disclosure-layout#empresas": {
+    "children": [
+      "disclosure-trigger#empresas",
+      "disclosure-content#empresas"
+    ]
+  },
+  "disclosure-trigger#empresas": {
+    "children": ["rich-text#empresas-title"],
+    "props": {
+      "blockClass": "options-titles"
+    }
+  },
+  "disclosure-content#empresas": {
+    "children": ["vtex.menu@2.x:menu#footer-2"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#empresas-title": {
+    "props": {
+      "text": "Empresas"
+    }
+  },
+
+  "disclosure-layout#politicas": {
+    "children": [
+      "disclosure-trigger#politicas",
+      "disclosure-content#politicas"
+    ]
+  },
+  "disclosure-trigger#politicas": {
+    "children": ["rich-text#politicas-title"],
+    "props": {
+      "blockClass": "options-titles"
+    }
+  },
+  "disclosure-content#politicas": {
+    "children": ["vtex.menu@2.x:menu#footer-3"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#politicas-title": {
+    "props": {
+      "text": "Políticas"
+    }
+  },
+
+  "rich-text#footer-redesSociales": {
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Síguenos",
+      "blockClass": "footer-siguenosRedesSociales"
+    }
+  },
+  "flex-layout.row#footer-mobile-redesSociales": {
+    "children": [
+      "image#fb-ds",
+      "image#ig-ds",
+      "image#tw-ds",
+      "image#yt-ds"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "fullWidth": true,
+      "blockClass": [
+        "footer-mediosPagoLogos",
+        "redesSociales-mobileMenu"
+      ]
+    }
+  },
+  
+  "flex-layout.row#footer-mobile-mediosPago1": {
+    "children": [
+      "image#bbva",
+      "image#santander",
+      "image#scotia"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "fullWidth": true,
+      "blockClass": "footer-mediosPagoLogos"
+    }
+  },
+  "flex-layout.row#footer-mobile-mediosPago1-2": {
+    "children": [
+      "image#paypal",
+      "image#mercadopago",
+      "image#7eleven"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "fullWidth": true,
+      "blockClass": "footer-mediosPagoLogos"
+    }
+  },
+  "flex-layout.row#footer-mobile-mediosPago2": {
+    "children": [
+      "image#visa",
+      "image#oxxo",
+      "image#ixe",
+      "image#americanexpress"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "footer-mediosPagoLogos"
+    }
+  },
+  "flex-layout.row#footer-mobile-mediosPago3": {
+    "children": [
+      "image#digicert",
+      "image#mastercard",
+      "image#estafeta"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "blockClass": "footer-mediosPagoLogos"
+    }
+  },
+  "flex-layout.row#footer-mobile1": {
+    "children": [
+      "image#logo-ACNegro-mobile"
+    ]
+  },
+  "image#logo-ACNegro-mobile": {
+    "props": {
+      "blockClass": "footer-mobile1-logo",
+      "src": "/arquivos/Logo_ACNegro.png",
+      "maxWidth": "50%"
+    }  
+  },
+  
+  "flex-layout.row#footer-mobile2": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-4logos"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-logos-mobile"
+      ]
+    }
+  },
+  "flex-layout.row#footer-mobile3": {
+    "children": [
+      "rich-text#footer-copyright"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-2",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-mobile",
+      "paddingTop": 3
+    }
+  },
+  "flex-layout.col#footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-mobile-1"
+    ],
+    "props": {
+      "blockClass": "footer-mobile"
+    }
+  },
+  "flex-layout.col#footer-mobile-1": {
+    "children": [
+      "flex-layout.row#footer-mobile-1"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-1"
+    }
+  },
+  "flex-layout.row#footer-mobile-1": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-1",
+      "vtex.menu@2.x:menu#footer-2"
+    ],
+    "props": {
+      "blockClass": "footer-mobile-1"
+    }
+  }
+}

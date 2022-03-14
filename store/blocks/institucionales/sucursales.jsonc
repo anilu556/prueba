@@ -1,0 +1,2098 @@
+{
+    "store.custom#sucursales": {
+      "blocks": [
+        "flex-layout.row#sucursales"
+      ]
+    },
+    "flex-layout.row#sucursales": {
+      "children": [
+        "flex-layout.col#text-sucursales"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "sucursales"]
+      }
+    },
+
+    //PRINCIPALES
+    
+    "flex-layout.col#text-sucursales": {
+      "children": [
+        "rich-text#sucursales-titulo",
+        //"rich-text#sucursales-bcalifornia",
+        //"flex-layout.row#direcciones-bcalifornia",
+        "rich-text#sucursales-campeche",
+        "flex-layout.row#direcciones-campeche",
+        "rich-text#sucursales-chiapas",
+        "flex-layout.row#direcciones-chiapas",
+        "rich-text#sucursales-chihuahua",
+        "flex-layout.row#direcciones-chihuahua",
+        "flex-layout.row#direcciones-chihuahua2",
+        "rich-text#sucursales-cdmx",
+        "flex-layout.row#direcciones-cdmx",
+        "flex-layout.row#direcciones-cdmx2",
+        "flex-layout.row#direcciones-cdmx3",
+        "flex-layout.row#direcciones-cdmx4",
+        "flex-layout.row#direcciones-cdmx5",
+        "flex-layout.row#direcciones-cdmx6",
+        "flex-layout.row#direcciones-cdmx7",
+        "flex-layout.row#direcciones-cdmx8",
+        "flex-layout.row#direcciones-cdmx9",
+        "rich-text#sucursales-coahuila",
+        "flex-layout.row#direcciones-coahuila",
+        "rich-text#sucursales-colima",
+        "flex-layout.row#direcciones-colima",
+        "rich-text#sucursales-durango",
+        "flex-layout.row#direcciones-durango",
+        "rich-text#sucursales-edomex",
+        "flex-layout.row#direcciones-edomex",
+        "flex-layout.row#direcciones-edomex2",
+        "flex-layout.row#direcciones-edomex3",
+        "flex-layout.row#direcciones-edomex4",
+        "flex-layout.row#direcciones-edomex5",
+        "flex-layout.row#direcciones-edomex6",
+        "flex-layout.row#direcciones-edomex7",
+        "rich-text#sucursales-gdl",
+        "flex-layout.row#direcciones-gdl",
+        "flex-layout.row#direcciones-gdl2",
+        "flex-layout.row#direcciones-gdl3",
+        "rich-text#sucursales-gto",
+        "flex-layout.row#direcciones-gto",
+        "flex-layout.row#direcciones-gto2",
+        "rich-text#sucursales-hidalgo",
+        "flex-layout.row#direcciones-hidalgo",
+        "flex-layout.row#direcciones-hidalgo2",
+        "rich-text#sucursales-michoacan",
+        "flex-layout.row#direcciones-michoacan",
+        "rich-text#sucursales-morelos",
+        "flex-layout.row#direcciones-morelos",
+        "rich-text#sucursales-nayarit",
+        "flex-layout.row#direcciones-nayarit",
+        "rich-text#sucursales-nleon",
+        "flex-layout.row#direcciones-nleon",
+        "flex-layout.row#direcciones-nleon2",
+        "rich-text#sucursales-oaxaca",
+        "flex-layout.row#direcciones-oaxaca",
+        "rich-text#sucursales-puebla",
+        "flex-layout.row#direcciones-puebla",
+        "flex-layout.row#direcciones-puebla2",
+        "rich-text#sucursales-qro",
+        "flex-layout.row#direcciones-qro",
+        "rich-text#sucursales-slp",
+        "flex-layout.row#direcciones-slp",
+        "flex-layout.row#direcciones-slp2",
+        "rich-text#sucursales-sinaloa",
+        "flex-layout.row#direcciones-sinaloa",
+        "rich-text#sucursales-tabasco",
+        "flex-layout.row#direcciones-tabasco",
+        "rich-text#sucursales-ver",
+        "flex-layout.row#direcciones-ver",
+        "flex-layout.row#direcciones-ver2",
+        "rich-text#sucursales-zac",
+        "flex-layout.row#direcciones-zac"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#sucursales-titulo": {
+      "props": {
+        "blockClass": "institucionales-titulo",
+        "text": "Sucursales"
+      }
+    },
+
+    //BAJA CALIFORNIA
+
+    "rich-text#sucursales-bcalifornia": {
+      "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Baja California"
+      }
+    },
+    "flex-layout.row#direcciones-bcalifornia": {
+        "children":[
+            "flex-layout.col#direcciones-bcalifornia-1",
+            "flex-layout.col#direcciones-bcalifornia-2",
+            "flex-layout.col#direcciones-bcalifornia-3"
+        ]
+    },
+    "flex-layout.col#direcciones-bcalifornia-1": {
+        "children":[
+            "rich-text#texto-bcalifornia-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-bcalifornia-1": {
+        "props":{
+            "text": ""
+        }
+    },
+    "flex-layout.col#direcciones-bcalifornia-2": {},
+    "flex-layout.col#direcciones-bcalifornia-3": {},
+
+    //CAMPECHE
+
+    "rich-text#sucursales-campeche": {
+      "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Campeche"
+      }
+    },
+    "flex-layout.row#direcciones-campeche": {
+        "children":[
+            "flex-layout.col#direcciones-campeche-1",
+            "flex-layout.col#direcciones-campeche-2",
+            "flex-layout.col#direcciones-campeche-3"
+        ]
+    },
+    "flex-layout.col#direcciones-campeche-1": {
+        "children":[
+            "rich-text#texto-campeche-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-campeche-1": {
+        "props":{
+            "text": "**Sucursal:** Zentralia Cd. Del Carmen\n**Dirección:** Av. Corregidora #29, Loc. 14 P.B., Col. Aeropuerto, Ciudad del Cármen CP.24199.\n**Teléfono:** 938 688 5200\n**Email:** [cddelcarmen@aldoconti.com](cddelcarmen@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-campeche-2": {},
+    "flex-layout.col#direcciones-campeche-3": {},
+
+    //CHIAPAS
+
+    "rich-text#sucursales-chiapas": {
+      "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Chiapas"
+      }
+    },
+    "flex-layout.row#direcciones-chiapas": {
+        "children":[
+            "flex-layout.col#direcciones-chiapas-1",
+            "flex-layout.col#direcciones-chiapas-2",
+            "flex-layout.col#direcciones-chiapas-3"
+        ]
+    },
+    "flex-layout.col#direcciones-chiapas-1": {
+        "children":[
+            "rich-text#texto-chiapas-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-chiapas-1": {
+        "props":{
+            "text": "**Sucursal:** Galerías Tuxtla\n**Dirección:** Blvd. Belisario Dominguez #1861, Local B-3, Fraccionamiento Bugambilias, Tuxtla Gutierrez Chiapas.\n**Teléfono:** 961 615 2694\n**Email**: [galerias_tuxtla@aldoconti.com](galerias_tuxtla@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-chiapas-2": {},
+    "flex-layout.col#direcciones-chiapas-3": {},
+
+    //CHIHUAHUA
+
+    "rich-text#sucursales-chihuahua": {
+      "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Chihuahua"
+      }
+    },
+    "flex-layout.row#direcciones-chihuahua": {
+        "children":[
+            "flex-layout.col#direcciones-chihuahua-1",
+            "flex-layout.col#direcciones-chihuahua-2",
+            "flex-layout.col#direcciones-chihuahua-3"
+        ]
+    },
+    "flex-layout.col#direcciones-chihuahua-1": {
+        "children":[
+            "rich-text#texto-chihuahua-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-chihuahua-1": {
+        "props":{
+            "text": "**Sucursal:** Cd. Juarez Las Misiones\n**Dirección:** C.C. Las Misiones, Blvd. Teofilo Borunda #8681, L 55 Y 56 Pb. Col. Partido Iglesias, CP.32618 \n**Teléfono:** 656 648 2487\n**Email**: [lasmisiones@aldoconti.com](lasmisiones@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-chihuahua-2": {
+        "children":[
+            "rich-text#texto-chihuahua-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-chihuahua-2": {
+        "props":{
+            "text": "**Sucursal:** Cd.Juarez Rio Grande\n**Dirección:** Paseo Triunfo De La Rep. #4450 Loc 16 Y 17 Int C. C. Río Grande Mall Col. El Colegio, C.P. 32340 \n**Teléfono:** 656 611 5157\n**Email**: [juarez_riogrande@aldoconti.com](juarez_riogrande@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-chihuahua-3": {
+        "children":[
+            "rich-text#texto-chihuahua-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-chihuahua-3": {
+        "props":{
+            "text": "**Sucursal:** Fashion Mall Chihuahua\n**Dirección:** Av. Periferico De La Juventud #3501, Local L55 Y L56, Col. Fracc. Quintas Del Sol, C.P. 31214 \n**Teléfono:** 614 430 0990\n**Email**: [fashion_mall_chihuahua@aldoconti.com](fashion_mall_chihuahua@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-chihuahua2": {
+        "children":[
+            "flex-layout.col#direcciones-chihuahua-4",
+            "flex-layout.col#direcciones-chihuahua-5",
+            "flex-layout.col#direcciones-chihuahua-6"
+        ]
+    },
+    "flex-layout.col#direcciones-chihuahua-4": {
+        "children":[
+            "rich-text#texto-chihuahua-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-chihuahua-4": {
+        "props":{
+            "text": "**Sucursal:** Cd. Juarez Las Torres\n**Dirección:** Av. Las Torres 2111, local 13-D, Col. Las Torres Sur, Cd Juarez Chihuahua, C.P. 32575 \n**Teléfono:** 656 681 0644\n**Email**: [fashion_mall_chihuahua@aldoconti.com](fashion_mall_chihuahua@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-chihuahua-5": {},
+    "flex-layout.col#direcciones-chihuahua-6": {},
+    
+    //CDMX
+
+    "rich-text#sucursales-cdmx": {
+      "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Ciudad de México"
+      }
+    },
+    "flex-layout.row#direcciones-cdmx": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-1",
+            "flex-layout.col#direcciones-cdmx-2",
+            "flex-layout.col#direcciones-cdmx-3"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-1": {
+        "children":[
+            "rich-text#texto-cdmx-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-1": {
+        "props":{
+            "text": "**Sucursal:** Galerias Coapa\n**Dirección:** Av. Canal De Miramontes #3122 Local 110Col. Residencial Acoxpa\n**Teléfono:** 55 5684 8152\n**Email**: [galerias_coapa@aldoconti.com](galerias_coapa@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-2": {
+        "children":[
+            "rich-text#texto-cdmx-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-2": {
+        "props":{
+            "text": "**Sucursal:** Tepeyac\n**Dirección:** Calz De Guadalupe #431 Locales 8 Y 19 Col. Gpe Tepeyac \n**Teléfono:** 55 5759 0266\n**Email**: [tepeyac@aldoconti.com](tepeyac@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-3": {
+        "children":[
+            "rich-text#texto-cdmx-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-cdmx-3": {
+        "props":{
+            "text": "**Sucursal:** Pasaje San Juan\n**Dirección:** Eje Central Lazaro Cardenas #55 Col. Centro\n**Teléfono:** 55 5518 3838"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx2": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-4",
+            "flex-layout.col#direcciones-cdmx-5",
+            "flex-layout.col#direcciones-cdmx-6"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-4": {
+        "children":[
+            "rich-text#texto-cdmx-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-4": {
+        "props":{
+            "text": "**Sucursal:** Palma Centro\n**Dirección:** Palma #20 Esq. 5 De Mayo Col. Centro \n**Teléfono:** 55 5512 1809"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-5": {
+        "children":[
+            "rich-text#texto-cdmx-5"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-5": {
+        "props":{
+            "text": "**Sucursal:** Marco Palatzi\n**Dirección:** Lazaro Cardenas #108 Local 4 Col. Centro \n**Teléfono:** 55 5521 7929"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-6": {
+        "children":[
+            "rich-text#texto-cdmx-6"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-6": {
+        "props":{
+            "text": "**Sucursal:** Santa Fe I\n**Dirección:** Av. Vasco De Quiroga #3800 Local 514 Col. Santa Fe \n**Teléfono:** 55 5259 2761"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx3": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-7",
+            "flex-layout.col#direcciones-cdmx-8",
+            "flex-layout.col#direcciones-cdmx-9"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-7": {
+        "children":[
+            "rich-text#texto-cdmx-7"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-7": {
+        "props":{
+            "text": "**Sucursal:** 16 De Septiembre\n**Dirección:** 16 De Septiembre #72 L-A, Col. Centro, C.P. 06000 \n**Teléfono:** 55 5512 7142"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-8": {
+        "children":[
+            "rich-text#texto-cdmx-8"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-8": {
+        "props":{
+            "text": "**Sucursal:** Universidad\n**Dirección:** Av. Universidad #1000 Local 189 Y 190 -B Col. Santa Cruz Atoyac \n**Teléfono:** 55 5604 3326"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-9": {
+        "children":[
+            "rich-text#texto-cdmx-9"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-9": {
+        "props":{
+            "text": "**Sucursal:** Oriente WalMart\n**Dirección:** Av. Canal De Tezontle #1520 Int. D-31 Col. Dr. Alfonso Ortiz \n**Teléfono:** 55 5600 4751"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx4": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-10",
+            "flex-layout.col#direcciones-cdmx-11",
+            "flex-layout.col#direcciones-cdmx-12"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-10": {
+        "children":[
+            "rich-text#texto-cdmx-10"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-10": {
+        "props":{
+            "text": "**Sucursal:** Outlet San Cosme\n**Dirección:** Rivera De San Cosme #30 Col. San Rafael \n**Teléfono:** 55 5535 5781"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-11": {
+        "children":[
+            "rich-text#texto-cdmx-11"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-11": {
+        "props":{
+            "text": "**Sucursal:** Gante\n**Dirección:** Av. Francisco I. Madero #14 Local 1 Col. Centro \n**Teléfono:** 55 5521 1271"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-12": {
+        "children":[
+            "rich-text#texto-cdmx-12"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-12": {
+        "props":{
+            "text": "**Sucursal:** Madero\n**Dirección:** Av. Bolivar #24 Loc. C Esq. Madero Col. Centro \n**Teléfono:** 55 5521 0841"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx5": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-13",
+            "flex-layout.col#direcciones-cdmx-14",
+            "flex-layout.col#direcciones-cdmx-15"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-13": {
+        "children":[
+            "rich-text#texto-cdmx-13"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-13": {
+        "props":{
+            "text": "**Sucursal:** Perisur\n**Dirección:** Periferico Sur #4690 Loc. 238 Col. Ampl. Jardines Del Pedregal \n**Teléfono:** 55 5665 3360"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-14": {
+        "children":[
+            "rich-text#texto-cdmx-14"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-14": {
+        "props":{
+            "text": "**Sucursal:** Outlet Torres Lindavista\n**Dirección:** Jose Othon De Mendizabal #343 Isla H Local B1 Y B2 Col. Torres Lindavista \n**Teléfono:** 55 5119 4124"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-15": {
+        "children":[
+            "rich-text#texto-cdmx-15"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-15": {
+        "props":{
+            "text": "**Sucursal:** 16 De Septiembre II\n**Dirección:** Bolivar #31 Loc. C Col. Centro \n**Teléfono:** 55 5518 3644"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx6": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-16",
+            "flex-layout.col#direcciones-cdmx-17",
+            "flex-layout.col#direcciones-cdmx-18"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-16": {
+        "children":[
+            "rich-text#texto-cdmx-16"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-16": {
+        "props":{
+            "text": "**Sucursal:** Parque Lindavista\n**Dirección:** Colector 13 No. 280, Col. Magdalena de las Salinas, Del. Gustavo A. Madero, C.P. 07760, Loc. L207 Y L207-A \n**Teléfono:** 55 5119 9098\n**Email:** [parque_lindavista@aldoconti.com](parque_lindavista@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-17": {
+        "children":[
+            "rich-text#texto-cdmx-17"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-17": {
+        "props":{
+            "text": "**Sucursal:** El Rosario\n**Dirección:** Av. Del Rosario #1025, Local P-07Col. Tierra Nueva \n**Teléfono:** 55 5382 0013\n**Email:** [el_rosario@aldoconti.com](el_rosario@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-18": {
+        "children":[
+            "rich-text#texto-cdmx-18"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-18": {
+        "props":{
+            "text": "**Sucursal:** Gran Sur\n**Dirección:** Av. Del Iman #151 Plaza A-2 Local 120Col. Pedregal De Carrasco \n**Teléfono:** 55 5335 3788\n**Email:** [gransur@aldoconti.com](gransur@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx7": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-19",
+            "flex-layout.col#direcciones-cdmx-20",
+            "flex-layout.col#direcciones-cdmx-21"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-19": {
+        "children":[
+            "rich-text#texto-cdmx-19"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-19": {
+        "props":{
+            "text": "**Sucursal:** Pabellon Cuauhtemoc\n**Dirección:** Antonio M. Anza #20, Local L-11Col. Roma \n**Teléfono:** 55 5264 2753"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-20": {
+        "children":[
+            "rich-text#texto-cdmx-20"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-20": {
+        "props":{
+            "text": "**Sucursal:** Forum Buenavista\n**Dirección:** Eje 1 Nte. Mosqueta #259, Loc. N1-28 Col. Buenavista \n**Teléfono:** 55 5541 8385"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-21": {
+        "children":[
+            "rich-text#texto-cdmx-21"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-21": {
+        "props":{
+            "text": "**Sucursal:** Patio Revolución\n**Dirección**Centro Comercial Patio Revolución, Loc. Sb16, Ubicado En Av. Revolución No 1817, Col. Barrio Loreto, Del. Álvaro Obregón, Distrito Federal , C.P. 01090\n**Teléfono:** 55 5085 4087\n**Email:** [patio_revolucion@aldoconti.com](patio_revolucion@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx8": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-22",
+            "flex-layout.col#direcciones-cdmx-23",
+            "flex-layout.col#direcciones-cdmx-24"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-22": {
+        "children":[
+            "rich-text#texto-cdmx-22"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-22": {
+        "props":{
+            "text": "**Sucursal:** 20 De Noviembre\n**Dirección:** Av. 20 De Noviembre #133, Loc. A Y B Col. Centro \n**Teléfono:** 55 5709 0976 Y 55 5709 1486"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-23": {
+        "children":[
+            "rich-text#texto-cdmx-23"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-23": {
+        "props":{
+            "text": "**Sucursal:** Vía Vallejo\n**Dirección:** Calzada Vallejo 1090, Col Santa Cruz De Las Salinas, C.P. 02340, Local 256 \n**Teléfono:** 55 9130 7117\n**Email:** pabellon_azcapotzalco@aldoconti.com"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-24": {
+        "children":[
+            "rich-text#texto-cdmx-24"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-24": {
+        "props":{
+            "text": "**Sucursal:** Antenas Iztapalapa\n**Dirección:** Av. Periférico 3276 Y 3278 Local 232 A, Col. Esperanza, CDMX. C.P. 09910\n**Teléfono:** 55 5161 8259"
+        }
+    },
+    "flex-layout.row#direcciones-cdmx9": {
+        "children":[
+            "flex-layout.col#direcciones-cdmx-25",
+            "flex-layout.col#direcciones-cdmx-26",
+            "flex-layout.col#direcciones-cdmx-27"
+        ]
+    },
+    "flex-layout.col#direcciones-cdmx-25": {
+        "children":[
+            "rich-text#texto-cdmx-25"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-cdmx-25": {
+        "props":{
+            "text": "**Sucursal:** Isabel la Católica\n**Dirección:** 5 de mayo # 43 Local A y B, Col. Centro, Del. CuauhtÃ©moc, C.P. 06000 \n**Teléfono:** (55) 2127 8569"
+        }
+    },
+    "flex-layout.col#direcciones-cdmx-26": {},
+    "flex-layout.col#direcciones-cdmx-27": {},
+
+    //COAHUILA
+
+    "rich-text#sucursales-coahuila": {
+        "props": {
+          "blockClass": "estado-nombre",
+          "text": "#### Coahuila"
+        }
+    },
+    "flex-layout.row#direcciones-coahuila": {
+        "children":[
+            "flex-layout.col#direcciones-coahuila-1",
+            "flex-layout.col#direcciones-coahuila-2",
+            "flex-layout.col#direcciones-coahuila-3"
+        ]
+    },
+    "flex-layout.col#direcciones-coahuila-1": {
+        "children":[
+            "rich-text#texto-coahuila-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-coahuila-1": {
+        "props":{
+            "text": "**Sucursal:** Outlet Torreon\n**Dirección:** Av. Morelos #743 Pte. Col. Centro, C.P. 27000 \n**Teléfono:** (871) 716 3868\n**Email:** [torreon@aldoconti.com](torreon@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-coahuila-2": {
+        "children":[
+            "rich-text#texto-coahuila-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-coahuila-2": {
+        "props":{
+            "text": "**Sucursal:** Saltillo\n**Dirección:** Blvd. Francisco Coss Y Aguascalientes S/N Local 26, Col. Centro, C.P. 25000 \n**Teléfono:** (844) 416 4800\n**Email:** [saltillo@aldoconti.com](saltillo@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-coahuila-3": {
+        "children":[
+            "rich-text#texto-coahuila-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-coahuila-3": {
+        "props":{
+            "text": "**Sucursal:** Saltillo III\n**Dirección:** Blvd. Nazario Ortiz Garza #2345, Loc. 219, C.C. Galerías Saltillo, Col. Tanque De Peña, C.P. 25279 \n**Teléfono:** (844) 485 0079\n**Email:** [saltillo_3@aldoconti.com](saltillo_3@aldoconti.com)"
+        }
+    },
+    
+    //COLIMA
+
+    "rich-text#sucursales-colima": {
+        "props": {
+          "blockClass": "estado-nombre",
+          "text": "#### Colima"
+        }
+    },
+    "flex-layout.row#direcciones-colima": {
+        "children":[
+            "flex-layout.col#direcciones-colima-1",
+            "flex-layout.col#direcciones-colima-2",
+            "flex-layout.col#direcciones-colima-3"
+        ]
+    },
+    "flex-layout.col#direcciones-colima-1": {
+        "children":[
+            "rich-text#texto-colima-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-colima-1": {
+          "props":{
+              "text": "**Sucursal:** Zentralia Colima\n**Dirección:** Paseo Miguel de la Madrid Hurtado #301 Loc 132 P.B., Col. Valle Dorado, C.P. 28018\n**Teléfono:** (312) 323 5135\n**Email:** [colima@aldoconti.com](colima@aldoconti.com)"
+          }
+    },
+    "flex-layout.col#direcciones-colima-2": {},
+    "flex-layout.col#direcciones-colima-3": {},
+
+    //DURANGO
+
+    "rich-text#sucursales-durango": {
+        "props": {
+          "blockClass": "estado-nombre",
+          "text": "#### Durango"
+        }
+    },
+    "flex-layout.row#direcciones-durango": {
+        "children":[
+            "flex-layout.col#direcciones-durango-1",
+            "flex-layout.col#direcciones-durango-2",
+            "flex-layout.col#direcciones-durango-3"
+        ]
+    },
+    "flex-layout.col#direcciones-durango-1": {
+        "children":[
+            "rich-text#texto-durango-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-durango-1": {
+          "props":{
+              "text": "**Sucursal:** Durango\n**Dirección:** Av. 20 De Noviembre 700 Pte. Local 8 Col. Centro\n**Teléfono:** 618 811 2490\n**Email:** [durango@aldoconti.com](durango@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-durango-2": {
+        "children":[
+            "rich-text#texto-durango-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }          
+    },
+    "rich-text#texto-durango-2": {
+        "props":{
+            "text": "**Sucursal:** Paseo Durango\n**Dirección:** Av. Felipe Pescador #1401 Loc. B-40 Col. Esperanza\n**Teléfono:** 618 129 1985\n**Email:** [durango2@aldoconti.com](durango2@aldoconti.com)"
+      }
+    },      
+    "flex-layout.col#direcciones-durango-3": {
+        "children":[
+            "rich-text#texto-durango-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-durango-3": {
+        "props":{
+            "text": "**Sucursal:** Durango Centro\n**Dirección:** Av. 5 de Febrero Poniente #204, Zona Centro, Durango, C.P. 34420\n**Teléfono:** 618 811 1792\n**Email:** [durango_centro@aldoconti.com](durango_centro@aldoconti.com)"
+      }
+    },
+    
+    //ESTADO DE MÉXICO
+
+    "rich-text#sucursales-edomex": {
+        "props": {
+          "blockClass": "estado-nombre",
+          "text": "#### Estado de México"
+        }
+    },
+    "flex-layout.row#direcciones-edomex": {
+        "children":[
+            "flex-layout.col#direcciones-edomex-1",
+            "flex-layout.col#direcciones-edomex-2",
+            "flex-layout.col#direcciones-edomex-3"
+        ]
+    },
+    "flex-layout.col#direcciones-edomex-1": {
+        "children":[
+            "rich-text#texto-edomex-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-edomex-1": {
+          "props":{
+              "text": "**Sucursal:** Américas Ecatepec\n**Dirección:** Av Hank Gonzalez S/N, Local A 36-37, Conjunto Habitacional Las Americas, Ecatepec, Estado de México, C.P. 55075\n**Teléfono:** 55 2486 4215\n**Email:** [lasamericas@aldoconti.com](lasamericas@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-edomex-2": {
+        "children":[
+            "rich-text#texto-edomex-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }          
+    },
+    "rich-text#texto-edomex-2": {
+        "props":{
+            "text": "**Sucursal:** Galerias Metepec\n**Dirección:** Blvd. Toluca Ixtapan #126 Nte, Loc. 211, Col. La Purisima\n**Teléfono:** 722 232 3067\n**Email:** [metepec@aldoconti.com](metepec@aldoconti.com)"
+      }
+    },      
+    "flex-layout.col#direcciones-edomex-3": {
+        "children":[
+            "rich-text#texto-edomex-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-edomex-3": {
+        "props":{
+            "text": "**Sucursal:** Satelite III\n**Dirección:** Ctro Com #2251 Loc. 396 P.B. Col. Ciudad Satelite\n**Teléfono:** 55 5572 9369\n**Email:** [satelite3@aldoconti.com](satelite3@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-edomex2": {
+        "children":[
+            "flex-layout.col#direcciones-edomex-4",
+            "flex-layout.col#direcciones-edomex-5",
+            "flex-layout.col#direcciones-edomex-6"
+        ]
+    },
+    "flex-layout.col#direcciones-edomex-4": {
+        "children":[
+            "rich-text#texto-edomex-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-edomex-4": {
+          "props":{
+              "text": "**Sucursal:** Plaza Aragon II\n**Dirección:** Av. Carlos Hank Gonzalez #120, Loc. 58A Y 59 Col. Rinconada De Aragon\n**Teléfono:** 55 5775 9660\n**Email:** [plazaaragon2@aldoconti.com](plazaaragon2@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-edomex-5": {
+        "children":[
+            "rich-text#texto-edomex-5"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }          
+    },
+    "rich-text#texto-edomex-5": {
+        "props":{
+            "text": "**Sucursal:** Ixtapaluca\n**Dirección:** Carretera Mexico Cuautla Km 32 Loc. H 01 Pza El Cortijo Col. Santa Barbara\n**Teléfono:** 55 2596 9246\n**Email:** [ixtapaluca@aldoconti.com](ixtapaluca@aldoconti.com)"
+      }
+    },      
+    "flex-layout.col#direcciones-edomex-6": {
+        "children":[
+            "rich-text#texto-edomex-6"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-edomex-6": {
+        "props":{
+            "text": "**Sucursal:** Tecamac\n**Dirección:** Antigua Carret Fed Mex Pachuca Km 36.5, Local M-02 Al M-04 Col. Hueyotenco\n**Teléfono:** 55 5936 5598\n**Email:** [tecamac@aldoconti.com](tecamac@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-edomex3": {
+        "children":[
+            "flex-layout.col#direcciones-edomex-7",
+            "flex-layout.col#direcciones-edomex-8",
+            "flex-layout.col#direcciones-edomex-9"
+        ]
+    },
+    "flex-layout.col#direcciones-edomex-7": {
+        "children":[
+            "rich-text#texto-edomex-7"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-edomex-7": {
+          "props":{
+              "text": "**Sucursal:** Outlet Coacalco Power Center\n**Dirección:** Fraccion 3, Via Jose Lopez Portillo S/N Loc. J-01Col. Rancho La Palma\n**Teléfono:** 55 2644 1337\n**Email:** [coacalco3@aldoconti.com](coacalco3@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-edomex-8": {
+        "children":[
+            "rich-text#texto-edomex-8"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }          
+    },
+    "rich-text#texto-edomex-8": {
+        "props":{
+            "text": "**Sucursal:** Neza\n**Dirección:** Centro Comercial Cd. Jardín Local D05 Edo. de México, Col. Del Sol Sección Flores, Nezahualcóyotl, C.P. 57200\n**Teléfono:** 55 1558 4044\n**Email:** [toluca_sendero@aldoconti.com](toluca_sendero@aldoconti.com)"
+      }
+    },      
+    "flex-layout.col#direcciones-edomex-9": {
+        "children":[
+            "rich-text#texto-edomex-9"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-edomex-9": {
+        "props":{
+            "text": "**Sucursal:** Luna Park\n**Dirección:** Av 1° De Mayo, Mz C-34-C (Prima), Loc #117 Y 118, Col. Centro Urbano\n**Teléfono:** 55 5868 6687\n**Email:** [lunapark@aldoconti.com](lunapark@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-edomex4": {
+        "children":[
+            "flex-layout.col#direcciones-edomex-10",
+            "flex-layout.col#direcciones-edomex-11",
+            "flex-layout.col#direcciones-edomex-12"
+        ]
+    },
+    "flex-layout.col#direcciones-edomex-10": {
+        "children":[
+            "rich-text#texto-edomex-10"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-edomex-10": {
+          "props":{
+            "text": "**Sucursal:** Lerma II\n**Dirección:** Carr. Mexico Toluca Km #50 Esq. Calle Cholula Col. La Isla Lerma\n**Teléfono:** 728 284 5093\n**Email:** [lerma2@aldoconti.com](lerma2@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-edomex-11": {
+        "children":[
+            "rich-text#texto-edomex-11"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }          
+    },
+    "rich-text#texto-edomex-11": {
+        "props":{
+            "text": "**Sucursal:** Patio Texcoco\n**Dirección:** Av. Hidalgo 300 Loc S-79 Y S-80 Col. Santa Cruz De Arriba\n**Teléfono:** 59 5954 4674\n**Email:** [texcoco@aldoconti.com](texcoco@aldoconti.com)"
+      }
+    },      
+    "flex-layout.col#direcciones-edomex-12": {
+        "children":[
+            "rich-text#texto-edomex-12"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-edomex-12": {
+        "props":{
+            "text": "**Sucursal:** Nicolás Romero\n**Dirección:** Blvd. Arturo Montiel Rojas Km. 10.7, Local I-12, Col. Ampliacion Vista Hermosa, Nicolás Romero, Estado de México, C.P. 54400\n**Teléfono:** 55 8992 9947\n**Email:** [nicolasromero@aldoconti.com](nicolasromero@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-edomex5": {
+        "children":[
+            "flex-layout.col#direcciones-edomex-13",
+            "flex-layout.col#direcciones-edomex-14",
+            "flex-layout.col#direcciones-edomex-15"
+        ]
+    },
+    "flex-layout.col#direcciones-edomex-13": {
+        "children":[
+            "rich-text#texto-edomex-13"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-edomex-13": {
+          "props":{
+            "text": "**Sucursal:** Centro Comercial Perinorte\n**Dirección:** Hacienda De Sierra Vieja #2, Local 127 Fracc. Del Parque, Cuautitlán Izcalli, Estado de México\n**Teléfono:** 55 5893 9771\n**Email:** [perinorte@aldoconti.com](perinorte@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-edomex-14": {
+        "children":[
+            "rich-text#texto-edomex-14"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }          
+    },
+    "rich-text#texto-edomex-14": {
+        "props":{
+            "text": "**Sucursal:** Punta Norte\n**Dirección:** Hacienda Sierra Vieja #2 Lote 14, Local 704Col. Hacienda Del Parque\n**Teléfono:** 55 2075 0014\n**Email:** [puntanorte@aldoconti.com](puntanorte@aldoconti.com)"
+      }
+    },      
+    "flex-layout.col#direcciones-edomex-15": {
+        "children":[
+            "rich-text#texto-edomex-15"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-edomex-15": {
+        "props":{
+            "text": "**Sucursal:** Mundo E II\n**Dirección:** Centro Comercial Mundo E Loc. G20, Blvd. Manuel Avila Camacho #1007, Col. San Lucas Tepetlacalco, Tlalnepantla De Baz, C.P. 54055\n**Teléfono:** 55 9155 2664"
+        }
+    },    
+    "flex-layout.row#direcciones-edomex6": {
+        "children":[
+            "flex-layout.col#direcciones-edomex-16",
+            "flex-layout.col#direcciones-edomex-17",
+            "flex-layout.col#direcciones-edomex-18"
+        ]
+    },
+    "flex-layout.col#direcciones-edomex-16": {
+        "children":[
+            "rich-text#texto-edomex-16"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-edomex-16": {
+          "props":{
+            "text": "**Sucursal:** Galerías Toluca\n**Dirección:** Paseo Tollocan, Esq. 1ro De Mayo, Local 338 Col. Santa Ana Tlalpaltitlan\n**Teléfono:** 722 180 1966\n**Email:** [galerias_toluca@aldoconti.com](galerias_toluca@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-edomex-17": {
+        "children":[
+            "rich-text#texto-edomex-17"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }          
+    },
+    "rich-text#texto-edomex-17": {
+        "props":{
+            "text": "**Sucursal:** Cosmopol Coacalco\n**Dirección:** Centro Comercial Cosmopol, Loc. H-003, Ubicado, Vía Jose Lopez Portillo Norte Lte.1, Coacalco De Berriozabal\n**Teléfono:** 55 2159 3656\n**Email:** [cosmopol@aldoconti.com](cosmopol@aldoconti.com)"
+      }
+    },      
+    "flex-layout.col#direcciones-edomex-18": {
+        "children":[
+            "rich-text#texto-edomex-18"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-edomex-18": {
+        "props":{
+            "text": "**Sucursal:** Chalco Sendero\n**Dirección:** Av. Ingenieros #370, Local D-13, Agostadero\n**Teléfono:** 55 1643 0624\n**Email:** [chalco_sendero@aldoconti.com](chalco_sendero@aldoconti.com)"
+        }
+    },    
+    "flex-layout.row#direcciones-edomex7": {
+        "children":[
+            "flex-layout.col#direcciones-edomex-19",
+            "flex-layout.col#direcciones-edomex-20",
+            "flex-layout.col#direcciones-edomex-21"
+        ]
+    },
+    "flex-layout.col#direcciones-edomex-19": {
+        "children":[
+            "rich-text#texto-edomex-19"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-edomex-19": {
+          "props":{
+            "text": "**Sucursal:** Plaza Tlalnepantla\n**Dirección:** Centro Comercial Desarrollo Tlalnepantla Loc. C03/C04, Sor Juana Ines De La Cruz #232 y # 280, Col. San Lorenzo, Tlalnepantla De Baz\n**Teléfono:** 55 9154 9743\n**Email:** [tlalnepantla@aldoconti.com](tlalnepantla@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-edomex-20": {},    
+    "flex-layout.col#direcciones-edomex-21": {},
+
+    //GUADALAJARA
+
+    "rich-text#sucursales-gdl": {
+        "props": {
+          "blockClass": "estado-nombre",
+          "text": "#### Guadalajara"
+        }
+    },
+    "flex-layout.row#direcciones-gdl": {
+        "children":[
+            "flex-layout.col#direcciones-gdl-1",
+            "flex-layout.col#direcciones-gdl-2",
+            "flex-layout.col#direcciones-gdl-3"
+        ]
+    },
+    "flex-layout.col#direcciones-gdl-1": {
+        "children":[
+            "rich-text#texto-gdl-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gdl-1": {
+        "props":{
+            "text": "**Sucursal:** Plaza Patria\n**Dirección:** Av. Patria S/N Entre Americas Y Avila Camacho Col. Villas San Jorge\n**Teléfono:** 333 641 8402\n**Email:** [plaza_patria@aldoconti.com](plaza_patria@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-gdl-2": {
+        "children":[
+            "rich-text#texto-gdl-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-gdl-2": {
+        "props":{
+            "text": "**Sucursal:** Gran Plaza Guadalajara\n**Dirección:** Av. Vallarta #3959 Local E-5 Col. Don Bosco, Guadalajara Jalisco, C.P. 44540\n**Teléfono:** 333 122 3613\n**Email:** [granplaza_guadalajara@aldoconti.com](granplaza_guadalajara@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-gdl-3": {
+        "children":[
+            "rich-text#texto-gdl-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gdl-3": {
+        "props":{
+            "text": "**Sucursal:** Plaza Del Sol\n**Dirección:** Av. Lopez Mateos Sur #2375 Local-4 Zona - C Col. Ciudad Del Sol\n**Teléfono:** 333 121 0181\n**Email:** [plaza_delsol@aldoconti.com](plaza_delsol@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-gdl2": {
+        "children":[
+            "flex-layout.col#direcciones-gdl-4",
+            "flex-layout.col#direcciones-gdl-5",
+            "flex-layout.col#direcciones-gdl-6"
+        ]        
+    },
+    "flex-layout.col#direcciones-gdl-4": {
+        "children":[
+            "rich-text#texto-gdl-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gdl-4": {
+        "props":{
+            "text": "**Sucursal:** Guadalajara Galerías\n**Dirección:** Rafael Sancio #150 Esq, Vallarta Col. La Estancia\n**Teléfono:** 333 673 4606\n**Email:** [galerias_guadalajara@aldoconti.com](galerias_guadalajara@aldoconti.com)"
+        }
+    },            
+    "flex-layout.col#direcciones-gdl-5": {
+        "children":[
+            "rich-text#texto-gdl-5"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gdl-5": {
+        "props":{
+            "text": "**Sucursal:** Guadalajara Centro\n**Dirección:** Av. Juarez #351 Y #355 Col. Centro\n**Teléfono:** 333 614 7936\n**Email:** [guadalajara_centro@aldoconti.com](guadalajara_centro@aldoconti.com)"
+        }
+    },            
+    "flex-layout.col#direcciones-gdl-6": {
+        "children":[
+            "rich-text#texto-gdl-6"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gdl-6": {
+        "props":{
+            "text": "**Sucursal:** Tlaquepaque\n**Dirección:** Av. General Marcelino Garcia Barragan #2077, Local L-17 P.B.Col. El Paradero\n**Teléfono:** 331 578 0899\n**Email:** [tlaquepaque@aldoconti.com](tlaquepaque@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-gdl3": {
+        "children":[
+            "flex-layout.col#direcciones-gdl-7",
+            "flex-layout.col#direcciones-gdl-8",
+            "flex-layout.col#direcciones-gdl-9"
+        ]          
+    },
+    "flex-layout.col#direcciones-gdl-7": {
+        "children":[
+            "rich-text#texto-gdl-7"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gdl-7": {
+        "props":{
+            "text": "**Sucursal:** Oblatos Guadalajara\n**Dirección:** Av. Circunvalacion #2700, Local L-03Col. Oblatos\n**Teléfono:** 333 653 5358\n**Email:** [oblatos@aldoconti.com](oblatos@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-gdl-8": {},
+    "flex-layout.col#direcciones-gdl-9": {},
+    
+    //GUANAJUATO
+
+    "rich-text#sucursales-gto": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Guanajuato"
+        }
+    },
+    "flex-layout.row#direcciones-gto": {
+        "children":[
+            "flex-layout.col#direcciones-gto-1",
+            "flex-layout.col#direcciones-gto-2",
+            "flex-layout.col#direcciones-gto-3"
+        ]
+    },
+    "flex-layout.col#direcciones-gto-1": {
+        "children":[
+            "rich-text#texto-gto-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gto-1": {
+        "props":{
+            "text": "**Sucursal:** Parque Celaya\n**Dirección:** Manuel J Clutier #208, Esquina Con Av. El Sauz Col. 15 De Mayo\n**Teléfono:** 461 617 6888\n**Email:** [parque_celaya@aldoconti.com](parque_celaya@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-gto-2": {
+        "children":[
+            "rich-text#texto-gto-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gto-2": {
+        "props":{
+            "text": "**Sucursal:** Outlet Irapuato\n**Dirección:** Av. Arboledas 1200, Local 4 Y 5 C, Plaza JacarandasCol. San Miguelito\n**Teléfono:** 462 624 8272\n**Email:** [irapuato@aldoconti.com](irapuato@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-gto-3": {
+        "children":[
+            "rich-text#texto-gto-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gto-3": {
+        "props":{
+            "text": "**Sucursal:** León Las Torres\n**Dirección:** Blvd. Juan Alonso De Torres #1315, Local 24,25,26 y 26A, Col. San Jose Maria Del Consuelo\n**Teléfono:** 477 775 7580\n**Email:** [leon_lastorres@aldoconti.com](leon_lastorres@aldoconti.com)"
+        }
+    },        
+    "flex-layout.row#direcciones-gto2": {
+        "children":[
+            "flex-layout.col#direcciones-gto-4",
+            "flex-layout.col#direcciones-gto-5",
+            "flex-layout.col#direcciones-gto-6"
+        ]
+    },
+    "flex-layout.col#direcciones-gto-4": {
+        "children":[
+            "rich-text#texto-gto-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gto-4": {
+        "props":{
+            "text": "**Sucursal:** Centro Max León\n**Dirección:** Blvd. A. Lopez Mateos Y Blvd. Jj Torres Landa #2518 Ote. Local 41-BCol. Jardines De Jerez\n**Teléfono:** 477 711 4366\n**Email:** [centromax@aldoconti.com](centromax@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-gto-5": {
+        "children":[
+            "rich-text#texto-gto-5"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-gto-5": {
+        "props":{
+            "text": "**Sucursal:** Plaza Cibeles\n**Dirección:** Blvd. A. Villas De Irapuato #1443, Local 88Col. Ejido\n**Teléfono:** 462 693 2342\n**Email:** [plaza_cibeles@aldoconti.com](plaza_cibeles@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-gto-6": {},
+    
+    //HIDALGO
+
+    "rich-text#sucursales-hidalgo": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Hidalgo"
+        }
+    },
+    "flex-layout.row#direcciones-hidalgo": {
+        "children":[
+            "flex-layout.col#direcciones-hidalgo-1",
+            "flex-layout.col#direcciones-hidalgo-2",
+            "flex-layout.col#direcciones-hidalgo-3"
+        ]
+    },
+    "flex-layout.col#direcciones-hidalgo-1": {
+        "children":[
+            "rich-text#texto-hidalgo-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-hidalgo-1": {
+        "props":{
+            "text": "**Sucursal:** Bella Pachuca\n**Dirección:** Av. Revolucion #1307, Loc. 16 Al 20 Zona A, Col. Periodista\n**Teléfono:** 771 718 4277\n**Email:** [bella_pachuca@aldoconti.com](bella_pachuca@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-hidalgo-2": {
+        "children":[
+            "rich-text#texto-hidalgo-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-hidalgo-2": {
+        "props":{
+            "text": "**Sucursal:** Soriana Pachuca\n**Dirección:** Blvd. Luis Donaldo Colosio #1501 Col. Plaza Del Valle\n**Teléfono:** 771 719 0965\n**Email:** [soriana_pachuca@aldoconti.com](soriana_pachuca@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-hidalgo-3": {
+        "children":[
+            "rich-text#texto-hidalgo-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-hidalgo-3": {
+        "props":{
+            "text": "**Sucursal:** Galerias Pachuca\n**Dirección:** Camino Real De La Plata #100 Y 102 Loc. 107 Col. Zona Plateada\n**Teléfono:** 771 133 0119\n**Email:** [galerias_pachuca@aldoconti.com](galerias_pachuca@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-hidalgo2": {
+        "children":[
+            "flex-layout.col#direcciones-hidalgo-4",
+            "flex-layout.col#direcciones-hidalgo-5",
+            "flex-layout.col#direcciones-hidalgo-6"
+        ]
+    },
+    "flex-layout.col#direcciones-hidalgo-4": {
+        "children":[
+            "rich-text#texto-hidalgo-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-hidalgo-4": {
+        "props":{
+            "text": "**Sucursal:** Patio Pachuca\n**Dirección:** Blvd. Luis Donaldo Colosio 2009, Local S67 y S68, Ex Hacienda de Coscotitlán, Pachuca Hidalgo, C.P. 42064"
+        }
+    },    
+    "flex-layout.col#direcciones-hidalgo-5": {},
+    "flex-layout.col#direcciones-hidalgo-6": {},
+    
+    //MICHOACÁN
+
+    "rich-text#sucursales-michoacan": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Michoacán"
+        }
+    },
+    "flex-layout.row#direcciones-michoacan": {
+        "children":[
+            "flex-layout.col#direcciones-michoacan-1",
+            "flex-layout.col#direcciones-michoacan-2",
+            "flex-layout.col#direcciones-michoacan-3"
+        ]
+    },
+    "flex-layout.col#direcciones-michoacan-1": {
+        "children":[
+            "rich-text#texto-michoacan-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-michoacan-1": {
+        "props":{
+            "text": "**Sucursal:** Morelia Las Américas\n**Dirección:** Av. Enrique Ramirez Miguel #1000, Local 226, C.C. Pza Las Americas Fracc. Las Americas\n**Teléfono:** 443 314 3907\n**Email:** [morelia_lasamericas@aldoconti.com](morelia_lasamericas@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-michoacan-2": {
+        "children":[
+            "rich-text#texto-michoacan-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-michoacan-2": {
+        "props":{
+            "text": "**Sucursal:** Morelia Centro\n**Dirección:** Av. Madero Ote. #34 Y 38C ol. Centro\n**Teléfono:** 443 312 3179\n**Email:** [moreliacentro@aldoconti.com](moreliacentro@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-michoacan-3": {},
+    
+    //MORELOS
+
+    "rich-text#sucursales-morelos": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Morelos"
+        }
+    },
+    "flex-layout.row#direcciones-morelos": {
+        "children":[
+            "flex-layout.col#direcciones-morelos-1",
+            "flex-layout.col#direcciones-morelos-2",
+            "flex-layout.col#direcciones-morelos-3"
+        ]
+    },
+    "flex-layout.col#direcciones-morelos-1": {
+        "children":[
+            "rich-text#texto-morelos-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-morelos-1": {
+        "props":{
+            "text": "**Sucursal:** Galerías Cuernavaca\n**Dirección:** Km 87.850 Autop Mex-Acap. Loc 375 C.C. Galerias Cuernavaca. Col. Flores Magon\n**Teléfono:** 777 322 3690\n**Email:** [cuernavaca@aldoconti.com](cuernavaca@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-morelos-2": {
+        "children":[
+            "rich-text#texto-morelos-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-morelos-2": {
+        "props":{
+            "text": "**Sucursal:** Plaza Cuernavaca\n**Dirección:** Av. Vicente Guerrero #110 Local L-01 Col. Lomas De La Selva\n**Teléfono:** 777 314 6377\n**Email:** [plaza_cuernavaca@aldoconti.com](plaza_cuernavaca@aldoconti.com)"
+        }
+    },
+    "flex-layout.col#direcciones-morelos-3": {
+        "children":[
+            "rich-text#texto-morelos-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-morelos-3": {
+        "props":{
+            "text": "**Sucursal:** Cuernavaca D-10\n**Dirección:** Centro Comecial Galerias D10, Loc. Ssa5, Av. Domingo Diez #1203, Col. Lomas De La Selva Norte, Cuernavaca, Morelos, C.P. 62145\n**Teléfono:** 777 688 8565\n**Email:** [cuernavaca_d10@aldoconti.com](cuernavaca_d10@aldoconti.com)"
+        }
+    },
+    
+    //NAYARIT
+
+    "rich-text#sucursales-nayarit": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Nayarit"
+        }
+    },
+    "flex-layout.row#direcciones-nayarit": {
+        "children":[
+            "flex-layout.col#direcciones-nayarit-1",
+            "flex-layout.col#direcciones-nayarit-2",
+            "flex-layout.col#direcciones-nayarit-3"
+        ]
+    },
+    "flex-layout.col#direcciones-nayarit-1": {
+        "children":[
+            "rich-text#texto-nayarit-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-nayarit-1": {
+        "props":{
+            "text": "**Sucursal:** Cabi Tepic\n**Dirección:** Blvd. Luis Donaldo Colosio #680 Loc. Pb 06, C. C. Forum Tepic Col. Benito Juarez Ote.\n**Teléfono:** 311 211 6336\n**Email:** [tepic@aldoconti.com](tepic@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-nayarit-2": {},
+    "flex-layout.col#direcciones-nayarit-3": {},
+    
+    //NUEVO LEÓN
+
+    "rich-text#sucursales-nleon": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Nuevo León"
+        }
+    },
+    "flex-layout.row#direcciones-nleon": {
+        "children":[
+            "flex-layout.col#direcciones-nleon-1",
+            "flex-layout.col#direcciones-nleon-2",
+            "flex-layout.col#direcciones-nleon-3"
+        ]
+    },
+    "flex-layout.col#direcciones-nleon-1": {
+        "children":[
+            "rich-text#texto-nleon-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-nleon-1": {
+        "props":{
+            "text": "**Sucursal:** Monterrey Citadel\n**Dirección:** Av. Romulo Garza #410 Loc. A06 Col. La Fe Sn Nicolas De Los Garza\n**Teléfono:** 81 8240 8832\n**Email:** [citadel@aldoconti.com](citadel@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-nleon-2": {
+        "children":[
+            "rich-text#texto-nleon-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-nleon-2": {
+        "props":{
+            "text": "**Sucursal:** San Agustin II\n**Dirección:** Batallon San Patricio #1000 Loc. 1018 Col. Residencial San Agustin\n**Teléfono:** 81 8363 1465\n**Email:** [san_agustin2@aldoconti.com](san_agustin2@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-nleon-3": {
+        "children":[
+            "rich-text#texto-nleon-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }         
+    },
+    "rich-text#texto-nleon-3": {
+        "props":{
+            "text": "**Sucursal:** Galerias Monterrey II\n**Dirección:** Av. Insurgentes #2500 Local 503 Col. Vista Hermosa\n**Teléfono:** 81 8123 2856\n**Email:** [galerias_monterrey2@aldoconti.com](galerias_monterrey2@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-nleon2": {
+        "children":[
+            "flex-layout.col#direcciones-nleon-4",
+            "flex-layout.col#direcciones-nleon-5",
+            "flex-layout.col#direcciones-nleon-6"
+        ]
+    },
+    "flex-layout.col#direcciones-nleon-4": {
+        "children":[
+            "rich-text#texto-nleon-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-nleon-4": {
+        "props":{
+            "text": "**Sucursal:** Anahuac Monterrey\n**Dirección:** Manuel L. Barragan #325 Norte Loc. 1115 Col. Residencial Anahuac\n**Teléfono:** 81 8332 2834\n**Email:** [anahuac_monterrey@aldoconti.com](anahuac_monterrey@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-nleon-5": {
+        "children":[
+            "rich-text#texto-nleon-5"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-nleon-5": {
+        "props":{
+            "text": "**Sucursal:** La Fe Monterrey\n**Dirección:** Centro Comercial Paseo La Fe Local A15 Y A16 Pb, Av. Miguel Aleman Y Av. Las Torres, Col. La Fe, San Nicolas De Los Garza\n**Email:** [lafe_monterrey@aldoconti.com](lafe_monterrey@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-nleon-6": {},
+    
+    //OAXACA
+
+    "rich-text#sucursales-oaxaca": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Oaxaca"
+        }
+    },
+    "flex-layout.row#direcciones-oaxaca": {
+        "children":[
+            "flex-layout.col#direcciones-oaxaca-1",
+            "flex-layout.col#direcciones-oaxaca-2",
+            "flex-layout.col#direcciones-oaxaca-3"
+        ]
+    },
+    "flex-layout.col#direcciones-oaxaca-1": {
+        "children":[
+            "rich-text#texto-oaxaca-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-oaxaca-1": {
+        "props":{
+            "text": "**Sucursal:** Oaxaca\n**Dirección:** Avenida Universidad #139 Loc. E-18 Col. Exhacienda De Candiani\n**Teléfono:** 951 501 1823\n**Email:** [oaxaca@aldoconti.com](oaxaca@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-oaxaca-2": {
+        "children":[
+            "rich-text#texto-oaxaca-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-oaxaca-2": {
+        "props":{
+            "text": "**Sucursal:** Macro Plaza Oaxaca\n**Dirección:** Av. Internacional #2002, Local 16, Col. Nueva Santa Lucia, Oaxaca, C.P. 71244\n**Teléfono:** 951 517 7918\n**Email:** [macroplaza_oaxaca@aldoconti.com](macroplaza_oaxaca@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-oaxaca-3": {
+        "children":[
+            "rich-text#texto-oaxaca-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }         
+    },
+    "rich-text#texto-oaxaca-3": {
+        "props":{
+            "text": "**Sucursal:** Bella Oaxaca\n**Dirección:** Carretera Nueva Monte Alban N.101 Loc C04, Col. Montoya, Oaxaca, C.P. 68143\n**Teléfono:** 951 517 4147"
+        }
+    },
+    
+    //PUEBLA
+
+    "rich-text#sucursales-puebla": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Puebla"
+        }
+    },
+    "flex-layout.row#direcciones-puebla": {
+        "children":[
+            "flex-layout.col#direcciones-puebla-1",
+            "flex-layout.col#direcciones-puebla-2",
+            "flex-layout.col#direcciones-puebla-3"
+        ]
+    },
+    "flex-layout.col#direcciones-puebla-1": {
+        "children":[
+            "rich-text#texto-puebla-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-puebla-1": {
+        "props":{
+            "text": "**Sucursal:** Puebla Centro\n**Dirección:** Av. 2 Pte #108 Local B Entre Av. 5 De Mayo Y Av. 3 Nte., Col. Centro, Puebla, C.P. 72000\n**Teléfono:** 222 232 7160\n**Email:** [pueblacentro@aldoconti.com](pueblacentro@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-puebla-2": {
+        "children":[
+            "rich-text#texto-puebla-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-puebla-2": {
+        "props":{
+            "text": "**Sucursal:** Angelopolis\n**Dirección:** Blvd. Del Niño Poblano #2150 Loc. 131, 132 'N' Col. Concepcion La Cruz\n**Teléfono:** 222 225 0018\n**Email:** [angelopolis@aldoconti.com](angelopolis@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-puebla-3": {
+        "children":[
+            "rich-text#texto-puebla-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }         
+    },
+    "rich-text#texto-puebla-3": {
+        "props":{
+            "text": "**Sucursal:** Plaza Dorada\n**Dirección:** Blvd. Heroes 5 De Mayo 3126 Loc. 'A' Col. Ladrillera De Benitez\n**Teléfono:** 222 237 0242\n**Email:** [plaza_dorada@aldoconti.com](plaza_dorada@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-puebla2": {
+        "children":[
+            "flex-layout.col#direcciones-puebla-4",
+            "flex-layout.col#direcciones-puebla-5",
+            "flex-layout.col#direcciones-puebla-6"
+        ]
+    },
+    "flex-layout.col#direcciones-puebla-4": {
+        "children":[
+            "rich-text#texto-puebla-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-puebla-4": {
+        "props":{
+            "text": "**Sucursal:** Tehuacan\n**Dirección:** Calz. Adolfo Lopez Mateos #3614 Int. 7 Y 8 C.C. Paseo, Col. Exhacienda San Lorenzo\n**Teléfono:** 238 382 1797\n**Email:** [tehuacan@aldoconti.com](tehuacan@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-puebla-5": {
+        "children":[
+            "rich-text#texto-puebla-5"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-puebla-5": {
+        "props":{
+            "text": "**Sucursal:** Galerias Serdan Puebla\n**Dirección:** Blvd. Hermanos Serdan #270, Local 256 Col. Rancho Colorado\n**Teléfono:** 222 224 1989\n**Email:** [galerias_serdan@aldoconti.com](galerias_serdan@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-puebla-6": {},
+    
+    //QUERÉTARO
+
+    "rich-text#sucursales-qro": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Querétaro"
+        }
+    },
+    "flex-layout.row#direcciones-qro": {
+        "children":[
+            "flex-layout.col#direcciones-qro-1",
+            "flex-layout.col#direcciones-qro-2",
+            "flex-layout.col#direcciones-qro-3"
+        ]
+    },
+    "flex-layout.col#direcciones-qro-1": {
+        "children":[
+            "rich-text#texto-qro-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-qro-1": {
+        "props":{
+            "text": "**Sucursal:** Querétaro I\n**Dirección:** Av. Chile L-300 Y 301 Plaza De Las Americas Col. Carretas\n**Teléfono:** 442 213 1917\n**Email:** [queretaro@aldoconti.com](queretaro@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-qro-2": {
+        "children":[
+            "rich-text#texto-qro-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-qro-2": {
+        "props":{
+            "text": "**Sucursal:** Galerias Querétaro\n**Dirección:** Prol. Corregidora Nte.69 Local 691 Local G-13 Col. Parques Industriales\n**Teléfono:** 442 220 7037\n**Email:** [queretaro2@aldoconti.com](queretaro2@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-qro-3": {
+        "children":[
+            "rich-text#texto-qro-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }         
+    },
+    "rich-text#texto-qro-3": {
+        "props":{
+            "text": "**Sucursal:** Antea Querétaro\n**Dirección:** Centro Comercial Antea Life Style Center, Carr. Queretaro San Luis Potosi #12401 Loc. L-141 Col. Ejido El Salitre\n**Teléfono:** 442 688 0979\n**Email:** [anteaqueretaro@aldoconti.com](anteaqueretaro@aldoconti.com)"
+        }
+    },
+    
+    //SAN LUIS POTOSÍ
+
+    "rich-text#sucursales-slp": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### San Luis Potosí"
+        }
+    },
+    "flex-layout.row#direcciones-slp": {
+        "children":[
+            "flex-layout.col#direcciones-slp-1",
+            "flex-layout.col#direcciones-slp-2",
+            "flex-layout.col#direcciones-slp-3"
+        ]
+    },
+    "flex-layout.col#direcciones-slp-1": {
+        "children":[
+            "rich-text#texto-slp-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-slp-1": {
+        "props":{
+            "text": "**Sucursal:** San Luis El Dorado\n**Dirección:** Nereo Rodriguez Barragan 450 Int. E01 Col. Del Valle\n**Teléfono:** 444 833 5535\n**Email:** [sanluis_eldorado@aldoconti.com](sanluis_eldorado@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-slp-2": {
+        "children":[
+            "rich-text#texto-slp-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-slp-2": {
+        "props":{
+            "text": "**Sucursal:** San Luis Carranza\n**Dirección:** Mariano Avila #605 Col. Tequisquiapan\n**Teléfono:** 444 833 5535\n**Email:** [sanluis_carranza@aldoconti.com](sanluis_carranza@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-slp-3": {
+        "children":[
+            "rich-text#texto-slp-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }         
+    },
+    "rich-text#texto-slp-3": {
+        "props":{
+            "text": "**Sucursal:** San Luis Catedral\n**Dirección:** Manuel Jose Othon #106 Col. Centro\n**Teléfono:** 444 812 7371\n**Email:** [sanluis_catedral@aldoconti.com](sanluis_catedral@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-slp2": {
+        "children":[
+            "flex-layout.col#direcciones-slp-4",
+            "flex-layout.col#direcciones-slp-5",
+            "flex-layout.col#direcciones-slp-6"
+        ]
+    },
+    "flex-layout.col#direcciones-slp-4": {
+        "children":[
+            "rich-text#texto-slp-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-slp-4": {
+        "props":{
+            "text": "**Sucursal:** San Luis Potosi Sears\n**Dirección:** Blvd. Antonio Rocha Cordero #700, Local D-07 P.A.Col. Lomas De Tecnologico\n**Teléfono:** 444 123 0680\n**Email:** [san_luis_sears@aldoconti.com](san_luis_sears@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-slp-5": {},
+    "flex-layout.col#direcciones-slp-6": {},
+    
+    //SINALOA
+
+    "rich-text#sucursales-sinaloa": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Sinaloa"
+        }
+    },
+    "flex-layout.row#direcciones-sinaloa": {
+        "children":[
+            "flex-layout.col#direcciones-sinaloa-1",
+            "flex-layout.col#direcciones-sinaloa-2",
+            "flex-layout.col#direcciones-sinaloa-3"
+        ]
+    },
+    "flex-layout.col#direcciones-sinaloa-1": {
+        "children":[
+            "rich-text#texto-sinaloa-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-sinaloa-1": {
+        "props":{
+            "text": "**Sucursal:** Forum Culiacan\n**Dirección:** Blvd. Jose Diego Valdez #1676 Pte., Loc. Pa-28, Col. Desarrollo Urbano Tres Rios\n**Teléfono:** 667 712 4455\n**Email:** [culiacan@aldoconti.com](culiacan@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-sinaloa-2": {
+        "children":[
+            "rich-text#texto-sinaloa-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-sinaloa-2": {
+        "props":{
+            "text": "**Sucursal:** Los Mochis\n**Dirección:** Blvd. Centenario #805 Poniente, Loc. A-04 / A-05, P.A. Col. Centro, C.P. 81271\n**Teléfono:** 668 812 2223\n**Email:** [losmochis@aldoconti.com](losmochis@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-sinaloa-3": {},
+    
+    //TABASCO
+
+    "rich-text#sucursales-tabasco": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Tabasco"
+        }
+    },
+    "flex-layout.row#direcciones-tabasco": {
+        "children":[
+            "flex-layout.col#direcciones-tabasco-1",
+            "flex-layout.col#direcciones-tabasco-2",
+            "flex-layout.col#direcciones-tabasco-3"
+        ]
+    },
+    "flex-layout.col#direcciones-tabasco-1": {
+        "children":[
+            "rich-text#texto-tabasco-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-tabasco-1": {
+        "props":{
+            "text": "**Sucursal:** Altabrisa Tabasco\n**Dirección:** Periferico Carlos Pellicer Camara #501, Local 103 Col. Plutarco E. Calles\n**Teléfono:** 993 253 5448\n**Email:** [altabrisa@aldoconti.com](altabrisa@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-tabasco-2": {},
+    "flex-layout.col#direcciones-tabasco-3": {},
+    
+    //VERACRUZ
+
+    "rich-text#sucursales-ver": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Veracruz"
+        }
+    },
+    "flex-layout.row#direcciones-ver": {
+        "children":[
+            "flex-layout.col#direcciones-ver-1",
+            "flex-layout.col#direcciones-ver-2",
+            "flex-layout.col#direcciones-ver-3"
+        ]
+    },
+    "flex-layout.col#direcciones-ver-1": {
+        "children":[
+            "rich-text#texto-ver-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-ver-1": {
+        "props":{
+            "text": "**Sucursal:** Americas Xalapa\n**Dirección:** Carretera Federal Xalapa Veracruz Km 2 #680 Loc. 21-C Col. Pastoresa\n**Teléfono:** 228 812 9445\n**Email:** [jalapa_lasamericas@aldoconti.com](jalapa_lasamericas@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-ver-2": {
+        "children":[
+            "rich-text#texto-ver-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-ver-2": {
+        "props":{
+            "text": "**Sucursal:** Jalapa Centro\n**Dirección:** Enriquez #19 Col. Centro\n**Teléfono:** 228 812 3741\n**Email:** [jalapa_centro@aldoconti.com](jalapa_centro@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-ver-3": {
+        "children":[
+            "rich-text#texto-ver-3"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-ver-3": {
+        "props":{
+            "text": "**Sucursal:** Plaza Valle Orizaba\n**Dirección:** Av. Circunvalacion Norte #1430, P.B. Local L-08-09 Col. El Espinal\n**Teléfono:** 272 106 9331\n**Email:** [orizaba@aldoconti.com](orizaba@aldoconti.com)"
+        }
+    },
+    "flex-layout.row#direcciones-ver2": {
+        "children":[
+            "flex-layout.col#direcciones-ver-4",
+            "flex-layout.col#direcciones-ver-5",
+            "flex-layout.col#direcciones-ver-6"
+        ]
+    },
+    "flex-layout.col#direcciones-ver-4": {
+        "children":[
+            "rich-text#texto-ver-4"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-ver-4": {
+        "props":{
+            "text": "**Sucursal:** Las Americas Veracruz\n**Dirección:** Av. Las Americas S/N Loc. 10 Zona A Col. Ylang Ylang\n**Teléfono:** 229 130 0670\n**Email:** [lasamericas_veracruz@aldoconti.com](lasamericas_veracruz@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-ver-5": {},  
+    "flex-layout.col#direcciones-ver-6": {},
+    
+    //ZACATECAS
+
+    "rich-text#sucursales-zac": {
+        "props": {
+        "blockClass": "estado-nombre",
+        "text": "#### Zacatecas"
+        }
+    },
+    "flex-layout.row#direcciones-zac": {
+        "children":[
+            "flex-layout.col#direcciones-zac-1",
+            "flex-layout.col#direcciones-zac-2",
+            "flex-layout.col#direcciones-zac-3"
+        ]
+    },
+    "flex-layout.col#direcciones-zac-1": {
+        "children":[
+            "rich-text#texto-zac-1"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }
+    },
+    "rich-text#texto-zac-1": {
+        "props":{
+            "text": "**Sucursal:** Zacatecas\n**Dirección:** Av. Gonzalez Ortega #102 Col. Centro\n**Teléfono:** 492 922 0800\n**Email:** [zacatecas@aldoconti.com](zacatecas@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-zac-2": {
+        "children":[
+            "rich-text#texto-zac-2"
+        ],
+        "props":{
+            "blockClass": "info-estados-sucursales"
+        }        
+    },
+    "rich-text#texto-zac-2": {
+        "props":{
+            "text": "**Sucursal:** Galerias Zacatecas\n**Dirección:** Centro Comercial Galerias Zacatecas Loc. 246, Blvd. El Bote #202, Col. Cd Argentum\n**Teléfono:** 492 924 0543\n**Email:** [galerias_zacatecas@aldoconti.com](galerias_zacatecas@aldoconti.com)"
+        }
+    },    
+    "flex-layout.col#direcciones-zac-3": {}    
+}

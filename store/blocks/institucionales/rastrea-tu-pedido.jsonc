@@ -1,0 +1,46 @@
+{
+    "store.custom#rastreo": {
+        "blocks": [
+            "flex-layout.row#rastreo"
+        ]
+    },
+    "flex-layout.row#rastreo": {
+        "children": [
+            "flex-layout.col#rastreo"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "rastreo"
+            ]
+        }
+    },
+    "flex-layout.col#rastreo": {
+        "children": [
+            "rich-text#rastreo-title",
+            "rich-text#rastreo-text",
+            "iframe#rastreo"       
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#rastreo-title": {
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Rastrea tu pedido"
+        }
+    },
+    "rich-text#rastreo-text": {
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "Al momento en el que la paquetería recolecte tu pedido, te enviaremos un correo indicando tu número de guía. En ocasiones el numero de guía puede demorar 2 días hábiles en llegar.\n\n**Nota:** En caso de que tu CP no tenga cobertura de entrega a domicilio el paquete pasa a estado “Ocurre” y se depositara en la Oficina de Estafeta más cercana, es necesario que te comuniques a Estafeta para coordinar la entrega."
+        }
+    },
+    "iframe#rastreo": {
+        "props": {
+            "src": "https://rastreositecorecms.azurewebsites.net/?lang=0",
+            "blockClass": "order-finder"
+        }
+    }
+}    

@@ -1,0 +1,88 @@
+{
+  "store.custom#promociones": {
+    "blocks": ["flex-layout.row#promociones"]
+  },
+  "flex-layout.row#promociones": {
+    "children": ["flex-layout.col#text-promociones"],
+    "props": {
+      "blockClass": ["page-institucionales", "promociones"]
+    }
+  },
+  "flex-layout.col#text-promociones": {
+    "children": [
+      "rich-text#promociones-titulo",
+      "rich-text#promociones-parrafo1",
+      "image#citibanamex2",
+      "rich-text#promociones-parrafo1-1",
+      "image#bbva",
+      "rich-text#promociones-parrafo2",
+
+      //   "rich-text#promociones-parrafo3",
+      "image#santander",
+      "rich-text#promociones-parrafo5",
+      "image#scotia2",
+      "rich-text#promociones-parrafo6"
+
+      //   "rich-text#promociones-parrafo4"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#promociones-titulo": {
+    "props": {
+      "blockClass": "institucionales-titulo",
+      "text": "Promociones"
+    }
+  },
+  "rich-text#promociones-parrafo1": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "### **Promociones bancarias**"
+    }
+  },
+  "rich-text#promociones-parrafo1-1": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "**Beneficio:** hasta 12% de bonificación en compras a MSI.\n\n**Condiciones:**\n\n **·** 12% de bonificación si el usuario tiene una tarjeta de débito o nómina.\n\n **·** 8% de bonificación si el usuario solo tiene una tarjeta de crédito.\n\n **·** Monto mínimo de compra para acceder a la bonificación es de $7,000 acumulables en todos los comercios participantes.\n\n **·**  Inscripción en sitio Buen Fin de Citibanamex. "
+    }
+  },
+
+  "rich-text#promociones-parrafo2": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "**Beneficio:** Compra en una sola exhibición y obtén 3 MSI y Puntos Dobles con Tarjetas de crédito BBVA.\n\n**Condiciones:**\n\n **·** Vigencia del 10 al 16 de noviembre. \n\n **·** Monto mínimo de compra $5,000.\n\n **·** Para acceder a la promoción tendrás que inscribir tus compras en Línea BBVA a partir del 18 de Noviembre.\n\n **·** Aplica tope máximo de bonificación de 30,000 puntos. Consulta más en  [https://bancadigital.bbva.mx/buen-fin/](https://bancadigital.bbva.mx/buen-fin/)  ."
+    }
+  },
+  "rich-text#promociones-parrafo5": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "**Compras a un solo pago:**\n\n**Beneficio compras a un solo pago:** 15% de bonificación + 5% para likeU (20% de bonificación)\n\n**Condiciones:**\n\n **·** Mínimo de compra: $2,000.\n\n **·** Máximo de bonificación: $10,000.\n\n **·** Sin límite de clientes. \n\n **·** Inscripción en Super Wallet del 10 al 16 de noviembre de 2021.\n\n#### **Compras a MSI:**\n\n**Beneficio compras a MSI:**hasta 3 mensualidades de bonificación en compras desde 12 MSI\n\n **Condiciones**\n\n**·** 12 MSI: bonificación de la primera mensualidad.\n\n**·** 18 - 24 MSI: bonificación de las primeras 2 mensualidades.\n\n**·** Mínimo de compra: De acuerdo a cada comercio.\n\n**·** Sin máximo de bonificación.\n\n**·** Sin límite de clientes.\n\n**·** Inscripción en Super Wallet del 10 al 16 de noviembre de 2021. "
+    }
+  },
+  "rich-text#promociones-parrafo6": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "**Beneficio:**  50% más ScotiaPuntos en las compras realizadas durante el Buen Fin.\n\n**Condiciones:**\n\n **·** Vigencia del 10 al 16 de noviembre de 2021.\n\n **·** Participan solamente Tarjetas Scotia Travel Clásica, Oro, Platinum, y World Elite, Scotiabank Visa Signature, IDEAL Scotiabank y Scotiabank Tasa Baja Clásica y Oro inscritas al programa de recompensas Scotia Rewards Plus.\n\n **·** Para clientes que se inscriban respondiendo a la promoción a través del SMS o email que reciban a través de los datos de contacto registrados en Scotiabank, llamando al 55 5728 1900 o a través de scotiabank.com.mx/promociones/tdc/registro. \n\n **·** Compras realizadas en moneda nacional y extranjera, a revolvente y a Meses sin Intereses, en comercios físicos y online. No aplican disposiciones de efectivo, comisiones, cuota anual, pagos realizados en tesorería, casinos, notarías, pagos gubernamentales, transferencias de saldos o devoluciones de las compras realizadas durante el período de la vigencia.\n\n **·** Participan todas las compras mayores a: $2,500 pesos.\n\n **·** Aplica una bonificación por cliente por Tarjeta. La Tarjeta de Crédito se deberá encontrar vigente y al corriente al momento de recibir la bonificación.\n\n **·** No aplica para Tarjetas Scotiabank / AAdvantage®️️️️️ Platinum y World Elite, Tarjeta Viva, Básica, ni Empresarial. "
+    }
+  },
+  "rich-text#promociones-parrafo3": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "#### **Santander**\n**Fecha:** 27 al 30 de noviembre\n\n**Beneficio:** 15% de bonificación con Tarjeta Digital Santander\n\n**Condiciones Comprador:** Monto mínimo de compra de $2,800 pesos. Inscribirse a la campaña en Súper Wallet.\n\n**Términos y Condiciones:** Vigencia de la promoción y para activarla: del 27 y al 30 de noviembre de 2020. Para obtener el 15% de bonificación el primer requisito es inscribirse a la campaña en Súper Wallet. La bonificación aplica solamente en compras en línea con tarjeta de crédito digital acumuladas a un solo pago o meses sin intereses, a partir de $2,000 pesos. Monto máximo a bonificar por cliente $300. Solo aplica una bonificación por cliente y se considerará la facturación acumulada de todas su tarjetas digitales. Sólo se consideran clientes que estén al corriente de sus pagos. Participan los primeros 6,500 clientes que cumplan con los requisitos de la campaña. Se utilizará un criterio de desempate considerando a los primero en llegar a la facturación solicitada y a la fecha, hora, minuto y segundo de activación de la campaña en Súper Wallet. La bonificación se verá reflejada en el estado de cuenta de la tarjeta de mayor facturación en un periodo máximo de 60 días al finalizar la campaña. No aplica en servicio con devolución o cancelación. Solo aplica en compras nacionales. Periodo de aclaraciones: 01 de marzo de 2021"
+    }
+  },
+  "image#scotia2": {
+    "props": {
+      "src": "/arquivos/scotia-ds.png",
+      "blockClass": "logos-mediosPagoPromociones"
+    }
+  },
+  "image#citibanamex2": {
+    "props": {
+      "src": "/arquivos/Logo_Banamex.png",
+      "width": "140px",
+      "blockClass": "logos-mediosPagoPromociones2"
+    }
+  }
+}

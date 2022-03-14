@@ -1,0 +1,12 @@
+<svg id="user-shape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.973" height="20.973" viewBox="0 0 20.973 20.973">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1869" data-name="Rectángulo 1869" width="20.973" height="20.973" fill="rgba(0,0,0,0)"/>
+    </clipPath>
+  </defs>
+  <g id="user-shape-2" data-name="user-shape" clip-path="url(#clip-path)">
+    <g id="person">
+      <path id="Trazado_2" data-name="Trazado 2" d="M10.487,10.487A5.243,5.243,0,1,0,5.243,5.243a5.243,5.243,0,0,0,5.244,5.244Zm0,2.622C6.947,13.108,0,14.812,0,18.352v2.622H20.973V18.352c0-3.54-6.947-5.244-10.486-5.244Z"/>
+    </g>
+  </g>
+</svg>

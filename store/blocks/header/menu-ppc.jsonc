@@ -1,0 +1,49 @@
+{
+  "vtex.menu@2.x:menu#ppc": {
+    "children": [
+      "menu-item#misPedidos",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-topHeader"
+    }
+  },
+  "menu-item#misPedidos": {
+    "props": {
+      "id": "flex-layout-menu-misPedidos",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "mispedidos",
+        "size": "20px",
+        "viewBox": "0 0 16 16",
+        "activeClassName": "mis-pedidos-svg"
+      },
+      "iconId":"mispedidos",      
+      "itemProps": {
+        "type": "misPedidos",
+        "href": "/_secure/account#/orders",
+        "tagTitle": "Mis pedidos",
+        "text": "Mis pedidos"
+      },
+      "blockClass": "mis-pedidos"
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconProps": {
+        "id": "mispedidos",
+        "size": "30px",
+        "width": "30px",
+        "height": "auto",
+        "viewBox": "0 0 16 16",
+        "activeClassName": "mi-perfil"
+      },
+      "iconLabel": "Mi perfil",
+      "termsAndConditions": "AL CREAR UNA CUENTA, ACEPTAS LOS TÉRMINOS Y CONDICIONES Y EL AVISO DE PRIVACIDAD DE ALDO CONTI, CONSÚLTALOS.",
+      "blockClass": "login"
+    }
+  }
+}

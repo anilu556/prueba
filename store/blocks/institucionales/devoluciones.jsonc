@@ -1,0 +1,39 @@
+{
+    "store.custom#devoluciones": {
+        "blocks": [
+            "flex-layout.row#devoluciones"
+        ]
+    },
+    "flex-layout.row#devoluciones": {
+        "children": [
+            "flex-layout.col#devoluciones"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "devoluciones"
+            ]
+        }
+    },
+    "flex-layout.col#devoluciones": {
+        "children": [
+            "rich-text#devoluciones-title",
+            "rich-text#devoluciones-text"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#devoluciones-title": {
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Devoluciones"
+        }
+    },
+    "rich-text#devoluciones-text": {
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "**¿Qué debo hacer si me llega un artículo defectuoso?**\nAldo Conti Italia sólo vende artículos en perfecto estado, por lo que si, excepcionalmente, te llega una prenda con algún defecto, ponte en contacto con nuestro departamento de atención a clientes marcando sin costo al 800-3980-000.\n\n**¿Qué debo hacer si me llega un artículo incorrecto?**\nSi en alguna ocasión, por error, te llega un artículo que no has pedido, ponte en contacto con nuestro departamento de atención a clientes marcando sin costo al 800-3980-000.\n\n**Cambios y devoluciones en compras realizadas en la Tienda en Línea**\nSi no te quedó o no te gustó tu prenda, puedes cambiarla en cualquiera de nuestras sucursales de linea, únicamente deberas presentar tu ticket de compra. Recuerda que tú compra no puede ser mayor a 30 días, no se aceptan cambios en prendas de liquidación o con sastrería realizada **(Pendiente hasta reabrir sucursales)**. Si tu compra fue hecha del 01 al 30 de Junio, puedes solicitar un cambio de talla en cualquiera de nuestras sucursales de linea hasta el 31 de Julio del 2020."
+        }
+    }
+}    

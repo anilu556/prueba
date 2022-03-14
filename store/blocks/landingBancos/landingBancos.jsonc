@@ -1,0 +1,176 @@
+{
+  "store.custom#bancos": {
+    "blocks": ["flex-layout.row#amex-container"]
+    // "children": [
+    //     "responsive-layout.desktop#amex",
+    //     "responsive-layout.tablet#amex",
+    //     "responsive-layout.phone#amex"
+    // ]
+  },
+  "flex-layout.row#amex-container": {
+    "children": ["flex-layout.col#amex-container"],
+    "props": {
+      "blockClass": ["page-institucionales", "terms"]
+    }
+  },
+  "flex-layout.col#amex-container": {
+    "children": [
+      "rich-text#title",
+      "rich-text#title-2",
+      "image#bbva",
+      "rich-text#amex-text",
+      "image#citibanamex",
+      "rich-text#bbva",
+      "image#santander",
+      "rich-text#citibanamex",
+      "image#banorte",
+      "rich-text#santander",
+      "image#hsbc",
+      "rich-text#banorte",
+      "image#azteca",
+      "rich-text#hsbc"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "blockClass": "institucionales-titulo",
+      "text": "HOT SALE 2021 – 23 al 31 de mayo"
+    }
+  },
+  "rich-text#title-2": {
+    "props": {
+        "blockClass": "institucionales-texto",
+        "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  },
+  "image#amex": {
+    "props": {
+      "src": "/arquivos/Logo_AmericanExpress.png",
+      "width": "200px",
+      "blockClass": "images-logo-banks"
+    }
+  },
+  "rich-text#amex-text": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  },
+  "image#bbva": {
+    "props": {
+      "src": "/arquivos/Logo_BBVA.png",
+      "width": "200px",
+      "blockClass": "images-logo-banks"
+    }
+  },
+  "rich-text#bbva": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  },
+  "image#citibanamex": {
+    "props": {
+      "src": "/arquivos/Logo_Banamex.png",
+      "width": "200px",
+      "blockClass": "images-logo-banks"
+    }
+  },
+  "rich-text#citibanamex": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  },
+  "image#santander": {
+    "props": {
+      "src": "/arquivos/Logo_Santander.png",
+      "width": "200px",
+      "blockClass": "images-logo-banks"
+    }
+  },
+  "rich-text#santander": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  },
+  "image#banorte": {
+    "props": {
+      "src": "/arquivos/Logo_Banorte.png",
+      "width": "200px",
+      "blockClass": "images-logo-banks"
+    }
+  },
+  "rich-text#banorte": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  },
+  "image#hsbc": {
+    "props": {
+      "src": "/arquivos/Logo_HSBC.png",
+      "width": "200px",
+      "blockClass": "images-logo-banks"
+    }
+  },
+  "rich-text#hsbc": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  },
+  "image#azteca": {
+    "props": {
+      "src": "/arquivos/Logo_BAzteca.png",
+      "width": "200px",
+      "blockClass": "images-logo-banks"
+    }
+  },
+  "rich-text#azteca": {
+    "props": {
+      "blockClass": "institucionales-texto",
+      "text": "El acceso y uso de este sitio web está sujeto a los siguientes términos y condiciones y todas las leyes aplicables, así como a las políticas y principios que rigen a 27 MICRAS INTERNACIONAL, S.A. de C.V. al acceder y navegar éste sitio web, usted acepta, sin limitación ni condición alguna, los presentes términos y condiciones. En caso de no estar de acuerdo, le sugerimos abandone la presente página web.\n\n ### Contenido\n\nTodo contenido de la página web, incluyendo pero no limitando a texto, imágenes, gráficos, videos, etc., así como los derechos de autor, marcas registradas, imágenes comerciales y/u otra propiedad intelectual en dicho material, son propiedad de 27 MICRAS INTERNACIONAL, S.A. DE C.V., quien se reserva el derecho de emitir permisos para su explotación comercial. Usted puede descargar o copiar los contenidos y otros materiales descargables exhibidos en el sitio solo para uso personal. sin embargo, usted al leer el presente aviso, acepta que no puede distribuir, modificar, transmitir, reutilizar, reenviar o utilizar el contenido de este sitio para fines de comercialización o publicidad, incluyendo el audio y/o video salvo con permiso por escrito de 27 MICRAS, S.A. DE C.V.\n\nSi no te quedó o no te gustó tu prenda, cámbiala en cualquiera de nuestras 150 sucursales.\n\nÚnicamente deberás presentar:\n\n- Ticket de compra.\n- Tu prenda en perfecto estado y con todas sus etiquetas.\n\nTodo cambio o devolución debe efectuarse, a más tardar **30 días posteriores a la entrega del producto.**\n\nVer todas las [Políticas de compra](/politicas-de-compra)"
+    }
+  }
+  // "responsive-layout.desktop#amex": {
+  //     "children": [
+  //         "image#amex-desktop"
+  //     ]
+  // },
+  // "image#amex-desktop": {
+  //     "props": {
+  //         "src": "/arquivos/amex-desktop.jpg",
+  //         "width": "200px"
+  //         // "blockClass": "no-perder-images"
+  //     }
+  // },
+  // "responsive-layout.tablet#amex": {
+  //     "children": [
+  //         "image#amex-tablet"
+  //     ]
+  // },
+  // "image#amex-tablet": {
+  //     "props": {
+  //         "src": "/arquivos/amex-tablet.jpg",
+  //         "width": "100%"
+  //         // "blockClass": "no-perder-images"
+  //     }
+  // },
+  // "responsive-layout.phone#amex": {
+  //     "children": [
+  //         "image#amex-phone"
+  //     ]
+  // },
+  // "image#amex-phone": {
+  //     "props": {
+  //         "src": "/arquivos/amex-phone.jpg",
+  //         "width": "100%"
+  //         // "blockClass": "no-perder-images"
+  //     }
+  // }
+}

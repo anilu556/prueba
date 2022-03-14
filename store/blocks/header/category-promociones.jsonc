@@ -1,0 +1,272 @@
+{
+  "vtex.menu@2.x:submenu#category-promociones": {
+    "children": ["flex-layout.row#submenuPromociones"],
+    "props": {
+      "width": "100%",
+      "blockClass": "submenu-promos"
+    }
+  },
+  "flex-layout.row#submenuPromociones": {
+    "children": ["flex-layout.col#list1-promociones"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "menu-categorias"
+    }
+  },
+  // COLUMNA 1//
+  "flex-layout.col#list1-promociones": {
+    "children": [
+      //"menu-item#menu-promo3de-349x999",
+      "menu-item#menu-promo3x999"
+      //"menu-item#menu-promo-polos"
+      // "menu-item#menu-buenfin",
+      // "menu-item#menu-promociones-bancarias"
+      // "menu-item#menu-promo3x1399"
+      // "menu-item#menu-promo-bancaria"
+      //"menu-item#menu-promovacaciones"
+      //"menu-item#menu-promo3x499",//
+      //"menu-item#menu-promo3x899",//
+      //"menu-item#menu-promoAbrigosa999",//
+      //"menu-item#menu-promoChamarrasa499",//
+      //"menu-item#menu-promoSuéteresa199",//
+      //"menu-item#menu-promoBufandasa149"//
+    ],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "menu-item#menu-promovacaciones": {
+    "props": {
+      "id": "menu-item-promovacaciones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vacaciones15",
+        "noFollow": false,
+        "tagTitle": "-15% adicional VACACIONES15",
+        "text": "-15% adicional VACACIONES15"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo3x999": {
+    "props": {
+      "id": "menu-item-promo3x999",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promocion-3x1199",
+        "noFollow": false,
+        "tagTitle": "Promoción 3 x $999",
+        "text": "Promoción 3 x $999"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo-polos": {
+    "props": {
+      "id": "menu-item-promo-polos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/playeras/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Polos de $399 a $299",
+        "text": "Polos de $̶3̶9̶9̶ a $299"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo-bancaria": {
+    "props": {
+      "id": "menu-item-promo-bancaria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promociones-bancarias",
+        "noFollow": false,
+        "tagTitle": "Promociones Bancarias",
+        "text": "Promociones Bancarias"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo3x1399": {
+    "props": {
+      "id": "menu-item-promo3x1399",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promocion-3x1399",
+        "noFollow": false,
+        "tagTitle": "Día del padre",
+        "text": "Día del padre"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-buenfin": {
+    "props": {
+      "id": "menu-item-buenfin",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/buen-fin",
+        "noFollow": false,
+        "tagTitle": "Buen Fin",
+        "text": "Buen Fin"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promociones-bancarias": {
+    "props": {
+      "id": "menu-item-promociones-bancarias",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promociones",
+        "noFollow": false,
+        "tagTitle": "Promociones Bancarias",
+        "text": "Promociones Bancarias"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo3de-349x999": {
+    "props": {
+      "id": "menu-item-promo3x499",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promocion-3-de-349x999",
+        "noFollow": false,
+        "tagTitle": "Promoción 3 de $349 x $999",
+        "text": "Promoción 3 de $349 x $999"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo3x499": {
+    "props": {
+      "id": "menu-item-promo3x499",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/366?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Promoción 3 x $499",
+        "text": "Promoción 3 x $499"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promo3x899": {
+    "props": {
+      "id": "menu-item-promo3x899",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/365?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Promoción 3 x $899",
+        "text": "Promoción 3 x $899"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+
+  "menu-item#menu-promoAbrigosa999": {
+    "props": {
+      "id": "menu-item-promo3x899",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/hombre/ropa/abrigos/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Abrigos a $999",
+        "text": "Abrigos a $999"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promoChamarrasa499": {
+    "props": {
+      "id": "menu-item-promo3x899",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/hombre/ropa/chamarras/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Chamarras a $499",
+        "text": "Chamarras a $499"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promoSuéteresa199": {
+    "props": {
+      "id": "menu-item-promo3x899",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/hombre/ropa/sweaters/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Suéteres a $199",
+        "text": "Suéteres a $199"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-promoBufandasa149": {
+    "props": {
+      "id": "menu-item-promo3x899",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/hombre/accesorios/bufandas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Bufandas a $149",
+        "text": "Bufandas a $149"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+
+  // COLUMNA 1 --END--
+
+  // MOBILE MENU PROMOS
+  "flex-layout.col#menuPromos": {
+    "children": [
+      //"menu-item#menu-promo3de-349x999",
+      "menu-item#menu-promo3x999"
+      //"menu-item#menu-promo-polos"
+      // "menu-item#menu-buenfin",
+      // "menu-item#menu-promociones-bancarias"
+      // "menu-item#menu-promo3x1399"
+      // "menu-item#menu-promo-bancaria"
+      //"menu-item#menu-promovacaciones"
+
+      //"menu-item#menu-promo3x499",
+      //"menu-item#menu-promo3x899",
+      //"menu-item#menu-promoAbrigosa999",
+      //"menu-item#menu-promoChamarrasa499",
+      //"menu-item#menu-promoSuéteresa199",
+      //"menu-item#menu-promoBufandasa149"
+    ]
+  }
+}

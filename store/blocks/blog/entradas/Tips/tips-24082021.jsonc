@@ -1,0 +1,90 @@
+{
+    "store.custom#tips-jeans": {
+        "children": [
+            "breadcrumb",
+            "responsive-layout.desktop#header-tips-24082021",
+            "responsive-layout.mobile#header-tips-24082021",
+            "flex-layout.row#titulo-entrada-blog",
+            "flex-layout.row#blog-primer-bloque2",
+            "flex-layout.row#blog-segundo-bloque",
+            "flex-layout.row#blog-tercer-bloque",
+            "flex-layout.row#blog-cuarto-bloque",
+            "flex-layout.row#blog-quinto-bloque",
+            "flex-layout.row#blog-sexto-bloque",
+            "flex-layout.row#blog-septimo-bloque",
+            "flex-layout.row#blog-octavo-bloque",
+            "flex-layout.row#blog-noveno-bloque",
+            "rich-text#titulo-jeans",
+            "list-context.product-list#home-mas-frescos-products"
+        ]
+    },
+    "responsive-layout.desktop#header-tips-24082021": {
+        "children": ["flex-layout.row#header-tips", "flex-layout.row#return-blog-button-tips"]
+    },    
+    "responsive-layout.mobile#header-tips-24082021": {
+        "children":[
+            "flex-layout.row#mobile-btn-return-tips"
+        ]
+    },
+    "list-context.product-list#vitrina-jeans": {
+        "blocks": [      
+            "product-summary.shelf"
+        ],
+        "children": [
+          "rich-text#titulo-jeans",
+          "slider-layout#vitrina-jeans"
+        ]   
+    },
+    "product-summary.shelf#jeans": {
+        "children": [
+            "stack-layout#prodsum",
+            "product-summary-name",
+            // "vtex.store-components:product-brand",
+            // "product-rating-inline",
+            "product-summary-price",
+            "add-to-cart-button"
+        ]
+    },
+    "rich-text#titulo-jeans": {
+        "props":{
+          "text": "Recomendados",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "shelftitle-notfound"
+        }
+    },
+    "slider-layout#vitrina-jeans": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "notFound-recommendedShelf"
+        }
+    },
+    "list-context.product-list#home-mas-frescos-products": {
+        "blocks": ["product-summary.shelf#jeans"],
+        "children": ["slider-layout#home-mas-frescos-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#home-mas-frescos-products": {
+        "title": "Vitrina Home proms",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 5,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots":"mobileOnly",
+          "blockClass": "shelf"
+        }
+      }
+}

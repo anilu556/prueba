@@ -1,0 +1,64 @@
+{
+    "store.custom#tiendas": {
+        "blocks": [
+            "flex-layout.row#tiendas"
+        ]
+    },
+    "flex-layout.row#tiendas": {
+        "children": [
+            "flex-layout.col#tiendas"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "tiendas"
+            ]
+        }
+    },
+    "flex-layout.col#tiendas": {
+        "children": [
+            "rich-text#title-tiendas",
+            "flex-layout.row#tiendas-row-ags",
+            "flex-layout.row#tiendas-row-bc",
+            "flex-layout.row#tiendas-row-bcs",
+            "flex-layout.row#tiendas-row-camp",
+            "flex-layout.row#tiendas-row-cdmx",
+            "flex-layout.row#tiendas-row-chih",
+            "flex-layout.row#tiendas-row-chis",
+            "flex-layout.row#tiendas-row-coah",
+            "flex-layout.row#tiendas-row-col",
+            "flex-layout.row#tiendas-row-estadodemexico",
+            "flex-layout.row#tiendas-row-gro",
+            "flex-layout.row#tiendas-row-gto",
+            "flex-layout.row#tiendas-row-hgo",
+            "flex-layout.row#tiendas-row-jal",
+            "flex-layout.row#tiendas-row-mex",
+            "flex-layout.row#tiendas-row-mich",
+            "flex-layout.row#tiendas-row-mor",
+            "flex-layout.row#tiendas-row-nay",
+            "flex-layout.row#tiendas-row-nl",
+            "flex-layout.row#tiendas-row-oax",
+            "flex-layout.row#tiendas-row-pue",
+            "flex-layout.row#tiendas-row-qr",
+            "flex-layout.row#tiendas-row-qro",
+            "flex-layout.row#tiendas-row-slp",
+            "flex-layout.row#tiendas-row-sin",
+            "flex-layout.row#tiendas-row-son",
+            "flex-layout.row#tiendas-row-tab",
+            "flex-layout.row#tiendas-row-tamps",
+            "flex-layout.row#tiendas-row-tlax",
+            "flex-layout.row#tiendas-row-ver",
+            "flex-layout.row#tiendas-row-yuc"
+        ],
+        "props": {
+            "blockclass": "",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-tiendas": {
+        "props": {
+            "text": "# Tiendas",
+            "blockClass": "title-tiendas"
+        }
+    }
+}

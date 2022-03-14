@@ -1,0 +1,312 @@
+{
+    "vtex.menu@2.x:submenu#category-destacados": {
+        "children":[
+            "flex-layout.row#submenuDestacados"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "submenu-ropa"
+        }
+    },
+    "flex-layout.row#submenuDestacados":{
+        "children": [
+          // "flex-layout.col#col1-back-pack",
+          "flex-layout.col#col1-maleta",
+          "flex-layout.col#col2-loncheras",
+          "flex-layout.col#col3-botas-de-lluvia",
+          "flex-layout.col#col4-impermeable",
+          "flex-layout.col#col5-sombrilla"
+          ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-categorias"
+        }  
+    },
+    //Maleta
+    "flex-layout.col#col1-maleta": {
+      "children": [
+        "image#menu-maleta",
+        "rich-text#title-img0"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-maleta": {
+      "props":{
+        "link": "/Maleta-Aldo-Conti-H7861NEG/p",
+        "src": "",
+        "alt": "Maleta",
+        "title": "Maleta",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    "rich-text#title-img0": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Maleta](/Maleta-Aldo-Conti-H7861NEG/p)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+
+    //Finish maleta
+    // COL 1
+    "flex-layout.col#col1-back-pack": {
+      "children": [
+        "image#menu-back-pack",
+        "rich-text#title-img1"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-back-pack": {
+      "props":{
+        "link": "/Backpack-Vermonti-H7436NEG/p",
+        "src": "",
+        "alt": "Back Pack",
+        "title": "Back Pack",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    "rich-text#title-img1": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Back Pack](/Backpack-Vermonti-H7436NEG/p)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 1 --END--
+
+    // COL 2
+    "flex-layout.col#col2-loncheras": {
+      "children": [
+        "image#menu-loncheras",
+        "rich-text#title-img2"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-loncheras": {
+      "props":{
+        "link": "/loncheras?_q=loncheras&map=ft",
+        "src": "",
+        "alt": "Loncheras",
+        "title": "Loncheras"
+      }
+    },
+    "rich-text#title-img2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Loncheras](/loncheras?_q=loncheras&map=ft)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 2 --END
+
+    // COL 3
+    "flex-layout.col#col3-botas-de-lluvia": {
+      "children": [
+        "image#menu-botas-de-lluvia",
+        "rich-text#title-img3"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-botas-de-lluvia": {
+      "props":{
+        "link": "/rain-boots-aldo-conti-h7705neg/p?skuId=17194",
+        "src": "",
+        "alt": "Botas de lluvia",
+        "title": "Botas de lluvia"
+      }
+    },
+    "rich-text#title-img3": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Botas de lluvia](/rain-boots-aldo-conti-h7705neg/p?skuId=17194)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 3 --END--
+
+    // COL 4
+    "flex-layout.col#col4-impermeable": {
+        "children": [
+          "image#menu-impermeable",
+          "rich-text#title-img4"
+        ],
+        "props":{
+          "blockClass": "menu-hoversombra"
+        }
+      },
+      "image#menu-impermeable": {
+        "props":{
+          "link": "/impermeable-vermonti-h8126mar/p?skuId=20713",
+          "src": "",
+          "alt": "Impermeable",
+        "title": "Impermeable"
+        }
+      },
+      "rich-text#title-img4": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "[Impermeable](/impermeable-vermonti-h8126mar/p?skuId=20713)",
+          "blockClass": [
+            "link-carrusel-menuMobile"
+          ]
+        }
+      },
+    // COL 4 --END--
+
+    // COL 5
+    "flex-layout.col#col5-sombrilla": {
+        "children": [
+          "image#menu-sombrilla",
+          "rich-text#title-img5"
+        ],
+        "props":{
+          "blockClass": "menu-hoversombra"
+        }
+      },
+      "image#menu-sombrilla": {
+        "props":{
+          "link": "/hombre/accesorios/sombrillas/?O=OrderByReleaseDateDESC",
+          "src": "",
+          "alt": "Sombrilla",
+        "title": "Sombrilla"
+        }
+      },
+      "rich-text#title-img5": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "[Sombrilla](/hombre/accesorios/sombrillas/?O=OrderByReleaseDateDESC)",
+          "blockClass": [
+            "link-carrusel-menuMobile"
+          ]
+        }
+      },
+      // COL 5 --END--
+    
+    // MOBILE MENU Destacados
+    "flex-layout.col#menuDestacados":{
+      "children": [
+          // "menu-item#menu-back-pack",
+          "menu-item#menu-maleta",
+          "menu-item#menu-loncheras",
+          "menu-item#menu-botas-de-lluvia",
+          "menu-item#menu-impermeable",
+          "menu-item#menu-sombrilla"
+      ]
+    },
+
+    "menu-item#menu-maleta": {
+      "props": {
+        "id": "menu-item-menu-maleta",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Maleta-Aldo-Conti-H7861NEG/p",
+          "noFollow": false,
+          "tagTitle": "Maleta",
+          "text": "Maleta"
+        }
+      }
+    },
+
+    "menu-item#menu-back-pack": {
+      "props": {
+        "id": "menu-item-menu-back-pack",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/Backpack-Vermonti-H7436NEG/p",
+          "noFollow": false,
+          "tagTitle": "Casual",
+          "text": "Back Pack a $249"
+        }
+      }
+    },
+
+    "menu-item#menu-loncheras": {
+      "props": {
+        "id": "menu-item-menu-loncheras",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/loncheras?_q=loncheras&map=ft",
+          "noFollow": false,
+          "tagTitle": "Loncheras",
+          "text": "Loncheras a $199"
+        }
+      }
+    },
+
+    "menu-item#menu-botas-de-lluvia": {
+      "props": {
+        "id": "menu-item-menu-sandalias-pantuflas-mas",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/rain-boots-aldo-conti-h7705neg/p?skuId=17194",
+          "noFollow": false,
+          "tagTitle": "Botas de lluvia",
+          "text": "Botas de lluvia a $199"
+        }
+      }
+    },
+
+    "menu-item#menu-impermeable": {
+      "props": {
+        "id": "menu-item-menu-impermeable",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/impermeable-vermonti-h8126mar/p?skuId=20713",
+          "noFollow": false,
+          "tagTitle": "Impermeable",
+          "text": "Impermeable a $299"
+        }
+      }
+    },
+
+    "menu-item#menu-sombrilla": {
+        "props": {
+          "id": "menu-item-menu-sombrilla",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/hombre/accesorios/sombrillas/?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Sombrilla",
+            "text": "Sombrillas a $249"
+          }
+        }
+      }
+}

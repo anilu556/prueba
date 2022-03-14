@@ -1,0 +1,316 @@
+{
+    "slider-layout#menu-categorias-mobile": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 2,
+              "tablet": 2,
+              "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "blockClass": "carousel"
+          },
+          "children": [
+              "flex-layout.col#1-mobile", 
+              "flex-layout.col#2-mobile", 
+              "flex-layout.col#3-mobile",
+              "flex-layout.col#4-mobile",
+              "flex-layout.col#5-mobile",
+              //"flex-layout.col#6-mobile",
+              "flex-layout.col#7-mobile",
+              "flex-layout.col#8-mobile",
+              "flex-layout.col#9-mobile",
+              "flex-layout.col#10-mobile"
+            ]
+        },
+        "flex-layout.col#1-mobile": {
+            "children":[
+                "image#1-mobile",
+                "rich-text#testo1"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#1-mobile": {
+        "props": {
+            "link": "/hombre/ropa/trajes/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/AC_FotoCarrusel01_Mobile.png"
+        }
+        },
+        "rich-text#testo1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Trajes](/hombre/ropa/trajes/?O=OrderByReleaseDateDESC)",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": [
+                "help-message",
+                "link-carrusel-menuMobile"
+            ]
+            }
+        },
+        // Menu 2
+        "flex-layout.col#2-mobile": {
+            "children":[
+                "image#2-mobile",
+                "rich-text#testo2"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#2-mobile": {
+            "props": {
+            "link": "/hombre/ropa/camisas/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/AC_FotoCarrusel02_Mobile.png"
+            }
+        },
+        "rich-text#testo2": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Camisas](/hombre/ropa/camisas/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 3
+        "flex-layout.col#3-mobile": {
+            "children":[
+                "image#3-mobile",
+                "rich-text#testo3"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#3-mobile": {
+        "props": {
+            "link": "/hombre/ropa/playeras/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/AC_FotoCarrusel03_Mobile.png"
+        }
+        },
+        "rich-text#testo3": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Playeras](/hombre/ropa/playeras/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 4
+        "flex-layout.col#4-mobile": {
+            "children":[
+                "image#4-mobile",
+                "rich-text#testo4"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#4-mobile": {
+            "props": {
+            "link": "/hombre/accesorios/bufandas/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/categorias-1-mb.jpg"
+            }
+        },
+        "rich-text#testo4": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Bufandas](/hombre/accesorios/bufandas/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 5
+        "flex-layout.col#5-mobile": {
+            "children":[
+                "image#5-mobile",
+                "rich-text#testo5"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#5-mobile": {
+            "props": {
+            "link": "/hombre/accesorios/corbatas-y-set/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/categorias-6-mb.jpg"
+            }
+        },
+        "rich-text#testo5": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Corbatas](/hombre/accesorios/corbatas-y-set/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 6
+        "flex-layout.col#6-mobile": {
+            "children":[
+                "image#6-mobile",
+                "rich-text#testo6"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#6-mobile": {
+            "props": {
+            "link": "/hombre/accesorios/cubrebocas/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/categorias-2-mb.jpg"
+            }
+        },
+        "rich-text#testo6": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Cubre bocas](/hombre/accesorios/cubrebocas/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 7
+        "flex-layout.col#7-mobile": {
+            "children":[
+                "image#7-mobile",
+                "rich-text#testo7"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#7-mobile": {
+            "props": {
+            "link": "/hombre/accesorios/gorros/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/categorias-3-mb.jpg"
+            }
+        },
+        "rich-text#testo7": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Gorros](/hombre/accesorios/gorros/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 8
+        "flex-layout.col#8-mobile": {
+            "children":[
+                "image#8-mobile",
+                "rich-text#testo8"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#8-mobile": {
+            "props": {
+            "link": "/hombre/accesorios/guantes/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/categorias-4-mb.jpg"
+            }
+        },
+        "rich-text#testo8": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Guantes](/hombre/accesorios/guantes/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 9
+        "flex-layout.col#9-mobile": {
+            "children":[
+                "image#9-mobile",
+                "rich-text#testo9"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#9-mobile": {
+            "props": {
+            "link": "/lonchera-aldo-conti-h7355neg/p",
+            "src": "/arquivos/categorias-7-mb.jpg"
+            }
+        },
+        "rich-text#testo9": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Loncheras](/lonchera-aldo-conti-h7355neg/p)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        },
+        // Menu 10
+        "flex-layout.col#10-mobile": {
+            "children":[
+                "image#10-mobile",
+                "rich-text#testo10"
+            ],
+            "props": {
+                "blockClass": "img-carousel-menu-mobile"
+            }
+        },
+        "image#10-mobile": {
+            "props": {
+            "link": "/hombre/accesorios/relojes/?O=OrderByReleaseDateDESC",
+            "src": "/arquivos/categorias-5-mb.jpg"
+            }
+        },
+        "rich-text#testo10": {
+            "props": {
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "text": "[Relojes](/hombre/accesorios/relojes/?O=OrderByReleaseDateDESC)",
+                "textColor": "c-on-emphasis",
+                "font": "t-heading-5",
+                "blockClass": [
+                    "help-message",
+                    "link-carrusel-menuMobile"
+                ]
+            }
+        }
+}

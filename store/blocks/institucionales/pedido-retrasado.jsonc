@@ -1,0 +1,46 @@
+{
+    "store.custom#pedido-retrasado": {
+        "blocks": [
+          "flex-layout.row#pedido-retrasado"
+        ]
+    },
+    "flex-layout.row#pedido-retrasado": {
+        "children": [
+          "flex-layout.col#pedido-retrasado"
+        ],
+        "props": {
+          "blockClass": [
+            "page-institucionales",
+            "pedido-retrasado"
+          ]
+        }
+    },
+    "flex-layout.col#pedido-retrasado":{
+        "children": [
+            "rich-text#pedido-retrasado-title",
+            "rich-text#pedido-retrasado-1",
+            "rich-text#pedido-retrasado-2"
+          ],
+          "props": {
+            "preventVerticalStretch": true
+        }        
+    },
+    "rich-text#pedido-retrasado-title":{
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Pedido retrasado"
+        }        
+    },
+    "rich-text#pedido-retrasado-1":{
+        "props": {
+            "blockClass": ["institucionales-texto", "texto-resaltado"],
+            "text": "Durante Hot Sale, Buen Fin y Diciembre (18-31) los pedidos pueden demorar de 3 a 10 días hábiles. Haremos todo lo posible para que tu pedido llegue en tiempo y forma."
+        }
+    },
+    "rich-text#pedido-retrasado-2":{
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "Si tu pedido excede dicho tiempo de entrega enviar un correo a: [ecommerce@aldoconti.com](ecommerce@aldoconti.com)\n\nEl Asunto del correo deberá contener: **“Pedido Retrasado” seguido de tu numero de pedido (12 dígitos seguido de -01)**\n\nEl cuerpo del correo deberá contener: **Número de pedido (12 dígitos seguido de -01) seguido de tu nombre completo y dirección de correo con la que realizaste tu pedido**\n\nEn breve agregaremos una nota de “agilizar pedido” a nuestra paquetería. Haremos todo lo posible para acortar el tiempo de entrega. Consulta términos y condiciones [aquí](/politicas-de-compra)"
+        }
+    }    
+}

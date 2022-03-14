@@ -1,0 +1,53 @@
+{
+    "store.custom#pagos": {
+        "blocks": [
+            "flex-layout.row#pagos"
+        ]
+    },
+    "flex-layout.row#pagos": {
+        "children": [
+            "flex-layout.col#pagos"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "pagos"
+            ]
+        }
+    },
+    "flex-layout.col#pagos": {
+        "children": [
+            "rich-text#pagos-title",
+            "rich-text#pagos-text",
+            "responsive-layout.desktop#images-pagos",
+            "rich-text#pagos-text-2"            
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#pagos-title": {
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Pagos"
+        }
+    },
+    "rich-text#pagos-text": {
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "**¿Qué forma de pago puedo utilizar para realizar mi compra?**\nDisponemos de los siguientes medios de pago con tarjetas de crédito y debito: Visa, Mastercard, American Express y Paypal. Pagos en efectivo en tiendas OXXO y SEVEN ELEVEN."
+        }
+    },
+    "responsive-layout.desktop#images-pagos": {
+        "children":[
+            "flex-layout.row#footer-mobile-mediosPago1",
+            "flex-layout.row#footer-mobile-mediosPago2"
+        ]
+    },
+    "rich-text#pagos-text-2": {
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "**¿Por qué razón puede ser rechazada mi tarjeta de crédito?**\nTu tarjeta puede ser rechazada por una de las siguientes razones:\n\n- La tarjeta puede estar caducada: comprueba que tu tarjeta no exceda la fecha de validez.\n- Puede que se haya alcanzado el límite de la tarjeta: consulta con tu banco que la tarjeta no haya excedido el importe permitido para efectuar compras.\n- Puede que algún dato introducido sea incorrecto: comprueba que hayas rellenado correctamente todos los campos necesarios.\n\n**¿Es seguro usar mi tarjeta de crédito en la web?**\nSí, los datos se transmiten de forma encriptada SSL. Tras verificar que la tarjeta está adherida al sistema CES, el sistema contactará con el banco que la ha emitido para que el comprador autorice la compra. Cuando el banco confirme la autenticidad, se efectuará el cargo en la tarjeta. En caso contrario, el pedido será cancelado."
+        }
+    }
+}    

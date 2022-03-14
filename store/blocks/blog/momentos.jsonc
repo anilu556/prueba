@@ -1,0 +1,288 @@
+{
+    "store.custom#momentos": {
+        "blocks": [
+          "breadcrumb",
+          "responsive-layout.desktop#header-momentos",          
+          "responsive-layout.mobile#header-momentos",
+          "flex-layout.row#home-momentos-home-tienda-mercado-libre",
+          "flex-layout.row#home-momentos-home-hot-fashion-2021",
+          "flex-layout.row#home-momentos-home-el-mejor-regalo",
+          "flex-layout.row#home-momentos-home-proms",
+          "flex-layout.row#home-momentos-29-03-2021",
+          "flex-layout.row#home-momentos-3",
+          "flex-layout.row#home-momentos-17-03-2021",     
+          "flex-layout.row#home-momentos-2",
+          "flex-layout.row#home-momentos"
+
+        ]
+    },
+    "responsive-layout.desktop#header-momentos": {
+        "children": [
+            "flex-layout.row#header-momentos",
+            "flex-layout.row#return-blog-button" 
+        ]
+    },
+    "flex-layout.row#home-momentos-home-proms": {
+        "children":["flex-layout.col#home-momentos-home-proms"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-momentos-home-proms": {
+        "children":["flex-layout.row#principal-momentos-home-proms"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+
+    "flex-layout.row#principal-momentos-home-proms": {
+        "children":["list-context.image-list#category-momentos-home-proms"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-momentos-home-proms": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/tira-momentos-home.jpg",
+                "mobileImage": "/arquivos/tira-momentos-home-mobile.jpg"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    },
+    // momentos el mejor regalo
+    "flex-layout.row#home-momentos-home-el-mejor-regalo": {
+        "children":["flex-layout.col#home-momentos-el-mejor-regalo"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-momentos-el-mejor-regalo": {
+        "children":["flex-layout.row#principal-momentos-el-mejor-regalo"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-momentos-el-mejor-regalo": {
+        "children":["list-context.image-list#category-momentos"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-momentos-el-mejor-regalo": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    },
+    // aca termina momentos el mejor regalo
+    "flex-layout.row#header-momentos": {
+        "children": ["flex-layout.col#header-momentos"],
+        "props":{
+            "blockClass": "header-tendencias"
+        }
+    },
+    "flex-layout.col#header-momentos": {
+        "children":["rich-text#header-momentos"]
+    },
+    "rich-text#header-momentos": {
+        "props": {
+            "text": "Momentos",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "header-tendencias-title"
+        }
+    },    
+    "responsive-layout.mobile#header-momentos": {
+        "children":["flex-layout.row#mobile-btn-return-momentos"]
+    },
+    "flex-layout.row#mobile-btn-return-momentos": {
+        "children": ["flex-layout.col#mobile-btn-return-momentos"],
+        "props":{
+            "blockClass": "mobile-return-blog"
+        }
+    },
+    "flex-layout.col#mobile-btn-return-momentos": {
+        "children":["rich-text#mobile-btn-return-momentos"]
+    },
+    "rich-text#mobile-btn-return-momentos": {
+        "props": {
+            "text": "[&#8249;](/blog)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "btn-return-text--momentos"
+        }
+    },
+    "flex-layout.row#home-momentos": {
+        "children":["flex-layout.col#home-momentos"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-momentos": {
+        "children":["flex-layout.row#principal-momentos"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+
+    "flex-layout.row#principal-momentos": {
+        "children":["list-context.image-list#category-momentos"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-momentos": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    },
+    "flex-layout.row#home-momentos-2": {
+        "children":["flex-layout.col#home-momentos"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.row#home-momentos-3": {
+        "children":["flex-layout.col#home-momentos"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.row#home-momentos-29-03-2021": {
+        "children":["flex-layout.col#home-momentos-29-03-2021"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-momentos-29-03-2021": {
+        "children":["flex-layout.row#principal-momentos-29-03-2021"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+
+    "flex-layout.row#principal-momentos-29-03-2021": {
+        "children":["list-context.image-list#category-momentos-29-03-2021"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-momentos-29-03-2021": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/1445x959pxportadamomentoso.jpg",
+                "mobileImage": "/arquivos/355x196pxportadamomentoso-mobile.jpg"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    },
+    "flex-layout.row#home-momentos-17-03-2021": {
+        "children":["flex-layout.col#home-momentos"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    // momentos hot-fashion-2021
+    "flex-layout.row#home-momentos-home-hot-fashion-2021": {
+        "children":["flex-layout.col#home-momentos-hot-fashion-2021"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-momentos-hot-fashion-2021": {
+        "children":["flex-layout.row#principal-momentos-hot-fashion-2021"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-momentos-hot-fashion-2021": {
+        "children":["list-context.image-list#category-momentos-hot-fashion-2021"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-momentos-hot-fashion-2021": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    },
+    // aca termina momentos hot-fashion-2021
+
+    // momentos tienda-mercado-libre
+    "flex-layout.row#home-momentos-home-tienda-mercado-libre": {
+        "children":["flex-layout.col#home-momentos-tienda-mercado-libre"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-momentos-tienda-mercado-libre": {
+        "children":["flex-layout.row#principal-momentos-tienda-mercado-libre"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-momentos-tienda-mercado-libre": {
+        "children":["list-context.image-list#category-momentos-tienda-mercado-libre"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-momentos-tienda-mercado-libre": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    }
+    // aca termina momentos tienda-mercado-libre
+}

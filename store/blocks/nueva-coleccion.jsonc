@@ -1,0 +1,225 @@
+{
+  "store.custom#lp-nc-aldoconti":{
+    "blocks":[
+      "flex-layout.row#content-intitutional-bread-page-shop",
+      "responsive-layout.desktop#lp-nueva-coleccion",
+      "responsive-layout.mobile#lp-nueva-coleccion",
+      "search-result-layout.customQuery#lp-nueva-coleccion",
+      "responsive-layout.desktop#lp-envio-box",
+      "responsive-layout.mobile#lp-envio-box"
+    ],
+    "props":{
+      "blockClass": "content-sections",
+      "context":{
+        "skusFilter":"ALL",
+        "maxItemsPerPage":21,
+        "simulationBehavior":"skip"
+      }
+    }
+  },
+
+  "flex-layout.row#content-intitutional-bread-page-shop": {
+    "children": [
+      "flex-layout.col#content-bread-page-wrapper-shop"
+    ],
+
+    "props": {
+      "blockClass": "content-box-breadcrumb"
+    }
+  },
+
+  "flex-layout.col#content-bread-page-wrapper-shop": {
+    "children": [
+      "rich-text#breadbrumb-shop"            
+    ]
+  },
+
+  "rich-text#breadbrumb-shop": {
+    "title": "Bread-Crumb",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "link-menu-btn",
+      "text": "[Home](/) <span class='vtex-rich-text-0-x-paragraph--icon-separathor'>/</span> -15% adicional VACACIONES15"
+    }
+  },
+
+  "responsive-layout.desktop#lp-nueva-coleccion":{
+    "children": [
+      "flex-layout.row#banner-principal-NC"
+    ],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+
+  "flex-layout.row#banner-principal-NC": {
+    "children": [
+      "flex-layout.col#banner-principal-NC"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+
+  "flex-layout.col#banner-principal-NC": {
+    "children": [
+      "image#box-banner-nueva-coleccion"
+    ],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+
+  "image#box-banner-nueva-coleccion": {
+    "props": {
+      "title": "Banner Principal",
+      "link":"/",
+      "src": "/arquivos/portadas_landig-page_desktop.jpg"
+    }
+  },
+
+  "responsive-layout.phone#lp-nueva-coleccion": {
+    "children": [
+      "flex-layout.row#banner-principal-NC"
+    ]
+  },
+
+  "responsive-layout.mobile#lp-nueva-coleccion": {
+    "children": [
+      "flex-layout.row#banner-principal-NC-mobile"
+    ]
+  },
+
+  "flex-layout.row#banner-principal-NC-mobile": {
+    "children": [
+      "flex-layout.col#banner-principal-NC-mobile"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+
+  "flex-layout.col#banner-principal-NC-mobile": {
+    "children": [
+      "image#box-banner-nueva-coleccion-mobile"
+    ],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+
+  "image#box-banner-nueva-coleccion-mobile": {
+    "props": {
+      "title": "Banner Principal",
+      "link":"/",
+      "src": "/arquivos/portadas_landig-page_movil.jpg"
+    }
+  },
+
+  "search-result-layout.customQuery#lp-nueva-coleccion": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "queryField": "373",
+        "mapField": "productClusterIds",
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Static",
+        "__unstableProductOriginVtex": true,
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 21,
+        "simulationBehavior": "skip",
+        "installmentCriteria": "MAX_WITHOUT_INTEREST"
+      }
+    },
+
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "responsive-layout.desktop#lp-envio-box":{
+    "children": [
+      "flex-layout.row#banner-secundario-NC",
+      "flex-layout.row#como-cambiar-talla"
+    ],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+
+  "flex-layout.row#banner-secundario-NC": {
+    "children": [
+      "flex-layout.col#banner-secundario-NC"
+    ],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+
+  "flex-layout.col#banner-secundario-NC": {
+    "children": [
+      "image#box-banner--envio-box"
+    ],
+
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+
+  "image#box-banner--envio-box": {
+    "props": {
+      "title": "Banner Secundario",
+      "link":"/",
+      "src": "https://aldoconti.vtexassets.com/assets/vtex.file-manager-graphql/images/b1dfbdfb-a7e4-4c83-b04e-f5052b6d86eb___c6c3d0b04f34848d136e4171466186c0.jpg"
+    }
+  },
+
+  "responsive-layout.phone#lp-envio-box": {
+    "children": [
+      "flex-layout.row#banner-secundario-NC",
+      "flex-layout.row#como-cambiar-talla"
+    ]
+  },
+
+  "responsive-layout.mobile#lp-envio-box": {
+    "children": [
+      "flex-layout.row#banner-secundario-NC",
+      "flex-layout.row#como-cambiar-talla"
+    ]
+  },
+
+  "flex-layout.row#como-cambiar-talla": {
+    "children":[
+      "flex-layout.col#como-cambiar-talla"
+    ],
+
+    "props":{
+      "blockClass": "bloque-cambio-tallas"
+    }
+  },
+
+  "flex-layout.col#como-cambiar-talla": {
+    "children":[
+      "rich-text#como-cambiar-talla"
+    ],
+
+    "props":{
+      "blockClass": "inside-cambio-tallas"
+    }
+  },
+
+  "rich-text#como-cambiar-talla": {
+    "props":{
+      "text": "Para cambios de talla o modelo, sigue estos sencillos pasos aquí: [https://www.aldoconti.com/cambio-de-tallas](/cambio-de-tallas)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "texto-cambio-tallas"
+    }
+  }
+}

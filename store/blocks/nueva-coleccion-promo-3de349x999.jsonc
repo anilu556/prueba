@@ -1,0 +1,225 @@
+{
+    "store.custom#lp-nc-aldoconti-3de349x999":{
+      "blocks":[
+        "flex-layout.row#content-intitutional-bread-page-shop-3de349x999",
+        "responsive-layout.desktop#lp-nueva-coleccion-3de349x999",
+        "responsive-layout.mobile#lp-nueva-coleccion-3de349x999",
+        "search-result-layout.customQuery#lp-nueva-coleccion-3de349x999",
+        "responsive-layout.desktop#lp-envio-box-3de349x999",
+        "responsive-layout.mobile#lp-envio-box-3de349x999"
+      ],
+      "props":{
+        "blockClass": "content-sections",
+        "context":{
+          "skusFilter":"ALL",
+          "maxItemsPerPage":21,
+          "simulationBehavior":"skip"
+        }
+      }
+    },
+  
+    "flex-layout.row#content-intitutional-bread-page-shop-3de349x999": {
+      "children": [
+        "flex-layout.col#content-bread-page-wrapper-shop-3de349x999"
+      ],
+  
+      "props": {
+        "blockClass": "content-box-breadcrumb"
+      }
+    },
+  
+    "flex-layout.col#content-bread-page-wrapper-shop-3de349x999": {
+      "children": [
+        "rich-text#breadbrumb-shop-3de349x999"            
+      ]
+    },
+  
+    "rich-text#breadbrumb-shop-3de349x999": {
+      "title": "Bread-Crumb",
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "blockClass": "link-menu-btn",
+        "text": "[Home](/) <span class='vtex-rich-text-0-x-paragraph--icon-separathor'>/</span> Promoción 3 de $349 x $999"
+      }
+    },
+  
+    "responsive-layout.desktop#lp-nueva-coleccion-3de349x999":{
+      "children": [
+        "flex-layout.row#banner-principal-NC-3de349x999"
+      ],
+      "props": {
+        "blockClass": "banner-feature"
+      }
+    },
+  
+    "flex-layout.row#banner-principal-NC-3de349x999": {
+      "children": [
+        "flex-layout.col#banner-principal-NC-3de349x999"
+      ],
+      "props": {
+        "blockClass": "r-box-feature"
+      }
+    },
+  
+    "flex-layout.col#banner-principal-NC-3de349x999": {
+      "children": [
+        "image#box-banner-nueva-coleccion-3de349x999"
+      ],
+      "props": {
+        "blockClass": "c-box-feature",
+        "width": "100%"
+      }
+    },
+  
+    "image#box-banner-nueva-coleccion-3de349x999": {
+      "props": {
+        "title": "Banner Principal",
+        "link":"/",
+        "src": "/arquivos/PORTADAS_3x999_desktop.jpg"
+      }
+    },
+  
+    "responsive-layout.phone#lp-nueva-coleccion-3de349x999": {
+      "children": [
+        "flex-layout.row#banner-principal-NC-3de349x999"
+      ]
+    },
+  
+    "responsive-layout.mobile#lp-nueva-coleccion-3de349x999": {
+      "children": [
+        "flex-layout.row#banner-principal-NC-mobile-3de349x999"
+      ]
+    },
+  
+    "flex-layout.row#banner-principal-NC-mobile-3de349x999": {
+      "children": [
+        "flex-layout.col#banner-principal-NC-mobile-3de349x999"
+      ],
+      "props": {
+        "blockClass": "r-box-feature"
+      }
+    },
+  
+    "flex-layout.col#banner-principal-NC-mobile-3de349x999": {
+      "children": [
+        "image#box-banner-nueva-coleccion-mobile-3de349x999"
+      ],
+      "props": {
+        "blockClass": "c-box-feature",
+        "width": "100%"
+      }
+    },
+  
+    "image#box-banner-nueva-coleccion-mobile-3de349x999": {
+      "props": {
+        "title": "Banner Principal",
+        "link":"/",
+        "src": "/arquivos/PORTADAS_3x999_movil.jpg"
+      }
+    },
+  
+    "search-result-layout.customQuery#lp-nueva-coleccion-3de349x999": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "queryField": "375",
+          "mapField": "productClusterIds",
+          "hideUnavailableItems": true,
+          "facetsBehavior": "Static",
+          "__unstableProductOriginVtex": true,
+          "skusFilter": "ALL",
+          "maxItemsPerPage": 21,
+          "simulationBehavior": "skip",
+          "installmentCriteria": "MAX_WITHOUT_INTEREST"
+        }
+      },
+  
+      "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+  
+    "responsive-layout.desktop#lp-envio-box-3de349x999":{
+      "children": [
+        "flex-layout.row#banner-secundario-NC-3de349x999",
+        "flex-layout.row#como-cambiar-talla-3de349x999"
+      ],
+      "props": {
+        "blockClass": "banner-feature"
+      }
+    },
+  
+    "flex-layout.row#banner-secundario-NC-3de349x999": {
+      "children": [
+        "flex-layout.col#banner-secundario-NC-3de349x999"
+      ],
+      "props": {
+        "blockClass": "r-box-feature"
+      }
+    },
+  
+    "flex-layout.col#banner-secundario-NC-3de349x999": {
+      "children": [
+        "image#box-banner--envio-box-3de349x999"
+      ],
+  
+      "props": {
+        "blockClass": "c-box-feature",
+        "width": "100%"
+      }
+    },
+  
+    "image#box-banner--envio-box-3de349x999": {
+      "props": {
+        "title": "Banner Secundario",
+        "link":"/",
+        "src": "https://aldoconti.vtexassets.com/assets/vtex.file-manager-graphql/images/b1dfbdfb-a7e4-4c83-b04e-f5052b6d86eb___c6c3d0b04f34848d136e4171466186c0.jpg"
+      }
+    },
+  
+    "responsive-layout.phone#lp-envio-box-3de349x999": {
+      "children": [
+        "flex-layout.row#banner-secundario-NC-3de349x999",
+        "flex-layout.row#como-cambiar-talla-3de349x999"
+      ]
+    },
+  
+    "responsive-layout.mobile#lp-envio-box-3de349x999": {
+      "children": [
+        "flex-layout.row#banner-secundario-NC-3de349x999",
+        "flex-layout.row#como-cambiar-talla-3de349x999"
+      ]
+    },
+  
+    "flex-layout.row#como-cambiar-talla-3de349x999": {
+      "children":[
+        "flex-layout.col#como-cambiar-talla-3de349x999"
+      ],
+  
+      "props":{
+        "blockClass": "bloque-cambio-tallas-3de349x999"
+      }
+    },
+  
+    "flex-layout.col#como-cambiar-talla-3de349x999": {
+      "children":[
+        "rich-text#como-cambiar-talla-3de349x999"
+      ],
+  
+      "props":{
+        "blockClass": "inside-cambio-tallas"
+      }
+    },
+  
+    "rich-text#como-cambiar-talla-3de349x999": {
+      "props":{
+        "text": "Para cambios de talla o modelo, sigue estos sencillos pasos aquí: [https://www.aldoconti.com/cambio-de-tallas](/cambio-de-tallas)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "texto-cambio-tallas"
+      }
+    }
+  }

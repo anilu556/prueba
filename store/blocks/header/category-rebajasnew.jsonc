@@ -1,0 +1,167 @@
+{
+    "vtex.menu@2.x:submenu#category-rebajasnew": {
+        "children":[
+            "flex-layout.row#submenurebajasnew"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "submenu-rebajasnew"
+        }
+    }, 
+    "flex-layout.row#submenurebajasnew":{
+        "children": [
+            "flex-layout.col#list1-rebajasnew"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-categorias"
+        }  
+    },
+    // COLUMNA 1
+    "flex-layout.col#list1-rebajasnew":{
+        "children": [
+            //"menu-item#menu-abrigos",
+            //"menu-item#menu-bufandas",
+            "menu-item#menu-chalecos",
+            "menu-item#menu-chamarras",
+            //"menu-item#menu-gorros",
+            //"menu-item#menu-guantes",
+            "menu-item#menu-sandalias-pantuflas-mas-dos",
+            "menu-item#menu-sueteres"             
+        ],
+        "props":{
+          "width": "25%"
+        }
+    },
+    "menu-item#menu-promo3x499": {
+        "props": {
+          "id": "menu-item-promo3x499",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.aldoconti.com/366?map=productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Promoción 3 x $499",
+            "text": "Promoción 3 x $499"
+          },
+          "blockClass": "link-submenu"
+      }
+    },
+    "menu-item#menu-promo3x899": {
+        "props": {
+          "id": "menu-item-promo3x899",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.aldoconti.com/365?map=productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Promoción 3 x $899",
+            "text": "Promoción 3 x $899"
+          },
+          "blockClass": "link-submenu"
+      }
+    },
+    
+    "menu-item#menu-sandalias-pantuflas-mas-dos": {
+      "props": {
+        "blockClass": "link-submenu",
+        "id": "menu-item-menu-sandalias-pantuflas-mas",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/primavera",
+          "noFollow": false,
+          "tagTitle": "Sandalias, pantuflas y más",
+          "text": "Sandalias, pantuflas y más"
+        }
+      }
+    },
+
+
+
+
+
+    "menu-item#menu-promoAbrigosa999": {
+        "props": {
+          "id": "menu-item-promo3x899",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.aldoconti.com/hombre/ropa/abrigos/?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Abrigos a $999",
+            "text": "Abrigos a $999"
+          },
+          "blockClass": "link-submenu"
+      }
+    },
+    "menu-item#menu-promoChamarrasa499": {
+        "props": {
+          "id": "menu-item-promo3x899",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.aldoconti.com/hombre/ropa/chamarras/?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Chamarras a $499",
+            "text": "Chamarras a $499"
+          },
+          "blockClass": "link-submenu"
+      }
+    },
+    "menu-item#menu-promoSuéteresa199": {
+        "props": {
+          "id": "menu-item-promo3x899",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.aldoconti.com/hombre/ropa/sweaters/?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Suéteres a $199",
+            "text": "Suéteres a $199"
+          },
+          "blockClass": "link-submenu"
+      }
+    },
+    "menu-item#menu-promoBufandasa149": {
+        "props": {
+          "id": "menu-item-promo3x899",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.aldoconti.com/hombre/accesorios/bufandas/?O=OrderByReleaseDateDESC",
+            "noFollow": false,
+            "tagTitle": "Bufandas a $149",
+            "text": "Bufandas a $149"
+          },
+          "blockClass": "link-submenu"
+      }
+    },
+
+
+
+
+
+// COLUMNA 1 --END--
+
+    // MOBILE MENU REBAJAS
+    "flex-layout.col#menurebajasnew":{
+      "children": [
+        //"menu-item#menu-abrigos",
+        //"menu-item#menu-bufandas",
+        "menu-item#menu-chalecos",
+        "menu-item#menu-chamarras",
+        //"menu-item#menu-gorros",
+        //"menu-item#menu-guantes",
+        "menu-item#menu-sandalias-pantuflas-mas-dos",
+        "menu-item#menu-sueteres"    
+      ]
+    }
+}

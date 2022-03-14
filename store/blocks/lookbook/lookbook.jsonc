@@ -1,0 +1,15 @@
+{
+    "store.custom#lookbook": {
+        "blocks": [
+          "flex-layout.row#lookbook"
+        ]
+    },
+    "flex-layout.row#lookbook": {
+        "children": [
+            "lookbook"
+          ],
+        "props": {
+            "blockClass": ["lookbook"]
+        }
+    }
+}

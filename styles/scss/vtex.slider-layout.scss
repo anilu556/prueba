@@ -1,0 +1,222 @@
+/* scss Aldo Conti
+1. Colors
+*/
+
+// DOTS SLIDER SUBMENU ROPA
+
+/* 1.Colors */
+$ac-c1: #434343;
+$ac-c2: #303030;
+$ac-c3: #089D9D;
+$ac-c4: #fff;
+$ac-c5: #5bc6c6e2;
+
+.sliderLayoutContainer {
+  justify-content: center;
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-ropa){
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+
+.paginationDotsContainer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+// DOTS SLIDER SUBMENU ROPA
+.paginationDotsContainer--slider-ropa {
+  display: none;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sliderArrows--categories-slider {
+  color: #d22630;
+  top: 0;
+  margin: 15px -15px;
+}
+
+.sliderArrows--categories-slider:hover {
+  color: rgba(#d22630, 0.8);
+}
+
+.caretIcon--categories-slider {
+  width: 15px;
+  height: 15px;
+}
+
+.imageElementLink--carousel {
+  width: 100%;
+  font-size: 0;
+  .imageElement--carousel {
+    width: 100%;
+  }
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--notFound-recommendedShelf) {
+  padding-top: 30px;
+  @media (max-width:768px) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  :global(.vtex-button) {
+    width: 100%;
+    /* height: 40px; */
+    border-radius: 6px;
+    border-color: #fff;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    :global(.vtex-button__label) {
+      @media (max-width:768px){
+        margin: 0px;
+      }      
+    }
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+      font-weight: normal;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #fff;
+      &::after {
+          content: url("/arquivos/shopping-cart-io.png");
+          vertical-align: sub;
+          margin-left: 5px;
+      }
+    }            
+    /* &:hover {
+        border-color: #000000;
+        background-color: #000000;
+        :global(.vtex-add-to-cart-button-0-x-buttonText) {
+            color: #fff;
+        }
+    } */
+  }
+}
+
+.paginationDotsContainer--notFound-recommendedShelf {
+  display: none;
+}
+
+/* CARRUSEL CATEGORÍAS BLOG */
+//CARLOS VILLAVICENCIO AGUILA 17-10-2020
+
+.sliderTrackContainer--carousel-categories-blog {
+  padding: 10px 0;
+  background: #F4F4F4
+}
+
+.caretIcon--carousel-categories-blog {
+  height: 12px;
+}
+
+.sliderLayoutContainer--accesorios-recommendedShelf {
+  padding-bottom: 30px;
+  @media (max-width:768px){
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* Carlos Villavicencio Aguila 03-11-2020 */
+
+.sliderLayoutContainer--shelf-promo-1,
+.sliderLayoutContainer--shelf-promo-2,
+.sliderLayoutContainer--shelf-promo-3, 
+.sliderLayoutContainer--shelf-promo-4, 
+.sliderLayoutContainer--shelf-promo-5, 
+.sliderLayoutContainer--shelf-promo-6, 
+.sliderLayoutContainer--shelf-promo-7, 
+.sliderLayoutContainer--shelf-promo-8, 
+.sliderLayoutContainer--shelf-promo-9, 
+.sliderLayoutContainer--shelf-promo-10 {
+  @media (max-width: 768px) {
+    padding: 0 !important; 
+  }  
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-1){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-2){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-3){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-4){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-5){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-6){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-7){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-8){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-9){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-promo-10){
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none;
+  }
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--product-wrapper-categry) {
+  margin-top: -16rem;
+}
+
+/* CARLOS VILLAVICENCIO AGUILA 17-11-2020 */
+
+.paginationDotsContainer--accesorios-recommendedShelf {
+  display: none !important;
+}
+
+.sliderLayoutContainer--pleca-navidad {
+  margin-bottom: 10px;
+}

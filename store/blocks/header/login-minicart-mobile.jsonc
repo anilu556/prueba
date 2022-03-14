@@ -1,0 +1,21 @@
+{
+    "vtex.menu@2.x:menu#login-minicart-mobile": {
+        "children":[
+          "login#mobile",
+          "minicart.v2"
+        ],
+        "props": {
+          "blockClass": "login-minicar-mb",
+          "width": "20%"
+        }
+    },
+  "login#mobile": {
+    "props": {
+      "showIconProfile": true,
+      "termsAndConditions": "AL CREAR UNA CUENTA, ACEPTAS LOS TÉRMINOS Y CONDICIONES Y EL AVISO DE PRIVACIDAD DE ALDO CONTI, CONSÚLTALOS.",
+      "blockClass": [
+        "login-mobile"
+      ]
+    }
+  }
+}

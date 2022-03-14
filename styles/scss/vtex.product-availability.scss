@@ -1,0 +1,25 @@
+.highStockText {
+    color: #000000;
+}
+
+.lowStockHighlight {
+    display: none;
+}
+
+.lowStockText {
+    color: #000000;
+    &::before {
+        content: url("/arquivos/fire-solid-io.png");
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    @media (max-width: 768px) {
+        margin: 0 auto;
+    }
+}
+
+.container {
+    @media (max-width: 768px) {
+        margin-top: 20px;
+    }
+}

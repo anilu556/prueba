@@ -1,0 +1,635 @@
+{
+    "store.custom#como-comprar": {
+      "blocks": [
+      "responsive-layout.desktop#comoComprar",
+      "responsive-layout.mobile#comoComprar"
+      ],
+      "props": {
+        "blockClass": "comoComprar-general"
+      }
+    },
+    // Desktop
+    "responsive-layout.desktop#comoComprar": {
+      "children": [
+        "flex-layout.row#flag",
+        "flex-layout.row#intro",
+        "flex-layout.row#title-paso1",
+        "flex-layout.row#title-paso2",
+        "flex-layout.row#title-paso3",
+        "flex-layout.row#title-paso4",
+        "flex-layout.row#title-paso5",
+        "flex-layout.row#title-paso6",
+        "flex-layout.row#title-paso7",
+        "flex-layout.row#title-paso8",
+        "flex-layout.row#title-paso9"
+      ]
+    },
+    
+    // Flag mobile
+    "flex-layout.row#flag": {
+      "title":"Flag de pasos",
+      "children": [
+        "rich-text#flag"
+      ],
+      "props": {
+        "blockClass": "comoComprar-flag"
+      }
+    },
+    "rich-text#flag": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "### **CÓMO COMPRAR** ###",
+        "blockClass": "contenido-comoComprar-flag"
+      }
+    },
+    // Intro mobile
+    "flex-layout.row#intro": {
+      "title":"Introducción de pasos",
+      "children": [
+        "rich-text#intro"
+      ],
+      "props": {
+        "blockClass": "comoComprar"
+      }
+    },
+    "rich-text#intro": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "Comprar en [**ALDOCONTI.COM**](https://www.aldoconti.com/) es sencillo, fácil y seguro. Solo sigue los siguientes pasos:",
+        "blockClass": "contenido-comoComprar-intro"
+      }
+    },
+    // Paso 1
+    "flex-layout.row#title-paso1": {
+      "title":"Paso 1",
+      "children": [
+        "rich-text#title-paso1",
+        "image#paso1-image1"
+      ],
+      "props": {
+        "blockClass": "comoComprar"
+      }
+    },
+    "rich-text#title-paso1": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "### **PRODUCTO** ### \nEncuentra el producto que buscas desde la barra de búsqueda, nuestro menú de categorías o utiliza los filtros de productos seleccionados para descurbir la verdad de artículos que [**ALDOCONTI.COM**](https://www.aldoconti.com/) tiene para ti.\n",
+        "blockClass": "contenido-comoComprar-paso"
+      }
+    },
+    "image#paso1-image1": {
+      "props": {
+        "src": "assets/como-comprar/ComoComprar_01Desktop.png",
+        "blockClass": "img-comoComprar1"
+      }
+    },
+  // Paso 1 --end--
+
+
+  // Paso 2
+  "flex-layout.row#title-paso2": {
+    "title":"Paso 2",
+    "children": [
+      "image#paso1-image2",
+      "rich-text#title-paso2"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight"
+      ]
+    }
+  },
+  "rich-text#title-paso2": {
+    "props": {
+      "textAlignment": "right",
+      "textPosition": "right",
+      "text": "### **CLIC** ### \nElige y da clic al producto de tu interés para obtener diferentes vistas y detalles de la prenda, así como tallas disponibles, descripción y precio.\n",
+      "blockClass": [
+        "contenido2-right"
+      ]
+    }
+  },
+  "image#paso1-image2": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_02Desktop.png",
+      "blockClass": "img-comoComprar-right"
+    }
+  },
+  // Paso 2 --end--
+
+  // Paso 3
+  "flex-layout.row#title-paso3": {
+    "title":"Paso 3",
+    "children": [
+      "rich-text#title-paso3",
+      "image#paso1-image3"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso3": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **COMPRAR** ### \nElige y da clic al producto de tu interés para obtener diferentes vistas y detalles de la prenda, así como tallas disponibles, descripción y precio.\n",
+      "blockClass": "contenido3"
+    }
+  },
+  "image#paso1-image3": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_03Desktop.png",
+      "blockClass": "img-comoComprar"
+    }
+  },
+  // Paso 3 --end--
+
+  // Paso 4
+  "flex-layout.row#title-paso4": {
+    "title":"Paso 4",
+    "children": [
+      "image#paso1-image4",
+      "rich-text#title-paso4"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight"
+      ]
+    }
+  },
+  "rich-text#title-paso4": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **FINALIZAR LA COMPRA** ### \nEn el carrito de compras podrás verel detalle de los artículos que seleccionaste: cantidad a comprar, promociones que aplican, editar pedido o seguir el proceso de compra. Para continuar presiona **FINALIZAR COMPRA**\n",
+      "blockClass": "contenido4-right"
+    }
+  },
+  "image#paso1-image4": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_04Desktop.png",
+      "blockClass": "img-comoComprar-right"
+    }
+  },
+  // Paso 4 --end--
+
+  // Paso 5
+  "flex-layout.row#title-paso5": {
+    "title":"Paso 5",
+    "children": [
+      "rich-text#title-paso5",
+      "image#paso1-image5"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso5": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **ENTREGA** ### \nIngresa tu correo y continúa el proceso llenando el sencillo formulario con tu nombre y teléfono móvil. !Recuerda suscribirte a nuestro newsletter! Da clic en **ENTREGA.** Si ya estás registrado, tus datos se llenarán automáticamente.\n",
+      "blockClass": "contenido5"
+    }
+  },
+  "image#paso1-image5": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_05Desktop.png",
+      "blockClass": "img-comoComprar"
+    }
+  },
+  // Paso 5 --end--
+
+  // Paso 6
+  "flex-layout.row#title-paso6": {
+    "title":"Paso 6",
+    "children": [
+      "image#paso1-image6",
+      "rich-text#title-paso6"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight"
+      ]
+    }
+  },
+  "rich-text#title-paso6": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **PAGO** ### \nIntroduce tu código postal, y completa los campos de la dirección de envñio, ahora da clic en **PAGO.**\n",
+      "blockClass": "contenido6-right"
+    }
+  },
+  "image#paso1-image6": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_06Desktop.png",
+      "blockClass": "img-comoComprar-right"
+    }
+  },
+  // Paso 6 --end--
+
+  // Paso 7
+  "flex-layout.row#title-paso7": {
+    "title":"Paso 7",
+    "children": [
+      "rich-text#title-paso7",
+      "image#paso1-image7"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso7": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **COMPRAR AHORA** ### \nSelecciona un método de pago: PAypal, tarjeta de crédito o débito. Pago en Efectivo y confirma tu pedido dando clic en **COMPRA AHORA** y **¡LISTO!** Has terminado exitosamente tu compra en [**ALDOCONTI.COM**](https://www.aldoconti.com/) Tu orden ha sido registrada en el sistema.\n",
+      "blockClass": "contenido7"
+    }
+  },
+  "image#paso1-image7": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_07Desktop.png",
+      "blockClass": "img-comoComprar"
+    }
+  },
+  // Paso 7 --end--
+
+  // Paso 8
+  "flex-layout.row#title-paso8": {
+    "title":"Paso 8",
+    "children": [
+      "image#paso1-image8",
+      "rich-text#title-paso8"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight"
+      ]
+    }
+  },
+  "rich-text#title-paso8": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **VALIDA** ### \nUna vez que sea válido tu pago, recibirás un email con el resumen de tu compra y el número de orden para el seguimiento de la misma.\n",
+      "blockClass": "contenido8-right"
+    }
+  },
+  "image#paso1-image8": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_08Desktop.png",
+      "blockClass": "img-comoComprar-right"
+    }
+  },
+  // Paso 8 --end--
+
+  // Paso 9
+  "flex-layout.row#title-paso9": {
+    "title":"Paso 9",
+    "children": [
+      "rich-text#title-paso9",
+      "image#paso1-image9"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso9": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **RESULEVE TUS DUDAS** ### \nRecuerda que estamos para resolver tus dudas vía telefónica, correo electrónico o chat en vivo de lunes a sábado de 09:00 a.m. a 06:00 p.m. En [**ALDOCONTI.COM**](https://www.aldoconti.com/) queremos llevar tus compras a otro nivel.\n",
+      "blockClass": "contenido9"
+    }
+  },
+  "image#paso1-image9": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_09Desktop.png",
+      "blockClass": "img-comoComprar"
+    }
+  },
+  // Paso 9 --end--
+  // Desktop --end--
+
+  // Mobile
+    "responsive-layout.mobile#comoComprar": {
+      "children": [
+        "flex-layout.row#flag-mobile",
+        "flex-layout.row#intro-mobile",
+        "flex-layout.row#title-paso1-mobile",
+        "flex-layout.row#title-paso2-mobile",
+        "flex-layout.row#title-paso3-mobile",
+        "flex-layout.row#title-paso4-mobile",
+        "flex-layout.row#title-paso5-mobile",
+        "flex-layout.row#title-paso6-mobile",
+        "flex-layout.row#title-paso7-mobile",
+        "flex-layout.row#title-paso8-mobile",
+        "flex-layout.row#title-paso9-mobile"
+      ]
+    },
+    
+    // Flag mobile
+    "flex-layout.row#flag-mobile": {
+      "title":"Introducción mobile de pasos",
+      "children": [
+        "rich-text#flag-mobile"
+      ],
+      "props": {
+        "blockClass": "comoComprar-flag-mobile"
+      }
+    },
+    "rich-text#flag-mobile": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "### **CÓMO COMPRAR** ###",
+        "blockClass": "contenido-comoComprar-flag-mobile"
+      }
+    },
+    // Intro mobile
+    "flex-layout.row#intro-mobile": {
+      "title":"Introducción mobile de pasos",
+      "children": [
+        "rich-text#intro-mobile"
+      ],
+      "props": {
+        "blockClass": "comoComprar"
+      }
+    },
+    "rich-text#intro-mobile": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "Comprar en [**ALDOCONTI.COM**](https://www.aldoconti.com/) es sencillo, fácil y seguro. Solo sigue los siguientes pasos:",
+        "blockClass": "contenido-comoComprar-intro-mobile"
+      }
+    },
+    // Paso 1 mobile
+    "flex-layout.row#title-paso1-mobile": {
+      "title":"Paso 1",
+      "children": [
+        "image#paso1-image1-mobile",
+        "rich-text#title-paso1-mobile"
+      ],
+      "props": {
+        "blockClass": "comoComprar-mobile"
+      }
+    },
+    "rich-text#title-paso1-mobile": {
+      "props": {
+        "textAlignment": "left",
+        "textPosition": "left",
+        "text": "### **PRODUCTO** ### \nEncuentra el producto que buscas desde la barra de búsqueda, nuestro menú de categorías o utiliza los filtros de productos seleccionados para descurbir la verdad de artículos que [**ALDOCONTI.COM**](https://www.aldoconti.com/) tiene para ti.\n",
+        "blockClass": "contenido-comoComprar-paso-mobile"
+      }
+    },
+    "image#paso1-image1-mobile": {
+      "props": {
+        "src": "assets/como-comprar/ComoComprar_01Mobile.png",
+        "blockClass": "img-comoComprar1-mobile"
+      }
+    },
+  // Paso 1 mobile --end--
+
+
+  // Paso 2 mobile
+  "flex-layout.row#title-paso2-mobile": {
+    "title":"Paso 2",
+    "children": [
+      "image#paso1-image2-mobile",
+      "rich-text#title-paso2-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight-mobile"
+      ]
+    }
+  },
+  "rich-text#title-paso2-mobile": {
+    "props": {
+      "textAlignment": "right",
+      "textPosition": "right",
+      "text": "### **CLIC** ### \nElige y da clic al producto de tu interés para obtener diferentes vistas y detalles de la prenda, así como tallas disponibles, descripción y precio.\n",
+      "blockClass": [
+        "contenido2-right-mobile"
+      ]
+    }
+  },
+  "image#paso1-image2-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_02Mobile.png",
+      "blockClass": "img-comoComprar-right-mobile"
+    }
+  },
+  // Paso 2 mobile --end--
+
+  // Paso 3 mobile
+  "flex-layout.row#title-paso3-mobile": {
+    "title":"Paso 3",
+    "children": [
+      "image#paso1-image3-mobile",
+      "rich-text#title-paso3-mobile"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso3-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **COMPRAR** ### \nElige y da clic al producto de tu interés para obtener diferentes vistas y detalles de la prenda, así como tallas disponibles, descripción y precio.\n",
+      "blockClass": "contenido3-mobile"
+    }
+  },
+  "image#paso1-image3-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_03Mobile.png",
+      "blockClass": "img-comoComprar-mobile"
+    }
+  },
+  // Paso 3 mobile --end--
+
+  // Paso 4 mobile
+  "flex-layout.row#title-paso4-mobile": {
+    "title":"Paso 4",
+    "children": [
+      "image#paso1-image4-mobile",
+      "rich-text#title-paso4-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight"
+      ]
+    }
+  },
+  "rich-text#title-paso4-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **FINALIZAR LA COMPRA** ### \nEn el carrito de compras podrás verel detalle de los artículos que seleccionaste: cantidad a comprar, promociones que aplican, editar pedido o seguir el proceso de compra. Para continuar presiona **FINALIZAR COMPRA**\n",
+      "blockClass": "contenido4-right-mobile"
+    }
+  },
+  "image#paso1-image4-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_04Mobile.png",
+      "blockClass": "img-comoComprar-right-mobile"
+    }
+  },
+  // Paso 4 mobile --end--
+
+  // Paso 5 mobile
+  "flex-layout.row#title-paso5-mobile": {
+    "title":"Paso 5",
+    "children": [
+      "image#paso1-image5-mobile",
+      "rich-text#title-paso5-mobile"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso5-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **ENTREGA** ### \nIngresa tu correo y continúa el proceso llenando el sencillo formulario con tu nombre y teléfono móvil. !Recuerda suscribirte a nuestro newsletter! Da clic en **ENTREGA.** Si ya estás registrado, tus datos se llenarán automáticamente.\n",
+      "blockClass": "contenido5-mobile"
+    }
+  },
+  "image#paso1-image5-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_05Mobile.png",
+      "blockClass": "img-comoComprar-mobile"
+    }
+  },
+  // Paso 5 mobile --end--
+
+  // Paso 6 mobile
+  "flex-layout.row#title-paso6-mobile": {
+    "title":"Paso 6",
+    "children": [
+      "image#paso1-image6-mobile",
+      "rich-text#title-paso6-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight"
+      ]
+    }
+  },
+  "rich-text#title-paso6-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **PAGO** ### \nIntroduce tu código postal, y completa los campos de la dirección de envñio, ahora da clic en **PAGO.**\n",
+      "blockClass": "contenido6-right-mobile"
+    }
+  },
+  "image#paso1-image6-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_06Mobile.png",
+      "blockClass": "img-comoComprar-right-mobile"
+    }
+  },
+  // Paso 6 mobile --end--
+
+  // Paso 7 mobile
+  "flex-layout.row#title-paso7-mobile": {
+    "title":"Paso 7",
+    "children": [
+      "image#paso1-image7-mobile",
+      "rich-text#title-paso7-mobile"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso7-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **COMPRAR AHORA** ### \nSelecciona un método de pago: PAypal, tarjeta de crédito o débito. Pago en Efectivo y confirma tu pedido dando clic en **COMPRA AHORA** y **¡LISTO!** Has terminado exitosamente tu compra en [**ALDOCONTI.COM**](https://www.aldoconti.com/) Tu orden ha sido registrada en el sistema.\n",
+      "blockClass": "contenido7-mobile"
+    }
+  },
+  "image#paso1-image7-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_07Mobile.png",
+      "blockClass": "img-comoComprar-mobile"
+    }
+  },
+  // Paso 7 mobile --end--
+
+  // Paso 8 mobile
+  "flex-layout.row#title-paso8-mobile": {
+    "title":"Paso 8",
+    "children": [
+      "image#paso1-image8-mobile",
+      "rich-text#title-paso8-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "comoComprar",
+        "comoComprarRight"
+      ]
+    }
+  },
+  "rich-text#title-paso8-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **VALIDA** ### \nUna vez que sea válido tu pago, recibirás un email con el resumen de tu compra y el número de orden para el seguimiento de la misma.\n",
+      "blockClass": "contenido8-right-mobile"
+    }
+  },
+  "image#paso1-image8-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_08Mobile.png",
+      "blockClass": "img-comoComprar-right-mobile"
+    }
+  },
+  // Paso 8 mobile --end--
+
+  // Paso 9 mobile
+  "flex-layout.row#title-paso9-mobile": {
+    "title":"Paso 9",
+    "children": [
+      "image#paso1-image9-mobile",
+      "rich-text#title-paso9-mobile"
+    ],
+    "props": {
+      "blockClass": "comoComprar"
+    }
+  },
+  "rich-text#title-paso9-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "### **RESULEVE TUS DUDAS** ### \nRecuerda que estamos para resolver tus dudas vía telefónica, correo electrónico o chat en vivo de lunes a sábado de 09:00 a.m. a 06:00 p.m. En [**ALDOCONTI.COM**](https://www.aldoconti.com/) queremos llevar tus compras a otro nivel.\n",
+      "blockClass": "contenido9-mobile"
+    }
+  },
+  "image#paso1-image9-mobile": {
+    "props": {
+      "src": "assets/como-comprar/ComoComprar_09Mobile.png",
+      "blockClass": "img-comoComprar-mobile"
+    }
+  }
+  // Paso 9 mobile --end--
+    
+  // Mobile --end--
+}

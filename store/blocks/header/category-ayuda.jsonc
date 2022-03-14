@@ -1,0 +1,217 @@
+{
+    "vtex.menu@2.x:submenu#category-ayuda": {
+        "children":[
+            "flex-layout.row#submenuAyuda"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "submenu-ayuda"
+        }        
+    },
+    "flex-layout.row#submenuAyuda": {
+        "children":[
+            "flex-layout.col#submenuAyuda"
+        ]
+    },
+    "flex-layout.col#submenuAyuda": {
+        "children":[
+            "flex-layout.row#ayuda-opcion1",
+            "flex-layout.row#ayuda-opcion2",
+            "flex-layout.row#ayuda-opcion3",
+            "flex-layout.row#ayuda-opcion4",
+            "flex-layout.row#ayuda-opcion5"
+        ]
+    },
+    "flex-layout.row#ayuda-opcion1": {
+        "children": [
+          "rich-text#ayuda-opcion1"
+        ],
+        "props":{
+          "blockClass": "menu-hoversombra"
+        }
+    },
+    "rich-text#ayuda-opcion1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[Rastrear pedido](/)",
+            "blockClass": [
+              "link-carrusel-menuMobile",
+              "rastrea-pedido"
+            ]
+        }        
+    },      
+    "flex-layout.row#ayuda-opcion2": {
+        "children": [
+          "rich-text#ayuda-opcion2"
+        ],
+        "props":{
+          "blockClass": "menu-hoversombra"
+        }
+    },
+    "rich-text#ayuda-opcion2": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[Cambio de talla](/)",
+            "blockClass": [
+              "link-carrusel-menuMobile",
+              "cambiar-talla"
+            ]
+        }        
+    },
+    "flex-layout.row#ayuda-opcion3": {
+        "children": [
+          "rich-text#ayuda-opcion3"
+        ],
+        "props":{
+          "blockClass": "menu-hoversombra"
+        }
+    },
+    "rich-text#ayuda-opcion3": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[Pedido atrasado](/)",
+            "blockClass": [
+              "link-carrusel-menuMobile",
+              "pedido-atrasado"
+            ]
+        }        
+    },            
+    "flex-layout.row#ayuda-opcion4": {
+        "children": [
+          "rich-text#ayuda-opcion4"
+        ],
+        "props":{
+          "blockClass": "title-redes-menu"
+        }
+    },
+    "rich-text#ayuda-opcion4": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Síguenos",
+            "blockClass": [
+                "title-redes-menu"
+            ]
+        }        
+    },
+    "flex-layout.row#ayuda-opcion5": {
+        "children": [
+            "flex-layout.col#img-rrss-1",
+            "flex-layout.col#img-rrss-2",
+            "flex-layout.col#img-rrss-3",
+            "flex-layout.col#img-rrss-4"
+        ],
+        "props":{
+            "blockClass": "img-section-menu"
+        }
+    },
+    "flex-layout.col#img-rrss-1": {
+        "children":["image#img-rrss-1"],
+        "props":{
+            "blockClass": "redes-face"
+        }
+    },
+    "image#img-rrss-1": {
+        "props":{
+            "src": "https://aldoconti.vtexassets.com/assets/vtex/assets-builder/aldoconti.store-theme/0.11.2/icons-svg/fb2x___7a34ddf3977d29c2ea7a9269915ced5a.png",
+            "width": 10,
+            "height": 20
+        }
+    },            
+    "flex-layout.col#img-rrss-2": {
+        "children":["image#img-rrss-2"],
+        "props":{
+            "blockClass": "redes-insta"
+        }
+    },
+    "image#img-rrss-2": {
+        "props":{
+            "src": "https://aldoconti.vtexassets.com/assets/vtex/assets-builder/aldoconti.store-theme/0.11.2/icons-svg/ig2x___3556265cd511240233d50851955bd441.png",
+            "width": 20,
+            "height": 20
+        }
+    },            
+    "flex-layout.col#img-rrss-3": {
+        "children":["image#img-rrss-3"],
+        "props":{
+            "blockClass": "redes-tuiter"
+        }
+    },
+    "image#img-rrss-3": {
+        "props":{
+            "src": "https://aldoconti.vtexassets.com/assets/vtex/assets-builder/aldoconti.store-theme/0.11.2/icons-svg/tw2x___d108fe112d695775ab5577bff33a3499.png",
+            "width": 30,
+            "height": 20
+        }
+    },            
+    "flex-layout.col#img-rrss-4": {
+        "children":["image#img-rrss-4"],
+        "props":{
+            "blockClass": "redes-youtube"
+        }
+    },
+    "image#img-rrss-4": {
+        "props":{
+            "src": "https://aldoconti.vtexassets.com/assets/vtex/assets-builder/aldoconti.store-theme/0.11.2/icons-svg/yt2x___e35114570f464a15a73ae1264afe7aca.png",
+            "width": 35,
+            "height": 20
+        }
+    },
+    
+    // MOBILE MENU AYUDA
+    "flex-layout.col#menuAyuda":{
+      "children": [
+          "menu-item#menu-rastrea-pedido",
+          "menu-item#menu-cambio-talla",
+          "menu-item#menu-pedido-atrasado"
+      ]
+    },
+
+    "menu-item#menu-rastrea-pedido": {
+      "props": {
+        "id": "menu-item-rastrea-pedido",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Rastrear pedido",
+          "text": "Rastrear pedido"
+        }
+      }
+    },
+
+    "menu-item#menu-cambio-talla": {
+      "props": {
+        "id": "menu-item-cambio-talla",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Cambio de talla",
+          "text": "Cambio de talla"
+        }
+      }
+    },
+
+    "menu-item#menu-pedido-atrasado": {
+      "props": {
+        "id": "menu-item-pedido-atrasado",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Pedido atrasado",
+          "text": "Pedido atrasado"
+        }
+      }
+    }
+}

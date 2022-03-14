@@ -1,0 +1,1186 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile",
+      "rich-text#titulo-home-proms",
+      "list-context.product-list#home-home-products",
+      // "carousel#home",
+      //"list-context.image-list#demo",
+      //"flex-layout.row#popup-home",
+      "flex-layout.row#datatrics-home",
+      "responsive-layout.desktop#home-bambu",
+      "responsive-layout.mobile#home-bambu-mobile",
+      "slider-layout#box-category-wraper",
+      // "flex-layout.row#promo-navidad",
+      "responsive-layout.desktop#mas-vendidos",
+      "responsive-layout.mobile#mas-vendidos",
+      //"flex-layout.row#products-carousel-a",
+      //"flex-layout.row#mas-vendidos",
+      "responsive-layout.desktop#novedades-articulos",
+      "responsive-layout.mobile#novedades-articulos",
+      //"flex-layout.row#novedades-articulos",
+      "responsive-layout.desktop#blog-codigoConti",
+      "responsive-layout.mobile#blog-codigoConti",
+      //"flex-layout.row#blog-codigoConti",      
+      // "flex-layout.row#home-shelf",
+      "responsive-layout.desktop#home-city-vibes",
+      "responsive-layout.mobile#home-city-vibes",
+      "responsive-layout.desktop#banner5",
+      "responsive-layout.mobile#banner5",
+      "responsive-layout.mobile#banner6",
+      //"flex-layout.row#bannerAC",
+      //"flex-layout.row#products-carousel-b",
+      // "flex-layout.row#home-shelf",
+      "flex-layout.row#newsletter",
+      // "flex-layout.row#form",
+      "responsive-layout.desktop#atencion-cliente",
+      "responsive-layout.mobile#atencion-cliente"
+    ]
+  },
+
+  "list-context.product-list#home-home-products": {
+    "blocks": ["product-summary.shelf#home"],
+    "children": ["slider-layout#vitrina-personalizada"]
+  },
+  "product-summary.shelf#home": {
+    "children": [
+      // "vtex.product-highlights@2.x:product-highlights#segunda",
+      "stack-layout#prodsum",
+      "vtex.product-highlights@2.x:product-highlights#tercera",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#vitrina-personalizada": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "notFound-recommendedShelf"
+    }
+  },
+
+  "rich-text#titulo-home-proms": {
+    "props":{
+      "text": "Elige 3 por $999",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound"
+    }
+  },
+
+  "image#home-bambu": {
+    "props": {
+      "src": "/arquivos/BAMBU_desktop.jpg",
+      "link": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4"
+    }
+  },
+
+  "responsive-layout.desktop#home-bambu": {
+    "children": [
+      "image#home-bambu"
+    ]
+  },
+
+  "image#home-city-vibes": {
+    "props": {
+      "src": "/arquivos/front_cityvibes_desktop.jpg",
+      "link": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4"
+    }
+  },
+
+  "responsive-layout.desktop#home-city-vibes": {
+    "children": [
+      "image#home-city-vibes"
+    ]
+  },
+
+  "image#home-bambu-mobile": {
+    "props": {
+      "src": "/arquivos/front_cityvibes_movil.jpg",
+      "link": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4"
+    }
+  },
+
+  "responsive-layout.mobile#home-bambu-mobile": {
+    "children": [
+      "image#home-bambu-mobile"
+    ]
+  },
+
+  "image#home-city-vibes-mobile": {
+    "props": {
+      "src": "/arquivos/BAMBU_movil.jpg",
+      "link": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4"
+    }
+  },
+
+  "responsive-layout.mobile#home-city-vibes": {
+    "children": [
+      "image#home-city-vibes-mobile"
+    ]
+  },
+
+  "flex-layout.row#popup-home": {
+    "children":[
+      "modalpopup"
+    ],
+    "props":{
+      "blockClass": "popup-ac"
+    }
+  },
+
+  // VITRINA DATATRICS HOME
+
+  "flex-layout.row#datatrics-home": {
+    "children":["flex-layout.col#datatrics-home"],
+    "props":{
+      "blockClass": "vitrine-datatrics"
+    }
+  },
+  "flex-layout.col#datatrics-home": {
+    "props":{
+      "blockClass": "datatrics-inside-home"
+    }
+  },
+
+  "slider-layout#box-category-wraper": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true,
+      "blockClass": "product-wrapper-categry"
+    },
+    "children": [
+      "rich-text#1", 
+      "rich-text#2", 
+      "rich-text#3",
+      "rich-text#4",
+      "rich-text#5",
+      "rich-text#6"
+    ]
+  },
+
+  "rich-text#1": {
+    "props": {
+      "text": "<a class='c-on-base lh-copy vtex-rich-text-0-x-paragraph' href='/hombre/ropa/trajes'><img src='/arquivos/categoria-trajes.jpg'/><br><p>Trajes</p></a>"
+    }
+  },
+  "rich-text#2": {
+    "props": {
+      "text": "<a class='c-on-base lh-copy vtex-rich-text-0-x-paragraph' href='/hombre/ropa/camisas'><img src='/arquivos/categoria-camisas.jpg'/><br><p>Camisas</p></a>"
+    }
+  },
+  "rich-text#3": {
+    "props": {
+      "text": "<a class='c-on-base lh-copy vtex-rich-text-0-x-paragraph' href='/hombre/ropa/playeras'><img src='/arquivos/categoria-playeras.jpg'/><br><p>Playeras</p></a>"
+    }
+  },
+  "rich-text#4": {
+    "props": {
+      "text": "<a class='c-on-base lh-copy vtex-rich-text-0-x-paragraph' href='/hombre/zapatos'><img src='/arquivos/categoria-calzado.jpg'/><br><p>Calzado</p></a>"
+    }
+  },
+  "rich-text#5": {
+    "props": {
+      "text": "<a class='c-on-base lh-copy vtex-rich-text-0-x-paragraph' href='/accesorios'><img src='/arquivos/categoria-accesorios.jpg'/><br><p>Accesorios</p></a>"
+    }
+  },
+  "rich-text#6": {
+    "props": {
+      "text": "<a class='c-on-base lh-copy vtex-rich-text-0-x-paragraph' href='/hombre/ropa/pantalones'><img src='/arquivos/categoria-pantalones.jpg'/><br><p>Pantalon</p></a>"
+    }
+  },
+  // BLOCK 
+  "sandbox#countdown":{
+    "props": {
+      "width": "100%",
+      "height": "40px",
+      "initialContent": "<script src='https://aldoconti.vteximg.com.br/arquivos/jquery-ui.min.js'></script><script src='https://aldoconti.vteximg.com.br/arquivos/countdown-hotfashion.js?v=001'></script><h1 style='height:40px;background:rgb(223, 40, 65);color:#fff;text-align:center;margin:0;font-size:18px;padding:14px 0;display:flex;justify-content:center;align-items:center;'><img style='width: 40px; margin-right: 10px;' src='https://assets.hotfashion.mx/public/hotfashion-mx/imgs/hot-fashion-2021.svg'><span id='countfashion' style='font-size:30px;'></span><p class='hide-mobile-text' style='font-weight: bold; margin-left: 15px; font-size: 16px;'>¡NO TE LO PUEDES PERDER!</p></h1><style>@media (max-width: 800px){.hide-mobile-text{display:none}}</style>",
+      "allowCookies": true,
+      "blockClass": "countdown-buenfin"
+    }
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "rich-text#top-bar",
+      "flex-layout.row#video-banner-home",
+      "list-context.image-list#principal-slider-desk"
+    ]
+  },
+  "flex-layout.row#video-banner-home": {
+    "children":[
+        "flex-layout.col#video-banner-home"
+    ]
+  },
+  "flex-layout.col#video-banner-home": {
+      "children":[
+         //"iframe#banner-desktop-home"  
+         //"video#banner-desktop-home"       
+      ]
+  },
+  "video#banner-desktop-home": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "controlsType": 1,
+      "src": "'https://www.youtube.com/embed/IzIF0ubf-Tw title=YouTube video player frameborder=0 allow=accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture allowfullscreen",
+      "blockClass": "video-ss22"
+    }
+  },
+  
+  // "iframe#banner-desktop-home": {
+  //     "props": {
+  //       "src": "https://player.vimeo.com/video/469990928?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+  //       "width": "100%",
+  //       "maxHeight": 700,
+  //       "blockClass": "catalog-video-1"
+  //     }
+  // },
+  "list-context.image-list#principal-slider-desk": {
+    "children": [
+      "slider-layout#principal-slider-desk"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "image": "/arquivos/AC_FotosMenucatalogo01_Desktop.png"
+        }
+      ]
+    }
+  },
+  "rich-text#top-bar": {
+    "props": {
+      "text": "####  ¡Entregas de 1 a 4 días hábiles una vez procesada tu compra!  ",
+      "blockClass": "top-bar"
+    }
+  },
+  "slider-layout#principal-slider-desk": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000
+      },
+      "blockClass": "carousel",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
+  "responsive-layout.mobile": {
+    "children": [
+      "rich-text#texto-envio-gratis",
+      "list-context.image-list#demo"
+    ]
+  },
+  "rich-text#texto-envio-gratis": {
+    "props":{
+      "text": "Envíos gratuitos en compras mayores a **$599** a todo México",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile-home-shipping-text"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "mobileImage": "/arquivos/AC_FotosMenucatalogo01_Desktop.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000
+      },
+      "blockClass": "carousel",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
+  // BLOCK 1 --END--
+  // BLOCK 2 THIS IN OTHER CARPET
+  // BLOCK 3
+  "responsive-layout.desktop#mas-vendidos": {
+    "children": [
+      // "flex-layout.row#mas-vendidos",
+      "flex-layout.row#3pzas"
+    ]
+  },
+  "flex-layout.row#mas-vendidos": {
+    "title":"block3pzas",
+    "children": [
+      "flex-layout.col#mas-vendidos"
+    ],
+    "props":{
+      "blockClass": "banner-1-desk-vendidos"
+    }
+  },
+  "flex-layout.col#mas-vendidos": {
+    "children": [
+      "image#banner-mas-vendidos"
+    ]
+  },
+    // BLOCK 3PZAS
+  "flex-layout.row#3pzas": {
+    "title":"block3pzas",
+    "children": [
+      "flex-layout.col#banner1",
+      "flex-layout.col#banner2"
+    ],
+    "props":{
+      "blockClass": "banner-1-desk-vendidos"
+    }
+  },
+  "flex-layout.col#banner1": {
+    "children": [
+      "image#banner1-desktop"
+    ]
+  },
+  "flex-layout.col#banner2": {
+    "children": [
+      "image#banner2-desktop"
+    ]
+  },
+  "image#banner-mas-vendidos": {
+    "props": {
+      "src": "/arquivos/AC_Banner01_Desktop.png"
+    }
+  },
+  "image#banner1-desktop": {
+    "props": {
+      "src": "/arquivos/MB-499.jpg",
+      "width":"100%",
+      "height":"auto"
+    }
+  },
+  "image#banner2-desktop": {
+    "props": {
+      "src": "/arquivos/MB-899.jpg"
+    }
+  },
+    // BLOCK 3PZAS
+  // DESKTOP --END--
+  // MOBILE
+  "responsive-layout.mobile#mas-vendidos": {
+    "children": [
+      // "flex-layout.row#mas-vendidos-mobile",
+      "flex-layout.row#block3pzas-mb"
+    ]
+  },
+  "flex-layout.row#mas-vendidos-mobile": {
+    "children": [
+      "flex-layout.col#mas-vendidos-mobile"
+    ]
+  },
+  "flex-layout.col#mas-vendidos-mobile": {
+    "children": [
+      "image#banner-mas-vendidos-mobile"
+    ]
+  },
+  "image#banner-mas-vendidos-mobile": {
+    "props": {
+      "src": "/arquivos/AC_Banner01_Desktop.png"
+    }
+  },
+    // BLOCK 3PZAS
+    "flex-layout.row#block3pzas-mb": {
+      "title":"block3pzas-mb",
+      "children": [
+        "flex-layout.col#banner1-mb",
+        "flex-layout.col#banner2-mb"
+      ]
+    },
+    "flex-layout.col#banner1-mb": {
+      "children": [
+        "image#banner1-mb"
+      ]
+    },
+    "image#banner1-mb": {
+      "props": {
+        "src": "/arquivos/MB-499.jpg"
+      }
+    },
+    "flex-layout.col#banner2-mb": {
+      "children": [
+        "image#banner2-mb"
+      ]
+    },
+    "image#banner2-mb": {
+      "props": {
+        "src": "/arquivos/MB-899.jpg"
+      }
+    },
+    // BLOCK 3PZAS --END--
+  // MOBILE --END--
+
+  // BLOCK 3 --END--
+  // BLOCK 4
+  "responsive-layout.desktop#novedades-articulos": {
+    "children": [
+      "flex-layout.row#novedades-articulos"
+    ]
+  },
+  "flex-layout.row#novedades-articulos": {
+    "children": [
+      "flex-layout.col#novedades",
+      "flex-layout.col#articulos"
+    ],
+    "props": {
+      "blockClass": "banners-2-desk-both"
+    }
+  },
+  "flex-layout.col#novedades": {
+    "children": [
+      "image#banner-novedades"
+    ],
+    "props": {
+      "blockClass": "banners-2-desk-novedades"
+    }
+  },
+  "image#banner-novedades": {
+    "props": {
+      "src": "/arquivos/AC_Banner02_Desktop.png"
+    }
+  },
+  "flex-layout.col#articulos": {
+    "children": [
+      "image#banner-articulos"
+    ],
+    "props": {
+      "blockClass": "banners-2-desk-articulos"
+    }
+  },
+  "image#banner-articulos": {
+    "props": {
+      "src": "/arquivos/AC_Banner03_Desktop.png"
+    }
+  },
+  "responsive-layout.mobile#novedades-articulos": {
+    "children": [
+      "flex-layout.row#novedades-articulos-mobile"
+    ]
+  },
+  "flex-layout.row#novedades-articulos-mobile": {
+    "children": [
+      "flex-layout.col#novedades-mobile",
+      "flex-layout.col#articulos-mobile"
+    ]
+  },
+  "flex-layout.col#novedades-mobile": {
+    "children": [
+      "image#banner-novedades-mobile"
+    ]
+  },
+  "image#banner-novedades-mobile": {
+    "props": {
+      "src": "/arquivos/AC_Banner02_Desktop.png"
+    }
+  },
+  "flex-layout.col#articulos-mobile": {
+    "children": [
+      "image#banner-articulos-mobile"
+    ]
+  },
+  "image#banner-articulos-mobile": {
+    "props": {
+      "src": "/arquivos/AC_Banner03_Desktop.png"
+    }
+  },
+  // BLOCK 4 --END--
+  // BLOCK 5
+  "responsive-layout.desktop#blog-codigoConti": {
+    "children":["flex-layout.row#blog-codigoConti"]
+  },
+  "flex-layout.row#blog-codigoConti": {
+    "children": [
+      "flex-layout.col#blog-codigoConti"
+    ]
+  },
+  "flex-layout.col#blog-codigoConti": {
+    "children": [
+      "image#banner-blog-codigoConti"
+    ]
+  },
+  "image#banner-blog-codigoConti": {
+    "props": {
+      "src": ""
+    }
+  },
+  "responsive-layout.mobile#blog-codigoConti": {
+    "children":["flex-layout.row#blog-codigoConti-mobile"]
+  },
+  "flex-layout.row#blog-codigoConti-mobile": {
+    "children": [
+      "flex-layout.col#blog-codigoConti-mobile"
+    ]
+  },
+  "flex-layout.col#blog-codigoConti-mobile": {
+    "children": [
+      "image#banner-blog-codigoConti-mobile"
+    ]
+  },
+  "image#banner-blog-codigoConti-mobile": {
+    "props": {
+      "src": ""
+    }
+  },  
+  // BLOCK 5 --END--
+  // BLOCK 6
+  // "tab-layout#promociones": {
+  //   "children": [
+  //     "tab-list#home",
+  //     "tab-content#home"
+  //   ],
+  //   "props": {
+  //     "blockClass": "home",
+  //     "defaultActiveTabId": "home1"
+  //   }
+  // },
+  // "tab-list#home": {
+  //   "children": [
+  //     "tab-list.item#home1",
+  //     "tab-list.item#home2"
+  //     ]
+  // },
+  // "tab-list.item#home1": {
+  //   "props": {
+  //     "tabId": "home1",
+  //     "label": "Home 1",
+  //     "defaultActiveTab": true
+  //   }
+  // },
+  // "tab-list.item#home2": {
+  //   "props": {
+  //     "tabId": "home2",
+  //     "label": "Home 2"
+  //   }
+  // },
+  // "tab-content#home": {
+  //   "children": [
+  //     "tab-content.item#home1",
+  //     "tab-content.item#home2"
+  //   ]
+  // },
+  // "tab-content.item#home1": {
+  //   "children": [
+  //     "carousel#home"
+  //   ],
+  //   "props": {
+  //     "tabId": "home1"
+  //   }
+  // },
+  // "tab-content.item#home2": {
+  //   "children": [
+  //     "shelf#home",
+  //     "info-card#home",
+  //     "rich-text#question",
+  //     "rich-text#link",
+  //     "newsletter"
+  //   ],
+  //   "props": {
+  //     "tabId": "home2"
+  //   }
+  // },
+  // BLOCK 6 --END--
+  // BLOCK 7
+  "responsive-layout.desktop#banner5":{
+    "children": [
+      "flex-layout.row#bannerAC-desktop"
+    ]
+  },
+  "flex-layout.row#bannerAC-desktop": {
+    "children": [
+      "flex-layout.col#bannerAC"
+    ]
+  },
+  "flex-layout.col#bannerAC": {
+    "children": [
+      "image#banner-bannerAC"
+    ]
+  },
+  "image#banner-bannerAC": {
+    "props": {
+      "src": "/arquivos/AC_Banner05_Desktop.png"
+    }
+  },
+  "responsive-layout.mobile#banner5":{
+    "children": [
+      "flex-layout.row#bannerAC-mobile"
+    ]
+  },
+  "flex-layout.row#bannerAC-mobile": {
+    "children": [
+      "flex-layout.col#bannerAC-mobile"
+    ]
+  },
+  "flex-layout.col#bannerAC-mobile": {
+    "children": [
+      "image#banner-bannerAC-mobile"
+    ]
+  },
+  "image#banner-bannerAC-mobile": {
+    "props": {
+      "src": "/arquivos/AC_Banner04_Desktop.png"
+    }
+  },
+  "responsive-layout.mobile#banner6":{
+    "children": [
+      "flex-layout.row#bannerAC-mobile"
+    ]
+  },
+  
+  /** CAROUSEL **/
+  "flex-layout.row#products-carousel-a": {
+    "title" : "Carrusel de productos1",
+    "children": [
+      "tab-layout#home-shelfs"
+    ],
+    "props": {
+      "blockClass": "products-carousel-wrapper"
+    }
+  },
+  "tab-layout#home-shelfs": {
+    "children": [
+      "tab-list#home-shelf",
+      "tab-content#home-shelf"
+    ],
+    "props": {
+      "blockClass": "tab-home-shelfs",
+      "defaultActiveTabId": "home-shelf-1",
+      "width": "100%"
+    }
+  },
+  "tab-list#home-shelf": {
+    "children": [
+      "tab-list.item#home-shelf-1",
+      "tab-list.item#home-shelf-2"
+    ],
+    "props": {
+      "blockClass": "tab-list-home-shelfs"
+    }
+  },
+  "tab-list.item#home-shelf-1": {
+    "props": {
+      "tabId": "home-shelf-1",
+      "label": "Productos destacados",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home-shelf-2": {
+    "props": {
+      "tabId": "home-shelf-2",
+      "label": "lo más valorados"
+    }
+  },
+  "tab-content#home-shelf": {
+    "children": [
+      "tab-content.item#home-shelf-1",
+      "tab-content.item#home-shelf-2"
+    ],
+    "props": {
+      "blockClass": "tab-content-home-shelfs"
+    }
+  },
+  "tab-content.item#home-shelf-1": {
+    "children": [
+      "list-context.product-list#demo1"
+    ],
+    "props": {
+      "tabId": "home-shelf-1"
+    }
+  },
+  "tab-content.item#home-shelf-2": {
+    "children": [
+      "list-context.product-list#demo1"
+    ],
+    "props": {
+      "tabId": "home-shelf-2"
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  /** CAROUSEL **/
+  "flex-layout.row#products-carousel-b": {
+    "title" : "Carrusel de productos2",
+    "children": [
+      "tab-layout#home-shelfs-ref"
+    ],
+    "props": {
+      "blockClass": "products-carousel-wrapper"
+    }
+  },
+  "tab-layout#home-shelfs-ref": {
+    "children": [
+      "tab-list#home-shelf-ref",
+      "tab-content#home-shelf-ref"
+    ],
+    "props": {
+      "blockClass": "tab-home-shelfs",
+      "defaultActiveTabId": "home-shelf-1",
+      "width": "100%"
+    }
+  },
+  "tab-list#home-shelf-ref": {
+    "children": [
+      "tab-list.item#home-shelf-1-a",
+      "tab-list.item#home-shelf-2-a"
+    ],
+    "props": {
+      "blockClass": "tab-list-home-shelfs"
+    }
+  },
+  "tab-list.item#home-shelf-1-a": {
+    "props": {
+      "tabId": "home-shelf-1",
+      "label": "Tendencias",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home-shelf-2-a": {
+    "props": {
+      "tabId": "home-shelf-2",
+      "label": "lo más vendidos"
+    }
+  },
+  "tab-content#home-shelf-ref": {
+    "children": [
+      "tab-content.item#home-shelf-1-a",
+      "tab-content.item#home-shelf-2-a"
+    ],
+    "props": {
+      "blockClass": "tab-content-home-shelfs"
+    }
+  },
+  "tab-content.item#home-shelf-1-a": {
+    "children": [
+      "list-context.product-list#demo2"
+    ],
+    "props": {
+      "tabId": "home-shelf-1"
+    }
+  },
+  "tab-content.item#home-shelf-2-a": {
+    "children": [
+      "list-context.product-list#demo2"
+    ],
+    "props": {
+      "tabId": "home-shelf-2"
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  // BLOCK 7 --END--
+  "flex-layout.row#home-shelf": {
+    "children": [
+      "flex-layout.col#home-shelf"
+    ],
+    "props": {
+      "blockClass": "home-shelf"
+    }
+  },
+  "flex-layout.col#home-shelf": {
+    "children": [
+      "rich-text#home-shelf-title",
+      "shelf#home"
+    ],
+    "props": {
+      "blockClass": "home-shelf"
+    }
+  },
+  "rich-text#home-shelf-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lo más nuevo",
+      "blockClass": "titles-home"
+    }
+  },
+  "shelf#home": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  // "list-context.product-list#demo1": {
+  //   "blocks": [
+  //     "product-summary.shelf"
+  //   ],
+  //   "children": [
+  //     "slider-layout#demo-products"
+  //   ],
+  //   "props": {
+  //     "orderBy": "OrderByTopSaleDESC"
+  //   }
+  // },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+  "flex-layout.row#divisor": {
+    "props": {
+      "blockClass": "page-divisor"
+    }
+  },
+  // BLOCK 8 Newsletter
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#newsletter-1"
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "flex-layout.col#newsletter-1": {
+    "children": [
+      "rich-text#newsletter-secondary",
+      "rich-text#newsletter-title",
+      "rich-text#newsletter",
+      "newsletter#horariosAtencion"
+
+    ],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "rich-text#newsletter-secondary": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Suscríbete a nuestro Newsletter",
+      "blockClass": "newsletter-secondary"
+    }
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "\n¡10% DE DESCUENTO!\n",
+      "blockClass": "newsletter-title"
+    }
+  },
+  "rich-text#newsletter": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "En tu primera compra en línea",
+      "blockClass": "newsletter"
+    }
+  },
+  "newsletter#horariosAtencion": {
+    "props": {
+      "blockClass": "newsletter",
+      "placeholder": "Correo electrónico",
+      "submit": "REGISTARSE"
+    }
+  },
+  // FORM
+  "flex-layout.row#form": {
+    "children": [
+      "flex-layout.col#form"
+    ]
+  },
+  "flex-layout.col#form": {
+    "children": [
+      "form#newsletter"
+    ]
+  },
+  "form#newsletter": {
+    "props": {
+      "entity": "clients",
+      "schema": "person"
+    },
+    "children": [
+      "form-input.checkbox#agreement"
+    ]
+  },
+  "form-input.checkbox#agreement": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "Do you agree that this is the best form component in the whole wide world?"
+    }
+  },
+  // BLOCK 8 --END--
+
+  // BLOCK 9 Atención a cliente
+  "responsive-layout.desktop#atencion-cliente": {
+    "children": [
+      "flex-layout.row#atención-cliente"
+    ]
+  },
+  "flex-layout.row#atención-cliente": {
+    "children": [
+      "image#atencion-cliente",
+      "rich-text#atencion-cliente",
+      "image#horarios-atencion",
+      "rich-text#horarios-atencion"
+    ],
+    "props": {
+      "blockClass": "bg-atencionCliente"
+    }
+  },
+  "image#atencion-cliente": {
+    "props": {
+      "src": "assets/icons-svg/phone.png",
+      "width": "10%",
+      "blockClass": "icon-atencionCliente"
+    }
+  },
+  "rich-text#atencion-cliente": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "\n**Atención a clientes:** 01 800 39 80000\n ecommerce@aldoconti.com",
+      "blockClass": "atencionCliente",
+      "width": "31%"
+    }
+  },
+  "image#horarios-atencion": {
+    "props": {
+      "src": "assets/icons-svg/audio.png",
+      "width": "10%",
+      "blockClass": "icon-atencionCliente"
+    }
+  },
+  "rich-text#horarios-atencion": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "\n**Horarios de atención:**\n Lunes a Sábado de 10:00 am a 6:00pm.",
+      "blockClass": "atencionCliente",
+      "width": "25%"
+    }
+  },
+
+  // BLOCK 9 Atención a cliente MOBILE
+  "responsive-layout.mobile#atencion-cliente": {
+    "children": [
+      "flex-layout.row#atención-cliente-mobile"
+    ]
+  },
+  "flex-layout.row#atención-cliente-mobile": {
+    "children": [
+      "image#atencion-cliente-mobile",
+      "rich-text#atencion-cliente-mobile",
+      "image#horarios-atencion-mobile",
+      "rich-text#horarios-atencion-mobile"
+    ],
+    "props": {
+      "blockClass": "bg-atencionCliente-mobile"
+    }
+  },
+  "image#atencion-cliente-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "src": "assets/icons-svg/phone.png",
+      "blockClass": "icon-atencionCliente-mobile"
+    }
+  },
+  "rich-text#atencion-cliente-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "\n**Atención a clientes:** 01 800 39 80000\n ecommerce@aldoconti.com",
+      "blockClass": "atencionCliente-mobile",
+      "width": "31%"
+    }
+  },
+  "image#horarios-atencion-mobile": {
+    "props": {
+      "src": "assets/icons-svg/audio.png",
+      "blockClass": "icon-atencionCliente-mobile"
+    }
+  },
+  "rich-text#horarios-atencion-mobile": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "\n**Horarios de atención:**\n Lunes a Sábado de 10:00 am a 6:00pm.",
+      "blockClass": "horariosAtencion-mobile",
+      "width": "21%"
+    }
+  },
+  // BLOCK 9 Atención a cliente --END--
+
+  //BLOQUE NAVIDAD
+  "flex-layout.row#promo-navidad": {
+    "title": "Promo-Navidad",
+    "children":[
+      "flex-layout.col#promo-navidad"
+    ],
+    "props":{
+      "blockClass": "promos-navidad"
+    }
+  },
+  "flex-layout.col#promo-navidad": {
+    "children":[
+      "list-context.image-list#pleca-navidad",
+      "list-context.image-list#box-navidad"
+    ],
+    "props":{
+      "blockClass": "promos-navidad"
+    }
+  },
+
+  "list-context.image-list#pleca-navidad": {
+    "children": ["slider-layout#pleca-navidad"],
+    "props": {
+      "images": [
+        {
+          "image": "https://aldoconti.myvtex.com/arquivos/NAVIDAD_desktop_14-100.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/Group%207%20(1)%20(1)%20(1)%20(1)%20(1)___c6b3ed853fb16a08b265753b50e0c57a.png"
+        }
+      ],
+      "height": 200      
+    }
+  },
+  "slider-layout#pleca-navidad": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "blockClass": "pleca-navidad"
+    }
+  },
+  "list-context.image-list#box-navidad": {
+    "children": ["slider-layout#box-navidad"],
+    "props": {
+      "images": [
+        {
+          "image": "https://aldoconti.myvtex.com/arquivos/NAVIDAD_desktop_15-100.jpg",
+          "mobileImage": "https://aldoconti.myvtex.com/arquivos/NAVIDAD_desktop_15-100.jpg"
+        },
+        {
+          "image": "https://aldoconti.myvtex.com/arquivos/NAVIDAD_desktop_16-100.jpg",
+          "mobileImage": "https://aldoconti.myvtex.com/arquivos/NAVIDAD_desktop_16-100.jpg"
+        },
+        {
+          "image": "https://aldoconti.myvtex.com/arquivos/NAVIDAD_desktop_17-100.jpg",
+          "mobileImage": "https://aldoconti.myvtex.com/arquivos/NAVIDAD_desktop_17-100.jpg"
+        }
+      ],
+      "height": 700,
+      "blockClass": "promos-navidad"
+    }
+  },
+  "slider-layout#box-navidad": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false
+    }    
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "store.custom#como-comprar": {
+    "path": "/como-comprar"
+  },
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#catalogo-new": {
+    "path": "/campaña"
+  },
+  "store.custom#city-vibes-catalogo": {
+    "path": "/city-vibes-catalogo"
+  },
+  "store.custom#nuestras-marcas": {
+    "path": "/nuestras-marcas"
+  },
+  "store.custom#ventas-corporativas": {
+    "path": "/ventas-corporativas"
+  },
+  "store.custom#lookbook-fw": {
+    "path": "/lookbook-otono-invierno"
+  },
+  "store.custom#editorial": {
+    "path": "/editorial"
+  },
+  "store.custom#aviso-de-privacidad": {
+    "path": "/aviso-de-privacidad"
+  },
+  "store.custom#terminos-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#codigo-conti": {
+    "path": "/blog"
+  },
+  "store.custom#tendencias": {
+    "path": "/blog/tendencias"
+  },
+  "store.custom#tips": {
+    "path": "/blog/tips"
+  },
+  "store.custom#momentos": {
+    "path": "/blog/momentos"
+  },
+  "store.custom#accesorios": {
+    "path": "/blog/accesorios"
+  },
+  "store.custom#catalogo-fw": {
+    "path": "/catalogo-otono-invierno"
+  },
+  "store.custom#promo-3x999": {
+    "path": "/promocion-3x899"
+  },
+  "store.custom#politicas-de-compra": {
+    "path": "/politicas-de-compra"
+  },
+  "store.custom#facturacion": {
+    "path": "/facturacion"
+  },
+  "store.custom#faq": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#pagos": {
+    "path": "/pagos"
+  },
+  "store.custom#envio": {
+    "path": "/envio"
+  },
+  "store.custom#rastreo": {
+    "path": "/rastrea-tu-pedido"
+  },
+  "store.custom#devoluciones": {
+    "path": "/cambios-y-devoluciones"
+  },
+  "store.custom#politica-privacidad": {
+    "path": "/politicas-de-privacidad"
+  },
+  "store.custom#lp-giveaway": {
+    "path": "/giveawaydiadelpadre"
+  },
+  "store.custom#cookies": {
+    "path": "/politicas-de-cookies"
+  },
+  "store.custom#candidatos": {
+    "path": "/politicas-de-candidatos"
+  },
+  "store.custom#tyc-promociones": {
+    "path": "/terminos-y-condiciones-promocionales"
+  },
+  "store.custom#cambio-tallas": {
+    "path": "/cambio-de-tallas"
+  },
+  "store.custom#sucursales": {
+    "path": "/sucursales"
+  },
+  "store.custom#tips-04112020": {
+    "path": "/blog/tips/nueva-temporada-fw-2020"
+  },
+  "store.custom#tips-19112020": {
+    "path": "/blog/tips/el-interior-es-lo-mas-importante"
+  },
+  "store.custom#promociones": {
+    "path": "/promociones"
+  },
+  "store.custom#pedido-retrasado": {
+    "path": "/pedido-retrasado"
+  },
+  "store.custom#tendencias-04112020": {
+    "path": "/blog/tendencias/viste-con-el-look-mas-moderno"
+  },  
+  "store.custom#momentos-28122020": {
+    "path": "/blog/momentos/elige-el-estilo-que-quieras-regalar"
+  },
+  "store.custom#tendencias-11012021": {
+    "path": "/blog/tendencias/una-nueva-forma-de-planchar"
+  },
+  "store.custom#momentos-25012021": {
+    "path": "/blog/momentos/gran-liquidacion-y-ultima-rebaja"
+  },
+  "store.custom#especial-plancha-vapor": {
+    "path": "/plancha-de-vapor-aldo-conti"
+  },
+  "store.custom#momentos-12022021": {
+    "path": "/blog/momentos/consiente-a-esa-persona-especial"
+  },
+  "store.custom#momentos-29032021": {
+    "path": "/blog/momentos/se-feliz-y-mas-productivo-vistiendote-bien"
+  },
+  "store.custom#tips-05032021":{
+    "path": "/blog/tips/10-cosas-que-tienes-que-saber-para-lucir-un-traje"
+  },
+  "store.custom#lp-nc-aldoconti":{
+    "path": "/VACACIONES15"
+  },
+  "store.custom#lp-nc-aldoconti-3999":{
+    "path": "/promocion-3x999"
+  },
+  "store.custom#lp-nc-aldoconti-3de349x999":{
+    "path": "/promocion-3-de-349x999"
+  },
+  "store.custom#momentos-17032021": {
+    "path": "/blog/momentos/que-tipo-de-hombre-eres"
+  },
+  "store.custom#lookbook": {
+    "path": "/lookbook"
+  },
+  "store.custom#lookbookotono": {
+    "path": "/lookbook-otono"
+  },
+  "store.custom#tendencias-200142021": {
+    "path": "/blog/tendencias/nueva-moda"
+  },
+  "store.custom#tendencias-14072021": {
+    "path": "/blog/tendencias/city-vibes-blog"
+  },
+  "store.custom#momentos-home-proms": {
+    "path": "/blog/momentos/home-proms"
+  },
+  "store.custom#momentos-home-el-mejor-regalo": {
+    "path": "/blog/momentos/el-mejor-regalo"
+  },
+  "store.custom#momentos-hot-fashion-2021": {
+    "path": "/blog/momentos/hot-fashion-2021"
+  },
+  
+  "store.custom#hotsale": {
+    "path": "/dia-del-padre"
+  },
+  "store.custom#bancos": {
+    "path": "/promociones-bancarias"
+  },
+  "store.custom#promocion-3x1399": {
+    "path": "/promocion-3x1399"
+  },
+  "store.custom#tips-hot-sale": {
+    "path": "/blog/tips/hot-sale"
+  },
+  "store.custom#tips-27052021":{
+    "path": "/blog/tips/lo-mas-hot"
+  },
+  "store.custom#audifonos": {
+    "path": "/blog/tips/audifonos-inalambricos"
+  },
+  "store.custom#tips-jeans": {
+    "path": "/blog/tips/jeans"
+  },
+  "store.custom#tendencias-06122021": {
+    "path": "/blog/tendencias/underwear"
+
+  },
+  "store.custom#tendencias-07122021": {
+    "path": "/blog/tendencias/sportsware"
+  },
+  "store.custom#tendencias-09122021": {
+    "path": "/blog/tendencias/audifonos"
+  },
+  "store.custom#momentos-tienda-mercado-libre": {
+    "path": "/blog/momentos/tienda-oficial-mercado-libre"
+  },
+  "store.custom#tips-san-valentin": {
+    "path": "/blog/tips/san-valentin"
+  }
+
+}

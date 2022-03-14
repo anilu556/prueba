@@ -1,0 +1,402 @@
+{
+    "store.custom#ventas-corporativas": {
+        "blocks": [
+          "flex-layout.row#ventas-corporativas"
+        ]
+    },
+
+    "flex-layout.row#ventas-corporativas": {
+        "children": [
+          "flex-layout.col#text-ventas-corporativas"
+        ],
+        "props": {
+          "blockClass": ["page-institucionales", "nuestras-marcas"]
+        }
+    },
+      
+    "flex-layout.col#text-ventas-corporativas": {
+        "children": [
+          "rich-text#ventas-corporativas-titulo",
+          "list-context.image-list#ventas-corporativas",
+          "rich-text#ventas-parrafo-1",
+          "rich-text#ventas-parrafo-2",
+          "rich-text#ventas-parrafo-3",
+          /* "flex-layout.row#ventas-lista-divida",
+          "flex-layout.col#ventas-images-companies", */
+          "rich-text#ventas-parrafo-6"
+          // "flex-layout.row#form-corporativas"
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+    },
+
+    "rich-text#ventas-corporativas-titulo": {
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Ventas corporativas"
+        }
+    },
+     
+    "list-context.image-list#ventas-corporativas": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+              "image": "/arquivos/ids/294801/ventas-coorporativas.jpg",
+              "mobileImage": "/arquivos/ids/294801/ventas-coorporativas.jpg"
+            }
+          ]
+        }
+    },
+      
+    "slider-layout#ventas-corporativas-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "blockClass": "vcorp-image",
+          "showNavigationArrows": "never",
+          "showPaginationDots": "never",
+          "fullWidth": true
+        }
+    },
+
+    "rich-text#ventas-parrafo-1": {
+        "props": {
+            "blockClass": "vcorp-parrafo",
+            "text": "**Aldo Conti Italia** con más de 30 años de experiencia, se ha ganado el reconocimiento y preferencia por sus uniformes empresariales para Dama y Caballero. Ofrecemos excelentes oportunidades comerciales a empresas y grandes beneficios para sus colaboradores. Nos sentimos orgullosos de contribuir a la imagen corporativa de nuestros clientes, que han confiado año con año en el diseño y desarrollo de nuevos modelos cada temporada.\n\nContamos con una fábrica de producción equipada con la más alta tecnología y el mejor equipo de colaboradores especializados en el arte de confección y fabricación de uniformes corporativos. Además de un equipo de ventas corporativas para atender las diferentes necesidades de nuestros clientes de manera personalizada y profesional.\n\nEl servicio que ofrecemos incluye:"
+        }
+    },
+
+    "rich-text#ventas-parrafo-2": {
+        "props": {
+            "blockClass": "bullet-group-1",
+            "text": "- Entregas en tiempo y forma\n- Toma de tallas personalizada en las instalaciones del cliente\n- Ajustes de sastrería\n- Convenios empresariales para que sus colaboradores reciban un descuento especial en nuestras sucursales\n- Contamos con alternativas de pago de contado y planes a crédito\n- Asesoría directa y personalizada en la selección de diseños y telas del mercado nacional e internacional para confeccionar los Uniformes que consolidarán la imagen corporativa de su organización"
+        }
+    },
+    
+    "rich-text#ventas-parrafo-3": {
+        "props": {
+            "blockClass": "vcorp-parrafo",
+            "text": "Además de estos servicios, contamos con los Vales Conti que es un esquema de venta que les ofrecemos a las empresas, que quieren otorgarle una prestación, beneficio adicional u obsequio a sus colaboradores o clientes. El portador del vale puede canjearlo en cualquier sucursal de Aldo Conti por una prenda que sea de su agrado, o por algún Uniforme Corporativo que haya designado la empresa. Este esquema de venta es ideal para todo tipo de organizaciones y funciona muy bien para empresas que tienen oficinas o sucursales en diferentes partes de la República Mexicana.\n\nEs de vital importancia mencionar que Aldo Conti cuenta con más de 160 sucursales a lo largo de toda la República Mexicana en donde sus colaboradores pueden recibir el descuento especial, canjear sus vales o realizar sus ajustes de sastrería completamente gratuitos."
+        }
+    },
+
+    "flex-layout.row#ventas-lista-divida": {
+        "children": [
+            "rich-text#ventas-parrafo-4",
+            "rich-text#ventas-parrafo-5"
+        ]
+    },
+
+    "rich-text#ventas-parrafo-4": {
+        "props": {
+            "blockClass": "bullet-group-1",
+            "text": "- Televisa Corporación\n- Banco BBVA\n- Banco Santander\n- Grupo Gigante\n- Holiday Inn México Buenavista\n- Universidad la Salle – Ecatepec\n- Transportes Unidos TUSA\n- Mazda Servicios\n- Paquete Express"
+        }
+    },
+    
+    "rich-text#ventas-parrafo-5": {
+        "props": {
+            "blockClass": "bullet-group-1",
+            "text": "- Grupo PepsiCo\n-Deloitte\n- Instituto Nacional de Neurología y Neurocirugía\n- SEDENA\n- Cervecería Cuauhtémoc Moctezuma\n- Seguros El Águila\n- Centro Libanés A.C."
+        }
+    },
+
+    "flex-layout.col#ventas-images-companies": {
+        "children": [
+            "flex-layout.row#empresas-1",
+            "flex-layout.row#empresas-2",
+            "flex-layout.row#empresas-3"
+        ],
+        "props":{
+            "blockClass": "ac-brand-images"
+        }
+    },
+
+    "flex-layout.row#empresas-1": {
+        "children": [
+            "flex-layout.col#empresas-1-1",
+            "flex-layout.col#empresas-1-2",
+            "flex-layout.col#empresas-1-3",
+            "flex-layout.col#empresas-1-4"
+        ]
+    },
+
+    "flex-layout.col#empresas-1-1": {
+        "children": [
+            "image#empresas-1-1"
+        ]
+    },
+
+    "image#empresas-1-1": {
+        "props": {
+            "src":"/arquivos/ids/294802/LOGOS_MARCAS-01.png",
+            "maxWidth": 200
+        }
+    },
+
+    "flex-layout.col#empresas-1-2": {
+        "children": [
+            "image#empresas-1-2"
+        ]
+    },
+
+    "image#empresas-1-2": {
+        "props": {
+            "src":"/arquivos/ids/294803/LOGOS_MARCAS-02.png",
+            "maxWidth": 200
+        }
+    },
+
+    "flex-layout.col#empresas-1-3": {
+        "children": [
+            "image#empresas-1-3"
+        ]
+    },
+
+    "image#empresas-1-3": {
+        "props": {
+            "src":"/arquivos/ids/294804/LOGOS_MARCAS-03.png",
+            "maxWidth": 200
+        }
+    },
+    
+    "flex-layout.col#empresas-1-4": {
+        "children": [
+            "image#empresas-1-4"
+        ]
+    },
+
+    "image#empresas-1-4": {
+        "props": {
+            "src":"/arquivos/ids/294805/LOGOS_MARCAS-04.png",
+            "maxWidth": 200
+        }
+    },
+    
+    "flex-layout.row#empresas-2": {
+        "children": [
+            "flex-layout.col#empresas-2-1",
+            "flex-layout.col#empresas-2-2",
+            "flex-layout.col#empresas-2-3",
+            "flex-layout.col#empresas-2-4"
+        ]
+    },
+
+    "flex-layout.col#empresas-2-1": {
+        "children": [
+            "image#empresas-2-1"
+        ]
+    },
+
+    "image#empresas-2-1": {
+        "props": {
+            "src":"/arquivos/ids/294806/LOGOS_MARCAS-05.png",
+            "maxWidth": 200
+        }
+    },
+
+    "flex-layout.col#empresas-2-2": {
+        "children": [
+            "image#empresas-2-2"
+        ]
+    },
+
+    "image#empresas-2-2": {
+        "props": {
+            "src":"/arquivos/ids/294807/LOGOS_MARCAS-06.png",
+            "maxWidth": 200
+        }
+    },
+
+    "flex-layout.col#empresas-2-3": {
+        "children": [
+            "image#empresas-2-3"
+        ]
+    },
+
+    "image#empresas-2-3": {
+        "props": {
+            "src":"/arquivos/ids/294808/LOGOS_MARCAS-07.png",
+            "maxWidth": 200
+        }
+    },
+    
+    "flex-layout.col#empresas-2-4": {
+        "children": [
+            "image#empresas-2-4"
+        ]
+    },
+
+    "image#empresas-2-4": {
+        "props": {
+            "src":"/arquivos/ids/294809/LOGOS_MARCAS-08.png",
+            "maxWidth": 200
+        }
+    },
+    
+    "flex-layout.row#empresas-3": {
+        "children": [
+            "flex-layout.col#empresas-3-1",
+            "flex-layout.col#empresas-3-2",
+            "flex-layout.col#empresas-3-3",
+            "flex-layout.col#empresas-3-4"
+        ]
+    },
+
+    "flex-layout.col#empresas-3-1": {
+        "children": [
+            "image#empresas-3-1"
+        ]
+    },
+
+    "image#empresas-3-1": {
+        "props": {
+            "src":"/arquivos/ids/294810/LOGOS_MARCAS-09.png",
+            "maxWidth": 200
+        }
+    },
+
+    "flex-layout.col#empresas-3-2": {
+        "children": [
+            "image#empresas-3-2"
+        ]
+    },
+
+    "image#empresas-3-2": {
+        "props": {
+            "src":"/arquivos/ids/294811/LOGOS_MARCAS-10.png",
+            "maxWidth": 200
+        }
+    },
+
+    "flex-layout.col#empresas-3-3": {
+        "children": [
+            "image#empresas-3-3"
+        ]
+    },
+
+    "image#empresas-3-3": {
+        "props": {
+            "src":"/arquivos/ids/294812/LOGOS_MARCAS-11.png",
+            "maxWidth": 200
+        }
+    },
+    
+    "flex-layout.col#empresas-3-4": {
+        "children": [
+            "image#empresas-3-4"
+        ]
+    },
+
+    "image#empresas-3-4": {
+        "props": {
+            "src":"/arquivos/ids/294813/LOGOS_MARCAS-12.png",
+            "maxWidth": 200
+        }
+    },
+
+    "rich-text#ventas-parrafo-6": {
+        "props": {
+            "blockClass": "vcorp-parrafo",
+            "text": "Ponemos a su disposición el siguiente teléfono y correo electrónico:\n\n- 55 5241 4545 . Ext. 2136 \n- ventascorporativas@aldoconti.com\n\n"
+        }
+    },
+
+    "flex-layout.row#form-corporativas": {
+        "children": [
+            "flex-layout.col#form-corporativas"
+        ]
+    },
+
+    "flex-layout.col#form-corporativas": {
+        "children": [
+            "form"
+        ]
+    },
+
+    "form": {
+        "props": {
+            "entity": "Corporative Sales",
+            "schema": "person"
+        },
+        "children": [
+            "rich-text#titleForm",
+            "form-input.text#nombre-completo",
+            "form-input.text#correo-electronico",
+            "form-input.text#empresa",
+            "form-input.text#telefono",
+            "form-input.text#requerimiento",
+            "form-submit"
+        ],
+        "blocks": ["form-success"]            
+    },
+
+    "form-success": {
+        "children": [
+            "rich-text#successSubmit"
+        ]
+    },
+
+    "rich-text#successSubmit": {
+        "props": {
+            "text": "La información fue enviada correctamente. Pronto nos pondremos en contacto contigo",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "rich-text#titleForm": {
+        "props": {
+            "text": "Contacto ventas corporativas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "title-form-vcorp"
+        }
+    },
+
+    "form-input.text#nombre-completo": {
+        "props": {
+            "pointer": "#/properties/completename"
+        }
+    },
+    
+    "form-input.text#correo-electronico": {
+        "props": {
+            "pointer": "#/properties/yeremail"
+        }
+    },
+    
+    "form-input.text#empresa": {
+        "props": {
+            "pointer": "#/properties/yercompany"
+        }
+    },
+    
+    "form-input.text#telefono": {
+        "props": {
+            "pointer": "#/properties/yerphone"
+        }
+    },
+    
+    "form-input.text#requerimiento": {
+        "props": {
+            "pointer": "#/properties/yerrequirement"
+        }
+    },
+
+    "form-submit": {
+        "props": {
+          "label": "Enviar"
+        }
+    }
+    
+}

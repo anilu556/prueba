@@ -1,0 +1,1960 @@
+{
+    "store.custom#catalogo-fw": {
+        "blocks": [
+          "flex-layout.row#catalogo-fw"
+        ]
+    },
+    "flex-layout.row#catalogo-fw": {
+        "children": [
+            "flex-layout.col#catalogo-fw"
+        ],
+        "props": {
+            "blockClass": ["spacial-pages", "catalogo-fw"]
+        }
+    },
+    "flex-layout.col#catalogo-fw": {
+        "children":[
+            "responsive-layout.desktop#catalogo-fw",
+            "responsive-layout.mobile#catalogo-fw"
+        ]        
+    },
+    "responsive-layout.desktop#catalogo-fw": {
+        "children": [
+            "flex-layout.row#catalogo-desktop-1",
+            "flex-layout.row#catalogo-desktop-2",
+            "flex-layout.row#catalogo-desktop-3",
+            "flex-layout.row#catalogo-desktop-4",
+            "flex-layout.row#catalogo-desktop-5",
+            "flex-layout.row#catalogo-desktop-6",
+            "flex-layout.row#catalogo-desktop-7",
+            "flex-layout.row#catalogo-desktop-8",
+            "flex-layout.row#catalogo-desktop-9",
+            "flex-layout.row#catalogo-desktop-10",
+            "flex-layout.row#catalogo-desktop-11",
+            "flex-layout.row#catalogo-desktop-12",
+            "flex-layout.row#catalogo-desktop-13",
+            "flex-layout.row#catalogo-desktop-14"
+        ],
+        "props":{
+            "blockClass": "fondo-bloque-1"
+        }
+    },
+    //Inicia versión Desktop
+    "flex-layout.row#catalogo-desktop-1": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-1-1",
+            "flex-layout.col#catalogo-desktop-1-2",
+            "flex-layout.col#catalogo-desktop-1-3",
+            "flex-layout.col#catalogo-desktop-1-4"
+            //"rich-text#point-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-1-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-1-1": {
+        "children":[
+            "image#catalogo-desktop-1-1"
+        ],
+        "props":{
+            "blockClass": "elem-desk-1-1"
+        }        
+    },
+    "image#catalogo-desktop-1-1": {
+        "props":{
+            "src": "/arquivos/F1_0001_capa2-red.png",
+            "maxHeight": 280,
+            "blockClass": "img-elem-desk-1-1"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-1-2": {
+        "children":[
+            "image#catalogo-desktop-1-2"
+        ],
+        "props":{
+            "blockClass": "elem-desk-1-2"
+        }        
+    },
+    "image#catalogo-desktop-1-2": {
+        "props":{
+            "src": "/arquivos/F1_0000_capa1-red.png",
+            "maxHeight": 600,
+            "blockClass": "img-elem-desk-1-2"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-1-3": {
+        "children":[
+            "image#catalogo-desktop-1-3"
+        ],
+        "props":{
+            "blockClass": "elem-desk-1-3"
+        }        
+    },
+    "image#catalogo-desktop-1-3": {
+        "props":{
+            "src": "/arquivos/F1_0002_capa4-red.png",
+            "maxHeight": 500,
+            "blockClass": "img-elem-desk-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-1-4": {
+        "children":[
+            "image#catalogo-desktop-1-4"
+        ],
+        "props":{
+            "blockClass": "elem-desk-1-4"
+        }        
+    },
+    "image#catalogo-desktop-1-4": {
+        "props":{
+            "src": "/arquivos/F1_0003_capa5-red.png",
+            "maxHeight": 600,
+            "blockClass": "img-elem-desk-1-4"  
+        }
+    },
+    "rich-text#point-1": {
+        "props":{
+            "text": "[Ver más](/)",
+            "blockClass": "desktop-point-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-2": {
+        "children":[
+            "flex-layout.col#catalogo-desktop-2-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-2-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-2-1": {
+        "children":[
+            "iframe"
+        ]
+    },
+    "iframe": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469629282?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-3": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-3-1",
+            "flex-layout.col#catalogo-desktop-3-2"
+        ],
+        "props":{
+            "blockClass": "catalogo-3-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-3-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-3-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-3-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-3-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-3-1-1",
+            "flex-layout.col#sub-cat-desktop-3-1-2",
+            "flex-layout.col#sub-cat-desktop-3-1-3",
+            "flex-layout.col#sub-cat-desktop-3-1-4"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-3-1-1": {
+        "children":[
+            "image#sub-cat-desktop-3-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-3-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-3-1-1": {
+        "props":{
+            "src": "/arquivos/F2_0001_capa2-red.png",
+            "maxHeight": 250,
+            "blockClass": "img-cat-desktop-3-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-3-1-2": {
+        "children":[
+            "image#sub-cat-desktop-3-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-3-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-3-1-2": {
+        "props":{
+            "src": "/arquivos/F2_0000_capa1-red.png",
+            "maxHeight": 550,
+            "blockClass": "img-cat-desktop-3-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-3-1-3": {
+        "children":[
+            "image#sub-cat-desktop-3-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-3-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-3-1-3": {
+        "props":{
+            "src": "/arquivos/F2_0002_capa3-red.png",
+            "maxHeight": 450,
+            "blockClass": "img-cat-desktop-3-1-3"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-3-1-4": {
+        "children":[
+            "image#sub-cat-desktop-3-1-4"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-3-1-4"
+        }        
+    },
+    "image#sub-cat-desktop-3-1-4": {
+        "props":{
+            "src": "/arquivos/F2_0003_capa4-red.png",
+            "maxHeight": 500,
+            "blockClass": "img-cat-desktop-3-1-4"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-3-2": {
+        "children": ["iframe#2"]
+    },
+    "iframe#2": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469647984?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-4": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-4-1",
+            "flex-layout.col#catalogo-desktop-4-2",
+            "flex-layout.col#catalogo-desktop-4-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-4-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-4-1": {
+        "children":[
+            "image#catalogo-desktop-4-1"
+        ],
+        "props":{
+            "blockClass": "elem-desk-4-1"
+        }        
+    },
+    "image#catalogo-desktop-4-1": {
+        "props":{
+            "src": "/arquivos/F3_0000_capa1-red.png",
+            "maxHeight": 480,
+            "blockClass": "img-elem-desk-4-1"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-4-2": {
+        "children":[
+            "image#catalogo-desktop-4-2"
+        ],
+        "props":{
+            "blockClass": "elem-desk-4-2"
+        }        
+    },
+    "image#catalogo-desktop-4-2": {
+        "props":{
+            "src": "/arquivos/F3_0002_capa4-red.png",
+            "maxHeight": 400,
+            "blockClass": "img-elem-desk-4-2"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-4-3": {
+        "children":[
+            "image#catalogo-desktop-4-3"
+        ],
+        "props":{
+            "blockClass": "elem-desk-4-3"
+        }        
+    },
+    "image#catalogo-desktop-4-3": {
+        "props":{
+            "src": "/arquivos/F3_0001_capa2-red.png",
+            "maxHeight": 280,
+            "blockClass": "img-elem-desk-4-3"  
+        }
+    },
+    "flex-layout.row#catalogo-desktop-5": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-5-1",
+            "flex-layout.col#catalogo-desktop-5-2"
+        ],
+        "props":{
+            "blockClass": "catalogo-5-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-5-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-5-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-5-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-5-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-5-1-1",
+            "flex-layout.col#sub-cat-desktop-5-1-2",
+            "flex-layout.col#sub-cat-desktop-5-1-3"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-5-1-1": {
+        "children":[
+            "image#sub-cat-desktop-5-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-5-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-5-1-1": {
+        "props":{
+            "src": "/arquivos/F4_0002_capa3-red.png",
+            "maxWidth": 550,
+            "blockClass": "img-cat-desktop-5-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-5-1-2": {
+        "children":[
+            "image#sub-cat-desktop-5-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-5-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-5-1-2": {
+        "props":{
+            "src": "/arquivos/F4_0000_capa1-red.png",
+            "maxHeight": 500,
+            "blockClass": "img-cat-desktop-5-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-5-1-3": {
+        "children":[
+            "image#sub-cat-desktop-5-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-5-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-5-1-3": {
+        "props":{
+            "src": "/arquivos/F4_0001_capa2-red.png",
+            "maxHeight": 250,
+            "blockClass": "img-cat-desktop-5-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-5-2": {
+        "children": ["iframe#3"]
+    },
+    "iframe#3": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469647984?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-6": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-6-2",
+            "flex-layout.col#catalogo-desktop-6-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-6-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-6-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-6-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-6-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-6-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-6-1-1",
+            "flex-layout.col#sub-cat-desktop-6-1-2",
+            "flex-layout.col#sub-cat-desktop-6-1-3"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-6-1-1": {
+        "children":[
+            "image#sub-cat-desktop-6-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-6-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-6-1-1": {
+        "props":{
+            "src": "/arquivos/F5_0001_capa2-red.png",
+            "maxHeight": 550,
+            "blockClass": "img-cat-desktop-6-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-6-1-2": {
+        "children":[
+            "image#sub-cat-desktop-6-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-6-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-6-1-2": {
+        "props":{
+            "src": "/arquivos/F5_0000_Capa-1-red.png",
+            "maxHeight": 500,
+            "blockClass": "img-cat-desktop-6-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-6-1-3": {
+        "children":[
+            "image#sub-cat-desktop-6-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-6-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-6-1-3": {
+        "props":{
+            "src": "/arquivos/F5_0002_capa3-red.png",
+            "maxwidth": 550,
+            "blockClass": "img-cat-desktop-6-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-6-2": {
+        "children": ["iframe#4"]
+    },
+    "iframe#4": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469649183?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-7": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-7-2",
+            "flex-layout.col#catalogo-desktop-7-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-7-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-7-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-7-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-7-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-7-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-7-1-1",
+            "flex-layout.col#sub-cat-desktop-7-1-2",
+            "flex-layout.col#sub-cat-desktop-7-1-3",
+            "flex-layout.col#sub-cat-desktop-7-1-4"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-7-1-1": {
+        "children":[
+            "image#sub-cat-desktop-7-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-7-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-7-1-1": {
+        "props":{
+            "src": "/arquivos/F6_0001_capa2-2.png",
+            "maxWidth": 200,
+            "blockClass": "img-cat-desktop-7-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-7-1-2": {
+        "children":[
+            "image#sub-cat-desktop-7-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-7-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-7-1-2": {
+        "props":{
+            "src": "/arquivos/F6_0000_Capa-1-red.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-7-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-7-1-3": {
+        "children":[
+            "image#sub-cat-desktop-7-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-7-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-7-1-3": {
+        "props":{
+            "src": "/arquivos/F6_0003_capa4-red.png",
+            "maxWidth": 550,
+            "blockClass": "img-cat-desktop-7-1-3"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-7-1-4": {
+        "children":[
+            "image#sub-cat-desktop-7-1-4"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-7-1-4"
+        }        
+    },
+    "image#sub-cat-desktop-7-1-4": {
+        "props":{
+            "src": "/arquivos/F6_0002_Capa3-red.png",
+            "maxHeight": 550,
+            "blockClass": "img-cat-desktop-7-1-4"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-7-2": {},
+    "flex-layout.row#catalogo-desktop-8": {
+        "children": [            
+            "flex-layout.col#catalogo-desktop-8-1",
+            "flex-layout.col#catalogo-desktop-8-2"
+        ],
+        "props":{
+            "blockClass": "catalogo-8-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-8-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-8-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-8-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-8-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-8-1-1",
+            "flex-layout.col#sub-cat-desktop-8-1-2",
+            "flex-layout.col#sub-cat-desktop-8-1-3"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-8-1-1": {
+        "children":[
+            "image#sub-cat-desktop-8-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-8-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-8-1-1": {
+        "props":{
+            "src": "/arquivos/F7_0002_capa3-red.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-8-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-8-1-2": {
+        "children":[
+            "image#sub-cat-desktop-8-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-8-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-8-1-2": {
+        "props":{
+            "src": "/arquivos/F7_0000_Capa-1-red.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-8-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-8-1-3": {
+        "children":[
+            "image#sub-cat-desktop-8-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-8-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-8-1-3": {
+        "props":{
+            "src": "/arquivos/F7_0001_capa2-red.png",
+            "maxWidth": 250,
+            "blockClass": "img-cat-desktop-8-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-8-2": {},
+    "flex-layout.row#catalogo-desktop-9": {
+        "children": [            
+            "flex-layout.col#catalogo-desktop-9-2",
+            "flex-layout.col#catalogo-desktop-9-1"            
+        ],
+        "props":{
+            "blockClass": "catalogo-9-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-9-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-9-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-9-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-9-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-9-1-1",
+            "flex-layout.col#sub-cat-desktop-9-1-2",
+            "flex-layout.col#sub-cat-desktop-9-1-3"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-9-1-1": {
+        "children":[
+            "image#sub-cat-desktop-9-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-9-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-9-1-1": {
+        "props":{
+            "src": "/arquivos/F8_0001_capa2-red.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-9-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-9-1-2": {
+        "children":[
+            "image#sub-cat-desktop-9-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-9-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-9-1-2": {
+        "props":{
+            "src": "/arquivos/F8_0000_capa1-red.png",
+            "maxWidth": 400,
+            "blockClass": "img-cat-desktop-9-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-9-1-3": {
+        "children":[
+            "image#sub-cat-desktop-9-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-9-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-9-1-3": {
+        "props":{
+            "src": "/arquivos/F8_0002_capa3-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-cat-desktop-9-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-9-2": {},
+    "flex-layout.row#catalogo-desktop-10": {
+        "children":[
+            "flex-layout.col#catalogo-desktop-10-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-10-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-10-1": {
+        "children":[
+            "iframe#5"
+        ]
+    },
+    "iframe#5": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469649912?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-11": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-11-1",
+            "flex-layout.col#catalogo-desktop-11-2",
+            "flex-layout.col#catalogo-desktop-11-3",
+            "flex-layout.col#catalogo-desktop-11-4"
+        ],
+        "props":{
+            "blockClass": "catalogo-11-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-11-1": {
+        "children":[
+            "image#catalogo-desktop-11-1"
+        ],
+        "props":{
+            "blockClass": "elem-desk-11-1"
+        }        
+    },
+    "image#catalogo-desktop-11-1": {
+        "props":{
+            "src": "/arquivos/F9_0001_capa2-red.png",
+            "maxHeight": 380,
+            "blockClass": "img-elem-desk-11-1"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-11-2": {
+        "children":[
+            "image#catalogo-desktop-11-2"
+        ],
+        "props":{
+            "blockClass": "elem-desk-11-2"
+        }        
+    },
+    "image#catalogo-desktop-11-2": {
+        "props":{
+            "src": "/arquivos/F9_0000_capa1-red.png",
+            "maxWidth": 400,
+            "blockClass": "img-elem-desk-11-2"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-11-3": {
+        "children":[
+            "image#catalogo-desktop-11-3"
+        ],
+        "props":{
+            "blockClass": "elem-desk-11-3"
+        }        
+    },
+    "image#catalogo-desktop-11-3": {
+        "props":{
+            "src": "/arquivos/F9_0003_capa4-red.png",
+            "maxWidth": 400,
+            "blockClass": "img-elem-desk-11-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-11-4": {
+        "children":[
+            "image#catalogo-desktop-11-4"
+        ],
+        "props":{
+            "blockClass": "elem-desk-11-4"
+        }        
+    },
+    "image#catalogo-desktop-11-4": {
+        "props":{
+            "src": "/arquivos/F9_0002_capa3-red.png",
+            "maxHeight": 280,
+            "blockClass": "img-elem-desk-11-4"  
+        }
+    },
+    "flex-layout.row#catalogo-desktop-12": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-12-2",
+            "flex-layout.col#catalogo-desktop-12-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-12-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-12-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-12-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-12-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-12-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-12-1-1",
+            "flex-layout.col#sub-cat-desktop-12-1-2",
+            "flex-layout.col#sub-cat-desktop-12-1-3"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-12-1-1": {
+        "children":[
+            "image#sub-cat-desktop-12-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-12-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-12-1-1": {
+        "props":{
+            "src": "/arquivos/F10_0000_capa1-red.png",
+            "maxWidth": 550,
+            "blockClass": "img-cat-desktop-12-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-12-1-2": {
+        "children":[
+            "image#sub-cat-desktop-12-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-12-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-12-1-2": {
+        "props":{
+            "src": "/arquivos/F10_0001_capa2-red.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-12-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-12-1-3": {
+        "children":[
+            "image#sub-cat-desktop-12-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-12-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-12-1-3": {
+        "props":{
+            "src": "/arquivos/F10_0002_capa3-red.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-12-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-12-2": {
+        "children": ["iframe#6"]
+    },
+    "iframe#6": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469650578?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-13": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-13-1",
+            "flex-layout.col#catalogo-desktop-13-2"
+        ],
+        "props":{
+            "blockClass": "catalogo-13-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-13-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-13-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-13-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-13-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-13-1-1",
+            "flex-layout.col#sub-cat-desktop-13-1-2",
+            "flex-layout.col#sub-cat-desktop-13-1-3"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-13-1-1": {
+        "children":[
+            "image#sub-cat-desktop-13-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-13-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-13-1-1": {
+        "props":{
+            "src": "/arquivos/F11_0001_capa2-red.png",
+            "maxWidth": 400,
+            "blockClass": "img-cat-desktop-13-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-13-1-2": {
+        "children":[
+            "image#sub-cat-desktop-13-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-13-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-13-1-2": {
+        "props":{
+            "src": "/arquivos/F11_0000_capa1-red.png",
+            "maxWidth": 550,
+            "blockClass": "img-cat-desktop-13-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-13-1-3": {
+        "children":[
+            "image#sub-cat-desktop-13-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-13-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-13-1-3": {
+        "props":{
+            "src": "/arquivos/F11_0002_capa3-red.png",
+            "maxWidth": 380,
+            "blockClass": "img-cat-desktop-13-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-13-2": {
+        "children": ["iframe#7"]
+    },
+    "iframe#7": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469651085?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    "flex-layout.row#catalogo-desktop-14": {
+        "children": [
+            "flex-layout.col#catalogo-desktop-14-2",
+            "flex-layout.col#catalogo-desktop-14-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-14-desk"
+        }
+    },
+    "flex-layout.col#catalogo-desktop-14-1": {
+        "children":[
+            "flex-layout.row#sub-cat-desktop-14-1"
+        ],
+        "props":{
+            "blockClass": "desk-bloque-14-1"
+        }
+    },
+    "flex-layout.row#sub-cat-desktop-14-1": {
+        "children":[
+            "flex-layout.col#sub-cat-desktop-14-1-1",
+            "flex-layout.col#sub-cat-desktop-14-1-2",
+            "flex-layout.col#sub-cat-desktop-14-1-3",
+            "flex-layout.col#sub-cat-desktop-14-1-4"
+        ]
+    },
+    "flex-layout.col#sub-cat-desktop-14-1-1": {
+        "children":[
+            "image#sub-cat-desktop-14-1-1"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-14-1-1"
+        }        
+    },
+    "image#sub-cat-desktop-14-1-1": {
+        "props":{
+            "src": "/arquivos/F12_0001_capa2-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-cat-desktop-14-1-1"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-14-1-2": {
+        "children":[
+            "image#sub-cat-desktop-14-1-2"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-14-1-2"
+        }        
+    },
+    "image#sub-cat-desktop-14-1-2": {
+        "props":{
+            "src": "/arquivos/F12_0000_Capa-1-red.png",
+            "maxWidth": 400,
+            "blockClass": "img-cat-desktop-14-1-2"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-14-1-3": {
+        "children":[
+            "image#sub-cat-desktop-14-1-3"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-14-1-3"
+        }        
+    },
+    "image#sub-cat-desktop-14-1-3": {
+        "props":{
+            "src": "/arquivos/F12_0003_capa4-4.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-14-1-3"  
+        }
+    },
+    "flex-layout.col#sub-cat-desktop-14-1-4": {
+        "children":[
+            "image#sub-cat-desktop-14-1-4"
+        ],
+        "props":{
+            "blockClass": "sub-cat-desktop-14-1-4"
+        }        
+    },
+    "image#sub-cat-desktop-14-1-4": {
+        "props":{
+            "src": "/arquivos/F12_0002_capa3_red.png",
+            "maxWidth": 500,
+            "blockClass": "img-cat-desktop-14-1-4"  
+        }
+    },
+    "flex-layout.col#catalogo-desktop-14-2": {
+        "children": ["iframe#8"]
+    },
+    "iframe#8": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469651689?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-1"
+        }
+    },
+    //Inicia versión mobile
+    "responsive-layout.mobile#catalogo-fw": {
+        "children": [
+            "flex-layout.row#catalogo-mobile-1",
+            "flex-layout.row#catalogo-mobile-2",
+            "flex-layout.row#catalogo-mobile-3",
+            "flex-layout.row#catalogo-mobile-4",
+            "flex-layout.row#catalogo-mobile-5",
+            "flex-layout.row#catalogo-mobile-6",
+            "flex-layout.row#catalogo-mobile-7",
+            "flex-layout.row#catalogo-mobile-8",
+            "flex-layout.row#catalogo-mobile-9",
+            "flex-layout.row#catalogo-mobile-10",
+            "flex-layout.row#catalogo-mobile-11",
+            "flex-layout.row#catalogo-mobile-12",
+            "flex-layout.row#catalogo-mobile-13",
+            "flex-layout.row#catalogo-mobile-14",
+            "flex-layout.row#catalogo-mobile-15",
+            "flex-layout.row#catalogo-mobile-16",
+            "flex-layout.row#catalogo-mobile-17",
+            "flex-layout.row#catalogo-mobile-18",
+            "flex-layout.row#catalogo-mobile-19",
+            "flex-layout.row#catalogo-mobile-20"
+        ],
+        "props":{
+            "blockClass": "fondo-bloque-mobile-1"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-1": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-1-1",
+            "flex-layout.col#catalogo-mobile-1-2",
+            "flex-layout.col#catalogo-mobile-1-3",
+            "flex-layout.col#catalogo-mobile-1-4"
+        ],
+        "props":{
+            "blockClass": "catalogo-1-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-1-1": {
+        "children":[
+            "image#catalogo-mobile-1-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-1-1"
+        }        
+    },
+    "image#catalogo-mobile-1-1": {
+        "props":{
+            "src": "/arquivos/F1_0001_capa2-red.png",
+            "maxWidth": 200,
+            "blockClass": "img-elem-mob-1-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-1-2": {
+        "children":[
+            "image#catalogo-mobile-1-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-1-2"
+        }        
+    },
+    "image#catalogo-mobile-1-2": {
+        "props":{
+            "src": "/arquivos/F1_0000_capa1-red.png",
+            "maxWidth": 200,
+            "blockClass": "img-elem-mob-1-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-1-3": {
+        "children":[
+            "image#catalogo-mobile-1-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-1-3"
+        }        
+    },
+    "image#catalogo-mobile-1-3": {
+        "props":{
+            "src": "/arquivos/F1_0002_capa4-red.png",
+            "maxWidth": 250,
+            "blockClass": "img-elem-mob-1-3"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-1-4": {
+        "children":[
+            "image#catalogo-mobile-1-4"
+        ],
+        "props":{
+            "blockClass": "elem-mob-1-4"
+        }        
+    },
+    "image#catalogo-mobile-1-4": {
+        "props":{
+            "src": "/arquivos/F1_0003_capa5-red.png",
+            "maxWidth": 260,
+            "blockClass": "img-elem-mob-1-4"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-2": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-2-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-2-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-2-1": {
+        "children":[
+            "iframe#mob-1"
+        ]
+    },
+    "iframe#mob-1": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469629282?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-1"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-3": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-3-1",
+            "flex-layout.col#catalogo-mobile-3-2",
+            "flex-layout.col#catalogo-mobile-3-3",
+            "flex-layout.col#catalogo-mobile-3-4"
+        ],
+        "props":{
+            "blockClass": "catalogo-3-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-3-1": {
+        "children":[
+            "image#catalogo-mobile-3-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-3-1"
+        }        
+    },
+    "image#catalogo-mobile-3-1": {
+        "props":{
+            "src": "/arquivos/F2_0001_capa2-red.png",
+            "maxWidth": 150,
+            "blockClass": "img-elem-mob-3-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-3-2": {
+        "children":[
+            "image#catalogo-mobile-3-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-3-2"
+        }        
+    },
+    "image#catalogo-mobile-3-2": {
+        "props":{
+            "src": "/arquivos/F2_0000_capa1-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-3-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-3-3": {
+        "children":[
+            "image#catalogo-mobile-3-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-3-3"
+        }        
+    },
+    "image#catalogo-mobile-3-3": {
+        "props":{
+            "src": "/arquivos/F2_0002_capa3-red.png",
+            "maxWidth": 250,
+            "blockClass": "img-elem-mob-3-3"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-3-4": {
+        "children":[
+            "image#catalogo-mobile-3-4"
+        ],
+        "props":{
+            "blockClass": "elem-mob-3-4"
+        }        
+    },
+    "image#catalogo-mobile-3-4": {
+        "props":{
+            "src": "/arquivos/F2_0003_capa4-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-3-4"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-4": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-4-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-4-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-4-1": {
+        "children":[
+            "iframe#mob-2"
+        ]
+    },
+    "iframe#mob-2": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469647984?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-2"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-5": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-5-1",
+            "flex-layout.col#catalogo-mobile-5-2",
+            "flex-layout.col#catalogo-mobile-5-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-5-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-5-1": {
+        "children":[
+            "image#catalogo-mobile-5-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-5-1"
+        }        
+    },
+    "image#catalogo-mobile-5-1": {
+        "props":{
+            "src": "/arquivos/F3_0000_capa1-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-5-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-5-2": {
+        "children":[
+            "image#catalogo-mobile-5-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-5-2"
+        }        
+    },
+    "image#catalogo-mobile-5-2": {
+        "props":{
+            "src": "/arquivos/F3_0002_capa4-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-5-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-5-3": {
+        "children":[
+            "image#catalogo-mobile-5-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-5-3"
+        }        
+    },
+    "image#catalogo-mobile-5-3": {
+        "props":{
+            "src": "/arquivos/F3_0001_capa2-red.png",
+            "maxWidth": 252,
+            "blockClass": "img-elem-mob-5-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-6": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-6-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-6-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-6-1": {
+        "children":[
+            "iframe#mob-3"
+        ]
+    },
+    "iframe#mob-3": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469648444?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-3"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-7": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-7-1",
+            "flex-layout.col#catalogo-mobile-7-2",
+            "flex-layout.col#catalogo-mobile-7-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-7-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-7-1": {
+        "children":[
+            "image#catalogo-mobile-7-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-7-1"
+        }        
+    },
+    "image#catalogo-mobile-7-1": {
+        "props":{
+            "src": "/arquivos/F4_0002_capa3-red.png",
+            "maxWidth": 240,
+            "blockClass": "img-elem-mob-7-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-7-2": {
+        "children":[
+            "image#catalogo-mobile-7-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-7-2"
+        }        
+    },
+    "image#catalogo-mobile-7-2": {
+        "props":{
+            "src": "/arquivos/F4_0000_capa1-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-7-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-7-3": {
+        "children":[
+            "image#catalogo-mobile-7-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-7-3"
+        }        
+    },
+    "image#catalogo-mobile-7-3": {
+        "props":{
+            "src": "/arquivos/F4_0001_capa2-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-7-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-8": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-8-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-8-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-8-1": {
+        "children":[
+            "iframe#mob-4"
+        ]
+    },
+    "iframe#mob-4": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469649183?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-3"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-9": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-9-1",
+            "flex-layout.col#catalogo-mobile-9-2",
+            "flex-layout.col#catalogo-mobile-9-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-9-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-9-1": {
+        "children":[
+            "image#catalogo-mobile-9-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-9-1"
+        }        
+    },
+    "image#catalogo-mobile-9-1": {
+        "props":{
+            "src": "/arquivos/F5_0001_capa2-red.png",
+            "maxWidth": 240,
+            "blockClass": "img-elem-mob-9-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-9-2": {
+        "children":[
+            "image#catalogo-mobile-9-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-9-2"
+        }        
+    },
+    "image#catalogo-mobile-9-2": {
+        "props":{
+            "src": "/arquivos/F5_0000_Capa-1-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-9-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-9-3": {
+        "children":[
+            "image#catalogo-mobile-9-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-9-3"
+        }        
+    },
+    "image#catalogo-mobile-9-3": {
+        "props":{
+            "src": "/arquivos/F5_0002_capa3-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-9-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-10": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-10-1",
+            "flex-layout.col#catalogo-mobile-10-2",
+            "flex-layout.col#catalogo-mobile-10-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-10-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-10-1": {
+        "children":[
+            "image#catalogo-mobile-10-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-10-1"
+        }        
+    },
+    "image#catalogo-mobile-10-1": {
+        "props":{
+            "src": "/arquivos/F6_0001_capa2-2.png",
+            "maxWidth": 240,
+            "blockClass": "img-elem-mob-10-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-10-2": {
+        "children":[
+            "image#catalogo-mobile-10-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-10-2"
+        }        
+    },
+    "image#catalogo-mobile-10-2": {
+        "props":{
+            "src": "/arquivos/F6_0000_Capa-1-red.png",
+            "maxWidth": 400,
+            "blockClass": "img-elem-mob-10-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-10-3": {
+        "children":[
+            "image#catalogo-mobile-10-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-10-3"
+        }        
+    },
+    "image#catalogo-mobile-10-3": {
+        "props":{
+            "src": "/arquivos/F6_0003_capa4-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-10-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-11": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-11-1",
+            "flex-layout.col#catalogo-mobile-11-2",
+            "flex-layout.col#catalogo-mobile-11-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-11-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-11-1": {
+        "children":[
+            "image#catalogo-mobile-11-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-11-1"
+        }        
+    },
+    "image#catalogo-mobile-11-1": {
+        "props":{
+            "src": "/arquivos/F7_0002_capa3-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-11-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-11-2": {
+        "children":[
+            "image#catalogo-mobile-11-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-11-2"
+        }        
+    },
+    "image#catalogo-mobile-11-2": {
+        "props":{
+            "src": "/arquivos/F7_0000_Capa-1-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-11-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-11-3": {
+        "children":[
+            "image#catalogo-mobile-11-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-11-3"
+        }        
+    },
+    "image#catalogo-mobile-11-3": {
+        "props":{
+            "src": "/arquivos/F7_0001_capa2-red.png",
+            "maxWidth": 250,
+            "blockClass": "img-elem-mob-11-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-12": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-12-1",
+            "flex-layout.col#catalogo-mobile-12-2",
+            "flex-layout.col#catalogo-mobile-12-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-12-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-12-1": {
+        "children":[
+            "image#catalogo-mobile-12-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-12-1"
+        }        
+    },
+    "image#catalogo-mobile-12-1": {
+        "props":{
+            "src": "/arquivos/F8_0001_capa2-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-12-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-12-2": {
+        "children":[
+            "image#catalogo-mobile-12-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-12-2"
+        }        
+    },
+    "image#catalogo-mobile-12-2": {
+        "props":{
+            "src": "/arquivos/F8_0000_capa1-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-12-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-12-3": {
+        "children":[
+            "image#catalogo-mobile-12-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-12-3"
+        }        
+    },
+    "image#catalogo-mobile-12-3": {
+        "props":{
+            "src": "/arquivos/F8_0002_capa3-red.png",
+            "maxWidth": 250,
+            "blockClass": "img-elem-mob-12-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-13": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-13-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-13-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-13-1": {
+        "children":[
+            "iframe#mob-5"
+        ]
+    },
+    "iframe#mob-5": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469649912?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-1"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-14": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-14-1",
+            "flex-layout.col#catalogo-mobile-14-2",
+            "flex-layout.col#catalogo-mobile-14-3",
+            "flex-layout.col#catalogo-mobile-14-4"
+        ],
+        "props":{
+            "blockClass": "catalogo-14-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-14-1": {
+        "children":[
+            "image#catalogo-mobile-14-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-14-1"
+        }        
+    },
+    "image#catalogo-mobile-14-1": {
+        "props":{
+            "src": "/arquivos/F9_0001_capa2-red.png",
+            "maxWidth": 200,
+            "blockClass": "img-elem-mob-14-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-14-2": {
+        "children":[
+            "image#catalogo-mobile-14-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-14-2"
+        }        
+    },
+    "image#catalogo-mobile-14-2": {
+        "props":{
+            "src": "/arquivos/F9_0000_capa1-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-14-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-14-3": {
+        "children":[
+            "image#catalogo-mobile-14-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-14-3"
+        }        
+    },
+    "image#catalogo-mobile-14-3": {
+        "props":{
+            "src": "/arquivos/F9_0003_capa4-red.png",
+            "maxWidth": 350,
+            "blockClass": "img-elem-mob-14-3"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-14-4": {
+        "children":[
+            "image#catalogo-mobile-14-4"
+        ],
+        "props":{
+            "blockClass": "elem-mob-14-4"
+        }        
+    },
+    "image#catalogo-mobile-14-4": {
+        "props":{
+            "src": "/arquivos/F9_0002_capa3-red.png",
+            "maxWidth": 150,
+            "blockClass": "img-elem-mob-14-4"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-15": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-15-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-15-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-15-1": {
+        "children":[
+            "iframe#mob-6"
+        ]
+    },
+    "iframe#mob-6": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469650578?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-3"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-16": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-16-1",
+            "flex-layout.col#catalogo-mobile-16-2",
+            "flex-layout.col#catalogo-mobile-16-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-16-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-16-1": {
+        "children":[
+            "image#catalogo-mobile-16-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-16-1"
+        }        
+    },
+    "image#catalogo-mobile-16-1": {
+        "props":{
+            "src": "/arquivos/F10_0000_capa1-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-16-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-16-2": {
+        "children":[
+            "image#catalogo-mobile-16-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-16-2"
+        }        
+    },
+    "image#catalogo-mobile-16-2": {
+        "props":{
+            "src": "/arquivos/F10_0001_capa2-red.png",
+            "maxWidth": 280,
+            "blockClass": "img-elem-mob-16-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-16-3": {
+        "children":[
+            "image#catalogo-mobile-16-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-16-3"
+        }        
+    },
+    "image#catalogo-mobile-16-3": {
+        "props":{
+            "src": "/arquivos/F10_0002_capa3-red.png",
+            "maxWidth": 300,
+            "blockClass": "img-elem-mob-16-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-17": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-17-1",
+            "flex-layout.col#catalogo-mobile-17-2",
+            "flex-layout.col#catalogo-mobile-17-3"
+        ],
+        "props":{
+            "blockClass": "catalogo-17-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-17-1": {
+        "children":[
+            "image#catalogo-mobile-17-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-17-1"
+        }        
+    },
+    "image#catalogo-mobile-17-1": {
+        "props":{
+            "src": "/arquivos/F11_0001_capa2-red.png",
+            "maxWidth": 270,
+            "blockClass": "img-elem-mob-17-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-17-2": {
+        "children":[
+            "image#catalogo-mobile-17-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-17-2"
+        }        
+    },
+    "image#catalogo-mobile-17-2": {
+        "props":{
+            "src": "/arquivos/F11_0000_capa1-red.png",
+            "maxWidth": 260,
+            "blockClass": "img-elem-mob-17-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-17-3": {
+        "children":[
+            "image#catalogo-mobile-17-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-17-3"
+        }        
+    },
+    "image#catalogo-mobile-17-3": {
+        "props":{
+            "src": "/arquivos/F11_0002_capa3-red.png",
+            "maxWidth": 315,
+            "blockClass": "img-elem-mob-17-3"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-18": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-18-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-18-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-18-1": {
+        "children":[
+            "iframe#mob-7"
+        ]
+    },
+    "iframe#mob-7": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469651085?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-3"
+        }
+    },
+    "flex-layout.row#catalogo-mobile-19": {
+        "children": [
+            "flex-layout.col#catalogo-mobile-19-1",
+            "flex-layout.col#catalogo-mobile-19-2",
+            "flex-layout.col#catalogo-mobile-19-3",
+            "flex-layout.col#catalogo-mobile-19-4"
+        ],
+        "props":{
+            "blockClass": "catalogo-19-mob",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#catalogo-mobile-19-1": {
+        "children":[
+            "image#catalogo-mobile-19-1"
+        ],
+        "props":{
+            "blockClass": "elem-mob-19-1"
+        }        
+    },
+    "image#catalogo-mobile-19-1": {
+        "props":{
+            "src": "/arquivos/F12_0001_capa2-red.png",
+            "maxWidth": 270,
+            "blockClass": "img-elem-mob-19-1"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-19-2": {
+        "children":[
+            "image#catalogo-mobile-19-2"
+        ],
+        "props":{
+            "blockClass": "elem-mob-19-2"
+        }        
+    },
+    "image#catalogo-mobile-19-2": {
+        "props":{
+            "src": "/arquivos/F12_0000_Capa-1-red.png",
+            "maxWidth": 250,
+            "blockClass": "img-elem-mob-19-2"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-19-3": {
+        "children":[
+            "image#catalogo-mobile-19-3"
+        ],
+        "props":{
+            "blockClass": "elem-mob-19-3"
+        }        
+    },
+    "image#catalogo-mobile-19-3": {
+        "props":{
+            "src": "/arquivos/F12_0003_capa4-4.png",
+            "maxWidth": 315,
+            "blockClass": "img-elem-mob-19-3"  
+        }
+    },
+    "flex-layout.col#catalogo-mobile-19-4": {
+        "children":[
+            "image#catalogo-mobile-19-4"
+        ],
+        "props":{
+            "blockClass": "elem-mob-19-4"
+        }        
+    },
+    "image#catalogo-mobile-19-4": {
+        "props":{
+            "src": "/arquivos/F12_0002_capa3_red.png",
+            "maxWidth": 315,
+            "blockClass": "img-elem-mob-19-4"  
+        }
+    },
+    "flex-layout.row#catalogo-mobile-20": {
+        "children":[
+            "flex-layout.col#catalogo-mobile-20-1"
+        ],
+        "props":{
+            "blockClass": "catalogo-20-mob"
+        }
+    },
+    "flex-layout.col#catalogo-mobile-20-1": {
+        "children":[
+            "iframe#mob-8"
+        ]
+    },
+    "iframe#mob-8": {
+        "props": {
+            "src": "https://player.vimeo.com/video/469651085?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": 1200,
+            "maxHeight": 700,
+            "blockClass": "catalog-video-mobile-3"
+        }
+    }
+    
+}

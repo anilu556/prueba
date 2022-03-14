@@ -1,0 +1,200 @@
+{
+    "store.custom#tips": {
+        "blocks": [
+          "breadcrumb",
+          "responsive-layout.desktop#header-tips",          
+          "responsive-layout.mobile#header-tips",
+          "flex-layout.row#home-tips-san-valentin",  
+          "flex-layout.row#home-tips-jeans",  
+          "flex-layout.row#home-tips-6",      
+          "flex-layout.row#home-tips-7",        
+          "flex-layout.row#home-tips-5",        
+          "flex-layout.row#home-tips-4", 
+          "flex-layout.row#home-tips-3",        
+          "flex-layout.row#home-tips-2",
+          "flex-layout.row#home-tips"          
+        ]
+    },
+    "responsive-layout.desktop#header-tips": {
+        "children": [
+            "flex-layout.row#header-tips",
+            "flex-layout.row#return-blog-button" 
+        ]
+    },
+    "flex-layout.row#header-tips": {
+        "children": ["flex-layout.col#header-tips"],
+        "props":{
+            "blockClass": "header-tendencias"
+        }
+    },
+    "flex-layout.col#header-tips": {
+        "children":["rich-text#header-tips"]
+    },
+    "rich-text#header-tips": {
+        "props": {
+            "text": "Tips",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "header-tendencias-title"
+        }
+    },    
+    "responsive-layout.mobile#header-tips": {
+        "children":["flex-layout.row#mobile-btn-return-tips"]
+    },
+    "flex-layout.row#mobile-btn-return-tips": {
+        "children": ["flex-layout.col#mobile-btn-return-tips"],
+        "props":{
+            "blockClass": "mobile-return-blog"
+        }
+    },
+    "flex-layout.col#mobile-btn-return-tips": {
+        "children":["rich-text#mobile-btn-return-tips"]
+    },
+    "rich-text#mobile-btn-return-tips": {
+        "props": {
+            "text": "[&#8249;](/blog)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "btn-return-text--tips"
+        }
+    },
+    "flex-layout.row#home-tips": {
+        "children":["flex-layout.col#home-tips"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-tips": {
+        "children":["flex-layout.row#principal-tips"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-tips": {
+        "children":["list-context.image-list#category-tips"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-tips": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    },
+    "flex-layout.row#home-tips-2": {
+        "children":["flex-layout.col#home-tips"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.row#home-tips-3": {
+        "children":["flex-layout.col#home-tips"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+
+    "flex-layout.row#home-tips-4": {
+        "children":["flex-layout.col#home-tips"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+
+    "flex-layout.row#home-tips-6": {
+        "children":["flex-layout.col#home-tips"]
+    },
+    "flex-layout.row#home-tips-7": {
+        "children":["flex-layout.col#home-tips"]
+    },
+    // Primera imagen 
+    "flex-layout.row#home-tips-5": {
+        "children":[
+            "flex-layout.col#home-tips"
+        ],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+     // Tip jeans
+     "flex-layout.row#home-tips-jeans": {
+        "children":["flex-layout.col#home-tips-jeans"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-tips-jeans": {
+        "children":["flex-layout.row#principal-tips-jeans"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-tips-jeans": {
+        "children":["list-context.image-list#category-tips"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-tips-jeans": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    },
+    // aca termina Tip jeans
+
+     // Tip san valentin
+     "flex-layout.row#home-tips-san-valentin": {
+        "children":["flex-layout.col#home-tips-san-valentin"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-tips-san-valentin": {
+        "children":["flex-layout.row#principal-tips-san-valentin"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+    "flex-layout.row#principal-tips-san-valentin": {
+        "children":["list-context.image-list#category-tips"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-tips-san-valentin": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    }
+    // aca termina Tip san valentin
+}

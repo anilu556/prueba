@@ -1,0 +1,80 @@
+.container--catalog-video-1 {
+    width: 100%;
+    height: 600px;
+}
+
+.container--catalog-video-mobile-1 {
+    width: 100%;
+    height: 200px;    
+}
+
+.container--catalog-video-mobile-2 {
+    width: 100%;
+    height: 350px; 
+}
+
+.container--catalog-video-mobile-3 {
+    width: 100%;
+    height: 580px;
+}
+//rastrea tu pedido 27-10-2020
+
+.container--order-finder {
+    width: 100%;
+    height: 240px;
+}
+
+.container--especial-plancha-video {
+    width: 100%;
+    height: 450px;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 350px;
+    }
+    @media screen and (max-width: 350px) {
+        width: 100%;
+        height: 260px;
+    }
+}
+
+// .container--temporada-rebajas-video {
+//     width: 100%;
+//     height: 450px;
+//     @media screen and (max-width: 768px) {
+//         width: 100%;
+//         height: 350px;
+//     }
+//     @media screen and (max-width: 350px) {
+//         width: 100%;
+//         height: 260px;
+//     }
+// }
+
+.container--temporada-rebajas-video {
+    width: 100%;
+    height: 850px;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 350px;
+    }
+    @media screen and (max-width: 1680px) {
+        width: 100%;
+        height: 650px;
+    }
+    @media screen and (max-width: 350px) {
+        width: 100%;
+        height: 260px;
+    }
+}
+
+@media (max-width: 650px) {
+    :global(.vtex-store-video-1-x-videoElement) {
+        height: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+    :global(.vtex-store-video-1-x-videoElement) {
+        height: 200px;
+    }
+}

@@ -1,0 +1,530 @@
+{
+  "vtex.menu@2.x:menu#category-menu-mobile": {
+    "children": [
+      "slider-layout#menu-categorias-mobile",
+      "flex-layout.row#menu-collapse-mobile",
+      "vtex.menu@2.x:menu#menu-options-mobile",
+      "rich-text#footer-redesSociales",
+      "flex-layout.row#footer-mobile-redesSociales",
+      "flex-layout.row#footer-desktop-3"
+    ],
+    "props": {
+      "blockClass": "main-menu-items",
+      "orientation": "vertical"
+    }
+  },
+
+  "flex-layout.row#menu-collapse-mobile": {
+    "props": {
+      "blockClass": [
+        "destaque-info",
+        "menu-mobile"
+      ]
+    },
+    "children":[
+      "flex-layout.col#collapse-categorias-mobile"
+    ]
+  },
+  "flex-layout.col#collapse-categorias-mobile": {
+      "children":[
+        "disclosure-layout-group#group-menu"
+      ]
+  },
+  "disclosure-layout-group#group-menu": {
+    "children": [
+      "disclosure-layout#destacados",
+      "disclosure-layout#ropa",       
+      "disclosure-layout#accesorios",       
+      "disclosure-layout#zapatos",    
+      "disclosure-layout#promos",  
+      "menu-item#menu-ninos-mobile",    
+      // "menu-item#menu-plancha-vapor-mobile",    
+      "disclosure-layout#catalogo",
+      // "disclosure-layout#rebajasnew",  
+      "disclosure-layout#ayuda"
+      //"menu-item#menu-promociones"
+      // "disclosure-layout#comoComprar",    
+      // "disclosure-layout#sucursales"    
+    ]
+  },
+
+  // MENU DESTACADOS
+  "disclosure-layout#destacados": {
+    "children": [
+      "disclosure-trigger#destacados",
+      "disclosure-content#destacados"
+    ]
+  },
+  "disclosure-trigger#destacados": {
+    "children": ["rich-text#destacados-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#destacados": {
+    "children": ["flex-layout.col#menuDestacados"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#destacados-title": {
+    "props": {
+      "text": "DESTACADOS"
+      
+    }
+  },
+
+  //MENU ROPA 
+  "disclosure-layout#ropa": {
+    "children": [
+      "disclosure-trigger#ropa",
+      "disclosure-content#ropa"
+    ]
+  },
+  "disclosure-trigger#ropa": {
+    "children": ["rich-text#ropa-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#ropa": {
+    "children": ["flex-layout.col#menuRopa"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#ropa-title": {
+    "props": {
+      "text": "**ROPA**",
+      "blockClass": "richText-titles-menu"
+    }
+  },
+  // MENU ROPA --END--
+
+  // MENU ACCESORIOS
+  "disclosure-layout#accesorios": {
+    "children": [
+      "disclosure-trigger#accesorios",
+      "disclosure-content#accesorios"
+    ]
+  },
+  "disclosure-trigger#accesorios": {
+    "children": ["rich-text#accesorios-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#accesorios": {
+    "children": ["flex-layout.col#menuAccesorios"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#accesorios-title": {
+    "props": {
+      "text": "ACCESORIOS"
+    }
+  },
+  // MENU ACCESORIOS --END--
+
+  // MENU ZAPATOS
+  "disclosure-layout#zapatos": {
+    "children": [
+      "disclosure-trigger#zapatos",
+      "disclosure-content#zapatos"
+    ]
+  },
+  "disclosure-trigger#zapatos": {
+    "children": ["rich-text#zapatos-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#zapatos": {
+    "children": ["flex-layout.col#menuZapatos"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#zapatos-title": {
+    "props": {
+      "text": "ZAPATOS"
+    }
+  },
+  // MENU ZAPATOS --END--
+
+  // MENU REBAJAS
+
+  "disclosure-layout#rebajasnew": {
+    "children": [
+      "disclosure-trigger#rebajasnew",
+      "disclosure-content#rebajasnew"
+    ]
+  },
+  "disclosure-trigger#rebajasnew": {
+    "children": ["rich-text#rebajasnew-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#rebajasnew": {
+    "children": ["flex-layout.col#menurebajasnew"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#rebajasnew-title": {
+    "props": {
+      "text": "REBAJAS",
+      "blockClass": "promos"
+    }
+  },
+
+  // MENU REBAJAS --END--
+
+  // MENU PROMOCIONES
+  "disclosure-layout#promos": {
+    "children": [
+      "disclosure-trigger#promos",
+      "disclosure-content#promos"
+    ]
+  },
+  "disclosure-trigger#promos": {
+    "children": ["rich-text#promos-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#promos": {
+    "children": ["flex-layout.col#menuPromos"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#promos-title": {
+    "props": {
+      "text": "PROMOCIONES",
+      "blockClass": "promos"
+    }
+  },
+  // MENU PROMOCIONES --END--
+
+  // MENU NINOS
+  "menu-item#menu-ninos-mobile": {
+    "props": {
+      "id": "menu-item-menu-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ninos",
+        "href": "https://www.aldoconti-jr.com/",
+        "tagTitle": "Niños",
+        "text": "NIÑOS"
+      },
+      "blockClass": [
+        "menu-ninos1"
+      ]
+    }
+  },
+  "disclosure-layout#ninos": {
+    "children": [
+      "disclosure-trigger#ninos"
+    ]
+  },
+  "disclosure-trigger#ninos": {
+    "children": ["rich-text#ninos-title"],
+    "props": {
+      "blockClass": [
+        "menu-ninos"
+      ]
+    }
+  },
+  "rich-text#ninos-title": {
+    "props": {
+      "text": "[NIÑOS](https://www.aldoconti-jr.com/)",
+      "blockClass": [
+        "link-carrusel-menuMobile",
+        "menu-ninos-mobile"
+      ]
+    }
+  },
+  // MENU NINOS --END--
+  // MENU PLANCHA DE VAPOR
+  "menu-item#menu-plancha-vapor-mobile": {
+    "props": {
+      "id": "menu-item-menu-plancha-vapor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "plancha",
+        "href": "/plancha-de-vapor-aldo-conti",
+        "tagTitle": "Plancha de Vapor",
+        "text": "PLANCHA DE VAPOR"
+      },
+      "blockClass": [
+        "menu-ninos1",
+        "product-new-mb"
+      ]
+    }
+  },
+  "disclosure-layout#plancha-vapor": {
+    "children": [
+      "disclosure-trigger#plancha-vapor"
+    ]
+  },
+  "disclosure-trigger#plancha-vapor": {
+    "children": ["rich-text#plancha-vapor-title"],
+    "props": {
+      "blockClass": [
+        "menu-ninos"
+      ]
+    }
+  },
+  "rich-text#plancha-vapor-title": {
+    "props": {
+      "text": "[NIÑOS](https://www.aldoconti-jr.com/)",
+      "blockClass": [
+        "link-carrusel-menuMobile",
+        "menu-ninos-mobile"
+      ]
+    }
+  },
+  // MENU PLANCHA DE VAPOR --END--
+
+  // MENU CATALOGO
+  "disclosure-layout#catalogo": {
+    "children": [
+      "disclosure-trigger#catalogo",
+      "disclosure-content#catalogo"
+    ]
+  },
+  "disclosure-trigger#catalogo": {
+    "children": ["rich-text#catalogo-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#catalogo": {
+    "children": ["flex-layout.col#menuCatalogo"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#catalogo-title": {
+    "props": {
+      "text": "*CATÁLOGO*"
+    }
+  },
+  // MENU CATALOGO --END--
+
+  // MENU SUCURSALES
+  "disclosure-layout#sucursales": {
+    "children": [
+      "disclosure-trigger#sucursales",
+      "disclosure-content#sucursales"
+    ]
+  },
+  "disclosure-trigger#sucursales": {
+    "children": ["rich-text#sucursales-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#sucursales": {
+    "children": ["vtex.menu@2.x:menu#footer-1"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#sucursales-title": {
+    "props": {
+      "text": "SUCURSALES"
+    }
+  },
+  // MENU SUCURSALES --END--
+
+  // MENU COMO COMPRAR
+  "disclosure-layout#comoComprar": {
+    "children": [
+      "disclosure-trigger#comoComprar",
+      "disclosure-content#comoComprar"
+    ]
+  },
+  "disclosure-trigger#comoComprar": {
+    "children": ["rich-text#comoComprar-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#comoComprar": {
+    "children": ["vtex.menu@2.x:menu#footer-1"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#comoComprar-title": {
+    "props": {
+      "text": "¿CÓMO COMPRAR?"
+    }
+  },
+  // MENU COMO COMPRAR --END--
+
+  // MENU OPTIONS
+  "vtex.menu@2.x:menu#menu-options-mobile": {
+    "children": [
+      "menu-item#menu-mi-cuenta",
+      "menu-item#menu-seguimiento-orden",
+      "menu-item#menu-cambios-devoluciones",
+      "menu-item#menu-como-comprar"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-options-mobile"
+    }
+  },
+
+
+  "menu-item#menu-mi-cuenta": {
+    "props": {
+      "id": "menu-item-mi-cuenta",
+      "type": "custom",
+      "iconId": "hpa-profile",
+      "highlight": false,
+      "itemProps": {
+        "type": "ropa",
+        "href": "/account",
+        "tagTitle": "Mi Cuenta",
+        "text": "Mi Cuenta"
+      },
+      "blockClass": [
+        "menu-title-mobile",
+        "miCuenta"
+      ]
+    }
+  },
+
+  "menu-item#menu-seguimiento-orden": {
+    "props": {
+      "id": "menu-item-seguimiento-orden",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ropa",
+        "href": "/rastrea-tu-pedido",
+        "tagTitle": "Seguimiento de Orden",
+        "text": "Seguimiento de Orden"
+      },
+      "blockClass": [
+        "menu-title-mobile",
+        "seguimientoOrden"
+      ]
+    }
+  },
+
+  "menu-item#menu-cambios-devoluciones": {
+    "props": {
+      "id": "menu-item-cambios-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ropa",
+        "href": "/cambio-de-tallas",
+        "tagTitle": "Cambios y Devoluciones",
+        "text": "Cambios y Devoluciones"
+      },
+      "blockClass": [
+        "menu-title-mobile",
+        "cambiosDevoluciones"
+      ]
+    }
+  },
+
+  "menu-item#menu-como-comprar": {
+    "props": {
+      "id": "menu-item-como-comprar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ropa",
+        "href": "/como-comprar",
+        "tagTitle": "¿Cómo Comprar?",
+        "text": "¿Cómo Comprar"
+      },
+      "blockClass": [
+        "menu-title-mobile",
+        "comoComprar"
+      ]
+    }
+  },
+  // MENU OPTIONS --END--
+
+  "menu-item#menu-promociones":{
+    "props": {
+      "id": "menu-item-menu-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ninos",
+        "href": "/promociones",
+        "tagTitle": "Promociones",
+        "text": "PROMOCIONES"
+      },
+      "blockClass": [
+        "menu-ninos1"
+      ]
+    }
+  },
+  "disclosure-layout#promociones": {
+    "children": [
+      "disclosure-trigger#promociones"
+    ]
+  },
+  "disclosure-trigger#promociones": {
+    "children": ["rich-text#promociones-title"],
+    "props": {
+      "blockClass": [
+        "menu-ninos"
+      ]
+    }
+  },
+  "rich-text#promociones-title": {
+    "props": {
+      "text": "",
+      "blockClass": [
+        "link-carrusel-menuMobile",
+        "menu-ninos-mobile"
+      ]
+    }
+  },
+  
+  // MENU ZAPATOS
+  "disclosure-layout#ayuda": {
+    "children": [
+      "disclosure-trigger#ayuda",
+      "disclosure-content#ayuda"
+    ]
+  },
+  "disclosure-trigger#ayuda": {
+    "children": ["rich-text#ayuda-title"],
+    "props": {
+      "blockClass": "menu-titles"
+    }
+  },
+  "disclosure-content#ayuda": {
+    "children": ["flex-layout.col#menuAyuda"],
+    "props": {
+      "blockClass": "content-collapse-footer"
+    }
+  },
+  "rich-text#ayuda-title": {
+    "props": {
+      "text": "AYUDA"
+    }
+  }
+}

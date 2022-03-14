@@ -1,0 +1,136 @@
+:global(.vtex-account) {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1280px;
+  margin: 0 auto;
+  .menu {
+    padding-left: 0;
+    :global(.vtex-my-account-1-x-menuLink),
+    :global(.vtex-account_menu-link) {
+      font-size: 16px;
+      color: black;
+    }
+  }
+}
+
+:global(.vtex-account__page) {
+  width: 100% !important;
+  :global(.vtex-pageHeader__container) {
+    padding: 0 0 25px 0;
+    :global(.vtex-pageHeader__children) {
+      :global(.vtex-button) {
+        background: #000;
+        color: #fff;
+        outline: 0!important;
+        border-radius: 25px;
+        border: 0;
+        padding: 5px 15px;
+      }
+    }
+  }
+  :global(.vtex-account__page-body) {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    .boxContainer {
+      border: 0;
+      .boxContainerBody {
+        border: solid #ececec 1px;
+        border-bottom: solid transparent 1px;
+        -webkit-border-radius: 0px;
+           -moz-border-radius: 0px;
+            -ms-border-radius: 0px;
+             -o-border-radius: 0px;
+                border-radius: 0px;
+        :global(.vtex-button) {
+          outline: 0;
+          border: 0;
+          background: #000;
+          color: #fff;
+          padding: 10px 15px;
+          border-radius: 50px;
+          font-size: 14px;
+        }
+      }
+      .boxContainerFooter {
+        border: solid #ececec 1px;
+        border-top: solid transparent 1px;
+        -webkit-border-radius: 0px;
+           -moz-border-radius: 0px;
+            -ms-border-radius: 0px;
+             -o-border-radius: 0px;
+                border-radius: 0px;
+        :global(.vtex-button) {
+          outline: 0!important;
+          background: none;
+        }
+      }
+    }
+    :global(.vtex-my-account-1-x-newsletterBoxContainer) {
+      .boxContainerBody {
+        border-bottom: solid #ececec 1px;
+      }
+    }
+  }
+  :global(.vtex-my-orders-app-3-x-orderCard) {
+    border: solid 1px #f0f2f3;
+    margin: 0 0 20px 0;
+    padding: 0;
+    :global(.vtex-my-orders-app-3-x-orderHeader) {
+      background: #f0f2f3;
+      :global(.vtex-my-orders-app-3-x-orderId.myo-order-id),
+      :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+        font-size: 16px;
+        color: #000;
+        font-weight: 600;
+      }
+      :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+        font-size: 14px;
+        color: black;
+        img{
+          display: none;
+        }
+      }
+    }
+    :global(.vtex-my-orders-app-3-x-orderBody) {
+      :global(.vtex-my-orders-app-3-x-orderProductName) {
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      :global(.vtex-my-orders-app-3-x-orderProductQuantity) {
+        display: none;
+      }
+      :global(.vtex-my-orders-app-3-x-detailsBtn) {
+          background: #000;
+          color: #fff;
+          border-radius: 25px;
+      }
+    }
+  }
+} 
+
+
+:global(.vtex-modal__confirmation) {
+  :first-child {
+    :global(.vtex-button) {
+      background: #fff !important;
+      color: #000 !important;
+      outline: 0!important;
+    }
+  }
+  :global(.vtex-button) {
+    background: #000 !important;
+    color: #fff !important;
+    border: 0;
+    outline: 0!important;
+  }
+}
+
+:global(.vtex-my-orders-app-3-x-cancelBtn) {
+  display: none !important;
+}
+
+a[href*="/cancel"] {
+  display: none;
+}

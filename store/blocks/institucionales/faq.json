@@ -1,0 +1,39 @@
+{
+    "store.custom#faq": {
+        "blocks": [
+            "flex-layout.row#faq"
+        ]
+    },
+    "flex-layout.row#faq": {
+        "children": [
+            "flex-layout.col#faq"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "faq"
+            ]
+        }
+    },
+    "flex-layout.col#faq": {
+        "children": [
+            "rich-text#faq-title",
+            "rich-text#faq-text"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#faq-title": {
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Preguntas Frecuentes"
+        }
+    },
+    "rich-text#faq-text": {
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "**¿Los precios de la tienda online y mi tienda habitual de Aldo Conti Italia son los mismos?**\nSí, pero si existiera cualquier diferencia entre los precios que figuran en la Web, y los marcados en las etiquetas de las prendas, el precio correcto será siempre el de las etiquetas, las tiendas outlet y tiendas con precios especiales no entran en esta categoría.\n\n**¿Repondremos los artículos con indicación 'agotado'?**\nSi un artículo está agotado, puedes solicitar que te avisemos cuando lo repongamos. En el caso de que vuelva a estar disponible antes de 15 días, te enviaremos un e-mail informándote. Si no hubiese más stock, lo retiraríamos de la web.\n\n**¿Recibiré el mismo producto que veo en la foto?**\nAsí es usted recibirá exactamente el mismo producto que ve en la foto publicada por cada producto.\n\n**¿Es posible recibir información periódica en mi e-mail con las últimas novedades y ofertas de Aldo Conti Italia?**\nSí. Simplemente suscribiéndote a nuestro 'NEWSLETTER' recibirás información sobre las últimas Promociones, novedades, lookbook y eventos Aldo Conti.\n\n**¿Cómo puedo asegurarme de haber realizado bien mi compra?**\nUna vez hecho tu pedido, recibirás un e-mail de confirmación. Si no lo recibieses, ponte en contacto con nuestro departamento de Atención al Cliente a través del siguiente numero telefónico sin costo: 800-3980-000 o manda un correo a [atencionaclientes@aldoconti.com](atencionaclientes@aldoconti.com)\n\n**¿Puedo saber en qué estado se encuentra mi pedido?**\nSí. Accede al apartado 'Rastrea tu pedido' y podrá ver el estado de tu pedido en tiempo real, únicamente proporcionando tu numero de guía.\n\n**¿Cómo puedo contactar con el departamento de Atención al Cliente?**\nPuedes marcar sin costo al 800-3980-000, escribirnos por whatsapp al [55-66-98-12-30](https://wa.me/525566981230) o mándanos un correo a [atencionaclientes@aldoconti.com](atencionaclientes@aldoconti.com)"
+        }
+    }
+}    

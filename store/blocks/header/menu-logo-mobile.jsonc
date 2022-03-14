@@ -1,0 +1,43 @@
+{
+    "vtex.menu@2.x:menu#menu-logo": {
+        "children":[
+          "drawer"
+        ]
+    },
+        
+    "drawer": {
+      "blocks": [
+        "drawer-header#my-drawer"
+      ],
+      "children": [
+        "menu#drawer"
+      ],
+      "props": {
+        "isFullWidth": true,
+        "blockClass": "menu"
+      }
+    },
+    "drawer-header#my-drawer": {
+      "children": [
+        "login#menu-mobile",
+        "drawer-close-button"
+      ],
+      "props": {
+        "blockClass": "drawer-header"
+      }
+    },
+    "menu#drawer": {
+      "children": [
+         "vtex.menu@2.x:menu#category-menu-mobile"
+      ]
+    },
+    "login#menu-mobile": {
+      "props": {
+        "showIconProfile": true,
+        "termsAndConditions": "AL CREAR UNA CUENTA, ACEPTAS LOS TÉRMINOS Y CONDICIONES Y EL AVISO DE PRIVACIDAD DE ALDO CONTI, CONSÚLTALOS.",
+        "blockClass": [
+          "login-menu-mobile"
+        ]
+      }
+    }
+}

@@ -1,0 +1,538 @@
+{
+  "store.custom#hotsale": {
+    "children": [
+      // "list-context.image-list#principal-slider-hotsale",
+      "video#background-temporada-rebajas",
+      "rich-text#first-title-hotsale",
+      "link.product#link-first-title",
+      "list-context.product-list#hotsale-products-1",
+      "slider-layout#hotsale-first-4-images",
+      "responsive-layout.desktop#hotsale-products-desktop-container",
+      "responsive-layout.phone#hotsale-products-phone-container",
+      "list-context.image-list#second-banner-hotsale",
+      "responsive-layout.desktop#hotsale-products-desktop-container-2",
+      "responsive-layout.phone#hotsale-products-phone-container-2",
+      "rich-text#image-and-title-hotsale",
+      "slider-layout#hotsale-last-4-images",
+      "rich-text#last-title-hotsale",
+      "link.product#link-last-title",
+      "list-context.product-list#hotsale-products-3"
+    ]
+  },
+  "flex-layout.row#temporada-rebajas-video": {
+    "children": ["iframe#temporada-rebajas-video"],
+    "props": {
+      "blockClass": "temporada-rebajas-video"
+    }
+  },
+  "iframe#temporada-rebajas-video": {
+    "props": {
+      // "src": "https://www.youtube.com/embed/ySPmiwsly7E",
+      "src": "https://player.vimeo.com/video/564774130?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+      "width": "100%",
+      "maxHeight": 700,
+      "blockClass": "temporada-rebajas-video"
+    }
+  },
+  "video#background-temporada-rebajas": {
+    "props": {
+      "width": "100%",
+      "height": "500px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/embed/ySPmiwsly7E",
+      "controlsType": "none"
+    }
+  },
+  "responsive-layout.desktop#hotsale": {
+    "children": ["list-context.image-list#principal-slider-hotsale"]
+  },
+  "list-context.image-list#principal-slider-hotsale": {
+    "children": ["slider-layout#principal-slider-hotsale"],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "image": "/arquivos/AC_FotosMenucatalogo01_Desktop.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#principal-slider-hotsale": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
+  "rich-text#first-title-hotsale": {
+    "props": {
+      "text": "LO MEJOR DE HOTSALE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound-hotsale-title"
+    }
+  },
+  "link.product#link-first-title": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver todo",
+      "linkAlignment": "CENTER",
+      "linkPosition": "CENTER",
+      "blockClass": "shelftitle-notfound-hotsale-title"
+    }
+  },
+  "list-context.product-list#hotsale-products-1": {
+    "blocks": ["product-summary.shelf#hotsale"],
+    "children": ["slider-layout#vitrina-personalizada-hotsale"]
+  },
+  "product-summary.shelf#hotsale": {
+    "children": [
+      "stack-layout#prodsum",
+      "vtex.product-highlights@2.x:product-highlights#primera",
+      "vtex.product-highlights@2.x:product-highlights#segunda",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#vitrina-personalizada-hotsale": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": false
+    }
+  },
+  "slider-layout#hotsale-first-4-images": {
+    "children": [
+      "flex-layout.row#hotsale-first-4-images-1",
+      "flex-layout.row#hotsale-first-4-images-2"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "phone": 2,
+        "tablet": 4
+      },
+      "navigationStep": 1,
+      "showPaginationDots": "never",
+      "infinite": false,
+      "blockClass": "first-4-image",
+      "showNavigationArrows": false
+    }
+  },
+  "flex-layout.row#hotsale-first-4-images-1": {
+    "title": "hotsale-first-4-images-img-1",
+    "children": [
+      "image#hotsale-first-4-images-1",
+      "image#hotsale-first-4-images-2"
+    ],
+    "props": {
+      "blockClass": "first-4-image-right"
+    }
+  },
+  "flex-layout.row#hotsale-first-4-images-2": {
+    "title": "hotsale-first-4-images-img-2",
+    "children": [
+      "image#hotsale-first-4-images-3",
+      "image#hotsale-first-4-images-4"
+    ],
+    "props": {
+      "blockClass": "first-4-image-left"
+    }
+  },
+  "image#hotsale-first-4-images-1": {
+    "title": "hotsale-first-4-images-1",
+    "props": {
+      "src": "/arquivos/banner_hotsale_aldo_mobile-1.jpg",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "image#hotsale-first-4-images-2": {
+    "title": "hotsale-first-4-images-2",
+    "props": {
+      "src": "/arquivos/banner_hotsale_aldo_mobile–2.jpg",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "image#hotsale-first-4-images-3": {
+    "title": "hotsale-first-4-images-3",
+    "props": {
+      "src": "/arquivos/banner_hotsale_aldo_mobile-3.jpg",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "image#hotsale-first-4-images-4": {
+    "title": "hotsale-first-4-images-4",
+    "props": {
+      "src": "/arquivos/banner_hotsale_aldo_mobile-4.jpg",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "responsive-layout.desktop#hotsale-products-desktop-container": {
+    "children": ["flex-layout.row#hotsale-products-desktop"]
+  },
+  "flex-layout.row#hotsale-products-desktop": {
+    "title": "hotsale-products-desktop",
+    "children": [
+      "flex-layout.col#products-container-25",
+      "flex-layout.col#products-container-75"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "hotsale-container"
+    }
+  },
+  "flex-layout.col#products-container-25": {
+    "children": ["image#hotsale-products-desktop"],
+    "props": {
+      "blockClass": "container-25",
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#products-container-75": {
+    "children": ["list-context.product-list#hotsale-products"],
+    "props": {
+      "blockClass": "container-75",
+      "width": "75%"
+    }
+  },
+  "image#hotsale-products-desktop": {
+    "title": "hotsale-products-desktop",
+    "props": {
+      "src": "/arquivos/banner_bambu_desktop.jpg",
+      "blockClass": "hotsale-products-desktop"
+    }
+  },
+  "list-context.product-list#hotsale-products": {
+    "title": "Primera Vitrina Hotsale",
+    "blocks": ["product-summary.shelf#hotsale"],
+    "children": ["slider-layout#hotsale-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "hotsale-products",
+      "queryField": "387"
+    }
+  },
+  "slider-layout#hotsale-products": {
+    "title": "Vitrina Para Compartir",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "hotsale-products",
+      "queryField": "387"
+    }
+  },
+  "responsive-layout.phone#hotsale-products-phone-container": {
+    "children": ["flex-layout.row#hotsale-products-phone"],
+    "props": {
+      "blockClass": "hotsale-slider-phone"
+    }
+  },
+  "flex-layout.row#hotsale-products-phone": {
+    "title": "hotsale-products-phone",
+    "children": [
+      "image#hotsale-products-phone",
+      "list-context.product-list#hotsale-products-phone"
+    ],
+    "props": {
+      "blockClass": "hotsale-slider-phone"
+    }
+  },
+  "image#hotsale-products-phone": {
+    "title": "hotsale-last-4-images-1",
+    "props": {
+      "src": "/arquivos/banner_bambu.jpg",
+      "width": "100%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "list-context.product-list#hotsale-products-phone": {
+    "title": "Primera Vitrina Hotsale phone",
+    "blocks": ["product-summary.shelf#hotsale"],
+    "children": ["slider-layout#hotsale-products-phone"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "hotsale-products",
+      "width": "70%",
+      "queryField": "387"
+    }
+  },
+  "slider-layout#hotsale-products-phone": {
+    "title": "Vitrina Phone",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": false,
+      "queryField": "387"
+    }
+  },
+  "list-context.image-list#second-banner-hotsale": {
+    "children": ["slider-layout#second-banner-hotsale"],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "image": "/arquivos/banner_accesorios_desktop.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#second-banner-hotsale": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "second-banner-image",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
+  "rich-text#second-title-hotsale": {
+    "props": {
+      "text": "ULTIMAS PIEZAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound-hotsale-title"
+    }
+  },
+  "link.product#link-second-title": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver todo",
+      "linkAlignment": "CENTER",
+      "linkPosition": "CENTER",
+      "blockClass": "shelftitle-notfound-hotsale-title"
+    }
+  },
+  "list-context.product-list#hotsale-products-2": {
+    "blocks": ["product-summary.shelf#hotsale"],
+    "children": ["slider-layout#vitrina-personalizada-hotsale"]
+  },
+  "rich-text#image-and-title-hotsale": {
+    "props": {
+      "text": "Temporadas",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "image-and-title-hotsale"
+    }
+  },
+  "slider-layout#hotsale-last-4-images": {
+    "children": [
+      "image#hotsale-last-4-images-1",
+      "image#hotsale-last-4-images-2",
+      "image#hotsale-last-4-images-3",
+      "image#hotsale-last-4-images-4"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "phone": 2,
+        "tablet": 4
+      },
+      "navigationStep": 1,
+      "showPaginationDots": "never",
+      "infinite": true,
+      "blockClass": "first-4-image",
+      "showNavigationArrows": true
+    }
+  },
+  "image#hotsale-last-4-images-1": {
+    "title": "hotsale-last-4-images-1",
+    "props": {
+      "src": "/arquivos/primavera.png",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "image#hotsale-last-4-images-2": {
+    "title": "hotsale-last-4-images-2",
+    "props": {
+      "src": "/arquivos/verano.png",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "image#hotsale-last-4-images-3": {
+    "title": "hotsale-last-4-images-3",
+    "props": {
+      "src": "/arquivos/otono.png",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "image#hotsale-last-4-images-4": {
+    "title": "hotsale-last-4-images-4",
+    "props": {
+      "src": "/arquivos/invierno.png",
+      "width": "97%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "rich-text#last-title-hotsale": {
+    "props": {
+      "text": "CHAMARRAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound-hotsale-title"
+    }
+  },
+  "link.product#link-last-title": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver todo",
+      "linkAlignment": "CENTER",
+      "linkPosition": "CENTER",
+      "blockClass": "shelftitle-notfound-hotsale-title"
+    }
+  },
+  "list-context.product-list#hotsale-products-3": {
+    "blocks": ["product-summary.shelf#hotsale"],
+    "children": ["slider-layout#vitrina-personalizada-hotsale"]
+  },
+
+  "responsive-layout.desktop#hotsale-products-desktop-container-2": {
+    "children": ["flex-layout.row#hotsale-products-desktop-2"]
+  },
+  "flex-layout.row#hotsale-products-desktop-2": {
+    "title": "hotsale-products-desktop",
+    "children": [
+      "flex-layout.col#products-container-75-2",
+      "flex-layout.col#products-container-25-2"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "hotsale-container"
+    }
+  },
+  "flex-layout.col#products-container-25-2": {
+    "children": ["image#hotsale-products-desktop-2"],
+    "props": {
+      "blockClass": "container-25",
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#products-container-75-2": {
+    "children": ["list-context.product-list#hotsale-products-second"],
+    "props": {
+      "blockClass": "container-75",
+      "width": "75%"
+    }
+  },
+  "image#hotsale-products-desktop-2": {
+    "title": "hotsale-products-desktop",
+    "props": {
+      "src": "/arquivos/banner_bambu_desktop.jpg",
+      "blockClass": "hotsale-products-desktop"
+    }
+  },
+  "list-context.product-list#hotsale-products-second": {
+    "title": "Primera Vitrina Hotsale",
+    "blocks": ["product-summary.shelf#hotsale"],
+    "children": ["slider-layout#hotsale-products-second"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "hotsale-products",
+      "category": "1/4"
+    }
+  },
+  "slider-layout#hotsale-products-second": {
+    "title": "Vitrina Para Compartir",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "hotsale-products",
+      "category": "1/4"
+    }
+  },
+
+  "responsive-layout.phone#hotsale-products-phone-container-2": {
+    "children": ["flex-layout.row#hotsale-products-phone-2"],
+    "props": {
+      "blockClass": "hotsale-slider-phone"
+    }
+  },
+  "flex-layout.row#hotsale-products-phone-2": {
+    "title": "hotsale-products-phone",
+    "children": [
+      "image#hotsale-products-phone-2",
+      "list-context.product-list#hotsale-products-phone-2"
+    ],
+    "props": {
+      "blockClass": "hotsale-slider-phone"
+    }
+  },
+  "image#hotsale-products-phone-2": {
+    "title": "hotsale-last-4-images-1",
+    "props": {
+      "src": "/arquivos/banner_bambu.jpg",
+      "width": "100%",
+      "blockClass": "no-perder-images"
+    }
+  },
+  "list-context.product-list#hotsale-products-phone-2": {
+    "title": "Primera Vitrina Hotsale phone",
+    "blocks": ["product-summary.shelf#hotsale"],
+    "children": ["slider-layout#hotsale-products-phone"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "hotsale-products",
+      "width": "70%",
+      "category": "1/4"
+    }
+  },
+  "slider-layout#hotsale-products-phone-2": {
+    "title": "Vitrina Phone",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": false,
+      "category": "1/4"
+    }
+  }
+}

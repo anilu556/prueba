@@ -1,0 +1,505 @@
+{
+    "store.custom#city-vibes-catalogo": {
+        "blocks": [
+          "flex-layout.row#catalogo-new"
+        ]
+    },
+    "flex-layout.row#catalogo-new": {
+        "children": [
+            "flex-layout.col#catalogo-new"
+        ],
+        "props": {
+            "blockClass": ["spacial-pages", "catalogo-new"]
+        }
+    },
+    "flex-layout.col#catalogo-new": {
+        "children":[
+            "responsive-layout.desktop#catalogo-new",
+            "responsive-layout.mobile#catalogo-new"
+        ]        
+    },
+    "responsive-layout.desktop#catalogo-new": {
+        "children": [
+            /*"rich-text#pruebadesk",*/
+            "flex-layout.row#catalogonew-desktop-1",
+            "flex-layout.row#catalogonew-desktop-2",
+            "flex-layout.row#catalogonew-desktop-3",
+            "flex-layout.row#catalogonew-desktop-4",
+            "flex-layout.row#catalogonew-desktop-5",
+            "flex-layout.row#catalogonew-desktop-6",
+            "flex-layout.row#catalogonew-desktop-7",
+            "flex-layout.row#catalogonew-desktop-8",
+            "flex-layout.row#catalogonew-desktop-9",
+            "flex-layout.row#catalogonew-desktop-10",
+            "flex-layout.row#catalogonew-desktop-11",
+            "flex-layout.row#catalogonew-desktop-12"
+        ]
+    },
+    "rich-text#pruebadesk": {
+        "props": {
+            "text": "prueba desktop"
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-1": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-1-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-1-1": {
+        "children": [
+            "image#catalogonew-desktop-1-1"
+        ]
+    },
+    "image#catalogonew-desktop-1-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-1-1.png",
+            "blockClass": "catalogonew-desktop-1"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-2": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-2-1",
+            "flex-layout.col#catalogonew-desktop-2-2"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-2-1": {
+        "children": [
+            "image#catalogonew-desktop-2-1"
+        ]
+    },
+    "image#catalogonew-desktop-2-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-2-1.png",
+            "maxHeight": 800,
+            "blockClass": "catalogonew-desktop-2-1"  
+        }
+    },
+    "flex-layout.col#catalogonew-desktop-2-2": {
+        "children": [
+            "image#catalogonew-desktop-2-2"
+        ]
+    },
+    "image#catalogonew-desktop-2-2": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-2-2.png",
+            "maxHeight": 800,
+            "blockClass": "catalogonew-desktop-2-2"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-3": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-3-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-3-1": {
+        "children": [
+            "image#catalogonew-desktop-3-1"
+        ]
+    },
+    "image#catalogonew-desktop-3-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-3-1.png",
+            "blockClass": "catalogonew-desktop-3"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-4": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-4-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-4-1": {
+        "children": [
+            "image#catalogonew-desktop-4-1"
+        ]
+    },
+    "image#catalogonew-desktop-4-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-4-1.png",
+            "blockClass": "catalogonew-desktop-4"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-5": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-5-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-5-1": {
+        "children": [
+            "image#catalogonew-desktop-5-1"
+        ]
+    },
+    "image#catalogonew-desktop-5-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-5-1.png",
+            "blockClass": "catalogonew-desktop-5"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-6": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-6-1",
+            "flex-layout.col#catalogonew-desktop-6-2"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-6-1": {
+        "children": [
+            "image#catalogonew-desktop-6-1"
+        ]
+    },
+    "image#catalogonew-desktop-6-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-6-1.png",
+            "blockClass": "catalogonew-desktop-6-1"  
+        }
+    },
+    "flex-layout.col#catalogonew-desktop-6-2": {
+        "children": [
+            "image#catalogonew-desktop-6-2"
+        ]
+    },
+    "image#catalogonew-desktop-6-2": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-6-2.png",
+            "blockClass": "catalogonew-desktop-6-2"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-7": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-7-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-7-1": {
+        "children": [
+            "image#catalogonew-desktop-7-1"
+        ]
+    },
+    "image#catalogonew-desktop-7-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-7-1.png",
+            "blockClass": "catalogonew-desktop-7"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-8": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-8-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-8-1": {
+        "children": [
+            "image#catalogonew-desktop-8-1"
+        ]
+    },
+    "image#catalogonew-desktop-8-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-8-1.png",
+            "blockClass": "catalogonew-desktop-8"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-9": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-9-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-9-1": {
+        "children": [
+            "image#catalogonew-desktop-9-1"
+        ]
+    },
+    "image#catalogonew-desktop-9-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-9-1.png",
+            "blockClass": "catalogonew-desktop-9"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-10": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-10-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-10-1": {
+        "children": [
+            "image#catalogonew-desktop-10-1"
+        ]
+    },
+    "image#catalogonew-desktop-10-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-10-1.png",
+            "blockClass": "catalogonew-desktop-10"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-11": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-11-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-11-1": {
+        "children": [
+            "image#catalogonew-desktop-11-1"
+        ]
+    },
+    "image#catalogonew-desktop-11-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-11-1.png",
+            "blockClass": "catalogonew-desktop-11"  
+        }
+    },
+    "flex-layout.row#catalogonew-desktop-12": {
+        "children": [
+            "flex-layout.col#catalogonew-desktop-12-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-desktop-12-1": {
+        "children": [
+            "image#catalogonew-desktop-12-1"
+        ]
+    },
+    "image#catalogonew-desktop-12-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-12-1.png",
+            "blockClass": "catalogonew-desktop-12"  
+        }
+    },
+    "responsive-layout.mobile#catalogo-new": {
+        "children": [
+            /*"rich-text#pruebamobile",*/
+            "flex-layout.row#catalogonew-mobile-1",
+            "flex-layout.row#catalogonew-mobile-2",
+            "flex-layout.row#catalogonew-mobile-3",
+            "flex-layout.row#catalogonew-mobile-4",
+            "flex-layout.row#catalogonew-mobile-5",
+            "flex-layout.row#catalogonew-mobile-6",
+            "flex-layout.row#catalogonew-mobile-7",
+            "flex-layout.row#catalogonew-mobile-8",
+            "flex-layout.row#catalogonew-mobile-9",
+            "flex-layout.row#catalogonew-mobile-10",
+            "flex-layout.row#catalogonew-mobile-11",
+            "flex-layout.row#catalogonew-mobile-12"
+        ]
+    },
+    "rich-text#pruebamobile": {
+        "props": {
+            "text": "prueba mobile"
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-1": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-1-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-1-1": {
+        "children": [
+            "image#catalogonew-mobile-1-1"
+        ]
+    },
+    "image#catalogonew-mobile-1-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-1-1.png",
+            "blockClass": "catalogonew-mobile-1"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-2": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-2-1",
+            "flex-layout.col#catalogonew-mobile-2-2"
+        ],
+        "props": {
+            "blockClass": "catalogonew-row2"
+        }
+    },
+    "flex-layout.col#catalogonew-mobile-2-1": {
+        "children": [
+            "image#catalogonew-mobile-2-1"
+        ]
+    },
+    "image#catalogonew-mobile-2-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-2-1.png",
+            "blockClass": "catalogonew-mobile-2-1"  
+        }
+    },
+    "flex-layout.col#catalogonew-mobile-2-2": {
+        "children": [
+            "image#catalogonew-mobile-2-2"
+        ]
+    },
+    "image#catalogonew-mobile-2-2": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-2-2.png",
+            "blockClass": "catalogonew-mobile-2-2"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-3": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-3-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-3-1": {
+        "children": [
+            "image#catalogonew-mobile-3-1"
+        ]
+    },
+    "image#catalogonew-mobile-3-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-3-1.png",
+            "blockClass": "catalogonew-mobile-3"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-4": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-4-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-4-1": {
+        "children": [
+            "image#catalogonew-mobile-4-1"
+        ]
+    },
+    "image#catalogonew-mobile-4-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-4-1.png",
+            "blockClass": "catalogonew-mobile-4"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-5": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-5-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-5-1": {
+        "children": [
+            "image#catalogonew-mobile-5-1"
+        ]
+    },
+    "image#catalogonew-mobile-5-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-5-1.png",
+            "blockClass": "catalogonew-mobile-5"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-6": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-6-1",
+            "flex-layout.col#catalogonew-mobile-6-2"
+        ],
+        "props": {
+            "blockClass": "catalogonew-row6"
+        }
+    },
+    "flex-layout.col#catalogonew-mobile-6-1": {
+        "children": [
+            "image#catalogonew-mobile-6-1"
+        ]
+    },
+    "image#catalogonew-mobile-6-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-6-1.png",
+            "blockClass": "catalogonew-mobile-6-1"  
+        }
+    },
+    "flex-layout.col#catalogonew-mobile-6-2": {
+        "children": [
+            "image#catalogonew-mobile-6-2"
+        ]
+    },
+    "image#catalogonew-mobile-6-2": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-6-2.png",
+            "blockClass": "catalogonew-mobile-6-2"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-7": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-7-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-7-1": {
+        "children": [
+            "image#catalogonew-mobile-7-1"
+        ]
+    },
+    "image#catalogonew-mobile-7-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-7-1.png",
+            "blockClass": "catalogonew-mobile-7"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-8": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-8-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-8-1": {
+        "children": [
+            "image#catalogonew-mobile-8-1"
+        ]
+    },
+    "image#catalogonew-mobile-8-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-8-1.png",
+            "blockClass": "catalogonew-mobile-8"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-9": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-9-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-9-1": {
+        "children": [
+            "image#catalogonew-mobile-9-1"
+        ]
+    },
+    "image#catalogonew-mobile-9-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-9-1.png",
+            "blockClass": "catalogonew-mobile-9"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-10": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-10-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-10-1": {
+        "children": [
+            "image#catalogonew-mobile-10-1"
+        ]
+    },
+    "image#catalogonew-mobile-10-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-10-1.png",
+            "blockClass": "catalogonew-mobile-10"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-11": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-11-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-11-1": {
+        "children": [
+            "image#catalogonew-mobile-11-1"
+        ]
+    },
+    "image#catalogonew-mobile-11-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-11-1.png",
+            "blockClass": "catalogonew-mobile-11"  
+        }
+    },
+    "flex-layout.row#catalogonew-mobile-12": {
+        "children": [
+            "flex-layout.col#catalogonew-mobile-12-1"
+        ]
+    },
+    "flex-layout.col#catalogonew-mobile-12-1": {
+        "children": [
+            "image#catalogonew-mobile-12-1"
+        ]
+    },
+    "image#catalogonew-mobile-12-1": {
+        "props":{
+            "src": "/arquivos/catalogonew-desktop-12-1.png",
+            "blockClass": "catalogonew-mobile-12"  
+        }
+    }
+}

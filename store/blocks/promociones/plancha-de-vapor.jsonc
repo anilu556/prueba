@@ -1,0 +1,248 @@
+{
+    "store.custom#especial-plancha-vapor": {
+        "children": [
+            "flex-layout.row#especial-plancha-breadcrumb",
+            "flex-layout.row#product-freeshipping",
+            "responsive-layout.desktop#especial-plancha-banner",
+            "responsive-layout.mobile#especial-plancha-banner",
+            "flex-layout.row#especial-plancha-detalle-producto",
+            "flex-layout.row#all-highlight",
+            "list-context.product-list#vitrina-personalizada"
+        ]
+    },
+    "flex-layout.row#especial-plancha-breadcrumb": {
+        "children":[
+            "flex-layout.col#especial-plancha-breadcrumb"
+        ]
+    },
+    "flex-layout.col#especial-plancha-breadcrumb": {
+        "children":[
+            "rich-text#especial-plancha-breadcrumb"
+        ],
+        "props": {
+            "blockClass": "especial-plancha-breadcrumb"
+        }
+    },
+    "rich-text#especial-plancha-breadcrumb": {
+        "props": {
+            "text": "[Home](/) / [Hombre](/hombre) / [Plancha de Vapor](/hombre/plancha-de-vapor) / **PLANCHA VAPORIZADORA, BLANCO, MARCA ALDO CONTI**",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "especial-plancha-breadcrumb"
+        }
+    },
+    "responsive-layout.desktop#especial-plancha-banner": {
+        "children":[
+            "flex-layout.row#especial-plancha-banner"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-banner"
+        }
+    },
+    "flex-layout.row#especial-plancha-banner": {
+        "children":[
+            "flex-layout.col#especial-plancha-banner"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-banner"
+        }
+    },
+    "flex-layout.col#especial-plancha-banner": {
+        "children":[
+            "image#desktop-plancha-banner"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-banner"
+        }
+    },
+    "image#desktop-plancha-banner": {
+        "props": {
+          "src": "https://aldoconti.vtexassets.com/assets/vtex.file-manager-graphql/images/ac25f111-0a5e-490d-ab19-02bbe0fe3f1d___88af280b2273393902417507b59a8af7.jpg",
+          "maxHeight": "auto"
+        }
+    },
+
+    "responsive-layout.mobile#especial-plancha-banner": {
+        "children":[
+            "flex-layout.row#especial-plancha-banner-mobile"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-banner"
+        }
+    },
+    "flex-layout.row#especial-plancha-banner-mobile": {
+        "children":[
+            "flex-layout.col#especial-plancha-banner-mobile"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-banner"
+        }
+    },
+    "flex-layout.col#especial-plancha-banner-mobile": {
+        "children":[
+            "image#desktop-plancha-banner-mobile"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-banner"
+        }
+    },
+    "image#desktop-plancha-banner-mobile": {
+        "props": {
+          "src": "https://aldoconti.vtexassets.com/assets/vtex.file-manager-graphql/images/ac25f111-0a5e-490d-ab19-02bbe0fe3f1d___88af280b2273393902417507b59a8af7.jpg",
+          "maxHeight": "auto"
+        }
+    },
+
+    "flex-layout.row#especial-plancha-detalle-producto": {
+        "children":[
+            "flex-layout.col#especial-plancha-video",
+            "flex-layout.col#especial-plancha-detalle-producto"
+        ],
+        "props":{
+            "blockClass": "especial-bloque-detalle"
+        }
+    },
+    
+    /* "flex-layout.row#especial-plancha-video": {
+        "children":[
+            "flex-layout.col#especial-plancha-video"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-video"
+        }
+    }, */
+    "flex-layout.col#especial-plancha-video": {
+        "children": [
+            "iframe#especial-plancha-video"
+        ],
+        "props":{
+            "blockClass": "especial-plancha-video"
+        }
+    },
+    "iframe#especial-plancha-video": {
+        "props": {
+            "src": "https://player.vimeo.com/video/503562719?api=1&amp;background=1&amp;mute=0&amp;loop=1",
+            "width": "100%",
+            "maxHeight": 700,
+            "blockClass": "especial-plancha-video"
+        }
+    },
+    "flex-layout.col#especial-plancha-detalle-producto": {
+        "children":[
+            "flex-layout.row#plancha-especial-titulo",
+            "flex-layout.row#plancha-especial-skuref",
+            "flex-layout.row#plancha-especial-precios",
+            "flex-layout.row#plancha-especial-ctas",
+            "flex-layout.row#plancha-especial-descripcion",
+            "responsive-layout.desktop#principal-highlights"
+        ],
+        "props":{
+            "blockClass": "plancha-detalle-producto"
+        }
+    },
+    "flex-layout.row#plancha-especial-titulo": {
+        "children":[
+            "rich-text#plancha-especial-titulo"
+        ],
+        "props":{
+            "blockClass": "plancha-especial-titulo"
+        }
+    },
+    "rich-text#plancha-especial-titulo": {
+        "props": {
+            "text": "**PLANCHA VAPORIZADORA, BLANCO, MARCA ALDO CONTI**",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "plancha-especial-titulo"
+        }
+    },
+    "flex-layout.row#plancha-especial-skuref": {
+        "children":[
+            "rich-text#plancha-especial-skuref"
+        ],
+        "props":{
+            "blockClass": "plancha-especial-skuref"
+        }
+    },
+    "rich-text#plancha-especial-skuref": {
+        "props": {
+            "text": "H8228BLA--UNI",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "plancha-especial-skuref"
+        }
+    },
+    "flex-layout.row#plancha-especial-precios": {
+        "children":[
+            "rich-text#plancha-especial-precios"
+        ],
+        "props":{
+            "blockClass": "plancha-especial-precios"
+        }
+    },
+    "rich-text#plancha-especial-precios": {
+        "props": {
+            "text": "*$3999.00* **$1499.00**",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "plancha-especial-precios"
+        }
+    },
+    "flex-layout.row#plancha-especial-ctas": {
+        "children":[
+            "flex-layout.col#plancha-especial-cta1",
+            "flex-layout.col#plancha-especial-cta2"
+        ],
+        "props":{
+            "blockClass": "plancha-especial-ctas"
+        }
+    },
+    "flex-layout.col#plancha-especial-cta1": {
+        "children":[
+            "rich-text#plancha-especial-cta1"
+        ],
+        "props": {
+            "blockClass": "plancha-especial-cta1"
+        }
+    },
+    "rich-text#plancha-especial-cta1": {
+        "props": {
+            "text": "[Añadir](/checkout/cart/add?sku=18677&qty=1&seller=1)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "plancha-especial-cta1"
+        }
+    },
+    "flex-layout.col#plancha-especial-cta2": {
+        "children":[
+            "rich-text#plancha-especial-cta2"
+        ],
+        "props": {
+            "blockClass": "plancha-especial-cta2"
+        }
+    },
+    "rich-text#plancha-especial-cta2": {
+        "props": {
+            "text": "[Comprar ahora](/checkout/cart/add?sku=18677&qty=1&seller=1)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "plancha-especial-cta2"
+        }
+    },
+    "flex-layout.row#plancha-especial-descripcion": {
+        "children":[
+            "rich-text#plancha-especial-descripcion"
+        ],
+        "props":{
+            "blockClass": "plancha-especial-descripcion"
+        }
+    },
+    "rich-text#plancha-especial-descripcion": {
+        "props": {
+            "text": "**Descripción del producto**\nPlancha vaporizadora para ropa. Cuidado amable para cada tipo de prenda. -Calienta en 35 segundos. -Elimina Gérmenes y agentes contaminantes de las prendas. -Gancho principal con giro de 360º y 2 secundarios plegables. -Acción de Vapor Rápida con cepillo integrado. -Soporte ajustable de aluminio. -Tanque de agua con capacidad para 1.5 Lts.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "plancha-especial-descripcion"
+        }
+    }
+}

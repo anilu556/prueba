@@ -1,0 +1,617 @@
+{
+  "store.custom#codigo-conti": {
+      "blocks": [
+        "flex-layout.row#blog-breadcrumb",
+        "flex-layout.row#return-editorial-button",
+        "flex-layout.row#codigo-conti",
+        "flex-layout.row#codigo-conti-body"
+      ]
+  },
+  "flex-layout.row#blog-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#return-editorial-button": {
+    "children":[
+      "flex-layout.col#return-editorial-button"
+    ]
+  },
+  "flex-layout.col#return-editorial-button": {
+    "children":[
+      "rich-text#mobile-return-btn"
+    ]
+  },
+  "rich-text#mobile-return-btn": {
+    "props": {
+      "text": "[&#8249;](/editorial)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "mobile-return-btn"
+    }
+  },
+  "flex-layout.row#codigo-conti": {
+    "children": [
+      "flex-layout.col#codigo-conti"
+    ],
+    "props": {
+      "blockClass": ["page-institucionales", "codigo-conti"]
+    }
+  },
+  "flex-layout.col#codigo-conti": {
+    "children": [      
+      "responsive-layout.desktop#blog-categories",
+      "responsive-layout.mobile#blog-categories"
+    ]            
+  },  
+  "responsive-layout.desktop#blog-categories": {
+    "children":[
+      "flex-layout.row#blog-categories"
+    ],
+    "props": {
+      "blockClass": "blog-categories"
+    }
+  },
+  "flex-layout.row#blog-categories": {
+    "children": [
+      "flex-layout.col#blog-category-1",
+      "flex-layout.col#blog-category-2",
+      "flex-layout.col#blog-category-3"
+      /* "flex-layout.col#blog-category-4" */
+    ],
+    "props": {
+      "blockClass": "blog-categories-list"
+    }
+  },
+  "flex-layout.col#blog-category-1": {
+    "children":[
+      "rich-text#blog-category-1"
+    ],
+    "props": {
+      "blockClass": "semiblock-blog-category"
+    }
+  },
+  "rich-text#blog-category-1": {
+    "props": {
+        "text": "[Tendencias](/blog/tendencias)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "text-blog-category"
+    }
+  },
+  "flex-layout.col#blog-category-2": {
+    "children":[
+      "rich-text#blog-category-2"
+    ],
+    "props": {
+      "blockClass": "semiblock-blog-category"
+    }
+  },
+  "rich-text#blog-category-2": {
+    "props": {
+        "text": "[Tips](/blog/tips)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "text-blog-category"
+    }
+  },
+  "flex-layout.col#blog-category-3": {
+    "children":[
+      "rich-text#blog-category-3"
+    ],
+    "props": {
+      "blockClass": "semiblock-blog-category"
+    }
+  },
+  "rich-text#blog-category-3": {
+    "props": {
+        "text": "[Momentos](/blog/momentos)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "text-blog-category"
+    }
+  },
+  "flex-layout.col#blog-category-4": {
+    "children":[
+      "rich-text#blog-category-4"
+    ],
+    "props": {
+      "blockClass": "semiblock-blog-category"
+    }
+  },
+  "rich-text#blog-category-4": {
+    "props": {
+        "text": "[Accesorios](/blog/accesorios)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "text-blog-category"
+    }
+  },
+  "responsive-layout.mobile#blog-categories": {
+    "children":[      
+      "slider-layout#blog-category-images"
+    ]
+  },  
+  "slider-layout#blog-category-images": {
+    "props": {
+      "itemsPerPage": {
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": "carousel-categories-blog",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "rich-text#mobile-blogcat-1",
+      "rich-text#mobile-blogcat-2",
+      "rich-text#mobile-blogcat-3"
+      /* "rich-text#mobile-blogcat-4" */
+    ]
+  },
+  "rich-text#mobile-blogcat-1": {
+    "props": {
+      "text": "[Tendencias](/blog/tendencias)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-blog-category"
+    }
+  },
+  "rich-text#mobile-blogcat-2": {
+    "props": {
+      "text": "[Tips](/blog/tips)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-blog-category"
+    }
+  },
+  "rich-text#mobile-blogcat-3": {
+    "props": {
+      "text": "[Momentos](/blog/momentos)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-blog-category"
+    }
+  },
+  "rich-text#mobile-blogcat-4": {
+    "props": {
+      "text": "[Accesorios](/blog/accesorios)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-blog-category"
+    }
+  },
+  "flex-layout.row#codigo-conti-body": {
+    "children":[      
+    "flex-layout.col#codigo-conti-body"
+    ]
+  },
+  "flex-layout.col#codigo-conti-body": {
+    "children":[      
+      "responsive-layout.desktop#tendencias-banner",
+      "responsive-layout.mobile#tendencias-banner",
+      //"flex-layout.row#shelf-tendencias",
+      "responsive-layout.desktop#tips-banner",
+      "responsive-layout.mobile#tips-banner",
+      // "flex-layout.row#shelf-tips",
+      "responsive-layout.desktop#momentos-banner",
+      "responsive-layout.mobile#momentos-banner"
+      /*"flex-layout.row#shelf-momentos",
+      "responsive-layout.desktop#accesorios-banner",
+      "responsive-layout.mobile#accesorios-banner",
+      "flex-layout.row#shelf-accesorios" */
+      ]
+  },
+  "responsive-layout.desktop#tendencias-banner": {
+    "children":[
+      "flex-layout.row#category-tendencias"
+  ],
+  "props": {
+      "blockClass": "category-tendencias"
+    }
+  },
+  "flex-layout.row#category-tendencias": {
+    "children":[
+      "info-card#category-tendencias"
+  ],
+  "props":{
+      "blockClass": "card-category-tendencias"
+    }
+  },
+  "info-card#category-tendencias": {
+    "props": {
+      "id": "tendencias-card-desktop",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "/arquivos/banner-tendencias-io-desktop.png",
+      "TextModeEnum": "rich-text",
+      "headline": "Tendencias",
+      "subhead": "LAS MEJORES TENDENCIAS",
+      "callToActionText": "DESCUBRE MÁS",
+      "callToActionUrl": "/blog/tendencias",
+      "blockClass": "tendecias-bloque-blog",
+      "textAlignment": "left"
+    }
+  },   
+  "responsive-layout.mobile#tendencias-banner": {
+    "children":[
+        "flex-layout.row#tendencias-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "tendencias-banner-mobile"
+    }
+  },
+  "flex-layout.row#tendencias-banner-mobile": {
+    "children":[
+        "list-context.image-list#tendencias-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "mobile-card-tendencias"
+    }
+  },
+  "list-context.image-list#tendencias-banner-mobile": {
+    "children": [
+      "slider-layout#ventas-corporativas-images"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "mobileImage": "/arquivos/mobile-banner-tendencias-io.png"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#shelf-tendencias": {
+    "children": [
+        "list-context.product-list#shelf-tendencias"
+    ]
+  },
+  "list-context.product-list#shelf-tendencias": {
+    "blocks": [      
+      "product-summary.shelf"
+    ],
+    "children": [
+      "flex-layout.col#slider-shelf-tendencias"          
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"      
+    }
+  },
+  "flex-layout.col#slider-shelf-tendencias": {
+    "children": [
+      "rich-text#title-shelf-tendencias-slider",
+      "slider-layout#shelf-tendencias-collection"
+    ]
+  },
+  "rich-text#title-shelf-tendencias-slider": {
+    "props": {
+      "text": "Tendencias",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound"
+    }
+  },
+  "slider-layout#shelf-tendencias-collection": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "tendencias-recommendedShelf"
+    }
+  },
+  "responsive-layout.desktop#tips-banner": {
+    "children":[
+      "flex-layout.row#category-tips"
+  ],
+  "props": {
+      "blockClass": "category-tips"
+    }
+  },
+  "flex-layout.row#category-tips": {
+    "children":[
+      "info-card#category-tips"
+  ],
+  "props":{
+      "blockClass": "card-category-tips"
+    }
+  },
+  "info-card#category-tips": {
+    "props": {
+      "id": "tips-card-desktop",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/banner-tendencias-io-desktop.png",
+      "TextModeEnum": "rich-text",
+      "headline": "Tips",
+      "subhead": "LOS MEJORES CONSEJOS",
+      "callToActionText": "DESCUBRE MÁS",
+      "callToActionUrl": "/blog/tips",
+      "blockClass": "tips-bloque-blog",
+      "textAlignment": "right"
+    }
+  },
+  "responsive-layout.mobile#tips-banner": {
+    "children":[
+        "flex-layout.row#tips-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "tips-banner-mobile"
+    }
+  },
+  "flex-layout.row#tips-banner-mobile": {
+    "children":[
+        "list-context.image-list#tips-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "mobile-card-tips"
+    }
+  },
+  "list-context.image-list#tips-banner-mobile": {
+    "children": [
+      "slider-layout#ventas-corporativas-images"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "mobileImage": "/arquivos/mobile-banner-tips-io.png"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#shelf-tips": {
+    "children": [
+        "list-context.product-list#shelf-tips"
+    ]
+  },
+  "list-context.product-list#shelf-tips": {
+    "blocks": [      
+      "product-summary.shelf"
+    ],
+    "children": [
+      "flex-layout.col#slider-shelf-tips"          
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"      
+    }
+  },
+  "flex-layout.col#slider-shelf-tips": {
+    "children": [
+      "rich-text#title-shelf-tips-slider",
+      "slider-layout#shelf-tips-collection"
+    ]
+  },
+  "rich-text#title-shelf-tips-slider": {
+    "props": {
+      "text": "Tips",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound"
+    }
+  },
+  "slider-layout#shelf-tips-collection": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "tendencias-recommendedShelf"
+    }
+  },
+  "responsive-layout.desktop#momentos-banner": {
+    "children":[
+      "flex-layout.row#category-momentos"
+  ],
+  "props": {
+      "blockClass": "category-momentos"
+    }
+  },
+  "flex-layout.row#category-momentos": {
+    "children":[
+      "info-card#category-momentos"
+  ],
+  "props":{
+      "blockClass": "card-category-momentos"
+    }
+  },
+  "info-card#category-momentos": {
+    "props": {
+      "id": "momentos-card-desktop",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "/arquivos/momentos-banner-desktop-io.png",
+      "TextModeEnum": "rich-text",
+      "headline": "Momentos",
+      "subhead": "NOTAS ACTUALES",
+      "callToActionText": "DESCUBRE MÁS",
+      "callToActionUrl": "/blog/momentos",
+      "blockClass": "momentos-bloque-blog",
+      "textAlignment": "left"
+    }
+  },
+  "responsive-layout.mobile#momentos-banner": {
+    "children":[
+        "flex-layout.row#momentos-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "momentos-banner-mobile"
+    }
+  },
+  "flex-layout.row#momentos-banner-mobile": {
+    "children":[
+        "list-context.image-list#momentos-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "mobile-card-momentos"
+    }
+  },
+  "list-context.image-list#momentos-banner-mobile": {
+    "children": [
+      "slider-layout#ventas-corporativas-images"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "mobileImage": "/arquivos/mobile-banner-momentos-io.png"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#shelf-momentos": {
+    "children": [
+        "list-context.product-list#shelf-momentos"
+    ]
+  },
+  "list-context.product-list#shelf-momentos": {
+    "blocks": [      
+      "product-summary.shelf"
+    ],
+    "children": [
+      "flex-layout.col#slider-shelf-momentos"          
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"      
+    }
+  },
+  "flex-layout.col#slider-shelf-momentos": {
+    "children": [
+      "rich-text#title-shelf-momentos-slider",
+      "slider-layout#shelf-momentos-collection"
+    ]
+  },
+  "rich-text#title-shelf-momentos-slider": {
+    "props": {
+      "text": "Momentos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound"
+    }
+  },
+  "slider-layout#shelf-momentos-collection": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "momentos-recommendedShelf"
+    }
+  },
+  "responsive-layout.desktop#accesorios-banner": {
+    "children":[
+      "flex-layout.row#category-accesorios"
+  ],
+  "props": {
+      "blockClass": "category-accesorios"
+    }
+  },
+  "flex-layout.row#category-accesorios": {
+    "children":[
+      "info-card#category-accesorios"
+  ],
+  "props":{
+      "blockClass": "card-category-accesorios"
+    }
+  },
+  "info-card#category-accesorios": {
+    "props": {
+      "id": "accesorios-card-desktop",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/banner-tendencias-io-desktop.png",
+      "TextModeEnum": "rich-text",
+      "headline": "Accesorios",
+      "subhead": "LOS MEJORES ACCESORIOS",
+      "callToActionText": "DESCUBRE MÁS",
+      "callToActionUrl": "/blog/tips",
+      "blockClass": "accesorios-bloque-blog",
+      "textAlignment": "right"
+    }
+  },
+  "responsive-layout.mobile#accesorios-banner": {
+    "children":[
+        "flex-layout.row#accesorios-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "accesorios-banner-mobile"
+    }
+  },
+  "flex-layout.row#accesorios-banner-mobile": {
+    "children":[
+        "list-context.image-list#accesorios-banner-mobile"
+    ],
+    "props": {
+        "blockClass": "mobile-card-accesorios"
+    }
+  },
+  "list-context.image-list#accesorios-banner-mobile": {
+    "children": [
+      "slider-layout#ventas-corporativas-images"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "mobileImage": "/arquivos/mobile-banner-accesorios-io.png"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#shelf-accesorios": {
+    "children": [
+        "list-context.product-list#shelf-accesorios"
+    ]
+  },
+  "list-context.product-list#shelf-accesorios": {
+    "blocks": [      
+      "product-summary.shelf"
+    ],
+    "children": [
+      "flex-layout.col#slider-shelf-accesorios"          
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"      
+    }
+  },
+  "flex-layout.col#slider-shelf-accesorios": {
+    "children": [
+      "rich-text#title-shelf-accesorios-slider",
+      "slider-layout#shelf-accesorios-collection"
+    ]
+  },
+  "rich-text#title-shelf-accesorios-slider": {
+    "props": {
+      "text": "Accesorios",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelftitle-notfound"
+    }
+  },
+  "slider-layout#shelf-accesorios-collection": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "accesorios-recommendedShelf"
+    }
+  } 
+}

@@ -1,0 +1,198 @@
+{
+    "vtex.menu@2.x:submenu#category-zapatos": {
+        "children":[
+            "flex-layout.row#submenuZapatos"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": "submenu-ropa"
+        }
+    },
+    "flex-layout.row#submenuZapatos":{
+        "children": [
+          "flex-layout.col#col1-casual",
+          "flex-layout.col#col2-formal",
+          "flex-layout.col#col3-sandalias-pantuflas-mas",
+          "flex-layout.col#col4-ver-todos-zapatos"
+          ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-categorias"
+        }  
+    },
+    // COL 1
+    "flex-layout.col#col1-casual": {
+      "children": [
+        "image#menu-casual",
+        "rich-text#title-img1"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-casual": {
+      "props":{
+        "link": "/hombre/zapatos/casual/",
+        "src": "/arquivos/categorias_zapatos_casual.jpg",
+        "alt": "Zapatos Casuales",
+        "title": "Casual",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    "rich-text#title-img1": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Casual](/hombre/zapatos/casual/)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 1 --END--
+
+    // COL 2
+    "flex-layout.col#col2-formal": {
+      "children": [
+        "image#menu-formal",
+        "rich-text#title-img2"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-formal": {
+      "props":{
+        "link": "/hombre/zapatos/formal/",
+        "src": "/arquivos/categorias_zapatos_formal.jpg"
+      }
+    },
+    "rich-text#title-img2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Formal](/hombre/zapatos/formal/)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 2 --END
+
+    // COL 3
+    "flex-layout.col#col3-sandalias-pantuflas-mas": {
+      "children": [
+        "image#menu-sandalias-pantuflas-mas",
+        "rich-text#title-img3"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-sandalias-pantuflas-mas": {
+      "props":{
+        "link": "/primavera",
+        "src": "/arquivos/categorias_zapatos_mas.jpg"
+      }
+    },
+    "rich-text#title-img3": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Sandalias, pantuflas y más](/primavera)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 3 --END--
+
+    // COL 4
+    "flex-layout.col#col4-ver-todos-zapatos": {
+      "children": [
+        "image#menu-ver-todos-zapatos"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-ver-todos-zapatos": {
+      "props":{
+        "link": "/hombre/zapatos/?O=OrderByReleaseDateDESC",
+        "src": "/arquivos/categorias_zapatos_ver_mas.jpg"
+      }
+    },
+    // COL 4 --END--
+    
+    // MOBILE MENU ZAPATOS
+    "flex-layout.col#menuZapatos":{
+      "children": [
+          "menu-item#menu-casual",
+          "menu-item#menu-formal",
+          "menu-item#menu-sandalias-pantuflas-mas",
+          "menu-item#menu-ver-todos-zapatos"
+      ]
+    },
+
+    "menu-item#menu-casual": {
+      "props": {
+        "id": "menu-item-menu-casual",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hombre/zapatos/casual/",
+          "noFollow": false,
+          "tagTitle": "Casual",
+          "text": "Casual"
+        }
+      }
+    },
+
+    "menu-item#menu-formal": {
+      "props": {
+        "id": "menu-item-menu-formal",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hombre/zapatos/formal/",
+          "noFollow": false,
+          "tagTitle": "Formal",
+          "text": "Formal"
+        }
+      }
+    },
+
+    "menu-item#menu-sandalias-pantuflas-mas": {
+      "props": {
+        "id": "menu-item-menu-sandalias-pantuflas-mas",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/primavera",
+          "noFollow": false,
+          "tagTitle": "Sandalias, pantuflas y más",
+          "text": "Sandalias, pantuflas y más"
+        }
+      }
+    },
+
+    "menu-item#menu-ver-todos-zapatos": {
+      "props": {
+        "id": "menu-item-menu-ver-todos-zapatos",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hombre/zapatos/?O=OrderByReleaseDateDESC",
+          "noFollow": false,
+          "tagTitle": "Ver todos",
+          "text": "Ver todos"
+        }
+      }
+    }
+}

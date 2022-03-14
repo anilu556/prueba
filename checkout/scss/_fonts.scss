@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'gotham_htfblack';
+    src: url('/arquivos/gothamhtf-black-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-black-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfbold';
+    src: url('/arquivos/gothamhtf-bold-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-bold-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfbold_condensed';
+    src: url('/arquivos/gothamhtf-boldcondensed-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-boldcondensed-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfbook';
+    src: url('/arquivos/gothamhtf-book-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-book-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfbook_condensed';
+    src: url('/arquivos/gothamhtf-bookcondensed-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-bookcondensed-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htflight';
+    src: url('/arquivos/gothamhtf-light-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-light-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htflight_condensed';
+    src: url('/arquivos/gothamhtf-lightcondensed-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-lightcondensed-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfmedium';
+    src: url('/arquivos/gothamhtf-medium-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-medium-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfmedium_condensed';
+    src: url('/arquivos/gothamhtf-mediumcondensed-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-mediumcondensed-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfthin';
+    src: url('/arquivos/gothamhtf-thin-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-thin-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfultra';
+    src: url('/arquivos/gothamhtf-ultra-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-ultra-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_htfxlight';
+    src: url('/arquivos/gothamhtf-xlight-webfont.woff2.css') format('woff2'),
+        url('/arquivos/gothamhtf-xlight-webfont.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-black: 'gotham_htfblack';
+$font-bold: 'gotham_htfbold';
+$font-bold-condensed: 'gotham_htfbold_condensed';
+$font-book: 'gotham_htfbook';
+$font-book-condensed: 'gotham_htfbook_condensed';
+$font-light: 'gotham_htflight';
+$font-light-condensed: 'gotham_htflight_condensed';
+$font-medium: 'gotham_htfmedium';
+$font-medium-condensed: 'gotham_htfmedium_condensed';
+$font-thin: 'gotham_htfthin';
+$font-ultra: 'gotham_htfultra';
+$font-xlight: 'gotham_htfxlight';

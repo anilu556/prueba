@@ -1,0 +1,42 @@
+{
+    "store.custom#lp-camisas-de-bambu":{
+      "blocks":[
+        // "flex-layout.row#content-intitutional-bread-page-shop-3de349x999",
+        // "responsive-layout.desktop#lp-nueva-coleccion-3de349x999",
+        // "responsive-layout.mobile#lp-nueva-coleccion-3de349x999",
+        // "search-result-layout.customQuery#lp-camisas-de-bambu",
+        // "responsive-layout.desktop#lp-envio-box-3de349x999",
+        // "responsive-layout.mobile#lp-envio-box-3de349x999"
+      ],
+      "props":{
+        "blockClass": "content-sections",
+        "context":{
+          "skusFilter":"ALL",
+          "maxItemsPerPage":21,
+          "simulationBehavior":"skip"
+        }
+      }
+    },
+    "search-result-layout.customQuery#lp-camisas-de-bambu": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "queryField": "hombre/ropa/camisas/camisas-bambu/",
+          "mapField": "c,c,c,c",
+          "hideUnavailableItems": true,
+          "facetsBehavior": "Static",
+          "__unstableProductOriginVtex": true,
+          "skusFilter": "ALL",
+          "maxItemsPerPage": 21,
+          "simulationBehavior": "skip",
+          "installmentCriteria": "MAX_WITHOUT_INTEREST"
+        }
+      },
+  
+      "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    }
+  }

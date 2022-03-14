@@ -1,0 +1,354 @@
+{
+    "vtex.menu@2.x:submenu#category-catalogo": {
+        "children":[
+            "flex-layout.row#submenuCatalogo"
+        ],
+        "props":{
+            "width": "100%",
+            "blockClass": ["submenu-ropa", "submenu-catalogo"]
+        }
+    },
+    "flex-layout.row#submenuCatalogo":{
+        "children": [
+          // "flex-layout.col#col1-catalogo1",
+          //"flex-layout.col#col2-catalogo2",
+          //"flex-layout.col#col3-catalogo3",
+          "flex-layout.col#col4-catalogo4",
+          "flex-layout.col#col5-catalogo5",
+          "flex-layout.col#col5-catalogo-lookbook"
+          // "flex-layout.col#col5-catalogo-city-vibes"
+          ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-categorias"
+        }  
+    },
+    // COL 1
+    "flex-layout.col#col1-catalogo1": {
+      "children": [
+        "image#menu-catalogo1",
+        "rich-text#title-imgC1"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-catalogo1": {
+      "props":{
+        "link": "/editorial",
+        "src": "/arquivos/AC_FotosMenucatalogo01_Desktop.png",
+        "alt": "Campaña",
+        "title": "Campaña"
+      }
+    },
+    "rich-text#title-imgC1": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Campaña](/editorial)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 1 --END--
+
+    // COL 2
+    "flex-layout.col#col2-catalogo2": {
+      "children": [
+        "image#menu-catalogo2",
+        "rich-text#title-imgC2"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-catalogo2": {
+      "props":{
+        "link": "/lookbooks",
+        "src": "/arquivos/AC_FotosMenucatalogo02_Desktop.png"
+      }
+    },
+    "rich-text#title-imgC2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "alt": "LookBook",
+        "title": "LookBook",
+        "text": "[LookBook](/lookbooks)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 2 --END
+
+    // COL 3
+    "flex-layout.col#col3-catalogo3": {
+      "children": [
+        "image#menu-catalogo3",
+        "rich-text#title-imgC3"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-catalogo3": {
+      "props":{
+        "link": "/primavera",
+        "src": "/arquivos/AC_FotoCarrusel03_Desktop.png"
+      }
+    },
+    "rich-text#title-imgC3": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "alt": "Primavera",
+        "title": "Primavera",
+        "text": "[Primavera](/primavera)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 3 --END--
+
+    // COL 4
+    "flex-layout.col#col4-catalogo4": {
+      "children": [
+        "image#menu-catalogo4",
+        "rich-text#title-imgC4"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-catalogo4": {
+      "props":{
+        "link": "/blog",
+        "src": "/arquivos/codigo-conti-2021-sept.jpg",
+        "blockClass": "codigo-conti"
+      }
+    },
+    "rich-text#title-imgC4": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "alt": "Código Conti",
+        "title": "Código Conti",
+        "text": "[Código Conti](/blog)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 4 --END--
+
+    // COL 5
+    "flex-layout.col#col5-catalogo5": {
+      "children": [
+        "image#menu-catalogo5",
+        "rich-text#title-imgC5"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-catalogo5": {
+      "props":{
+        "link": "/lookbook-primavera",
+        "src": "/arquivos/campana-otono2021.jpg",
+        "blockClass": "lookbook-new"
+      }
+    },
+    "rich-text#title-imgC5": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "alt": "Código Conti",
+        "title": "Código Conti",
+        "text": "[Catálogo](/lookbook-primavera)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+
+    "flex-layout.col#col5-catalogo-lookbook": {
+      "children": [
+        "image#menu-catalogo-lookbook",
+        "rich-text#title-imgC-lookbook"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-catalogo-lookbook": {
+      "props":{
+        "link": "/lookbook",
+        "src": "/arquivos/lookbook-2021-otono.jpg",
+        "blockClass": "lookbook-new"
+      }
+    },
+    "rich-text#title-imgC-lookbook": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "alt": "Lookbook",
+        "title": "Lookbook",
+        "text": "[Lookbook](/lookbook)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+
+    // City Vibes
+    "flex-layout.col#col5-catalogo-city-vibes": {
+      "children": [
+        "image#menu-catalogo-city-vibes",
+        "rich-text#title-imgC-city-vibes"
+      ],
+      "props":{
+        "blockClass": "menu-hoversombra"
+      }
+    },
+    "image#menu-catalogo-city-vibes": {
+      "props":{
+        "link": "/city-vibes-catalogo",
+        "src": "/arquivos/portada_cat--logo_cityvibes2.jpg",
+        "blockClass": "lookbook-new"
+      }
+    },
+    "rich-text#title-imgC-city-vibes": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "alt": "City Vibes",
+        "title": "City Vibes",
+        "text": "[City Vibes](/city-vibes-catalogo)",
+        "blockClass": [
+          "link-carrusel-menuMobile"
+        ]
+      }
+    },
+    // COL 5 --END--
+    
+    // MOBILE MENU CATALOGO
+    "flex-layout.col#menuCatalogo":{
+      "children": [
+          // "menu-item#menu-campana",
+          //"menu-item#menu-lookbook",
+         // "menu-item#menu-primavera",
+          "menu-item#menu-codigo-conti",
+          "menu-item#menu-lookbook-new",
+          "menu-item#menu-lookbook-mobile"
+          // "menu-item#menu-city-vibes"
+      ]
+    },
+
+    "menu-item#menu-campana": {
+      "props": {
+        "id": "menu-item-menu-campana",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/editorial",
+          "noFollow": false,
+          "tagTitle": "Campaña",
+          "text": "Campaña"
+        }
+      }
+    },
+
+    "menu-item#menu-lookbook": {
+      "props": {
+        "id": "menu-item-menu-lookbook",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/lookbooks",
+          "noFollow": false,
+          "tagTitle": "LookBook",
+          "text": "LookBook"
+        }
+      }
+    },
+
+    "menu-item#menu-city-vibes": {
+      "props": {
+        "id": "menu-item-menu-city-vibes",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/city-vibes-catalogo",
+          "noFollow": false,
+          "tagTitle": "City Vibes",
+          "text": "City Vibes"
+        }
+      }
+    },
+
+    "menu-item#menu-primavera": {
+      "props": {
+        "id": "menu-item-menu-primavera",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/primavera",
+          "noFollow": false,
+          "tagTitle": "Primavera",
+          "text": "Primavera"
+        }
+      }
+    },
+
+    "menu-item#menu-codigo-conti": {
+      "props": {
+        "id": "menu-item-menu-codigo-conti",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/blog",
+          "noFollow": false,
+          "tagTitle": "Código Conti",
+          "text": "Código Conti"
+        }
+      }
+    },
+
+    "menu-item#menu-lookbook-mobile": {
+      "props": {
+        "id": "menu-item-menu-codigo-conti",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/lookbook",
+          "noFollow": false,
+          "tagTitle": "Lookbook",
+          "text": "Lookbook"
+        }
+      }
+    },
+
+    "menu-item#menu-lookbook-new": {
+      "props": {
+        "id": "menu-item-menu-codigo-conti",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/lookbook-primavera",
+          "noFollow": false,
+          "tagTitle": "Catálogo",
+          "text": "Catálogo"
+        }
+      }
+    }
+}

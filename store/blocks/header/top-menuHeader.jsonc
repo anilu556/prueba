@@ -1,0 +1,51 @@
+{
+  "vtex.menu@2.x:menu#top-menuHeader": {
+    "children": [
+      "menu-item#menu-phone",
+      "menu-item#menu-whatsapp"
+    ],
+    "props": {
+      "blockClass": "main-topHeader"
+    }
+  },
+  "menu-item#menu-phone": {
+    "props": {
+      "id": "menu-item-menu-phone",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "phone-icon",
+        "size": 16,
+        "activeClassName": "phone-header"
+      },
+      "iconId":"phone-icon",
+      "iconPosition": "left",
+      "itemProps": {
+        "type": "phone",
+        "tagTitle": "Phone",
+        "text": "800-3980-000"
+      },
+      "blockClass": "phone-header"
+    }
+  },
+  "menu-item#menu-whatsapp": {
+    "props": {
+      "id": "menu-item-menu-whatsapp",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "wts-icon",
+        "size": 16,
+        "activeClassName": "whatsapp-header"
+      },
+      "iconId":"wts-icon",
+      "itemProps": {
+        "type": "whatsapp",
+        "href": "https://wa.me/525566981230",
+        "tagTitle": "Whatsapp",
+        "text": "Whatsapp 55.66.98.12.30"
+      },
+      "blockClass": "whatsapp-header"
+    }
+  }
+}

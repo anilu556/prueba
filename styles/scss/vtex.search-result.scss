@@ -1,0 +1,263 @@
+:global(.vtex-search-result-3-x-filterTemplateOverflow){
+    &::-webkit-scrollbar-thumb {
+        background: #a93239;
+    }
+}
+.searchResultContainer{
+    padding: 0;
+    margin:0;
+    max-width: 100%;
+    background-color: #fff;
+
+    :global(.vtex-flex-layout-0-x-flexRow--banner-seo){
+        position: relative;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--banner-seo ){
+        :global(.vtex-rich-text-0-x-container--title-text-banner-seo){
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            background-color: rgb(0 0 0 / 0%);
+            :global(.vtex-rich-text-0-x-heading--title-text-banner-seo){
+                display: none;
+            }
+        }
+        :global(.vtex-store-components-3-x-imageElement--image-banner-seo){
+            width: 100%;
+            display: block;
+            object-fit: contain;
+            height: 290px;
+        }
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--rowResult-grid-wrapper){
+        :global(.vtex-store-components-3-x-container){
+            max-width: 1250px;
+            margin: auto;
+            padding: 15px;
+            :global(.vtex-flex-layout-0-x-flexRowContent--rowResult-grid-wrapper) {
+                position: relative;
+                overflow: hidden;
+                :global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+                    padding: 0;
+                    margin: 0;
+                    :global(.vtex-flex-layout-0-x-flexColChild--filterCol) {
+                        background: #fff;
+                        .filter__container--filterNavigator--title {
+                            display: none;
+                        }
+                        :global(.vtex-search-result-3-x-filterTitle) {
+                            text-transform: none;
+                            font-size: 16px;
+                            color: #000;
+                            font-weight: 600;
+                        }
+                        :global(.vtex-checkbox__box-wrapper) {
+                            display: none;
+                        }
+                        :global(.vtex-checkbox__inner-container) {
+                            background: transparent;
+                            border: solid 1px #929292;
+                        }
+                        :global(.vtex-checkbox__label){
+                            text-transform: none;
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #929292;
+                            -webkit-transition: .5s ease-in-out;
+                               -moz-transition: .5s ease-in-out;
+                                -ms-transition: .5s ease-in-out;
+                                 -o-transition: .5s ease-in-out;
+                                    transition: .5s ease-in-out;
+                            &:hover {
+                                color: #000000;
+                            }
+                        }
+                        :global(.vtex-search-result-3-x-filterItem--filterNavigator--selected) {
+                            :global(.vtex-checkbox__inner-container) {
+                                background: #ececec;
+                                border: solid 1px #ececec;
+                            }
+                            :global(.vtex-checkbox__label){
+                                color: #000000;
+                            }
+                        }
+                        :global(.vtex-search-result-3-x-filter__container--marca) {
+                            display: block;
+                        }
+                    }
+                }
+                :global(.vtex-flex-layout-0-x-flexCol--feature-product-grid-wrapper) {
+                    padding: 0;
+                    margin: 0;
+                    :global(.vtex-flex-layout-0-x-flexColChild--feature-product-grid-wrapper) {
+                        background: #fff;
+                        :global(.vtex-flex-layout-0-x-flexRow--productCountCol) {
+                            display: flex;
+                            align-items: center;
+                            margin-left: 64px;
+                            :global(.vtex-flex-layout-0-x-flexRowContent--productCountCol){
+                                justify-content: flex-start;
+                                .galleryTitle--layout{
+                                    margin: 0;
+                                    margin-right: 10px;
+                                    padding: 0;
+                                    font-size: 14px;
+                                    font-family: "Poppins",sans-serif;
+                                    font-weight: 500;
+                                    color: #111;
+                                    background: #fff;
+                                }
+                                .totalProducts--layout{
+                                    padding: 0;
+                                    font-size: 14px;
+                                    font-family: "Poppins",sans-serif;
+                                    font-weight: 400;
+                                    color: #9e9e9e;
+                                    &::before{
+                                        content: "(";
+                                    }
+                                    &::after{
+                                        content: ")";
+                                    }
+
+                                    .totalProductsMessage{
+                                        color: inherit;
+                                    }
+                                }
+                            }
+                        }
+
+                        :global(.vtex-store-components-3-x-discountInsideContainer){
+                            @media screen and (max-width: 1024px) {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore){
+  position: relative;
+  :global(.vtex-button) {
+    outline: 0!important;
+    border: 0;
+    background: transparent;
+    :global(.vtex-button__label) {
+      font-weight: 600;
+      color: #fff;
+      border: solid 1px #000;
+      font-size: 16px;
+      margin: 15px auto;
+      background: #000;
+      padding-top: .25em;
+      padding-bottom: .32em;
+    }
+  }
+}
+
+
+.orderByDropdown {
+    z-index: 100;
+    .orderByButton {
+        padding: 0;
+        margin: 0;
+        :global(.vtex-search-result-3-x-filterPopupTitle) {
+            font-size: 14px;
+            font-weight: 500;
+            :global(.vtex-search-result-3-x-orderByText) {
+                font-weight: 200;
+                font-size: 14px;
+                margin-right: 10px;
+                color: #111;
+            }
+        }
+    }
+}
+
+.filterPopupArrowIcon,
+.gridIcon,
+.singleGridIcon{
+    color: #111;
+}
+
+.galleryTitle--layout {
+    max-width: 100%;
+    padding: 15px 15px 15px 61px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: #f4f4f4;
+    text-transform: uppercase;
+    @media (max-width: 768px) {
+        padding: 15px;
+    }
+}
+
+.gallery {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+:global(.vtex-shelf-1-x-shelfContentContainer) {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+:global(.vtex-search-result-3-x-orderBy--layout) {
+    @media (max-width: 768px){
+        padding: 10px 8px;
+        border-radius: 25px;
+        border: 1px solid #000;
+    }
+}
+
+:global(.vtex-search-result-3-x-filterPopupButton) {
+    @media (max-width: 768px){
+        padding: 10px 8px;
+        height: 42px;
+    }    
+}
+
+:global(.vtex-search-result-3-x-orderByOptionsContainer) {
+    left: 0;
+}
+
+:global(.vtex-search-result-3-x-filters--layout){
+    @media (max-width:768px) {
+        border: 1px solid #000;
+        border-radius: 25px;
+        :global(.vtex-search-result-3-x-filters){
+            position: relative;
+            left: 25%;            
+        }
+    }
+}
+
+:global(.vtex-search-result-3-x-gallery){
+    @media (max-width:768px) {
+        margin-top: 0;
+    }
+}
+
+:global(.vtex-search-result-3-x-orderByDropdown){
+    @media (max-width: 768px){
+        :global(.vtex-search-result-3-x-orderByButton){
+            width: 80%;
+            position: relative;
+            left: 20%;
+        }
+    }
+}
+
+:global(.vtex-search-result-3-x-totalProducts--layout) {
+    @media (max-width: 768px) {
+        border-top-style: none;
+    }
+}

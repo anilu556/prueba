@@ -1,0 +1,545 @@
+{
+  "vtex.menu@2.x:submenu#category-ropa": {
+    "children": ["flex-layout.row#submenuRopa"],
+    "props": {
+      "width": "100%",
+      "blockClass": "submenu-ropa"
+    }
+  },
+  "flex-layout.row#submenuRopa": {
+    "children": [
+      "flex-layout.col#list-1",
+      "flex-layout.col#list-2",
+      "list-context.image-list#home-categorias-menu"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "menu-categorias"
+    }
+  },
+  // COLUMNA 1
+  "flex-layout.col#list-1": {
+    "children": [
+      "menu-item#menu-abrigos",
+      "menu-item#menu-bermudas",
+      // "menu-item#menu-city-vibes",
+      "menu-item#menu-camisas",
+      "menu-item#menu-camisas-bambu",
+      "menu-item#menu-chalecos",
+      "menu-item#menu-chamarras",
+      "menu-item#menu-gabardinas",
+      "menu-item#menu-guayaberas",
+      "menu-item#menu-jeans",
+      "menu-item#menu-sudaderas-y-pants"
+    ],
+    "props": {
+      "width": "30%"
+    }
+  },
+  "menu-item#menu-abrigos": {
+    "props": {
+      "id": "menu-item-menu-abrigos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/abrigos/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Abrigos",
+        "text": "Abrigos"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-bermudas": {
+    "props": {
+      "id": "menu-item-menu-bermudas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/bermudas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Bermudas",
+        "text": "Bermudas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-camisas": {
+    "props": {
+      "id": "menu-item-menu-camisas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/camisas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Camisas",
+        "text": "Camisas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-city-vibes": {
+    "props": {
+      "id": "menu-item-menu-camisas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/city-vibes",
+        "noFollow": false,
+        "tagTitle": "City Vibes",
+        "text": "City Vibes"
+      },
+      "blockClass": [ "link-submenu-city-vibes", "product-new-city-vibes" ]
+    }
+  },
+  "menu-item#menu-camisas-bambu": {
+    "props": {
+      "id": "menu-item-menu-camisas-bambu",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/camisas/camisas-bambu?map=category-1,category-2,category-3,category-4",
+        "noFollow": false,
+        "tagTitle": "Camisas Bambu",
+        "text": "Camisas Bambu"
+      },
+      "blockClass": [
+        "link-submenu"
+        // "link-submenu-bambu-nueva"
+        // , "product-new"
+      ]
+    }
+  },
+  "menu-item#menu-chalecos": {
+    "props": {
+      "id": "menu-item-menu-chalecos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/chalecos/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Chalecos",
+        "text": "Chalecos"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-chamarras": {
+    "props": {
+      "id": "menu-item-menu-chamarras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/chamarras/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Chamarras",
+        "text": "Chamarras"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-gabardinas": {
+    "props": {
+      "id": "menu-item-menu-gabardinas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/gabardinas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Gabardinas",
+        "text": "Gabardinas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-guayaberas": {
+    "props": {
+      "id": "menu-item-menu-guayaberas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/guayaberas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Guayaberas",
+        "text": "Guayaberas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-jeans": {
+    "props": {
+      "id": "menu-item-menu-jeans",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/jeans/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Jeans",
+        "text": "Jeans"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-sudaderas-y-pants": {
+    "props": {
+      "id": "menu-item-menu-sudaderas-y-pants",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/sudaderas?map=category-1,category-2,category-3,category-3&query=/hombre/ropa/pants/sudaderas&searchState",
+        "noFollow": false,
+        "tagTitle": "Sudaderas y Pants",
+        "text": "Sudaderas y Pants"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  // COLUMNA 1 --END--
+
+  // COLUMNA 2
+  "flex-layout.col#list-2": {
+    "children": [
+      "menu-item#menu-pantalones",
+      "menu-item#menu-playeras-polos",
+      "menu-item#menu-ropa-interior",
+      "menu-item#menu-sacos",
+      "menu-item#menu-sueteres",
+      "menu-item#menu-smoking",
+      // "menu-item#menu-pants",
+      "menu-item#menu-trajes",
+      "menu-item#menu-traje-bano",
+      // "menu-item#menu-rebajas",
+      "menu-item#menu-ver-todo"
+    ],
+    "props": {
+      "blockClass": "list-2",
+      "width": "20%"
+    }
+  },
+  "menu-item#menu-pantalones": {
+    "props": {
+      "id": "menu-item-menu-pantalones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/pantalones/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-playeras-polos": {
+    "props": {
+      "id": "menu-item-menu-playeras-polos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/playeras/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Playeras y polos",
+        "text": "Playeras y polos"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-ropa-interior": {
+    "props": {
+      "id": "menu-item-menu-ropa-interior",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/ropa-interior/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Ropa interior",
+        "text": "Ropa interior"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-sacos": {
+    "props": {
+      "id": "menu-item-menu-sacos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/sacos/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Sacos",
+        "text": "Sacos"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-sueteres": {
+    "props": {
+      "id": "menu-item-menu-sueteres",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/sweaters/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Suéteres",
+        "text": "Suéteres"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-smoking": {
+    "props": {
+      "id": "menu-item-menu-Smoking",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/smokings?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Smokings",
+        "text": "Smokings"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-pants": {
+    "props": {
+      "id": "menu-item-menu-pants",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/jeans/pants?map=category-1,category-2,category-3,category-3",
+        "noFollow": false,
+        "tagTitle": "Set Pants Deportivos",
+        "text": "Set Pants Deportivos"
+      },
+      "blockClass": [ "link-submenu" , "product-new"]
+    }
+  },
+  "menu-item#menu-trajes": {
+    "props": {
+      "id": "menu-item-menu-trajes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/trajes/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Trajes",
+        "text": "Trajes"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-traje-bano": {
+    "props": {
+      "id": "menu-item-menu-traje-bano",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/trajes-de-bano/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Traje de baño",
+        "text": "Traje de baño"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-rebajas": {
+    "props": {
+      "id": "menu-item-menu-rebajas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Rebajas",
+        "text": "Rebajas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-ver-todo": {
+    "props": {
+      "id": "menu-item-menu-ver-todo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/ropa/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Ver todo",
+        "text": "Ver todo"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  // COLUMNA 2 --END--
+
+  // COLUMNA 3
+  "list-context.image-list#home-categorias-menu": {
+    "children": ["slider-layout#categorias-menu"],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "image": "/arquivos/categoria-trajes.jpg"
+        },
+        {
+          "image": "/arquivos/categoria-camisas.jpg"
+        },
+        {
+          "image": "/arquivos/categoria-playeras.jpg"
+        },
+        {
+          "image": "/arquivos/categoria-calzado.jpg"
+        },
+        {
+          "image": "/arquivos/categoria-accesorios.jpg"
+        },
+        {
+          "image": "/arquivos/categoria-pantalones.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#categorias-menu": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "carousel-categorias",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#menu-carousel": {
+    "children": ["list-context.product-list#products-carousel"],
+    "props": {
+      "blockClass": "submenuRopa-col3",
+      "width": "60%"
+    }
+  },
+  "list-context.product-list#products-carousel": {
+    "blocks": ["product-summary.shelf#products"],
+    "children": ["slider-layout#menu-products"],
+    "props": {
+      "category": "1/2",
+      "orderBy": "OrderByPriceASC",
+      "hideUnavailableItems": true,
+      "maxItems": 10
+    }
+  },
+  "product-summary.shelf#products": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "slider-layout#menu-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "slider-ropa"
+    }
+  },
+  // COLUMNA 3 --END--
+  "header-row#submenuRedesSociales": {
+    "children": ["flex-layout.col#redes"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#redes": {
+    "children": ["menu-item#menu-fb", "menu-item#menu-tw"],
+    "props": {
+      "blockClass": "main-topHeader"
+    }
+  },
+  "menu-item#menu-fb": {
+    "props": {
+      "id": "menu-item-menu-fb",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "phone",
+        "href": "/140?map=productClusterIds",
+        "tagTitle": "Phone",
+        "text": "800-3980-000"
+      }
+    }
+  },
+  "menu-item#menu-tw": {
+    "props": {
+      "id": "menu-item-menu-tw",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "whatsapp",
+        "href": "/141?map=productClusterIds",
+        "tagTitle": "Whatsapp",
+        "text": "Whatsapp 55.66.98.12.30"
+      }
+    }
+  },
+  // MOBILE MENU ROPA
+  "flex-layout.col#menuRopa": {
+    "children": [
+      "menu-item#menu-abrigos",
+      "menu-item#menu-bermudas",
+      // "menu-item#menu-city-vibes",
+      "menu-item#menu-camisas",
+      "menu-item#menu-camisas-bambu",
+      "menu-item#menu-chalecos",
+      "menu-item#menu-chamarras",
+      "menu-item#menu-gabardinas",
+      "menu-item#menu-guayaberas",
+      "menu-item#menu-jeans",
+      "menu-item#menu-sudaderas-y-pants",
+      "menu-item#menu-pantalones",
+      "menu-item#menu-playeras-polos",
+      "menu-item#menu-ropa-interior",
+      "menu-item#menu-sacos",
+      "menu-item#menu-sueteres",
+      "menu-item#menu-smoking",
+      // "menu-item#menu-pants",
+      "menu-item#menu-trajes",
+      "menu-item#menu-traje-bano",
+      "menu-item#menu-ver-todo"
+      // "menu-item#menu-rebajas
+    ]
+  }
+}

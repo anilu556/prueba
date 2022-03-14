@@ -1,0 +1,45 @@
+{
+  "store.custom#quienes-somos": {
+    "blocks": [
+      "flex-layout.row#quienes-somos"
+    ]
+  },
+  "flex-layout.row#quienes-somos": {
+    "children": [
+      "flex-layout.col#text-quienes-somos"
+    ],
+    "props": {
+      "blockClass": ["page-institucionales", "quienes-somos"]
+    }
+  },
+  
+  "flex-layout.col#text-quienes-somos": {
+    "children": [
+      "rich-text#quienes-somos-titulo",
+      "rich-text#quienes-somos-parrafo1",
+      "rich-text#quienes-somos-parrafo2"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#quienes-somos-titulo": {
+    "props": {
+      "blockClass": "institucionales-titulo",
+      "text": "¿Quiénes Somos?"
+    }
+  },
+  "rich-text#quienes-somos-parrafo1": {
+    "props": {
+      "blockClass": "quienes-texto",
+      "text": "La marca Aldo Conti es una línea de ropa para hombre con diseños innovadores marcando tendencia en el mercado, es una empresa con más de 20 años de historia que la han caracterizado por ser una marca de ropa vanguardista y elegante para gustos selectivos, cuenta con una amplia cadena de sucursales Aldo Conti situadas por toda la república Mexicana además de estar presente en otras ciudades importantes del mundo."
+    }
+  },
+  "rich-text#quienes-somos-parrafo2": {
+    "props": {
+      "blockClass": "quienes-texto",
+      "text": "Actualmente Aldo Conti México cuenta con más de 150 sucursales en donde puedes encontrar exclusiva ropa para hombres desde zapatos, camisas de vestir, hasta trajes Aldo Conti, en el catálogo de Aldo Conti encontrarás un extenso abanico de moda para hombre. Contamos también con una línea de producto llamada Aldo Conti Jr. Enfocada a un sector comercial de jóvenes y niños de 4 a 18 años ofreciendo la misma calidad, puedes encontrar ropa casual y formal, fomentando las compras padres e hijos."
+    }
+  }
+}

@@ -1,0 +1,871 @@
+{
+    "store.custom#promo-3x999": {
+        "blocks": [
+          "flex-layout.row#promo-3x999"
+        ]
+    },
+    "flex-layout.row#promo-3x999": {
+        "children": [
+            "flex-layout.col#promo-3x999"
+          ],
+        "props": {
+            "blockClass": ["promo-pages", "promo-3-999"]
+        }
+    },
+    "flex-layout.col#promo-3x999": {
+        "children":[
+            "list-context.image-list#promo-3x999",
+            "responsive-layout.mobile#banner-slider-1",
+            "flex-layout.row#promo-bloque-1",
+            "responsive-layout.mobile#banner-slider-2",
+            "flex-layout.row#promo-bloque-2",
+            "responsive-layout.mobile#banner-slider-3",
+            "flex-layout.row#promo-bloque-3",
+            "responsive-layout.mobile#banner-slider-4",
+            "flex-layout.row#promo-bloque-4",
+            "responsive-layout.mobile#banner-slider-5",
+            "flex-layout.row#promo-bloque-5",
+            "responsive-layout.mobile#banner-slider-6",
+            "flex-layout.row#promo-bloque-6",
+            "responsive-layout.mobile#banner-slider-7",
+            "flex-layout.row#promo-bloque-7",
+            "responsive-layout.mobile#banner-slider-8",
+            "flex-layout.row#promo-bloque-8",
+            "responsive-layout.mobile#banner-slider-9",
+            "flex-layout.row#promo-bloque-9",
+            "responsive-layout.mobile#banner-slider-10",
+            "flex-layout.row#promo-bloque-10"
+        ],
+        "props":{
+            "blockClass": "bloques-promo"
+        }
+    },
+    "list-context.image-list#promo-3x999": {
+        "children": [
+            "slider-layout#promo-3x999"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+              {
+                "image": "/arquivos/pleca_3x999.jpg",
+                "mobileImage": "/arquivos/pleca_3x999.jpg"
+              }
+            ]
+        }
+    },
+    "responsive-layout.mobile#banner-slider-1": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-1"
+        ],
+        "props":{
+            "title": "banner Mobile 1"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-1": {
+        "children":[
+            "image#promo-imagen-mobile-1"
+        ]
+    },
+    "image#promo-imagen-mobile-1": {
+        "props": {
+            "src": "/arquivos/bermudas-mobile-3x899.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "slider-layout#promo-3x999": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone": 1
+            },
+            "infinite": true,
+            "blockClass": "carousel",
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#promo-bloque-1": {
+        "children": [
+            "responsive-layout.desktop#banner-slider-1",
+            "flex-layout.col#promo-slider-1"
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p1"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-1": {
+        "children":[
+            "flex-layout.col#promo-imagen-1"
+        ]
+    },
+    "flex-layout.col#promo-imagen-1": {
+        "children":[
+            "image#promo-imagen-1"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-1"
+        }
+    },
+    "image#promo-imagen-1": {
+        "props": {
+            "src": "/arquivos/bermudas-desk-3x899.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-1": {
+        "children":[
+            "list-context.product-list#promo-slider-1"
+        ]
+    },
+    "list-context.product-list#promo-slider-1":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-1"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-1": {
+        "children": [
+            "slider-layout#slider-promo-1"
+        ]
+    },
+    "slider-layout#slider-promo-1": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-1"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-2": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-2"
+        ],
+        "props":{
+            "title": "banner Mobile 2"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-2": {
+        "children":[
+            "image#promo-imagen-mobile-2"
+        ]
+    },
+    "image#promo-imagen-mobile-2": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_last_2.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-2": {
+        "children": [
+            "flex-layout.col#promo-slider-2",
+            "responsive-layout.desktop#banner-slider-2"            
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p2"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-2": {
+        "children":[
+            "flex-layout.col#promo-imagen-2"
+        ]
+    },
+    "flex-layout.col#promo-imagen-2": {
+        "children":[
+            "image#promo-imagen-2"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-2"
+        }
+    },
+    "image#promo-imagen-2": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS2_last.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-2": {
+        "children":[
+            "list-context.product-list#promo-slider-2"
+        ]
+    },
+    "list-context.product-list#promo-slider-2":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-2"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-2": {
+        "children": [
+            "slider-layout#slider-promo-2"
+        ]
+    },
+    "slider-layout#slider-promo-2": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-2"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-3": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-3"
+        ],
+        "props":{
+            "title": "banner Mobile 3"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-3": {
+        "children":[
+            "image#promo-imagen-mobile-3"
+        ]
+    },
+    "image#promo-imagen-mobile-3": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_last_10.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-3": {
+        "children": [            
+            "responsive-layout.desktop#banner-slider-3",
+            "flex-layout.col#promo-slider-3"            
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p3"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-3": {
+        "children":[
+            "flex-layout.col#promo-imagen-3"
+        ]
+    },
+    "flex-layout.col#promo-imagen-3": {
+        "children":[
+            "image#promo-imagen-3"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-3"
+        }
+    },
+    "image#promo-imagen-3": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS10_last.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-3": {
+        "children":[
+            "list-context.product-list#promo-slider-3"
+        ]
+    },
+    "list-context.product-list#promo-slider-3":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-3"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-3": {
+        "children": [
+            "slider-layout#slider-promo-3"
+        ]
+    },
+    "slider-layout#slider-promo-3": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-3"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-4": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-4"
+        ],
+        "props":{
+            "title": "banner Mobile 4"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-4": {
+        "children":[
+            "image#promo-imagen-mobile-4"
+        ]
+    },
+    "image#promo-imagen-mobile-4": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_last_7.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-4": {
+        "children": [            
+            "flex-layout.col#promo-slider-4",
+            "responsive-layout.desktop#banner-slider-4"                        
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p4"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-4": {
+        "children":[
+            "flex-layout.col#promo-imagen-4"
+        ]
+    },
+    "flex-layout.col#promo-imagen-4": {
+        "children":[
+            "image#promo-imagen-4"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-4"
+        }
+    },
+    "image#promo-imagen-4": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS7_last.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-4": {
+        "children":[
+            "list-context.product-list#promo-slider-4"
+        ]
+    },
+    "list-context.product-list#promo-slider-4":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-4"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-4": {
+        "children": [
+            "slider-layout#slider-promo-4"
+        ]
+    },
+    "slider-layout#slider-promo-4": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-4"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-5": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-5"
+        ],
+        "props":{
+            "title": "banner Mobile 5"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-5": {
+        "children":[
+            "image#promo-imagen-mobile-5"
+        ]
+    },
+    "image#promo-imagen-mobile-5": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_last_5.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-5": {
+        "children": [                    
+            "responsive-layout.desktop#banner-slider-5",
+            "flex-layout.col#promo-slider-5"                        
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p5"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-5": {
+        "children":[
+            "flex-layout.col#promo-imagen-5"
+        ]
+    },
+    "flex-layout.col#promo-imagen-5": {
+        "children":[
+            "image#promo-imagen-5"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-5"
+        }
+    },
+    "image#promo-imagen-5": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS5_last.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-5": {
+        "children":[
+            "list-context.product-list#promo-slider-5"
+        ]
+    },
+    "list-context.product-list#promo-slider-5":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-5"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-5": {
+        "children": [
+            "slider-layout#slider-promo-5"
+        ]
+    },
+    "slider-layout#slider-promo-5": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-5"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-6": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-6"
+        ],
+        "props":{
+            "title": "banner Mobile 6"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-6": {
+        "children":[
+            "image#promo-imagen-mobile-6"
+        ]
+    },
+    "image#promo-imagen-mobile-6": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_last_4.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-6": {
+        "children": [                    
+            "flex-layout.col#promo-slider-6",
+            "responsive-layout.desktop#banner-slider-6"                                    
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p6"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-6": {
+        "children":[
+            "flex-layout.col#promo-imagen-6"
+        ]
+    },
+    "flex-layout.col#promo-imagen-6": {
+        "children":[
+            "image#promo-imagen-6"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-6"
+        }
+    },
+    "image#promo-imagen-6": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS4_last.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-6": {
+        "children":[
+            "list-context.product-list#promo-slider-6"
+        ]
+    },
+    "list-context.product-list#promo-slider-6":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-6"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-6": {
+        "children": [
+            "slider-layout#slider-promo-6"
+        ]
+    },
+    "slider-layout#slider-promo-6": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-6"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-7": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-7"
+        ],
+        "props":{
+            "title": "banner Mobile 7"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-7": {
+        "children":[
+            "image#promo-imagen-mobile-7"
+        ]
+    },
+    "image#promo-imagen-mobile-7": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_last_8.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-7": {
+        "children": [                                
+            "responsive-layout.desktop#banner-slider-7",
+            "flex-layout.col#promo-slider-7"                                    
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p7"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-7": {
+        "children":[
+            "flex-layout.col#promo-imagen-7"
+        ]
+    },
+    "flex-layout.col#promo-imagen-7": {
+        "children":[
+            "image#promo-imagen-7"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-7"
+        }
+    },
+    "image#promo-imagen-7": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS8_last.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-7": {
+        "children":[
+            "list-context.product-list#promo-slider-7"
+        ]
+    },
+    "list-context.product-list#promo-slider-7":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-7"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-7": {
+        "children": [
+            "slider-layout#slider-promo-7"
+        ]
+    },
+    "slider-layout#slider-promo-7": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-7"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-8": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-8"
+        ],
+        "props":{
+            "title": "banner Mobile 8"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-8": {
+        "children":[
+            "image#promo-imagen-mobile-8"
+        ]
+    },
+    "image#promo-imagen-mobile-8": {
+        "props": {
+            "src": "/arquivos/sueteres-mobile-3x899.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-8": {
+        "children": [                                
+            "flex-layout.col#promo-slider-8",
+            "responsive-layout.desktop#banner-slider-8"                                                
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p8"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-8": {
+        "children":[
+            "flex-layout.col#promo-imagen-8"
+        ]
+    },
+    "flex-layout.col#promo-imagen-8": {
+        "children":[
+            "image#promo-imagen-8"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-8"
+        }
+    },
+    "image#promo-imagen-8": {
+        "props": {
+            "src": "/arquivos/sueteres-desk-3x899.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-8": {
+        "children":[
+            "list-context.product-list#promo-slider-8"
+        ]
+    },
+    "list-context.product-list#promo-slider-8":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-8"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-8": {
+        "children": [
+            "slider-layout#slider-promo-8"
+        ]
+    },
+    "slider-layout#slider-promo-8": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-8"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-9": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-9"
+        ],
+        "props":{
+            "title": "banner Mobile 9"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-9": {
+        "children":[
+            "image#promo-imagen-mobile-9"
+        ]
+    },
+    "image#promo-imagen-mobile-9": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_last_9.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-9": {
+        "children": [                                            
+            "responsive-layout.desktop#banner-slider-9",
+            "flex-layout.col#promo-slider-9"                                                
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p9"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-9": {
+        "children":[
+            "flex-layout.col#promo-imagen-9"
+        ]
+    },
+    "flex-layout.col#promo-imagen-9": {
+        "children":[
+            "image#promo-imagen-9"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-9"
+        }
+    },
+    "image#promo-imagen-9": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS9_last.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-9": {
+        "children":[
+            "list-context.product-list#promo-slider-9"
+        ]
+    },
+    "list-context.product-list#promo-slider-9":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-9"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-9": {
+        "children": [
+            "slider-layout#slider-promo-9"
+        ]
+    },
+    "slider-layout#slider-promo-9": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-9"
+        }
+    },
+    "responsive-layout.mobile#banner-slider-10": {
+        "children": [
+            "flex-layout.col#promo-imagen-mobile-10"
+        ],
+        "props":{
+            "title": "banner Mobile 10"
+        }
+    },
+    "flex-layout.col#promo-imagen-mobile-10": {
+        "children":[
+            "image#promo-imagen-mobile-10"
+        ]
+    },
+    "image#promo-imagen-mobile-10": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS_movil_578-x-250_11_last_offs.jpg",
+            "link": "/337?map=productClusterIds"
+        }
+    },
+    "flex-layout.row#promo-bloque-10": {
+        "children": [                                            
+            "flex-layout.col#promo-slider-10",
+            "responsive-layout.desktop#banner-slider-10"                                                            
+        ],
+        "props": {
+            "blockClass": "sub-bloque-p10"
+        }
+    },
+    "responsive-layout.desktop#banner-slider-10": {
+        "children":[
+            "flex-layout.col#promo-imagen-10"
+        ]
+    },
+    "flex-layout.col#promo-imagen-10": {
+        "children":[
+            "image#promo-imagen-10"
+        ],
+        "props": {
+            "blockClass": "promo-imagen-10"
+        }
+    },
+    "image#promo-imagen-10": {
+        "props": {
+            "src": "/arquivos/CATEGORIAS11_last_offs.jpg",
+            "link": "/337?map=productClusterIds"
+        }        
+    },
+    "flex-layout.col#promo-slider-10": {
+        "children":[
+            "list-context.product-list#promo-slider-10"
+        ]
+    },
+    "list-context.product-list#promo-slider-10":{
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-promo-10"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-promo-10": {
+        "children": [
+            "slider-layout#slider-promo-10"
+        ]
+    },
+    "slider-layout#slider-promo-10": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-promo-10"
+        }
+    }
+}

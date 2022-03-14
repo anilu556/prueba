@@ -1,0 +1,88 @@
+{
+    "store.custom#accesorios": {
+        "blocks": [
+          "breadcrumb",
+          "responsive-layout.desktop#header-accesorios",          
+          "responsive-layout.mobile#header-accesorios",        
+          "flex-layout.row#home-accesorios"
+        ]
+    },
+    "responsive-layout.desktop#header-accesorios": {
+        "children": [
+            "flex-layout.row#header-accesorios",
+            "flex-layout.row#return-blog-button" 
+        ]
+    },
+    "flex-layout.row#header-accesorios": {
+        "children": ["flex-layout.col#header-accesorios"],
+        "props":{
+            "blockClass": "header-tendencias"
+        }
+    },
+    "flex-layout.col#header-accesorios": {
+        "children":["rich-text#header-accesorios"]
+    },
+    "rich-text#header-accesorios": {
+        "props": {
+            "text": "Accesorios",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "header-tendencias-title"
+        }
+    },    
+    "responsive-layout.mobile#header-accesorios": {
+        "children":["flex-layout.row#mobile-btn-return-accesorios"]
+    },
+    "flex-layout.row#mobile-btn-return-accesorios": {
+        "children": ["flex-layout.col#mobile-btn-return-accesorios"],
+        "props":{
+            "blockClass": "mobile-return-blog"
+        }
+    },
+    "flex-layout.col#mobile-btn-return-accesorios": {
+        "children":["rich-text#mobile-btn-return-accesorios"]
+    },
+    "rich-text#mobile-btn-return-accesorios": {
+        "props": {
+            "text": "[&#8249;](/blog)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "btn-return-text--accesorios"
+        }
+    },
+    "flex-layout.row#home-accesorios": {
+        "children":["flex-layout.col#home-accesorios"],
+        "props": {
+            "blockClass": "home-tendencias-blog"
+        }
+    },
+    "flex-layout.col#home-accesorios": {
+        "children":["flex-layout.row#principal-accesorios"],
+        "props":{
+            "blockClass": "principal-tendencias"
+        }
+    },
+
+    "flex-layout.row#principal-accesorios": {
+        "children":["list-context.image-list#category-accesorios"],
+        "props":{
+            "blockClass": "card-category-tendencias"
+        }
+    },
+    "list-context.image-list#category-accesorios": {
+        "children": [
+          "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+                "image": "/arquivos/banner-generico-tendencias-desktop.png",
+                "mobileImage": "/arquivos/banner-generico-tendencias-mobile-2x.png"
+            }
+          ],
+          "blockClass": "banner-nota-blog"
+        }
+    }
+    
+}

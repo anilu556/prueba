@@ -1,0 +1,224 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#menu-destacados",
+      "menu-item#menu-ropa",
+      "menu-item#menu-accesorios",
+      "menu-item#menu-zapatos",
+      "menu-item#menu-promociones",
+      "menu-item#menu-ninos",
+      "menu-item#menu-catalogo",
+      "menu-item#menu-comoComprar",
+      "menu-item#menu-sucursales",
+      // "menu-item#menu-rebajasnew",
+      "menu-item#menu-ayuda"
+      //"menu-item#menu-promos"    
+    ],
+    "props": {
+      "blockClass": "main-menu-items"
+    }
+  },
+  "menu-item#menu-destacados": {
+    "props": {
+      "id": "menu-item-menu-destacados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "destacados",
+        "href": "#",
+        "tagTitle": "Destacados",
+        "text": "DESTACADOS +"
+      },
+      "blockClass": ["menu-title", "margen1"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-destacados"
+    ]
+  },
+  "menu-item#menu-ropa": {
+    "props": {
+      "id": "menu-item-menu-ropa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ropa",
+        "href": "#",
+        "tagTitle": "ropa",
+        "text": "ROPA +"
+      },
+      "blockClass": ["menu-title", "margen2"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-ropa"
+    ]
+  },
+  "menu-item#menu-accesorios": {
+    "props": {
+      "id": "menu-item-menu-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "accesorios",
+        "href": "#",
+        "tagTitle": "Accesorios",
+        "text": "ACCESORIOS +"
+      },
+      "blockClass": ["menu-title", "margen3"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-accesorios"
+    ]
+  },
+  "menu-item#menu-zapatos": {
+    "props": {
+      "id": "menu-item-menu-zapatos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "zapatos",
+        "href": "#",
+        "tagTitle": "Zapatos",
+        "text": "ZAPATOS +"
+      },
+      "blockClass": ["menu-title", "margen4"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-zapatos"
+    ]
+  },
+
+  "menu-item#menu-promociones": {
+    "props": {
+      "id": "menu-item-menu-promociones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "promociones",
+        "href": "#",
+        "tagTitle": "Promociones",
+        "text": "PROMOCIONES +"
+      },
+      "blockClass": ["menu-title", "promos", "margen5"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-promociones"
+    ]
+  },
+  "menu-item#menu-rebajasnew": {
+    "props": {
+      "id": "menu-item-menu-rebajas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "rebajas",
+        "href": "#",
+        "tagTitle": "REBAJAS",
+        "text": "REBAJAS"
+      },
+      "blockClass": ["menu-title", "promos", "margen6"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-rebajasnew"
+    ]
+  },
+  "menu-item#menu-ninos": {
+    "props": {
+      "id": "menu-item-menu-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "ninos",
+        "href": "https://www.aldoconti-jr.com/",
+        "tagTitle": "Niños",
+        "text": "NIÑOS"
+      },
+      "blockClass": ["menu-title", "margen7"]
+    }
+  },
+  "menu-item#menu-catalogo": {
+    "props": {
+      "id": "menu-item-menu-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "catalogo",
+        "href": "/141?map=productClusterIds",
+        "tagTitle": "Catálogo",
+        "text": "CATÁLOGO +"
+      },
+      "blockClass": ["menu-catalogo", "margen8"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-catalogo"
+    ]
+  },
+  "menu-item#menu-comoComprar": {
+    "props": {
+      "id": "menu-item-menu-comoComprar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "comoComprar",
+        "href": "/como-comprar",
+        "tagTitle": "¿Cómo comprar?",
+        "text": "¿CÓMO COMPRAR?"
+      },
+      "blockClass": ["menu-title", "margen9"]
+    }
+  },
+  "menu-item#menu-sucursales": {
+    "props": {
+      "id": "menu-item-menu-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/sucursales",
+        "tagTitle": "Sucursales",
+        "text": "SUCURSALES"
+      },
+      "blockClass": ["menu-title", "margen10"]
+    }
+  },
+  "menu-item#menu-promos": {
+    "props": {
+      "id": "menu-item-menu-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/",
+        "tagTitle": "Promociones",
+        "text": "PROMOCIONES +"
+      },
+      "blockClass": ["menu-catalogo", "margen11"]
+    }
+  },
+  "menu-item#menu-ayuda": {
+    "props": {
+      "id": "menu-item-menu-ayuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "catalogo",
+        "href": "#",
+        "tagTitle": "Ayuda",
+        "text": "AYUDA +"
+      },
+      "blockClass": ["menu-title", "margen12"]
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#category-ayuda"
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+    "store.custom#nuestras-marcas": {
+      "blocks": [
+        "flex-layout.row#nuestras-marcas"
+      ]
+    },
+    "flex-layout.row#nuestras-marcas": {
+      "children": [
+        "flex-layout.col#text-nuestras-marcas"
+      ],
+      "props": {
+        "blockClass": ["page-institucionales", "nuestras-marcas"]
+      }
+    },
+    
+    "flex-layout.col#text-nuestras-marcas": {
+      "children": [
+        "rich-text#nuestras-marcas-titulo",
+        "flex-layout.row#nuestras-marcas-1",
+        "flex-layout.row#nuestras-marcas-2",
+        "flex-layout.row#nuestras-marcas-3"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#nuestras-marcas-titulo": {
+      "props": {
+        "blockClass": "institucionales-titulo",
+        "text": "Nuestras marcas"
+      }
+    },
+    "flex-layout.row#nuestras-marcas-1": {
+        "children":[
+            "flex-layout.col#marcas-1",
+            "flex-layout.col#marcas-2",
+            "flex-layout.col#marcas-3",
+            "flex-layout.col#marcas-4"
+        ],
+        "props":{
+            "blockClass": "ac-brand-images"
+        }
+    },
+    "flex-layout.col#marcas-1": {
+        "children": [
+            "image#marca-1"
+        ]
+    },
+    "image#marca-1": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.col#marcas-2": {
+        "children": [
+            "image#marca-2"
+        ]
+    },
+    "image#marca-2": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-arezzo.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.col#marcas-3": {
+        "children": [
+            "image#marca-3"
+        ]
+    },
+    "image#marca-3": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-argento.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.col#marcas-4": {
+        "children": [
+            "image#marca-4"
+        ]
+    },
+    "image#marca-4": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-argento-by-aldo-conti.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.row#nuestras-marcas-2": {
+        "children":[
+            "flex-layout.col#marcas-2-1",
+            "flex-layout.col#marcas-2-2",
+            "flex-layout.col#marcas-2-3",
+            "flex-layout.col#marcas-2-4"
+        ],
+        "props":{
+            "blockClass": "ac-brand-images"
+        }
+    },
+    "flex-layout.col#marcas-2-1": {
+        "children": [
+            "image#marca-2-1"
+        ]
+    },
+    "image#marca-2-1": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-cadini.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.col#marcas-2-2": {
+        "children": [
+            "image#marca-2-2"
+        ]
+    },
+    "image#marca-2-2": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-lexus.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.col#marcas-2-3": {
+        "children": [
+            "image#marca-2-3"
+        ]
+    },
+    "image#marca-2-3": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-qubo.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.col#marcas-2-4": {
+        "children": [
+            "image#marca-2-4"
+        ]
+    },
+    "image#marca-2-4": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-slim-fit.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.row#nuestras-marcas-3": {
+        "children":[
+            "flex-layout.col#marcas-3-1",
+            "flex-layout.col#marcas-3-2"
+        ],
+        "props":{
+            "blockClass": "ac-brand-images"
+        }
+    },
+    "flex-layout.col#marcas-3-1": {
+        "children": [
+            "image#marca-3-1"
+        ]
+    },
+    "image#marca-3-1": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-vasanti.jpg",
+            "maxWidth": 200
+        }
+    },
+    "flex-layout.col#marcas-3-2": {
+        "children": [
+            "image#marca-3-2"
+        ]
+    },
+    "image#marca-3-2": {
+        "props": {
+            "src":"/arquivos/marca-aldo-conti-vermonti.jpg",
+            "maxWidth": 200
+        }
+    }
+  }

@@ -1,0 +1,153 @@
+/* scss Aldo Conti
+1. Colors
+*/
+
+/* 1.Colors */
+$ac-c1: #303030;
+$ac-c2: #434343;
+$ac-c3: #089D9D;
+$ac-c4: #fff;
+
+/* add transitions */
+:global(.vtex-sticky-layout-0-x-container) .logoLink,
+:global(.vtex-sticky-layout-0-x-container) :global(.vtex-minicart-2-x-openIconContainer),
+:global(.vtex-sticky-layout-0-x-container) :global(.vtex-store-components-3-x-searchBarContainer) {
+  transition: all 0.3s ease;
+  display: block;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {
+  :global(.vtex-sticky-layout-0-x-container) {
+    height: 55px;
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+      display: flex;
+      align-items: center;
+      width: 466rem;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+      height: inherit;
+      :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+        height: inherit;
+      }
+    }
+  }
+}
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  will-change: padding, background, box-shadow;
+}
+
+/* */
+:global(.vtex-minicart-2-x-cartIcon) {
+  width: 40px;
+  height: 35px;
+  color: #d22630;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0;
+}
+
+:global(.vtex-minicart-2-x-minicartWrapperContainer) {
+  :global(.vtex-button) {
+    background-color: transparent;
+    outline: none;
+  }
+
+  :global(.vtex-button__label) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* add a box-shadow to desktop/mobile header when stuck */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);*/
+  box-shadow: none;
+}
+
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease;
+  padding-top: 1;
+  padding-bottom: 1;
+}
+
+/* if supported add some translucency to the desktop/mobile header background */
+@supports (backdrop-filter: blur(5px)) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    backdrop-filter: blur(8px);
+  }
+}
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  background-color: #303030;
+  margin-bottom: 10px;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .logoLink {
+  transform: scale(0.6);
+  display: none;
+}
+
+
+// SearchBar Header Mobile
+:global(.vtex-sticky-layout-0-x-wrapper--custom-sticky-header--mobile) {
+  :global(.vtex-flex-layout-0-x-flexRow--searchbar-mobile) {
+    padding-top: 10px;
+    background-color: $ac-c1;
+
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+      padding-left: 6px;
+    }
+  }
+
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    margin: 0;
+
+    :global(.vtex-input-prefix__group) {
+      height: initial;
+    }
+
+    :global(.vtex-styleguide-9-x-input) {
+      padding-left: 15px;
+    }
+
+    :global(.vtex-store-components-3-x-searchBarIcon) {
+      transform: scale(0.8);
+    }
+  }
+
+}
+// Menu 1
+:global(.vtex-store-header-2-x-headerRowBackground--main-topHeader) {
+  background-color: $ac-c2;
+  color: $ac-c4;
+}
+
+// Menu 2
+:global(.vtex-store-header-2-x-headerRowBackground--main-header){
+  background-color: $ac-c1;
+  color: $ac-c4;
+  padding: 1rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--text-box) {
+    color: #fff;
+    margin-right: 15px;
+}

@@ -1,0 +1,39 @@
+{
+    "store.custom#facturacion": {
+        "blocks": [
+            "flex-layout.row#facturacion"
+        ]
+    },
+    "flex-layout.row#facturacion": {
+        "children": [
+            "flex-layout.col#facturacion"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "facturacion"
+            ]
+        }
+    },
+    "flex-layout.col#facturacion": {
+        "children": [
+            "rich-text#facturacion-title",
+            "rich-text#facturacion-text"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#facturacion-title": {
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Facturación"
+        }
+    },
+    "rich-text#facturacion-text": {
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "Aldo Conti Italia emite factura electrónica desde la siguiente herramienta, para acceder debes tener disponible la clave para facturar y tu RFC. La clave para facturar aparece al final de su ticket de compra y consta de doce letras. Por favor conserve dicha clave porque es indispensable para obtener su factura.\n\nEl RFC es el de la persona física o moral a quien se le factura (el receptor).\n\n [http://cw.pos.mx/factura/aldoconti](http://cw.pos.mx/factura/aldoconti)"
+        }
+    }
+}    

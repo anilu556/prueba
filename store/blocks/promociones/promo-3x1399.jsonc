@@ -1,0 +1,192 @@
+{
+  "store.custom#promocion-3x1399": {
+    "blocks": [
+      "flex-layout.row#container-breadcrumb",
+      "responsive-layout.desktop#banner-principal-desktop-1399",
+      "responsive-layout.mobile#banner-principal-mobile-1399",
+      "search-result-layout.customQuery#results-promo-1399",
+    //   "search-result-layout.customQuery#results-2-promo-1399",
+      "responsive-layout.desktop#banner-secundario-desktop-1399",
+      "responsive-layout.mobile#banner-secundario-mobile-1399"
+    ],
+    "props": {
+      "blockClass": "content-sections",
+      "context": {
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 21,
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  // Breadcrumb
+  "flex-layout.row#container-breadcrumb": {
+    "children": ["flex-layout.col#wrapper-breadcrumb"],
+    "props": {
+      "blockClass": "content-box-breadcrumb"
+    }
+  },
+  "flex-layout.col#wrapper-breadcrumb": {
+    "children": ["rich-text#breadbrumb-shop-1399"]
+  },
+  "rich-text#breadbrumb-shop-1399": {
+    "title": "Bread-Crumb",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass": "link-menu-btn",
+      "text": "[Home](/) <span class='vtex-rich-text-0-x-paragraph--icon-separathor'>/</span> Promoción 3 x $1399"
+    }
+  },
+  // Primer Banner desktop
+  "responsive-layout.desktop#banner-principal-desktop-1399": {
+    "children": ["flex-layout.row#banner-principal-desktop-1399"],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#banner-principal-desktop-1399": {
+    "children": ["flex-layout.col#banner-principal-desktop-1399"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#banner-principal-desktop-1399": {
+    "children": ["image#banner-principal-desktop-1399"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#banner-principal-desktop-1399": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/PORTADAS_3x999_desktop.jpg"
+    }
+  },
+  // Primer banner mobile
+  "responsive-layout.mobile#banner-principal-mobile-1399": {
+    "children": ["flex-layout.row#banner-principal-mobile-1399"]
+  },
+  "flex-layout.row#banner-principal-mobile-1399": {
+    "children": ["flex-layout.col#banner-principal-mobile-1399"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#banner-principal-mobile-1399": {
+    "children": ["image#banner-principal-mobile-1399"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#banner-principal-mobile-1399": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/PORTADAS_3x999_movil.jpg"
+    }
+  },
+  // Resultados de Search
+  "search-result-layout.customQuery#results-promo-1399": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "queryField": "374",
+        "mapField": "productClusterIds",
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Static",
+        "__unstableProductOriginVtex": true,
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 21,
+        "simulationBehavior": "skip",
+        "installmentCriteria": "MAX_WITHOUT_INTEREST"
+      },
+
+      "blockClass": "c-box-lp-flag"
+    },
+
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.customQuery#results-2-promo-1399": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "queryField": "383",
+        "mapField": "productClusterIds",
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Static",
+        "__unstableProductOriginVtex": true,
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 21,
+        "simulationBehavior": "skip",
+        "installmentCriteria": "MAX_WITHOUT_INTEREST"
+      },
+
+      "blockClass": "c-box-lp-flag"
+    },
+
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  // Segundo Banner Desktop
+  "responsive-layout.desktop#banner-secundario-desktop-1399": {
+    "children": ["flex-layout.row#banner-secundario-desktop-1399"],
+    "props": {
+      "blockClass": "banner-feature"
+    }
+  },
+  "flex-layout.row#banner-secundario-desktop-1399": {
+    "children": ["flex-layout.col#banner-secundario-desktop-1399"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#banner-secundario-desktop-1399": {
+    "children": ["image#banner-secundario-desktop-1399"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#banner-secundario-desktop-1399": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/PORTADAS_3x999_desktop.jpg"
+    }
+  },
+  // Segundo banner Mobile
+  "responsive-layout.mobile#banner-secundario-mobile-1399": {
+    "children": ["flex-layout.row#banner-secundario-mobile-1399"]
+  },
+  "flex-layout.row#banner-secundario-mobile-1399": {
+    "children": ["flex-layout.col#banner-secundario-mobile-1399"],
+    "props": {
+      "blockClass": "r-box-feature"
+    }
+  },
+  "flex-layout.col#banner-secundario-mobile-1399": {
+    "children": ["image#banner-secundario-mobile-1399"],
+    "props": {
+      "blockClass": "c-box-feature",
+      "width": "100%"
+    }
+  },
+  "image#banner-secundario-mobile-1399": {
+    "props": {
+      "title": "Banner Principal",
+      "link": "/",
+      "src": "/arquivos/PORTADAS_3x999_movil.jpg"
+    }
+  }
+}

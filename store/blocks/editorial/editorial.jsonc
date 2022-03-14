@@ -1,0 +1,513 @@
+{
+    "store.custom#editorial": {
+        "blocks": [
+          "flex-layout.row#editorial"
+        ]
+    },
+
+    "flex-layout.row#editorial": {
+        "children": [
+            "flex-layout.col#editorial"
+        ],
+        "props": {
+            "blockClass": "editorial-page"
+        }
+    },
+
+    "flex-layout.col#editorial": {
+        "children": [
+            "flex-layout.row#editorial-breadcrumb",
+            //"responsive-layout.desktop#coleccion-banner",
+            //"responsive-layout.mobile#coleccion-banner",
+            //"flex-layout.row#shelf-destacados-nueva-coleccion",
+            "responsive-layout.desktop#lookbook-banner",
+            "responsive-layout.mobile#lookbook-banner",
+            "flex-layout.row#shelf-destacados-lookbook",
+            "responsive-layout.desktop#catalogo-banner",
+            "responsive-layout.mobile#catalogo-banner",
+            "flex-layout.row#shelf-destacados-catalogo"
+            /* "responsive-layout.desktop#blog-banner",
+            "responsive-layout.mobile#blog-banner",
+            "flex-layout.row#shelf-destacados-blog" */
+        ] 
+    },
+
+    "flex-layout.row#editorial-breadcrumb": {
+        "props": {
+          "marginTop": 4
+        },
+        "children": [
+          "breadcrumb"
+        ]
+    },
+
+    "responsive-layout.desktop#coleccion-banner": {
+        "children":[
+            "flex-layout.row#coleccion-banner"
+        ],
+        "props": {
+            "blockClass": "first-section-editorial"
+        }
+    },
+
+    "flex-layout.row#coleccion-banner": {
+        "children":[
+            "list-context.image-list#banner-coleccion"
+        ],
+        "props":{
+            "blockClass": "banner-coleccion"
+        }
+    },
+
+    "list-context.image-list#banner-coleccion": {
+        "children": [
+            "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+              {
+                "image": "/arquivos/Grupo-1058.png"
+              }
+            ]
+        }
+    },
+
+    "responsive-layout.mobile#coleccion-banner": {
+        "children":[
+            "list-context.image-list#banner-coleccion-mobile",
+            "rich-text#title-colection-mobile",
+            "rich-text#subtitle-colection-mobile",
+            "rich-text#text-to-colection"
+        ]
+    },
+
+    "list-context.image-list#banner-coleccion-mobile": {
+        "children": [
+            "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+              {
+                "mobileImage": "/arquivos/Grupo-867-mobile.png"  
+              }
+            ]
+        }
+    },
+
+    "rich-text#title-colection-mobile": {
+        "props": {
+            "text": "NUEVA COLECCIÓN\n**OTOÑO INVIERNO 2020**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "coleccion-title-mobile"
+        }
+    },
+
+    "rich-text#subtitle-colection-mobile": {
+        "props": {
+            "text": "La mejor colección con estilo",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "coleccion-subtitle-mobile"
+        }
+    },
+
+    "rich-text#text-to-colection": {
+        "props": {
+            "text": "[VER MÁS](/catalogo-otono-invierno)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "cta-coleccion-mobile"
+        }
+    },
+
+    "flex-layout.row#shelf-destacados-nueva-coleccion": {
+        "children": [
+            "list-context.product-list#destaques-collection"
+        ]
+    },
+
+    "list-context.product-list#destaques-collection": {
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-collection-destaques"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+
+    "flex-layout.col#slider-collection-destaques": {
+        "children": [
+            "rich-text#title-destaques-collection-slider",
+            "slider-layout#title-destaques-collection"
+          ]
+    },
+
+    "rich-text#title-destaques-collection-slider": {
+        "props": {
+          "text": "Productos destacados",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "shelftitle-notfound"
+        }
+    },
+    
+    "slider-layout#title-destaques-collection": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "destaques-collection-recommendedShelf"
+        }
+    },
+
+    "responsive-layout.desktop#lookbook-banner": {
+        "children":[
+            "flex-layout.row#lookbook-banner"
+        ],
+        "props": {
+            "blockClass": "second-section-editorial"
+        }
+    },
+
+    "flex-layout.row#lookbook-banner": {
+        "children":[
+            "info-card#lookbook-banner"
+        ],
+        "props":{
+            "blockClass": "card-lookbook-banner"
+        }
+    },
+
+    "info-card#lookbook-banner": {
+        "props": {
+          "id": "lb-card-desktop",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "/arquivos/lookbook-banner-io-desktop.png",
+          "TextModeEnum": "rich-text",
+          "headline": "LOOKBOOK<br/>2020",
+          "subhead": "Otoño - invierno",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/lookbook-otono-invierno",
+          "blockClass": "lookbook-banner--inside",
+          "textAlignment": "center"
+        }
+    },
+
+    "responsive-layout.mobile#lookbook-banner": {
+        "children":[
+            "flex-layout.row#lookbook-banner-mobile"
+        ],
+        "props": {
+            "blockClass": "second-section-editorial-mobile"
+        }
+    },
+
+    "flex-layout.row#lookbook-banner-mobile": {
+        "children":[
+            "list-context.image-list#lb-coleccion-mobile"
+        ],
+        "props": {
+            "blockClass": "mobile-card-lookbook"
+        }
+    },
+
+    "list-context.image-list#lb-coleccion-mobile": {
+        "children": [
+            "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+                {
+                    "mobileImage": "/arquivos/Banner-mobile-loobkook-io.png"
+                }
+            ]
+        }
+    },
+
+    "flex-layout.row#shelf-destacados-lookbook": {
+        "children": [
+            "list-context.product-list#destaques-collection-lb"
+        ]
+    },
+
+    "list-context.product-list#destaques-collection-lb": {
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-collection-destaques-lb"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+
+    "flex-layout.col#slider-collection-destaques-lb": {
+        "children": [
+            "rich-text#title-destaques-lb-slider",
+            "slider-layout#title-lb-collection"
+          ]
+    },
+
+    "rich-text#title-destaques-lb-slider": {
+        "props": {
+          "text": "Productos destacados",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "shelftitle-notfound"
+        }
+    },
+    
+    "slider-layout#title-lb-collection": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "destaques-collection-recommendedShelf"
+        }
+    },
+
+    "responsive-layout.desktop#catalogo-banner": {
+        "children":[
+            "flex-layout.row#catalogo-banner"
+        ],
+        "props": {
+            "blockClass": "third-section-editorial"
+        }
+    },
+
+    "flex-layout.row#catalogo-banner": {
+        "children":[
+            "info-card#catalogo-banner"
+        ],
+        "props":{
+            "blockClass": "card-catalog-banner"
+        }
+    },
+
+    "info-card#catalogo-banner": {
+        "props": {
+          "id": "catalog-card-desktop",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "/arquivos/catalogo-io-banner.png",
+          "TextModeEnum": "rich-text",
+          "headline": "OTOÑO - INVIERNO<br/>2020",
+          "subhead": "Encuentra el mejor estilo",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/catalogo-otono-invierno",
+          "blockClass": "catalog-banner--inside",
+          "textAlignment": "center"
+        }
+    },
+
+    "responsive-layout.mobile#catalogo-banner": {
+        "children":[
+            "flex-layout.row#catalogo-banner-mobile"
+        ],
+        "props": {
+            "blockClass": "third-section-editorial-mobile"
+        }
+    },
+
+    "flex-layout.row#catalogo-banner-mobile": {
+        "children":[
+            "list-context.image-list#catalogo-coleccion-mobile"
+        ],
+        "props": {
+            "blockClass": "mobile-card-catalog"
+        }
+    },
+
+    "list-context.image-list#catalogo-coleccion-mobile": {
+        "children": [
+            "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+                {
+                    "mobileImage": "/arquivos/banner-catalogo-io.png"
+                }
+            ]
+        }
+    },
+
+    "flex-layout.row#shelf-destacados-catalogo": {
+        "children": [
+            "list-context.product-list#destaques-catalog"
+        ]
+    },
+
+    "list-context.product-list#destaques-catalog": {
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-destaques-catalog"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+
+    "flex-layout.col#slider-destaques-catalog": {
+        "children": [
+            "rich-text#title-destaques-catalog-slider",
+            "slider-layout#title-destaques-catalog"
+          ]
+    },
+
+    "rich-text#title-destaques-catalog-slider": {
+        "props": {
+          "text": "Productos destacados",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "shelftitle-notfound"
+        }
+    },
+    
+    "slider-layout#title-destaques-catalog": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "destaques-catalog-recommendedShelf"
+        }
+    },
+
+    "responsive-layout.desktop#blog-banner": {
+        "children":[
+            "flex-layout.row#blog-banner"
+        ],
+        "props": {
+            "blockClass": "fourth-section-editorial"
+        }
+    },
+
+    "flex-layout.row#blog-banner": {
+        "children":[
+            "info-card#blog-banner"
+        ],
+        "props":{
+            "blockClass": "card-blog-banner"
+        }
+    },
+
+    "info-card#blog-banner": {
+        "props": {
+          "id": "blog-card-desktop",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "/arquivos/novo-codigo-conti-io.png",
+          "TextModeEnum": "rich-text",
+          "headline": "CÓDIGO<br/>CONTI",
+          "subhead": "Encuentra los mejores tips",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/blog",
+          "blockClass": "blog-banner--inside",
+          "textAlignment": "center"
+        }
+    },
+
+    "responsive-layout.mobile#blog-banner": {
+        "children":[
+            "flex-layout.row#blog-banner-mobile"
+        ],
+        "props": {
+            "blockClass": "fourth-section-editorial-mobile"
+        }
+    },
+
+    "flex-layout.row#blog-banner-mobile": {
+        "children":[
+            "list-context.image-list#blog-coleccion-mobile"
+        ],
+        "props": {
+            "blockClass": "mobile-card-blog"
+        }
+    },
+
+    "list-context.image-list#blog-coleccion-mobile": {
+        "children": [
+            "slider-layout#ventas-corporativas-images"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+                {
+                    "mobileImage": "/arquivos/codigo-conti-mobile-io.png"
+                }
+            ]
+        }
+    },
+
+    "flex-layout.row#shelf-destacados-blog": {
+        "children": [
+            "list-context.product-list#destaques-blog"
+        ]
+    },
+
+    "list-context.product-list#destaques-blog": {
+        "blocks": [      
+          "product-summary.shelf"
+        ],
+        "children": [
+          "flex-layout.col#slider-destaques-blog"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+
+    "flex-layout.col#slider-destaques-blog": {
+        "children": [
+            "rich-text#title-destaques-blog-slider",
+            "slider-layout#title-destaques-blog"
+          ]
+    },
+
+    "rich-text#title-destaques-blog-slider": {
+        "props": {
+          "text": "Productos destacados",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "shelftitle-notfound"
+        }
+    },
+    
+    "slider-layout#title-destaques-blog": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "destaques-blog-recommendedShelf"
+        }
+    }
+
+    
+}

@@ -1,0 +1,735 @@
+{
+  "vtex.menu@2.x:submenu#category-accesorios": {
+    "children": ["flex-layout.row#submenuAccesorios"],
+    "props": {
+      "width": "100%",
+      "blockClass": "submenu-ropa"
+    }
+  },
+  "flex-layout.row#submenuAccesorios": {
+    "children": [
+      "flex-layout.col#list1-accesorios",
+      "flex-layout.col#list2-accesorios",
+      "flex-layout.col#list3-accesorios",
+      "flex-layout.col#list4-accesorios",
+      "flex-layout.col#menu-carousel-accesorios"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "menu-categorias"
+    }
+  },
+  // COLUMNA 1
+  "flex-layout.col#list1-accesorios": {
+    "children": [
+      "menu-item#menu-audifonos-inalambricos",
+      // "menu-item#menu-back-pack",
+      "menu-item#menu-bolsa-regalo",
+      "menu-item#menu-bufandas",
+      "menu-item#menu-bufandas-ligeras",
+      "menu-item#menu-cadena",
+      "menu-item#menu-calcetines",
+      "menu-item#menu-carteras",
+      "menu-item#menu-cinturones",
+      "menu-item#menu-corbatas-set",
+      "menu-item#menu-cosmetiquera-dama",
+      "menu-item#menu-cubrebocas",
+      "menu-item#menu-faja-mono"
+    ],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "menu-item#menu-audifonos-inalambricos": {
+    "props": {
+      "id": "menu-item-audifonos-inalambricos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios-aldo-conti-h7682neg/p",
+        "noFollow": false,
+        "tagTitle": "Audífonos inalámbricos",
+        "text": "Audífonos \ninalámbricos\n"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-bolsa-regalo": {
+    "props": {
+      "id": "menu-item-menu-bolsa-regalo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bolsa de Regalo",
+        "text": "Bolsa de Regalo"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-bufandas": {
+    "props": {
+      "id": "menu-item-menu-bufandas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/bufandas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Bufandas",
+        "text": "Bufandas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-bufandas-ligeras": {
+    "props": {
+      "id": "menu-item-menu-bufandas-ligeras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/charpas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Bufandas Ligeras",
+        "text": "Bufandas Ligeras"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-back-pack": {
+    "props": {
+      "id": "menu-item-menu-bufandas-ligeras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Backpack-Vermonti-H7436NEG/p",
+        "noFollow": false,
+        "tagTitle": "Back Pack",
+        "text": "Back Pack"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-cadena": {
+    "props": {
+      "id": "menu-item-menu-cadena",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cadena?_q=cadena&map=ft",
+        "noFollow": false,
+        "tagTitle": "Cadena",
+        "text": "Cadena"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-calcetines": {
+    "props": {
+      "id": "menu-item-menu-calcetines",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/calcetines/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Calcetínes",
+        "text": "Calcetínes"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-carteras": {
+    "props": {
+      "id": "menu-item-menu-carteras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/carteras/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Carteras",
+        "text": "Carteras"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+
+  "menu-item#menu-cosmetiquera-dama": {
+    "props": {
+      "id": "menu-item-menu-cosmetiquera-dama",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/Cosmetiqueras",
+        "noFollow": false,
+        "tagTitle": "Cosmetiquera Dama",
+        "text": "Cosmetiquera Dama"
+      },
+      "blockClass": ["link-submenu"]
+    }
+  },
+
+  "menu-item#menu-cinturones": {
+    "props": {
+      "id": "menu-item-menu-cinturones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/cinturones/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Cinturones",
+        "text": "Cinturones"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-corbatas-set": {
+    "props": {
+      "id": "menu-item-menu-corbatas-set",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/corbatas-y-set/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Corbatas y set",
+        "text": "Corbatas y set"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-cubrebocas": {
+    "props": {
+      "id": "menu-item-menu-cubrebocas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/cubrebocas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Cubre Bocas",
+        "text": "Cubre Bocas"
+      },
+      "blockClass": ["link-submenu"]
+    }
+  },
+  "menu-item#menu-faja-mono": {
+    "props": {
+      "id": "menu-item-menu-faja-mono",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/faja-mono/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Faja-moño",
+        "text": "Faja-moño"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-fragancias": {
+    "props": {
+      "id": "menu-item-menu-fragancias",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/fragancias/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Fragancias",
+        "text": "Fragancias"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-impermeables": {
+    "props": {
+      "id": "menu-item-menu-impermeables",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Impermeable-Vermonti-H8126MAR/p",
+        "noFollow": false,
+        "tagTitle": "Impermeable",
+        "text": "Impermeable"
+      },
+      "blockClass": [
+        "link-submenu"
+        // , "product-new"
+      ]
+    }
+  },
+  "menu-item#menu-gorros": {
+    "props": {
+      "id": "menu-item-menu-gorros",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/gorros/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Gorros",
+        "text": "Gorros"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-guantes": {
+    "props": {
+      "id": "menu-item-menu-guantes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/guantes/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "guantes",
+        "text": "Guantes"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-lentes": {
+    "props": {
+      "id": "menu-item-menu-lentes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/lentes/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  // COLUMNA 1 --END--
+
+  // COLUMNA 2
+  "flex-layout.col#list2-accesorios": {
+    "children": [
+      "menu-item#menu-gorros",
+      "menu-item#menu-fragancias",
+       "menu-item#menu-guantes",
+        // "menu-item#menu-impermeables",
+      "menu-item#menu-lentes",
+      "menu-item#menu-llaveros",
+      "menu-item#menu-loncheras",
+      "menu-item#menu-maletas-maletines",
+      "menu-item#menu-mancuernillas",
+      "menu-item#menu-mono-panuelo",
+      "menu-item#menu-panuelos",
+      "menu-item#menu-pines"
+    ],
+    "props": {
+      "blockClass": "list-2",
+      "width": "20%"
+    }
+  },
+  "menu-item#menu-llaveros": {
+    "props": {
+      "id": "menu-item-menu-llaveros",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/llaveros/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Llaveros",
+        "text": "Llaveros"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-loncheras": {
+    "props": {
+      "id": "menu-item-menu-loncheras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lonchera-aldo-conti-h7355neg/p",
+        "noFollow": false,
+        "tagTitle": "Loncheras",
+        "text": "Loncheras"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-maletas-maletines": {
+    "props": {
+      "id": "menu-item-menu-maletas-maletines",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/maletines/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Maletas y maletines",
+        "text": "Maletas y maletines"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-mancuernillas": {
+    "props": {
+      "id": "menu-item-menu-mancuernillas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/mancuernillas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Mancuernillas",
+        "text": "Mancuernillas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-mono-panuelo": {
+    "props": {
+      "id": "menu-item-menu-mono-panuelo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/mono-panuelo/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Moño-pañuelo",
+        "text": "Moño-pañuelo"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-panuelos": {
+    "props": {
+      "id": "menu-item-menu-panuelos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/panuelos/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Pañuelos",
+        "text": "Pañuelos"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-pines": {
+    "props": {
+      "id": "menu-item-menu-pines",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/pines/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Pines",
+        "text": "Pines"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-pisa-corbatas": {
+    "props": {
+      "id": "menu-item-menu-pisa-corbatas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/pisa-corbatas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Pisa corbatas",
+        "text": "Pisa corbatas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  // COLUMNA 2 --END--
+  // COLUMNA 3 --
+  "flex-layout.col#list3-accesorios": {
+    "children": [
+      "menu-item#menu-pisa-corbatas",
+      // "menu-item#menu-plancha-vapor",
+      "menu-item#menu-plumas",
+      "menu-item#menu-porta-traje",
+      "menu-item#menu-relojes",
+      "menu-item#menu-set-manicure",
+      "menu-item#menu-set-organizador",
+      "menu-item#menu-sombreros",
+      "menu-item#menu-sombrillas",
+      "menu-item#menu-tirantes",
+      "menu-item#menu-Impermeable"
+
+    ],
+    "props": {
+      "blockClass": "list-2",
+      "width": "20%"
+    }
+  },
+  "menu-item#menu-plancha-vapor": {
+    "props": {
+      "id": "menu-item-menu-plancha-vapor",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plancha-de-vapor-aldo-conti",
+        "noFollow": false,
+        "tagTitle": "Plancha de Vapor",
+        "text": "Plancha de Vapor"
+      },
+      "blockClass": ["link-submenu", "product-new"]
+    }
+  },
+  "menu-item#menu-plumas": {
+    "props": {
+      "id": "menu-item-menu-plumas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/plumas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Plumas",
+        "text": "Plumas"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-porta-traje": {
+    "props": {
+      "id": "menu-item-menu-porta-traje",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/porta-traje/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Porta traje",
+        "text": "Porta traje"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-relojes": {
+    "props": {
+      "id": "menu-item-menu-relojes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/relojes/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Relojes",
+        "text": "Relojes"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-set-manicure": {
+    "props": {
+      "id": "menu-item-menu-set-manicure",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.aldoconti.com/busca/?fq=H:280",
+        "noFollow": false,
+        "tagTitle": "Set manicure",
+        "text": "Set manicure"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-set-organizador": {
+    "props": {
+      "id": "menu-item-menu-set-organizador",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cosmetiquera-Aldo-Conti-H8282OXF",
+        "noFollow": false,
+        "tagTitle": "Set Organizador",
+        "text": "Set Organizador"
+      },
+      "blockClass":[ "link-submenu"
+        // , "product-new"
+      ]
+    }
+  },
+  "menu-item#menu-sombreros": {
+    "props": {
+      "id": "menu-item-menu-sombreros",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/sombreros/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Sombreros",
+        "text": "Sombreros"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-sombrillas": {
+    "props": {
+      "id": "menu-item-menu-sombrillas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/sombrillas/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Sombrillas",
+        "text": "Sombrillas"
+      },
+      "blockClass": ["link-submenu"
+        // ,  "product-new-bestseller"
+      ]
+    }
+  },
+  "menu-item#menu-tirantes": {
+    "props": {
+      "id": "menu-item-menu-tirantes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/tirantes/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Tirantes",
+        "text": "Tirantes"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  "menu-item#menu-Impermeable": {
+    "props": {
+      "id": "menu-item-menu-Impermeable",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Impermeable-Vermonti-H8126MAR/p",
+        "noFollow": false,
+        "tagTitle": "Impermeable",
+        "text": "Impermeable"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  // COLUMNA 3 --END--
+  // COLUMNA 4 --
+  "flex-layout.col#list4-accesorios": {
+    "children": ["menu-item#menu-ver-todos"],
+    "props": {
+      "blockClass": "list-2",
+      "width": "5%"
+    }
+  },
+  "menu-item#menu-ver-todos": {
+    "props": {
+      "id": "menu-item-menu-ver-todos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/accesorios/?O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      },
+      "blockClass": "link-submenu"
+    }
+  },
+  // COLUMNA 5
+  "flex-layout.col#menu-carousel-accesorios": {
+    "children": ["slider-layout#menu-products-accesorios-ds"],
+    "props": {
+      "blockClass": "submenuRopa-col3",
+      "width": 50
+    }
+  },
+  "slider-layout#menu-products-accesorios-ds": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "slider-ropa"
+    },
+    "children": [
+      "flex-layout.col#4-mobile",
+      "flex-layout.col#5-mobile",
+      "flex-layout.col#6-mobile",
+      "flex-layout.col#7-mobile",
+      "flex-layout.col#8-mobile",
+      "flex-layout.col#9-mobile",
+      "flex-layout.col#10-mobile"
+    ]
+  },
+  // COLUMNA 4 --END--
+
+  // MOBILE MENU ACCESORIOS
+  "flex-layout.col#menuAccesorios": {
+    "children": [
+      "menu-item#menu-audifonos-inalambricos",
+      // "menu-item#menu-back-pack",
+      "menu-item#menu-bolsa-regalo",
+      "menu-item#menu-bufandas",
+      "menu-item#menu-bufandas-ligeras",
+      "menu-item#menu-cadena",
+      "menu-item#menu-calcetines",
+      "menu-item#menu-carteras",
+      "menu-item#menu-cinturones",
+      "menu-item#menu-corbatas-set",
+      "menu-item#menu-cosmetiquera-dama",
+      "menu-item#menu-cubrebocas",
+      "menu-item#menu-faja-mono",
+      "menu-item#menu-fragancias",
+      "menu-item#menu-guantes",
+        // "menu-item#menu-impermeables",
+      "menu-item#menu-gorros",
+    
+      "menu-item#menu-lentes",
+      "menu-item#menu-llaveros",
+      "menu-item#menu-loncheras",
+      "menu-item#menu-maletas-maletines",
+      "menu-item#menu-mancuernillas",
+      "menu-item#menu-mono-panuelo",
+      "menu-item#menu-panuelos",
+      "menu-item#menu-pines",
+      "menu-item#menu-pisa-corbatas",
+      "menu-item#menu-plumas",
+      "menu-item#menu-porta-traje",
+      "menu-item#menu-relojes",
+      "menu-item#menu-set-manicure",
+      "menu-item#menu-set-organizador",
+      "menu-item#menu-sombreros",
+      "menu-item#menu-sombrillas",
+      "menu-item#menu-tirantes",
+      "menu-item#menu-Impermeable",
+      "menu-item#menu-ver-todos"
+      // "menu-item#menu-rebajas"
+    ]
+  }
+}

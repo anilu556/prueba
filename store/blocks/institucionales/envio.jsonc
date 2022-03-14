@@ -1,0 +1,39 @@
+{
+    "store.custom#envio": {
+        "blocks": [
+            "flex-layout.row#envio"
+        ]
+    },
+    "flex-layout.row#envio": {
+        "children": [
+            "flex-layout.col#envio"
+        ],
+        "props": {
+            "blockClass": [
+                "page-institucionales",
+                "envio"
+            ]
+        }
+    },
+    "flex-layout.col#envio": {
+        "children": [
+            "rich-text#envio-title",
+            "rich-text#envio-text"       
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#envio-title": {
+        "props": {
+            "blockClass": "institucionales-titulo",
+            "text": "Envío"
+        }
+    },
+    "rich-text#envio-text": {
+        "props": {
+            "blockClass": "institucionales-texto",
+            "text": "**¿Dónde puedo recibir mi pedido?**\nPuedes recibirlo en la dirección que elijas (domicilio, trabajo... pero nunca en apartado de correos ni hoteles).\n\n**¿Cuánto tardará en llegar mi pedido?**\nLos plazos de entrega dependen de la lejanía de donde nos estés pidiendo la entrega. Nuestro centro de distribución esta ubicado en la Ciudad de México, es por esto que tu pedido estará llegando de 2 a 5 días hábiles una vez procesado el pedido.\n\n**¿Cuánto he de pagar de gastos de envío?**\n- Si tu pedido en menor a $599 te estaremos cobrando $82 MXN por los gastos de envío.\n- Si tu pedido supera los $599 de compra tu envío es totalmente gratis.\n\n**¿Cuál es el proceso de la entrega en domicilio?**\nTe enviaremos un e-mail de confirmación cuando tu pago sea aprobado por tu banco, otro correo cuando tu pedido ha sido facturado, y el último cuando este mismo haya salido de nuestro almacén."
+        }
+    }
+}    

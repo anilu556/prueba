@@ -1,0 +1,653 @@
+{
+  "vtex.menu@2.x:menu#footer-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-1"
+      ],
+      "width": "20%"
+    },
+    "children": [
+      "rich-text#col1footer-title",
+      "menu-item#footer-comoComprar",
+      "menu-item#footer-preguntasFrecuentes",
+      "menu-item#footer-pagos",
+      "menu-item#footer-envio",
+      "menu-item#footer-cambiosDevoluciones",
+      "menu-item#footer-rastreaPedido",
+      "menu-item#footer-facturacion"
+    ]
+  },
+
+  "rich-text#col1footer-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Guía de compras**",
+      "blockClass": "colfooter-title1",
+      "marginTop": 0
+    }
+  },
+  "menu-item#footer-comoComprar": {
+    "props": {
+      "id": "menu-item-comoComprar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/como-comprar",
+        "noFollow": false,
+        "tagTitle": "¿Cómo comprar?",
+        "text": "¿Cómo comprar?"
+      }
+    }
+  },
+  "menu-item#footer-preguntasFrecuentes": {
+    "props": {
+      "id": "menu-item-preguntasFrecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/guia-de-compras#faq",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#footer-pagos": {
+    "props": {
+      "id": "menu-item-pagos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/guia-de-compras#pagos",
+        "noFollow": false,
+        "tagTitle": "Pagos",
+        "text": "Pagos"
+      }
+    }
+  },
+  "menu-item#footer-envio": {
+    "props": {
+      "id": "menu-item-envio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/guia-de-compras#envios",
+        "noFollow": false,
+        "tagTitle": "Envío",
+        "text": "Envío"
+      }
+    }
+  },
+  "menu-item#footer-cambiosDevoluciones": {
+    "props": {
+      "id": "menu-item-cambiosDevoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/guia-de-compras#devoluciones",
+        "noFollow": false,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#footer-rastreaPedido": {
+    "props": {
+      "id": "menu-item-rastreaPedido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/rastrea-tu-pedido",
+        "noFollow": false,
+        "tagTitle": "Rastrea tu pedido",
+        "text": "Rastrea tu pedido"
+      }
+    }
+  },
+  "menu-item#footer-facturacion": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/facturacion",
+        "noFollow": false,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-2"
+      ]
+    },
+    "children": [
+      "rich-text#col2footer-title",
+      "menu-item#footer-quienesSomos",
+      "menu-item#footer-contacto",
+      "menu-item#footer-nuestrasMarcas",
+      "menu-item#footer-proveedores",
+      "menu-item#footer-ventasCorporativas",
+      "menu-item#footer-sucursales",
+      "menu-item#footer-codigoConti"
+    ]
+  },
+
+  "rich-text#col2footer-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Empresa**",
+      "blockClass": "colfooter-title1",
+      "marginTop": 0
+    }
+  },
+  "menu-item#footer-quienesSomos": {
+    "props": {
+      "id": "menu-item-quienesSomos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "¿Quiénes somos?",
+        "text": "¿Quiénes somos?"
+      }
+    }
+  },
+  "menu-item#footer-contacto": {
+    "props": {
+      "id": "menu-item-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "noFollow": false,
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+  "menu-item#footer-nuestrasMarcas": {
+    "props": {
+      "id": "menu-item-nuestrasMarcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestras-marcas",
+        "noFollow": false,
+        "tagTitle": "Nuestras marcas",
+        "text": "Nuestras marcas"
+      }
+    }
+  },
+  "menu-item#footer-proveedores": {
+    "props": {
+      "id": "menu-item-proveedores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "http://200.0.91.20/",
+        "noFollow": false,
+        "tagTitle": "Proveedores",
+        "text": "Proveedores"
+      }
+    }
+  },
+  "menu-item#footer-ventasCorporativas": {
+    "props": {
+      "id": "menu-item-ventasCorporativas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ventas-corporativas",
+        "noFollow": false,
+        "tagTitle": "Ventas corporativas",
+        "text": "Ventas corporativas"
+      }
+    }
+  },
+  "menu-item#footer-sucursales": {
+    "props": {
+      "id": "menu-item-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "external",
+        "href": "/sucursales",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "menu-item#footer-catalogoDigital": {
+    "props": {
+      "id": "menu-item-catalogoDigital",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "external",
+        "href": "/catalogo-digital",
+        "noFollow": false,
+        "tagTitle": "Catálogo digital",
+        "text": "Catálogo digital"
+      }
+    }
+  },
+  "menu-item#footer-codigoConti": {
+    "props": {
+      "id": "menu-item-codigoConti",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "external",
+        "href": "/blog",
+        "noFollow": false,
+        "tagTitle": "Código Conti",
+        "text": "Código Conti"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-3": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-3"
+      ]
+    },
+    "children": [
+      "rich-text#col3footer-title",
+      "menu-item#footer-politicasPrivacidad",
+      "menu-item#footer-politicasCookies",
+      "menu-item#footer-politicasCandidatos",
+      "menu-item#footer-politicasCompra",
+      "menu-item#footer-terminosCondiciones",
+      "menu-item#footer-giveawayDiaDelPadre",
+      "menu-item#footer-avisoPrivacidad"
+    ]
+  },
+
+  "rich-text#col3footer-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**Políticas**",
+      "blockClass": "colfooter-title1",
+      "marginTop": 0
+    }
+  },
+  "menu-item#footer-politicasPrivacidad": {
+    "props": {
+      "id": "menu-item-politicasPrivacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Políticas de privacidad",
+        "text": "Políticas de privacidad"
+      }
+    }
+  },
+  "menu-item#footer-politicasCookies": {
+    "props": {
+      "id": "menu-item-politicasCookies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-cookies",
+        "noFollow": false,
+        "tagTitle": "Políticas de cookies",
+        "text": "Políticas de cookies"
+      }
+    }
+  },
+  "menu-item#footer-politicasCandidatos": {
+    "props": {
+      "id": "menu-item-politicasCandidatos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-candidatos",
+        "noFollow": false,
+        "tagTitle": "Políticas de candidatos",
+        "text": "**Políticas de candidatos**"
+      }
+    }
+  },
+  "menu-item#footer-politicasCompra": {
+    "props": {
+      "id": "menu-item-politicasCompra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-compra",
+        "noFollow": false,
+        "tagTitle": "Políticas de compra",
+        "text": "Políticas de compra"
+      }
+    }
+  },
+  "menu-item#footer-terminosCondiciones": {
+    "props": {
+      "id": "menu-item-terminosCondiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer-avisoPrivacidad": {
+    "props": {
+      "id": "menu-item-avisoPrivacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/aviso-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      }
+    }
+  },
+  "menu-item#footer-giveawayDiaDelPadre": {
+    "props": {
+      "id": "menu-item-avisoPrivacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "color-mutedAC",
+      "itemProps": {
+        "type": "internal",
+        "href": "/giveawaydiadelpadre",
+        "noFollow": false,
+        "tagTitle": "Giveaway dia del padre",
+        "text": "Giveaway dia del padre"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-4redes": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": [
+        "footer",
+        "footer-4"
+      ]
+    },
+    "children": [
+      "image#fb-ds",
+      "image#ig-ds",
+      "image#tw-ds",
+      "image#yt-ds"
+    ]
+  },
+
+  "rich-text#col4footer-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "\n**Síguenos**\n",
+      "blockClass": "colfooter-title"
+    }
+  },
+  "image#fb-ds": {
+    "props": {
+      "link": "https://www.facebook.com/aldocontitalia/",
+      "src": "/arquivos/fb2x.png",
+      "maxHeight": 24,
+      "blockClass": "redes-footer"
+    }
+  },
+  "image#ig-ds": {
+    "props": {
+      "link": "https://instagram.com/aldocontimx/",
+      "src": "/arquivos/ig2x.png",
+      "maxHeight": 24,
+      "blockClass": "redes-footer"
+    }
+  },
+  "image#tw-ds": {
+    "props": {
+      "link": "https://twitter.com/aldocontiitalia",
+      "src": "/arquivos/tw2x.png",
+      "maxHeight": 24,
+      "blockClass": "redes-footer"
+    }
+  },
+  "image#yt-ds": {
+    "props": {
+      "link": "https://www.youtube.com/user/sistemasaldoconti",
+      "src": "/arquivos/yt2x.png",
+      "maxHeight": 24
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-4logos": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": [
+        "footer",
+        "footer-4"
+      ]
+    },
+    "children": [
+      "image#vtex-ds",
+      "image#cb-ds"
+    ]
+  },
+  "image#vtex-ds": {
+    "props": {
+      "src": "/arquivos/vtex.png",
+      "maxHeight": 24,
+      "blockClass": "redes-footer"
+    }
+  },
+  "image#cb-ds": {
+    "props": {
+      "src": "/arquivos/cb.png",
+      "maxHeight": 24
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-5": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer",
+        "footer-5"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#desktop-logo-footer"
+      // "responsive-layout.phone#mobile-logo-footer"
+    ]
+  },
+  "responsive-layout.desktop#desktop-logo-footer": {
+    "children": [
+      "image#logo-ACNegro"
+    ]
+  },
+  "image#logo-ACNegro": {
+    "props": {
+      "src": "/arquivos/Logo_ACNegro.png",
+      "maxWidth": "75%"
+    }  
+  },
+  
+  "vtex.menu@2.x:menu#footer-6": {
+    "props": {
+      "orientation": "horizontal",
+      "fullWidth": true,
+      "blockClass": "logos-pago"
+    },
+    "children": [
+      "image#bbva",
+      "image#santander",
+      "image#scotia",
+      "image#paypal",
+      "image#mercadopago",
+      "image#7eleven",
+      "image#visa",
+      "image#oxxo",
+      "image#ixe",
+      "image#americanexpress",
+      "image#digicert",
+      "image#mastercard",
+      "image#estafeta"
+    ]
+  },
+  "image#bbva": {
+    "props": {
+      "src": "/arquivos/bbva-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#santander": {
+    "props": {
+      "src": "/arquivos/santander-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#scotia": {
+    "props": {
+      "src": "/arquivos/scotia-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#paypal": {
+    "props": {
+      "src": "/arquivos/paypal-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#mercadopago": {
+    "props": {
+      "src": "/arquivos/mercadopago-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#7eleven": {
+    "props": {
+      "src": "/arquivos/7eleven-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#visa": {
+    "props": {
+      "src": "/arquivos/visa-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#oxxo": {
+    "props": {
+      "src": "/arquivos/oxxo-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#ixe": {
+    "props": {
+      "src": "/arquivos/ixe-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#americanexpress": {
+    "props": {
+      "src": "/arquivos/americanexpress-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#digicert": {
+    "props": {
+      "src": "/arquivos/digicert-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#mastercard": {
+    "props": {
+      "src": "/arquivos/mastercard-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  },
+  "image#estafeta": {
+    "props": {
+      "src": "/arquivos/estafeta-ds.png",
+      "blockClass": "logos-mediosPago"
+    }  
+  }
+}

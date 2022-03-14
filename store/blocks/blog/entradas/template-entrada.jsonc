@@ -1,0 +1,1169 @@
+{
+    "store.custom#final-de-temporada": {
+        "children": [
+            "breadcrumb",
+            "responsive-layout.desktop#header-entrada-blog",
+            "responsive-layout.mobile#header-entrada-blog",
+            "flex-layout.row#titulo-entrada-blog",
+            "flex-layout.row#portada-entrada-blog",
+            "flex-layout.row#blog-primer-bloque",
+            "flex-layout.row#blog-segundo-bloque",
+            "flex-layout.row#blog-tercer-bloque",
+            "flex-layout.row#blog-cuarto-bloque",
+            "flex-layout.row#blog-quinto-bloque",
+            "flex-layout.row#blog-sexto-bloque",
+            "flex-layout.row#blog-septimo-bloque",
+            "flex-layout.row#blog-octavo-bloque",
+            "flex-layout.row#blog-noveno-bloque",
+            "flex-layout.row#blog-decimo-bloque",
+            "flex-layout.row#blog-onceavo-bloque",
+            "flex-layout.row#blog-doceavo-bloque",
+            "flex-layout.row#blog-treceavo-bloque",
+            "flex-layout.row#blog-catorceavo-bloque",
+            "flex-layout.row#blog-quinceavo-bloque",
+            "flex-layout.row#recommended-entry",
+            "flex-layout.row#mas-notas"
+        ]
+    },
+    "responsive-layout.desktop#header-entrada-blog": {
+        //Título y link desktop. Descomentar sólo uno dependiendo la categoría
+        //Tendencias
+        //"children": ["flex-layout.row#header-tendencias", "flex-layout.row#return-blog-button-tendencias"]
+        //Tips
+        //"children": ["flex-layout.row#header-tips", "flex-layout.row#return-blog-button-tips"]
+        //Momentos
+        "children": ["flex-layout.row#header-momentos", "flex-layout.row#return-blog-button-momentos"]
+        //Accesorios
+        //"children": ["flex-layout.row#header-accesorios", "flex-layout.row#return-blog-button-accesorios"]
+    },
+    "flex-layout.row#return-blog-button-tendencias": {
+        "children": ["flex-layout.col#return-blog-button-tendencias"],
+        "props":{
+            "blockClass": "return-blog-home"
+        }
+    },
+    "flex-layout.col#return-blog-button-tendencias": {
+        "children":["rich-text#return-blog-button-tendencias"]
+    },
+    "rich-text#return-blog-button-tendencias": {
+        "props": {
+            "text": "[&#8249;](/blog/tendencias)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "return-category-tendencias"
+        }
+    },
+    "flex-layout.row#return-blog-button-tips": {
+        "children": ["flex-layout.col#return-blog-button-tips"],
+        "props":{
+            "blockClass": "return-blog-home"
+        }
+    },
+    "flex-layout.col#return-blog-button-tips": {
+        "children":["rich-text#return-blog-button-tips"]
+    },
+    "rich-text#return-blog-button-tips": {
+        "props": {
+            "text": "[&#8249;](/blog/tips)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "return-category-tendencias"
+        }
+    },
+    "flex-layout.row#return-blog-button-momentos": {
+        "children": ["flex-layout.col#return-blog-button-momentos"],
+        "props":{
+            "blockClass": "return-blog-home"
+        }
+    },
+    "flex-layout.col#return-blog-button-momentos": {
+        "children":["rich-text#return-blog-button-momentos"]
+    },
+    "rich-text#return-blog-button-momentos": {
+        "props": {
+            "text": "[&#8249;](/blog/momentos)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "return-category-tendencias"
+        }
+    },
+    "flex-layout.row#return-blog-button-accesorios": {
+        "children": ["flex-layout.col#return-blog-button-accesorios"],
+        "props":{
+            "blockClass": "return-blog-home"
+        }
+    },
+    "flex-layout.col#return-blog-button-accesorios": {
+        "children":["rich-text#return-blog-button-accesorios"]
+    },
+    "rich-text#return-blog-button-accesorios": {
+        "props": {
+            "text": "[&#8249;](/blog/accesorios)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "return-category-tendencias"
+        }
+    },
+    "responsive-layout.mobile#header-entrada-blog": {
+        "children":[
+            // Título mobile de la categoría, solo descomenta una
+            "flex-layout.row#mobile-btn-return-tendencias" /* Tendencias Mobile */
+            //"flex-layout.row#mobile-btn-return-tips" /* Tips Mobile */
+            //"flex-layout.row#mobile-btn-return-momentos" /* Momentos Mobile */
+            //"flex-layout.row#mobile-btn-return-accesorios" /* Accesorios Mobile */
+        ]
+    },
+    "flex-layout.row#titulo-entrada-blog": {
+        "children":["flex-layout.col#title-entrada-blog"]
+    },
+    "flex-layout.col#title-entrada-blog": {
+        "children":["rich-text#title-entrada-blog"]
+    },
+    "rich-text#title-entrada-blog": {
+        "props": {
+            "text": "Deja huella a dónde Quiera que vayas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "blog-title-entry"
+        }
+    },
+
+    //PORTADA Y PRIMER PÁRRAFO
+
+    "flex-layout.row#portada-entrada-blog": {
+        "children":[
+            "flex-layout.col#portada-entrada-blog"
+        ],
+        "props":{
+            "blockClass": "image-n-first-paragraph"
+        }
+    },
+    "flex-layout.col#portada-entrada-blog": {
+        "children":[
+            "flex-layout.row#entrada-blog",
+            "flex-layout.row#first-paragraph"
+        ],
+        "props":{
+            "blockClass": "second-entry-block"
+        }
+    },
+    "flex-layout.row#entrada-blog": {
+        "children":["list-context.image-list#entrada-blog"]
+    },
+    "list-context.image-list#entrada-blog": {
+        "children": [
+          "slider-layout#entrada-blog" 
+        ],
+        "props": {
+          "height": "auto",
+          "images": [
+            {
+              "image": "/arquivos/imagen-generica-1-desktop-blog.png",
+              "mobileImage": "/arquivos/imagen-generica-1-mobile-blog.png"
+            }
+          ],
+          "blockClass":"imagen-portada-entrada"
+        }
+    },
+    "slider-layout#entrada-blog": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "blockClass": "imagen-portada-entrada",
+          "showNavigationArrows": "never",
+          "showPaginationDots": "never",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#first-paragraph": {
+        "children":["rich-text#first-paragraph"],
+        "props":{
+            "blockClass":"first-paragraph-entry"
+        }
+    },
+    "rich-text#first-paragraph": {
+        "props": {
+          "text": "#### ¿Sabías que lo primero que se fija una persona es en el calzado?\n\nPara tener un look increíble debes saber combinar de pies a cabeza, usando los colores correctos hasta sin olvidar la ropa con mayor tendencia y estilo de temporada.\n\nY hoy en Código Conti, hablaremos de un punto importantísimo en todo outfit… Los Zapatos. ¿Sabías que lo primero que se fija una persona es en el calzado? Por eso si quieres dar una primera gran impresión, es muy importante que tengas unos zapatos con estilo, bien limpios y sobre todo a la moda.\n\nAsí como los power rangers, existen de muchos colores y para cada tipo de ocasión, el día de hoy te mostraremos algunos modelos para que puedas combinar de manera eficaz y que le darán un plus a tu look.\n\nAhora que el confinamiento esta llegando a su fin, tienes que empezar a planear tu nuevo look para salir a la calle con el pie derecho y lleno de estilo.",
+          "textPosition": "CENTER",
+          "blockClass": "text-first-paragraph"      
+        }
+    },
+
+    //BLOQUE 1
+
+    "flex-layout.row#blog-primer-bloque": {
+        "children":[
+            "flex-layout.col#blog-primer-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-primer-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-1-mobile",
+            "flex-layout.row#nota-bloque-1-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-1-mobile": {
+        "children":["responsive-layout.mobile#image-bloque1-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque1-mobile": {
+        "children":["image#image-bloque1-mobile"]
+    },
+    "image#image-bloque1-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-2-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+      },
+    "flex-layout.row#nota-bloque-1-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-1",
+            "flex-layout.row#image-bloque1-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-1": {
+        "children": ["rich-text#texto-bloque-1"]
+    },
+    "rich-text#texto-bloque-1": {
+        "props": {
+            "text": "Empezaremos con el zapato casual:\nEste tipo de calzado es ideal para un look relajado, si no quieres sentirte, ni vestir tan formal (como con un zapato de vestir) esta opción es ideal para ti.\n\nSi tu intención es lucir un outfit juvenil, pero con estilo fresón, elegante pero casual, los mocasines son los que estabas buscando. No importa si tienes una cita romántica o una salida con amigos, te verás increíble y con un gran estilo, además la comodidad para tus pies no tiene comparación.\n\n#### Se acabaron las preocupaciones de abrocharte las agujetas!\n\nSi lo primero que harás al salir de esta cuarentena, es echarte unas carreritas al puesto de tacos más cercano, un zapato cerrado, con estilo y cómodo es lo que necesitas.\n\nGracias a su suela antiderrapante, es ideal para tener un look casual, juvenil y deportivo. Quedan perfectos con unos jeans y camisa.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque1-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque1-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque1-desktop": {
+        "children":["image#image-bloque1-desktop"]
+    },
+    "image#image-bloque1-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-2-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+    "flex-layout.row#blog-segundo-bloque": {
+        "children":[
+            "flex-layout.col#blog-segundo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+
+    //BLOQUE 2
+
+    "flex-layout.col#blog-segundo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-2-mobile",
+            "flex-layout.row#nota-bloque-2-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-2-mobile": {
+        "children":["responsive-layout.mobile#image-bloque2-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque2-mobile": {
+        "children":["image#image-bloque2-mobile"]
+    },
+    "image#image-bloque2-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-3-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-2-desktop": {
+        "children":[
+            "flex-layout.row#image-bloque2-desktop",
+            "flex-layout.row#texto-bloque-2"            
+        ]
+    },
+    "flex-layout.row#texto-bloque-2": {
+        "children": ["rich-text#texto-bloque-2"]
+    },
+    "rich-text#texto-bloque-2": {
+        "props": {
+            "text": "Zapato Formal:\n\nSi tu look es más clásico y te gusta vestir siempre elegante, los zapatos de color negro son lo tuyo. Atrévete a más y dale un giro completo a look, y usa zapatos de charol. Además de sacarle brillo a la pista de baile te aseguramos que te harán notar del resto, apuéstale a este cambio radical y sorpréndete con estilo.\n\n¿Quieres darle un toque fresco y moderno a tu outfit formal? Olvídate de usar siempre zapatos color negro y verte “darks”, Los zapatos cafés en conjunto con traje, son la tendencia actual. Y no sólo con traje se ve bien, con pantalones de vestir o jeans se ven increíbles.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque2-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque2-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque2-desktop": {
+        "children":["image#image-bloque2-desktop"]
+    },
+    "image#image-bloque2-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-3-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+
+    //BLOQUE 3
+
+    "flex-layout.row#blog-tercer-bloque": {
+        "children":[
+            "flex-layout.col#blog-tercer-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-tercer-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-3-mobile",
+            "flex-layout.row#nota-bloque-3-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-3-mobile": {
+        "children":["responsive-layout.mobile#image-bloque3-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque3-mobile": {
+        "children":["image#image-bloque3-mobile"]
+    },
+    "image#image-bloque3-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-4-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+      },
+    "flex-layout.row#nota-bloque-3-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-3",
+            "flex-layout.row#image-bloque3-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-3": {
+        "children": ["rich-text#texto-bloque-3"]
+    },
+    "rich-text#texto-bloque-3": {
+        "props": {
+            "text": "¡No olvides proteger tus zapatos!\n\n¡Las lluvias y el fin del encierro, están a la vuelta de la esquina, por eso protege tus zapatos con el artículo más nuevo de la temporada! ¡Las Rainboots!\n\nAjustables a cualquier medida y de material resistente, con suela antiderrapante. “Sin preocuparse, es como hay que vivir”",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque3-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque3-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque3-desktop": {
+        "children":["image#image-bloque3-desktop"]
+    },
+    "image#image-bloque3-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-4-desktop-blog.png",
+            "blockClass": "image-bloque-desktop" 
+        }
+    },
+
+    //BLOQUE 4
+
+    "flex-layout.row#blog-cuarto-bloque": {
+        "children":[
+            "flex-layout.col#blog-cuarto-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+
+    //BLOQUE 4
+
+    "flex-layout.col#blog-cuarto-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-4-mobile",
+            "flex-layout.row#nota-bloque-4-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-4-mobile": {
+        "children":["responsive-layout.mobile#image-bloque4-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque4-mobile": {
+        "children":["image#image-bloque4-mobile"]
+    },
+    "image#image-bloque4-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-5-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-4-desktop": {
+        "children":[
+            "flex-layout.row#image-bloque4-desktop",
+            "flex-layout.row#texto-bloque-4"            
+        ]
+    },
+    "flex-layout.row#texto-bloque-4": {
+        "children": ["rich-text#texto-bloque-4"]
+    },
+    "rich-text#texto-bloque-4": {
+        "props": {
+            "text": "Después de un largo día de trabajo sabemos que lo único que quieres es quitarte tus zapatos y darles a tus pies el descanso que se merecen … por eso Aldo Conti, combinó moda, confort y lo último en tecnología para crear las pantuflas perfectas para ti. Puedes tirar tus antiguas pantuflas de garrita y estar siempre a la moda … sí, aunque estés en pijama.\n\nSi el calor está insoportable y crees que con unas pantuflas te va a sudar el pie… Pues (aparte de recomendarte ponerte un buen talco), te recomendamos unas sandalias, son súper cómodas y puedes aprovechar su funcionalidad (Por si tienes pensado volar a la playa terminando este encierro.)\n\nYa no hay pretexto para no vestir súper cool de la cabeza a los pies… si aún estás pensando que regalarle a papá en su día especial, te aseguramos que quedará súper contento e impresionado con los artículos de estas recomendaciones.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque4-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque4-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque4-desktop": {
+        "children":["image#image-bloque4-desktop"]
+    },
+    "image#image-bloque4-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-5-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+
+    //BLOQUE 5
+    
+    "flex-layout.row#blog-quinto-bloque": {
+        "children":[
+            "flex-layout.col#blog-quinto-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-quinto-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-5-mobile",
+            "flex-layout.row#nota-bloque-5-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-5-mobile": {
+        "children":["responsive-layout.mobile#image-bloque5-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque5-mobile": {
+        "children":["image#image-bloque5-mobile"]
+    },
+    "image#image-bloque5-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-4-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+      },
+    "flex-layout.row#nota-bloque-5-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-5",
+            "flex-layout.row#image-bloque5-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-5": {
+        "children": ["rich-text#texto-bloque-5"]
+    },
+    "rich-text#texto-bloque-5": {
+        "props": {
+            "text": "¡No olvides proteger tus zapatos!\n\n¡Las lluvias y el fin del encierro, están a la vuelta de la esquina, por eso protege tus zapatos con el artículo más nuevo de la temporada! ¡Las Rainboots!\n\nAjustables a cualquier medida y de material resistente, con suela antiderrapante. “Sin preocuparse, es como hay que vivir”",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque5-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque5-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque5-desktop": {
+        "children":["image#image-bloque5-desktop"]
+    },
+    "image#image-bloque5-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-4-desktop-blog.png",
+            "blockClass": "image-bloque-desktop" 
+        }
+    },
+
+    //BLOQUE 6
+
+    "flex-layout.row#blog-sexto-bloque": {
+        "children":[
+            "flex-layout.col#blog-sexto-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-sexto-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-6-mobile",
+            "flex-layout.row#nota-bloque-6-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-6-mobile": {
+        "children":["responsive-layout.mobile#image-bloque6-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque6-mobile": {
+        "children":["image#image-bloque6-mobile"]
+    },
+    "image#image-bloque6-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-6-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-6-desktop": {
+        "children":[
+            "flex-layout.row#image-bloque6-desktop",
+            "flex-layout.row#texto-bloque-6"            
+        ]
+    },
+    "flex-layout.row#texto-bloque-6": {
+        "children": ["rich-text#texto-bloque-6"]
+    },
+    "rich-text#texto-bloque-6": {
+        "props": {
+            "text": "Después de un largo día de trabajo sabemos que lo único que quieres es quitarte tus zapatos y darles a tus pies el descanso que se merecen … por eso Aldo Conti, combinó moda, confort y lo último en tecnología para crear las pantuflas perfectas para ti. Puedes tirar tus antiguas pantuflas de garrita y estar siempre a la moda … sí, aunque estés en pijama.\n\nSi el calor está insoportable y crees que con unas pantuflas te va a sudar el pie… Pues (aparte de recomendarte ponerte un buen talco), te recomendamos unas sandalias, son súper cómodas y puedes aprovechar su funcionalidad (Por si tienes pensado volar a la playa terminando este encierro.)\n\nYa no hay pretexto para no vestir súper cool de la cabeza a los pies… si aún estás pensando que regalarle a papá en su día especial, te aseguramos que quedará súper contento e impresionado con los artículos de estas recomendaciones.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque6-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque6-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque6-desktop": {
+        "children":["image#image-bloque6-desktop"]
+    },
+    "image#image-bloque6-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-5-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+
+    //BLOQUE 7
+    
+    "flex-layout.row#blog-septimo-bloque": {
+        "children":[
+            "flex-layout.col#blog-septimo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-septimo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-7-mobile",
+            "flex-layout.row#nota-bloque-7-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-7-mobile": {
+        "children":["responsive-layout.mobile#image-bloque7-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque7-mobile": {
+        "children":["image#image-bloque7-mobile"]
+    },
+    "image#image-bloque7-mobile": {
+        "props": {
+        "src": "/arquivos/imagen-generica-4-mobile-blog.png",
+        "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-7-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-7",
+            "flex-layout.row#image-bloque7-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-7": {
+        "children": ["rich-text#texto-bloque-7"]
+    },
+    "rich-text#texto-bloque-7": {
+        "props": {
+            "text": "¡No olvides proteger tus zapatos!\n\n¡Las lluvias y el fin del encierro, están a la vuelta de la esquina, por eso protege tus zapatos con el artículo más nuevo de la temporada! ¡Las Rainboots!\n\nAjustables a cualquier medida y de material resistente, con suela antiderrapante. “Sin preocuparse, es como hay que vivir”",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque7-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque7-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque7-desktop": {
+        "children":["image#image-bloque7-desktop"]
+    },
+    "image#image-bloque7-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-4-desktop-blog.png",
+            "blockClass": "image-bloque-desktop" 
+        }
+    },
+    
+    //BLOQUE 8
+
+    "flex-layout.row#blog-octavo-bloque": {
+        "children":[
+            "flex-layout.col#blog-octavo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-octavo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-8-mobile",
+            "flex-layout.row#nota-bloque-8-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-8-mobile": {
+        "children":["responsive-layout.mobile#image-bloque8-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque8-mobile": {
+        "children":["image#image-bloque8-mobile"]
+    },
+    "image#image-bloque8-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-6-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-8-desktop": {
+        "children":[
+            "flex-layout.row#image-bloque8-desktop",
+            "flex-layout.row#texto-bloque-8"            
+        ]
+    },
+    "flex-layout.row#texto-bloque-8": {
+        "children": ["rich-text#texto-bloque-8"]
+    },
+    "rich-text#texto-bloque-8": {
+        "props": {
+            "text": "Después de un largo día de trabajo sabemos que lo único que quieres es quitarte tus zapatos y darles a tus pies el descanso que se merecen … por eso Aldo Conti, combinó moda, confort y lo último en tecnología para crear las pantuflas perfectas para ti. Puedes tirar tus antiguas pantuflas de garrita y estar siempre a la moda … sí, aunque estés en pijama.\n\nSi el calor está insoportable y crees que con unas pantuflas te va a sudar el pie… Pues (aparte de recomendarte ponerte un buen talco), te recomendamos unas sandalias, son súper cómodas y puedes aprovechar su funcionalidad (Por si tienes pensado volar a la playa terminando este encierro.)\n\nYa no hay pretexto para no vestir súper cool de la cabeza a los pies… si aún estás pensando que regalarle a papá en su día especial, te aseguramos que quedará súper contento e impresionado con los artículos de estas recomendaciones.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque8-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque8-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque8-desktop": {
+        "children":["image#image-bloque8-desktop"]
+    },
+    "image#image-bloque8-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-5-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+
+    //BLOQUE 9
+    
+    "flex-layout.row#blog-noveno-bloque": {
+        "children":[
+            "flex-layout.col#blog-noveno-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-noveno-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-9-mobile",
+            "flex-layout.row#nota-bloque-9-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-9-mobile": {
+        "children":["responsive-layout.mobile#image-bloque9-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque9-mobile": {
+        "children":["image#image-bloque9-mobile"]
+    },
+    "image#image-bloque9-mobile": {
+        "props": {
+        "src": "/arquivos/imagen-generica-4-mobile-blog.png",
+        "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-9-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-9",
+            "flex-layout.row#image-bloque9-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-9": {
+        "children": ["rich-text#texto-bloque-9"]
+    },
+    "rich-text#texto-bloque-9": {
+        "props": {
+            "text": "¡No olvides proteger tus zapatos!\n\n¡Las lluvias y el fin del encierro, están a la vuelta de la esquina, por eso protege tus zapatos con el artículo más nuevo de la temporada! ¡Las Rainboots!\n\nAjustables a cualquier medida y de material resistente, con suela antiderrapante. “Sin preocuparse, es como hay que vivir”",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque9-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque9-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque9-desktop": {
+        "children":["image#image-bloque9-desktop"]
+    },
+    "image#image-bloque9-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-4-desktop-blog.png",
+            "blockClass": "image-bloque-desktop" 
+        }
+    },
+    
+    //BLOQUE 10
+
+    "flex-layout.row#blog-decimo-bloque": {
+        "children":[
+            "flex-layout.col#blog-decimo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-decimo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-10-mobile",
+            "flex-layout.row#nota-bloque-10-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-10-mobile": {
+        "children":["responsive-layout.mobile#image-bloque10-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque10-mobile": {
+        "children":["image#image-bloque10-mobile"]
+    },
+    "image#image-bloque10-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-6-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-10-desktop": {
+        "children":[
+            "flex-layout.row#image-bloque10-desktop",
+            "flex-layout.row#texto-bloque-10"            
+        ]
+    },
+    "flex-layout.row#texto-bloque-10": {
+        "children": ["rich-text#texto-bloque-10"]
+    },
+    "rich-text#texto-bloque-10": {
+        "props": {
+            "text": "Después de un largo día de trabajo sabemos que lo único que quieres es quitarte tus zapatos y darles a tus pies el descanso que se merecen … por eso Aldo Conti, combinó moda, confort y lo último en tecnología para crear las pantuflas perfectas para ti. Puedes tirar tus antiguas pantuflas de garrita y estar siempre a la moda … sí, aunque estés en pijama.\n\nSi el calor está insoportable y crees que con unas pantuflas te va a sudar el pie… Pues (aparte de recomendarte ponerte un buen talco), te recomendamos unas sandalias, son súper cómodas y puedes aprovechar su funcionalidad (Por si tienes pensado volar a la playa terminando este encierro.)\n\nYa no hay pretexto para no vestir súper cool de la cabeza a los pies… si aún estás pensando que regalarle a papá en su día especial, te aseguramos que quedará súper contento e impresionado con los artículos de estas recomendaciones.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque10-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque10-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque10-desktop": {
+        "children":["image#image-bloque10-desktop"]
+    },
+    "image#image-bloque10-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-5-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+
+    //BLOQUE 11
+    
+    "flex-layout.row#blog-onceavo-bloque": {
+        "children":[
+            "flex-layout.col#blog-onceavo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-onceavo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-11-mobile",
+            "flex-layout.row#nota-bloque-11-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-11-mobile": {
+        "children":["responsive-layout.mobile#image-bloque11-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque11-mobile": {
+        "children":["image#image-bloque11-mobile"]
+    },
+    "image#image-bloque11-mobile": {
+        "props": {
+        "src": "/arquivos/imagen-generica-4-mobile-blog.png",
+        "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-11-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-11",
+            "flex-layout.row#image-bloque11-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-11": {
+        "children": ["rich-text#texto-bloque-11"]
+    },
+    "rich-text#texto-bloque-11": {
+        "props": {
+            "text": "¡No olvides proteger tus zapatos!\n\n¡Las lluvias y el fin del encierro, están a la vuelta de la esquina, por eso protege tus zapatos con el artículo más nuevo de la temporada! ¡Las Rainboots!\n\nAjustables a cualquier medida y de material resistente, con suela antiderrapante. “Sin preocuparse, es como hay que vivir”",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque11-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque11-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque11-desktop": {
+        "children":["image#image-bloque11-desktop"]
+    },
+    "image#image-bloque11-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-4-desktop-blog.png",
+            "blockClass": "image-bloque-desktop" 
+        }
+    },
+
+    //BLOQUE 12
+
+    "flex-layout.row#blog-doceavo-bloque": {
+        "children":[
+            "flex-layout.col#blog-doceavo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-doceavo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-12-mobile",
+            "flex-layout.row#nota-bloque-12-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-12-mobile": {
+        "children":["responsive-layout.mobile#image-bloque12-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque12-mobile": {
+        "children":["image#image-bloque12-mobile"]
+    },
+    "image#image-bloque12-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-6-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-12-desktop": {
+        "children":[
+            "flex-layout.row#image-bloque12-desktop",
+            "flex-layout.row#texto-bloque-12"            
+        ]
+    },
+    "flex-layout.row#texto-bloque-12": {
+        "children": ["rich-text#texto-bloque-12"]
+    },
+    "rich-text#texto-bloque-12": {
+        "props": {
+            "text": "Después de un largo día de trabajo sabemos que lo único que quieres es quitarte tus zapatos y darles a tus pies el descanso que se merecen … por eso Aldo Conti, combinó moda, confort y lo último en tecnología para crear las pantuflas perfectas para ti. Puedes tirar tus antiguas pantuflas de garrita y estar siempre a la moda … sí, aunque estés en pijama.\n\nSi el calor está insoportable y crees que con unas pantuflas te va a sudar el pie… Pues (aparte de recomendarte ponerte un buen talco), te recomendamos unas sandalias, son súper cómodas y puedes aprovechar su funcionalidad (Por si tienes pensado volar a la playa terminando este encierro.)\n\nYa no hay pretexto para no vestir súper cool de la cabeza a los pies… si aún estás pensando que regalarle a papá en su día especial, te aseguramos que quedará súper contento e impresionado con los artículos de estas recomendaciones.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque12-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque12-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque12-desktop": {
+        "children":["image#image-bloque12-desktop"]
+    },
+    "image#image-bloque12-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-5-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+
+    //BLOQUE 13
+    
+    "flex-layout.row#blog-treceavo-bloque": {
+        "children":[
+            "flex-layout.col#blog-treceavo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-treceavo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-13-mobile",
+            "flex-layout.row#nota-bloque-13-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-13-mobile": {
+        "children":["responsive-layout.mobile#image-bloque13-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque13-mobile": {
+        "children":["image#image-bloque13-mobile"]
+    },
+    "image#image-bloque13-mobile": {
+        "props": {
+        "src": "/arquivos/imagen-generica-4-mobile-blog.png",
+        "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-13-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-13",
+            "flex-layout.row#image-bloque13-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-13": {
+        "children": ["rich-text#texto-bloque-13"]
+    },
+    "rich-text#texto-bloque-13": {
+        "props": {
+            "text": "¡No olvides proteger tus zapatos!\n\n¡Las lluvias y el fin del encierro, están a la vuelta de la esquina, por eso protege tus zapatos con el artículo más nuevo de la temporada! ¡Las Rainboots!\n\nAjustables a cualquier medida y de material resistente, con suela antiderrapante. “Sin preocuparse, es como hay que vivir”",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque13-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque13-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque13-desktop": {
+        "children":["image#image-bloque13-desktop"]
+    },
+    "image#image-bloque13-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-4-desktop-blog.png",
+            "blockClass": "image-bloque-desktop" 
+        }
+    },
+    
+    //BLOQUE 14
+
+    "flex-layout.row#blog-catorceavo-bloque": {
+        "children":[
+            "flex-layout.col#blog-catorceavo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-catorceavo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-14-mobile",
+            "flex-layout.row#nota-bloque-14-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-14-mobile": {
+        "children":["responsive-layout.mobile#image-bloque14-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque14-mobile": {
+        "children":["image#image-bloque14-mobile"]
+    },
+    "image#image-bloque14-mobile": {
+        "props": {
+          "src": "/arquivos/imagen-generica-6-mobile-blog.png",
+          "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-14-desktop": {
+        "children":[
+            "flex-layout.row#image-bloque14-desktop",
+            "flex-layout.row#texto-bloque-14"            
+        ]
+    },
+    "flex-layout.row#texto-bloque-14": {
+        "children": ["rich-text#texto-bloque-14"]
+    },
+    "rich-text#texto-bloque-14": {
+        "props": {
+            "text": "Después de un largo día de trabajo sabemos que lo único que quieres es quitarte tus zapatos y darles a tus pies el descanso que se merecen … por eso Aldo Conti, combinó moda, confort y lo último en tecnología para crear las pantuflas perfectas para ti. Puedes tirar tus antiguas pantuflas de garrita y estar siempre a la moda … sí, aunque estés en pijama.\n\nSi el calor está insoportable y crees que con unas pantuflas te va a sudar el pie… Pues (aparte de recomendarte ponerte un buen talco), te recomendamos unas sandalias, son súper cómodas y puedes aprovechar su funcionalidad (Por si tienes pensado volar a la playa terminando este encierro.)\n\nYa no hay pretexto para no vestir súper cool de la cabeza a los pies… si aún estás pensando que regalarle a papá en su día especial, te aseguramos que quedará súper contento e impresionado con los artículos de estas recomendaciones.",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque14-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque14-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque14-desktop": {
+        "children":["image#image-bloque14-desktop"]
+    },
+    "image#image-bloque14-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-5-desktop-blog.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+    
+    //BLOQUE 15
+    
+    "flex-layout.row#blog-quinceavo-bloque": {
+        "children":[
+            "flex-layout.col#blog-quinceavo-bloque"                     
+        ],
+        "props": {
+            "blockClass": "blog-body-bloque"
+        }
+    },
+    "flex-layout.col#blog-quinceavo-bloque": {
+        "children":[
+            "flex-layout.row#nota-bloque-15-mobile",
+            "flex-layout.row#nota-bloque-15-desktop"
+        ]
+    },
+    "flex-layout.row#nota-bloque-15-mobile": {
+        "children":["responsive-layout.mobile#image-bloque15-mobile"]
+    },
+    "responsive-layout.mobile#image-bloque15-mobile": {
+        "children":["image#image-bloque15-mobile"]
+    },
+    "image#image-bloque15-mobile": {
+        "props": {
+        "src": "/arquivos/imagen-generica-4-mobile-blog.png",
+        "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#nota-bloque-15-desktop": {
+        "children":[
+            "flex-layout.row#texto-bloque-15",
+            "flex-layout.row#image-bloque15-desktop"
+        ]
+    },
+    "flex-layout.row#texto-bloque-15": {
+        "children": ["rich-text#texto-bloque-15"]
+    },
+    "rich-text#texto-bloque-15": {
+        "props": {
+            "text": "¡No olvides proteger tus zapatos!\n\n¡Las lluvias y el fin del encierro, están a la vuelta de la esquina, por eso protege tus zapatos con el artículo más nuevo de la temporada! ¡Las Rainboots!\n\nAjustables a cualquier medida y de material resistente, con suela antiderrapante. “Sin preocuparse, es como hay que vivir”",
+            "textPosition": "CENTER",
+            "blockClass": "text-next-paragraphs"      
+        }
+    },
+    "flex-layout.row#image-bloque15-desktop": {
+        "children": ["responsive-layout.desktop#image-bloque15-desktop"]
+    },
+    "responsive-layout.desktop#image-bloque15-desktop": {
+        "children":["image#image-bloque15-desktop"]
+    },
+    "image#image-bloque15-desktop": {
+        "props": {
+            "src": "/arquivos/imagen-generica-4-desktop-blog.png",
+            "blockClass": "image-bloque-desktop" 
+        }
+    },    
+
+    "flex-layout.row#recommended-entry": {
+        "children": [
+            "list-context.product-list#recommended-entry"
+        ]
+      },
+    "list-context.product-list#recommended-entry": {
+        "blocks": [      
+          "product-summary.shelf#pdp"
+        ],
+        "children": [
+          "flex-layout.col#slider-recommended-entry"          
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"      
+        }
+    },
+    "flex-layout.col#slider-recommended-entry": {
+        "children": [
+          "rich-text#title-shelf-recommended-entry",
+          "slider-layout#shelf-recommended-entry"
+        ]
+    },
+    "rich-text#title-shelf-recommended-entry": {
+        "props": {
+          "text": "Recomendaciones",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "shelftitle-notfound"
+        }
+    },
+    "slider-layout#shelf-recommended-entry": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "accesorios-recommendedShelf"
+        }
+    },
+    "flex-layout.row#mas-notas": {
+        "children":[
+            "flex-layout.col#mas-notas"                     
+        ],
+        "props": {
+            "blockClass": "blog-ultimo-bloque"
+        }
+    },
+    "flex-layout.col#mas-notas": {
+        "children": [
+            "rich-text#titulo-ultimo-bloque",
+            "flex-layout.row#ultimo-bloque-mobile",
+            "flex-layout.row#ultimo-bloque-desktop"
+        ]
+    },
+    "rich-text#titulo-ultimo-bloque": {
+        "props": {
+            "text": "Más artículos",
+            "textPosition": "CENTER",
+            "blockClass": "title-more-entries"      
+        }
+    },
+    "flex-layout.row#ultimo-bloque-mobile": {
+        "children": ["responsive-layout.mobile#ultimo-bloque-mobile"]
+    },
+    "responsive-layout.mobile#ultimo-bloque-mobile": {
+        "children": ["flex-layout.col#ultimo-bloque-mobile"]
+    },
+    "flex-layout.col#ultimo-bloque-mobile": {
+        "children":[
+            "image#ultimo-bloque-mobile-1",
+            "image#ultimo-bloque-mobile-2"
+        ]
+    },
+    "image#ultimo-bloque-mobile-1": {
+        "props": {
+            "src": "/arquivos/mas-entradas-mobile-3-2x.png",
+            "blockClass": "image-bloque-mobile"
+        }
+    },
+    "image#ultimo-bloque-mobile-2": {
+        "props": {
+            "src": "/arquivos/mas-entradas-mobile-2-2x.png",
+            "blockClass": "image-bloque-mobile"
+        }
+    },
+    "flex-layout.row#ultimo-bloque-desktop": {
+        "children": ["responsive-layout.desktop#ultimo-bloque-desktop"]
+    },
+    "responsive-layout.desktop#ultimo-bloque-desktop": {
+        "children": ["flex-layout.col#ultimo-bloque-desktop"]
+    },
+    "flex-layout.col#ultimo-bloque-desktop": {
+        "children":[
+            "image#ultimo-bloque-desktop-1",
+            "image#ultimo-bloque-desktop-2"
+        ],
+        "props": {
+            "blockClass": "ultimo-bloque-desktop-imagenes"
+        }
+    },
+    "image#ultimo-bloque-desktop-1": {
+        "props": {
+            "src": "/arquivos/mas-entradas.desktop-1.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    },
+    "image#ultimo-bloque-desktop-2": {
+        "props": {
+            "src": "/arquivos/mas-entradas.desktop-2.png",
+            "blockClass": "image-bloque-desktop"
+        }
+    }
+}

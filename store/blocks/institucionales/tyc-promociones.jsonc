@@ -1,0 +1,39 @@
+{
+    "store.custom#tyc-promociones": {
+      "blocks": [
+        "flex-layout.row#tyc-promociones"
+      ]
+    },
+    "flex-layout.row#tyc-promociones": {
+      "children": [
+        "flex-layout.col#tyc-promociones"
+      ],
+      "props": {
+        "blockClass": [
+          "page-institucionales",
+          "tyc-promociones"
+        ]
+      }
+    },
+    "flex-layout.col#tyc-promociones": {
+      "children": [
+        "rich-text#tyc-promociones-text-title",
+        "rich-text#tyc-promociones-text-1"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#tyc-promociones-text-title": {
+      "props": {
+        "blockClass": "institucionales-titulo",
+        "text": "Términos y condiciones de promociones"
+      }
+    },
+    "rich-text#tyc-promociones-text-1": {
+      "props": {
+        "blockClass": "institucionales-texto",
+        "text": "#### -60% Descuento 'Adelantos en Promoción'\nVálido exclusivamente en toda la mercancía disponible en tienda en línea. Vigencia al 30 de septiembre de 2018 o agotar existencias. No es acumulable con otros descuentos o promociones. Promoción exclusiva para toda la República Mexicana.\n\n#### Cupón '10offeditorial'\nHasta el 10% adicional con el cupón 10offeditorial en productos de la temporada primavera-verano 2020, no aplica en accesorios ni promocionales. Descuento valido del 19 al 31 de Marzo de 2020 o hasta agotar existencias. Promoción exclusiva en tienda en línea\n\n#### Promoción 3x1\nPromoción valida del 08 al 30 de Abril de 2020 o hasta agotar existencias. No es acumulable con otras promociones ni descuento. Promoción exclusiva de la tienda en linea. Valida en productos seleccionados. Elige 3 productos y paga $999 mas envío gratuito a todo México."
+      }
+    }
+  }

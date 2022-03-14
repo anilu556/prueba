@@ -1,0 +1,52 @@
+query getStores(
+  $postalCode: String
+  $pageNumber: Int
+  $pageSize: Int
+  $filterByTag: String
+) @context(provider: "vtex.store-locator") {
+  getStores(
+    postalCode: $postalCode
+    pageNumber: $pageNumber
+    pageSize: $pageSize
+    keyword: $filterByTag
+  ) {
+    items {
+      distance
+      name
+      instructions
+      id
+      isActive
+      address {
+        postalCode
+        country
+        city
+        state
+        neighborhood
+        street
+        number
+        complement
+        reference
+        location {
+          latitude
+          longitude
+        }
+      }
+      pickupHolidays {
+        date
+        hourBegin
+        hourEnd
+      }
+      businessHours {
+        dayOfWeek
+        openingTime
+        closingTime
+      }
+    }
+    paging {
+      page
+      pageSize
+      total
+      pages
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "store.custom#lookbookotono": {
+        "blocks": [
+          "flex-layout.row#lookbookotono"
+        ]
+    },
+    "flex-layout.row#lookbookotono": {
+        "children": [
+            "lookbookotono"
+          ],
+        "props": {
+            "blockClass": ["lookbook"]
+        }
+    }
+}

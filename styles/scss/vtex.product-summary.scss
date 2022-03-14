@@ -1,0 +1,210 @@
+/* scss Aldo Conti
+1. Colors
+*/
+
+// BUTTON COMPRAR SUBMENU ROPA
+
+/* 1.Colors */
+$ac-c1: #434343;
+$ac-c2: #303030;
+$ac-c3: #089D9D;
+$ac-c4: #fff;
+$ac-c5: #5bc6c6e2;
+
+.container {
+    .nameContainer {
+        text-align: left;
+        padding-bottom: 0;
+        .productBrand {
+            font-size: 18px;
+            font-weight: 500;
+            color: #000000;
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+    }
+    .productPriceClass {
+        width: 100%;
+        align-items: flex-start;
+        .sellingPrice {
+            font-size: 21px;
+            font-weight: bold;
+            color: #EA0000;
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+        }
+    }
+    .installmentContainer {
+        display: none;
+    }
+}
+
+:global(.vtex-product-summary-2-x-price_listPrice) {
+    .currencyContainer {
+        color: #cccccc;
+    }
+}
+
+/** 
+=================================================
+ * Theme Name: Layout - Aldo Conti
+ * Company: Corebiz
+ * Author: Carlos Rodriguez Suarez 
+=================================================
+**/
+
+:global(.vtex-shelf-1-x-sliderContainer) {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 15px;
+    :global(.vtex-shelf-1-x-slide) {
+        overflow: inherit;
+        position: inherit;
+        height: auto;
+    }
+}
+
+:global(.vtex-product-summary-2-x-containerNormal) {
+    overflow: inherit;
+    padding: 15px 0;
+}
+
+.element {
+    background: white;
+    position: relative;
+    z-index: 1;
+    border: solid #ececec  1px;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+         -o-border-radius: 8px;
+            border-radius: 8px;
+    -webkit-transition-duration: .5s;
+       -moz-transition-duration: .5s;
+        -ms-transition-duration: .5s;
+         -o-transition-duration: .5s;
+            transition-duration: .5s;
+    &:hover {
+        border: solid #ececec 1px;
+        -webkit-box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, .25);
+           -moz-box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, .25);
+            -ms-box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, .25);
+             -o-box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, .25);
+                box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, .25);
+    }
+    :global(.vtex-product-highlights-2-x-productHighlightText)[data-highlight-id="374"] {
+        display: block;
+    }
+    :global(.vtex-store-components-3-x-discountInsideContainer) {
+        font-weight: 400;
+        font-size: 14px;
+        //display: none !important;
+    }
+    :global(.vtex-product-summary-2-x-nameContainer) {
+        margin: 0;
+        padding: 0 15px;
+        :global(.vtex-product-summary-2-x-brandName) {
+            font-size: 14px;
+            line-height: 20px;
+            color: #000;
+            font-weight: 600;
+            margin: 15px 0 5px 0;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    :global(.vtex-store-components-3-x-productBrandContainer) {
+        display: none;
+    }
+    :global(.vtex-product-summary-2-x-priceContainer) {
+        padding: 0;
+        margin: 0;
+        :global(.vtex-product-summary-2-x-listPriceLabel) {
+            display: none;
+        }
+        :global(.vtex-product-summary-2-x-listPrice) {
+            font-size: 12px;
+            color: #b2b2b2;
+        }
+    }
+
+    :global(.vtex-product-summary-2-x-productPriceClass) {
+        align-items: center;
+    }
+    :global(.vtex-store-components-3-x-sellingPriceContainer) {
+        margin: 0;
+        padding: 0;
+        :global(.vtex-product-summary-2-x-price_sellingPriceLabel) {
+            display: none;
+        }
+        :global(.vtex-product-summary-2-x-price_sellingPrice) {
+            font-size: 16px;
+            color: red;
+            font-weight: 600;
+        }
+    }
+    &:hover :global(.vtex-button){
+        opacity: 1;
+    }
+    :global(.vtex-button) {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        border:0;
+        background: none;
+        line-height: 0;
+        outline: 0!important;
+        :global(.vtex-button__label){
+            width: 60%;
+            margin: 5px auto;
+            background: #111;
+            color: #fff;
+            border: 0;
+            padding: 5px 15px;
+            opacity: 1;
+            outline: none!important;
+            text-transform: unset;
+            -webkit-border-radius: 50px;
+               -moz-border-radius: 50px;
+                -ms-border-radius: 50px;
+                 -o-border-radius: 50px;
+                    border-radius: 50px;
+            -webkit-transition: .5s ease-in-out;
+               -moz-transition: .5s ease-in-out;
+                -ms-transition: .5s ease-in-out;
+                 -o-transition: .5s ease-in-out;
+                    transition: .5s ease-in-out;
+            :global(.vtex-add-to-cart-button-0-x-buttonText) {
+                font-size: 16px;
+                &::after {
+                    content: url("/arquivos/shopping-cart-io.png");
+                    vertical-align: sub;
+                    margin-left: 8px;
+                }
+                &::before {
+                    position: relative;
+                    bottom: 5px;
+                    @media screen and (max-width: 768px) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+        &::after {
+            width: 10px;
+            margin-left: 0px !important;
+        }
+    }
+
+    :global(.vtex-button__label) {
+        width: 80% !important;
+    }
+}
